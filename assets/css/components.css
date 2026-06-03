@@ -52,6 +52,24 @@
     color: var(--text-color);
 }
 
+.card::before,
+.card::after {
+    position: absolute;
+    font-family: var(--font-mystic);
+    font-size: 14px;
+    color: var(--gold-dim);
+    opacity: 0.8;
+    line-height: 1;
+}
+.card::before { top: 6px; left: 8px; }
+.card::after  { bottom: 6px; right: 8px; transform: rotate(180deg); display: block; }
+
+.card.selected::before,
+.card.selected::after {
+    color: var(--gold-color);
+    opacity: 1;
+}
+
 .card:hover {
     border-color: var(--gold-dim);
     outline-color: #2a005033;
