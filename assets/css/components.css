@@ -102,7 +102,7 @@
     border: 1px solid #4a0888;
     outline: 2px solid #2a005066;
     outline-offset: -6px;
-    min-height: 110px;
+    min-height: 80px;
     aspect-ratio: 3 / 5;
     padding: 20px 12px;
     color: var(--text-color);
