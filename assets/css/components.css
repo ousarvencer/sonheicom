@@ -456,8 +456,14 @@
 }
 
 .card-grid-3 {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 8px;
+}
+
+@media (min-width: 560px) {
+    .card-grid-3 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 #btn-proximo {
