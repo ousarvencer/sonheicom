@@ -48,9 +48,12 @@ function renderGrid(containerId, items, multiple = true) {
     container.innerHTML = '';
     items.forEach(item => {
         const card = document.createElement('div');
+        const naipes = ['♠', '♥', '♦', '♣'];
+        const naipe = naipes[Math.floor(Math.random() * naipes.length)];
+
         card.className = 'card';
         card.textContent = item;
-        card.dataset.label = item;
+        card.style.setProperty('--naipe', `"${naipe}"`);
         card.onclick = () => {
             if (multiple) {
                 card.classList.toggle('selected');
