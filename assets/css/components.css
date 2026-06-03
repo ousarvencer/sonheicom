@@ -50,20 +50,6 @@
     color: var(--text-color);
 }
 
-.card::before,
-.card::after {
-    content: attr(data-label);
-    position: absolute;
-    font-family: var(--font-pixel);
-    font-size: 5px;
-    color: var(--gold-dim);
-    opacity: 0.7;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-.card::before { top: 5px; left: 7px; }
-.card::after  { bottom: 5px; right: 7px; transform: rotate(180deg); }
-
 .card:hover {
     border-color: var(--gold-dim);
     outline-color: #2a005033;
