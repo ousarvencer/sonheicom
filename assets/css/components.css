@@ -1,119 +1,222 @@
-/* Progress Bar */
+/* ================================================================
+   COMPONENTS.CSS — sonheicom.com.br
+   Estética: minimalista místico, referência Poolsuite/nostálgico
+   ================================================================ */
+
+
+/* ── PROGRESS BAR ── */
 .progress-container {
     width: 100%;
-    height: 20px;
+    height: 3px;
     background: #1a0029;
-    border: 2px solid var(--border-color);
-    margin-bottom: 20px;
+    margin-bottom: 32px;
+    position: relative;
 }
 
 .progress-bar {
     height: 100%;
-    background: var(--highlight-color);
+    background: var(--gold-color);
     width: 0%;
-    transition: width 0.3s ease;
+    transition: width 0.5s ease;
+    box-shadow: 0 0 6px var(--gold-color);
 }
 
-/* Cards */
+
+/* ── CARDS ── */
 .card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 24px;
 }
 
 .card {
-    background: #1a0029;
-    border: 2px solid var(--border-color);
-    padding: 10px;
+    background: transparent;
+    border: 1px solid #2a0050;
+    outline: 1px solid #15002a;
+    outline-offset: -4px;
+    padding: 16px 10px;
     text-align: center;
     cursor: pointer;
     font-size: 8px;
+    letter-spacing: 1px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 80px;
+    min-height: 76px;
+    transition: border-color 0.25s, outline-color 0.25s, background 0.25s, color 0.25s;
+    position: relative;
+    color: var(--text-dim);
+}
+
+.card:hover {
+    border-color: var(--border-color);
+    outline-color: #2a005033;
+    color: var(--text-color);
 }
 
 .card.selected {
-    border-color: var(--gold-color);
-    background: var(--highlight-color);
-    color: #fff;
+    background: var(--text-color);
+    color: #07000f;
+    border-color: var(--text-color);
+    outline-color: #ddd0f544;
+}
+
+.card.selected .context,
+.card.selected .card-sigil,
+.card.selected .card-title {
+    color: #1a0035;
+    opacity: 1;
+}
+
+.card .card-sigil {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: var(--text-dim);
+    opacity: 0.5;
+}
+
+.card .card-title {
+    font-size: 7px;
+    letter-spacing: 2px;
 }
 
 .card .context {
     font-size: 6px;
-    margin-top: 5px;
-    opacity: 0.8;
+    margin-top: 6px;
+    opacity: 0.5;
+    font-family: var(--font-mystic);
+    font-size: 13px;
+    letter-spacing: 0.5px;
 }
 
-/* Oráculo Flow */
-.etapa {
-    display: flex;
-    flex-direction: column;
-    animation: fadeIn 0.5s forwards;
+/* grid de 4 trilhas — ocupa linha inteira se for único na linha */
+.trilha-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 
-/* Scroll Selectors */
+
+/* ── SCROLL SELECTOR — DIA / MÊS / ANO ── */
 .scroll-selector {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin-bottom: 8px;
 }
 
 .scroll-selector select {
     width: 30%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: transparent;
+    color: var(--text-dim);
+    border: none;
+    border-bottom: 1px solid #2a0050;
+    font-family: var(--font-pixel);
+    font-size: 8px;
+    padding: 10px 22px 10px 4px;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: border-color 0.2s, color 0.2s;
+
+    /* seta dourada discreta */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5' viewBox='0 0 8 5'%3E%3Cpath d='M0 0L4 5L8 0Z' fill='%234a0888'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 4px center;
 }
 
-/* Banner */
+.scroll-selector select:focus {
+    border-color: var(--gold-dim);
+    color: var(--text-color);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5' viewBox='0 0 8 5'%3E%3Cpath d='M0 0L4 5L8 0Z' fill='%23e8c87a'/%3E%3C/svg%3E");
+}
+
+.scroll-selector select option {
+    background-color: #0f001e;
+    color: var(--text-color);
+    font-size: 10px;
+}
+
+
+/* ── SAVED BANNER ── */
 .saved-banner {
-    background: var(--highlight-color);
-    border: 2px solid var(--gold-color);
-    padding: 10px;
-    margin-bottom: 20px;
+    border: 1px solid var(--border-color);
+    outline: 1px solid #15002a;
+    outline-offset: -4px;
+    background: transparent;
+    padding: 14px 16px;
+    margin-bottom: 28px;
     text-align: center;
-    font-size: 8px;
+    font-size: 7px;
+    color: var(--text-dim);
+    letter-spacing: 1px;
 }
 
 .banner-buttons {
     display: flex;
     gap: 10px;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .banner-buttons button {
     font-size: 7px;
-    padding: 5px;
+    padding: 6px 12px;
+    width: auto;
 }
 
-/* RPG Bars */
+
+/* ── RPG STATUS BARS ── */
 .rpg-bar-container {
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .rpg-label {
-    font-size: 8px;
-    margin-bottom: 5px;
+    font-size: 7px;
+    margin-bottom: 6px;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .rpg-bar-bg {
-    height: 12px;
-    background: #000;
-    border: 2px solid var(--border-color);
+    height: 3px;
+    background: #0f001e;
+    border: none;
+    position: relative;
 }
 
 .rpg-bar-fill {
     height: 100%;
     width: 0%;
+    transition: width 1s ease;
+    position: relative;
 }
 
-.rpg-bar-fill.green { background: #00ff00; }
-.rpg-bar-fill.yellow { background: #ffff00; }
-.rpg-bar-fill.red { background: #ff0000; }
+.rpg-bar-fill::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -2px;
+    width: 3px;
+    height: 7px;
+    background: inherit;
+    opacity: 0.8;
+}
 
-/* Crystal Ball */
+.rpg-bar-fill.green  { background: #39ff7a; box-shadow: 0 0 6px #39ff7a88; }
+.rpg-bar-fill.yellow { background: var(--gold-color); box-shadow: 0 0 6px #e8c87a66; }
+.rpg-bar-fill.red    { background: #ff3a5c; box-shadow: 0 0 6px #ff3a5c66; }
+
+
+/* ── CRYSTAL BALL ── */
 .crystal-ball-container {
     display: flex;
     flex-direction: column;
@@ -124,33 +227,106 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(13, 0, 20, 0.95);
+    background: rgba(7, 0, 15, 0.97);
     z-index: 1000;
+    gap: 32px;
 }
 
+/* Bola pixel-art: quadrado com brilho interno via box-shadow em camadas */
 .crystal-ball {
-    width: 80px;
-    height: 80px;
-    background: var(--highlight-color);
-    border: 4px solid var(--border-color);
-    margin-bottom: 20px;
+    width: 64px;
+    height: 64px;
+    background: #0f001e;
+    border: 2px solid #4a0888;
+    outline: 2px solid #1a0035;
+    outline-offset: 4px;
+    position: relative;
+    image-rendering: pixelated;
+
+    box-shadow:
+        inset  8px  8px 0 0 #2a005599,   /* canto brilho interno */
+        inset -4px -4px 0 0 #06000e,      /* sombra interna */
+        0 0 0  2px  #8a20f022,
+        0 0 20px    #8a20f044,
+        0 0 50px    #8a20f022;
+}
+
+/* estrelinhas pixel dentro da bola */
+.crystal-ball::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(1px 1px at 20% 25%, #c090ffcc 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 35%, #e8c87a99 0%, transparent 100%),
+        radial-gradient(1px 1px at 45% 70%, #c090ff88 0%, transparent 100%),
+        radial-gradient(1px 1px at 80% 75%, #ddd0f577 0%, transparent 100%),
+        radial-gradient(1px 1px at 15% 65%, #e8c87a66 0%, transparent 100%);
+    animation: crystalStars 3s ease-in-out infinite;
+}
+
+/* reflexo de luz no canto superior */
+.crystal-ball::after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    background: #c090ff;
+    opacity: 0.4;
+    image-rendering: pixelated;
+    animation: crystalGleam 2s ease-in-out infinite;
+}
+
+@keyframes crystalStars {
+    0%, 100% { opacity: 0.4; transform: scale(1); }
+    50%       { opacity: 1;   transform: scale(1.05); }
+}
+
+@keyframes crystalGleam {
+    0%, 100% { opacity: 0.2; width: 8px; height: 8px; }
+    50%       { opacity: 0.7; width: 10px; height: 10px; }
+}
+
+/* anel pulsante em volta da bola */
+@keyframes crystalRing {
+    0%   { box-shadow: 0 0 0  4px #8a20f033, 0 0 20px #8a20f044, 0 0 50px #8a20f022; }
+    50%  { box-shadow: 0 0 0  8px #8a20f055, 0 0 30px #8a20f066, 0 0 70px #8a20f033; }
+    100% { box-shadow: 0 0 0  4px #8a20f033, 0 0 20px #8a20f044, 0 0 50px #8a20f022; }
+}
+
+.crystal-ball.pulse {
+    animation: crystalRing 2s ease-in-out infinite;
 }
 
 .loading-text {
-    font-size: 10px;
+    font-size: 8px;
     text-align: center;
-    color: var(--text-color);
+    color: var(--text-dim);
+    letter-spacing: 3px;
+    text-transform: lowercase;
+    font-family: var(--font-mystic);
+    font-size: 16px;
+    letter-spacing: 4px;
+    animation: loadingFade 1.5s ease-in-out infinite;
 }
 
-/* Footer buttons */
+@keyframes loadingFade {
+    0%, 100% { opacity: 0.3; }
+    50%       { opacity: 1; }
+}
+
+
+/* ── FOOTER ACTIONS (botões fixos etapa 4) ── */
 .footer-actions {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    background: var(--bg-color);
-    border-top: 2px solid var(--border-color);
-    padding: 10px;
+    background: rgba(7, 0, 15, 0.96);
+    border-top: 1px solid #2a0050;
+    padding: 12px 16px;
     display: flex;
     gap: 10px;
     z-index: 100;
@@ -158,5 +334,22 @@
 
 .footer-actions button {
     flex: 1;
-    font-size: 8px;
+    font-size: 7px;
+    letter-spacing: 2px;
+    padding: 12px;
+}
+
+
+/* ── ETAPA (container de cada passo) ── */
+.etapa {
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 0.4s forwards;
+}
+
+
+/* ── ORACLE FLOW — etapa 2 ── */
+#sub-etapa-title {
+    letter-spacing: 4px;
+    margin-bottom: 24px;
 }
