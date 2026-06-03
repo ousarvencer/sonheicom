@@ -105,6 +105,154 @@ function nextSubEtapa() {
     }
 }
 
+const PERGUNTAS = [
+    {
+        key: 'emocao',
+        titulo: 'SOBRE O SONHO',
+        subtitulo: 'como você se sentiu?',
+        opcoes: ['MEDO','ALEGRIA','ANGÚSTIA','CONFUSÃO'],
+        multiplo: false
+    },
+    {
+        key: 'periodo',
+        titulo: 'O CENÁRIO',
+        subtitulo: 'era dia ou noite no sonho?',
+        opcoes: ['DIA','NOITE','NÃO LEMBRO'],
+        multiplo: false
+    },
+    {
+        key: 'cor_sonho',
+        titulo: 'AS CORES',
+        subtitulo: 'o sonho era colorido?',
+        opcoes: ['COLORIDO','PRETO E BRANCO','NÃO LEMBRO'],
+        multiplo: false
+    },
+    {
+        key: 'cor_dominante',
+        titulo: 'AS CORES',
+        subtitulo: 'que cor mais apareceu?',
+        opcoes: ['PRETO','BRANCO','VERMELHO','ROXO','DOURADO','AZUL','NÃO LEMBRO'],
+        multiplo: false
+    },
+    {
+        key: 'despertar',
+        titulo: 'O DESPERTAR',
+        subtitulo: 'como você acordou?',
+        opcoes: ['SUOR FRIO','CORAÇÃO ACELERADO','CHORANDO','SENSAÇÃO DE PAZ','PESO NO PEITO','LEVEZA'],
+        multiplo: true
+    },
+    {
+        key: 'recorrente',
+        titulo: 'A MEMÓRIA',
+        subtitulo: 'já sonhou com isso antes?',
+        opcoes: ['SIM','NÃO'],
+        multiplo: false
+    },
+    {
+        key: 'amor',
+        titulo: 'SOBRE VOCÊ HOJE',
+        subtitulo: 'como está o amor?',
+        opcoes: ['BEM','MAIS OU MENOS','MAL'],
+        multiplo: false
+    },
+    {
+        key: 'financas',
+        titulo: 'SOBRE VOCÊ HOJE',
+        subtitulo: 'como estão as finanças?',
+        opcoes: ['TRANQUILO','APERTADO','CRÍTICO'],
+        multiplo: false
+    },
+    {
+        key: 'hora',
+        titulo: 'O DESPERTAR',
+        subtitulo: 'que horas você acordou?',
+        opcoes: [],
+        multiplo: false,
+        tipo: 'hora'
+    }
+];
+
+let currentPergunta = 0;
+const naipes = ['♠','♥','♦','♣'];
+
+const horasOpcoes = [
+    '04h00','04h30','05h00','05h30','06h00','06h30',
+    '07h00','07h30','08h00','08h30','09h00','09h30',
+    '10h00','10h30','11h00','11h30','12h00'
+];
+let horaIdx = 0;
+
+function spinHora(dir) {
+    horaIdx = (horaIdx + dir + horasOpcoes.length) % horasOpcoes.length;
+    document.getElementById('val-hora').textContent = horasOpcoes[horaIdx];
+}
+
+function startEtapa3() {
+    currentPergunta = 0;
+    renderPergunta();
+}
+
+function renderPergunta() {
+    const p = PERGUNTAS[currentPergunta];
+    const total = PERGUNTAS.length;
+    const progress = document.getElementById('progress-bar-3');
+    progress.style.width = `${((currentPergunta + 1) / total) * 100}%`;
+
+    document.getElementById('etapa3-titulo').textContent = p.titulo;
+    document.getElementById('etapa3-subtitulo').textContent = p.subtitulo;
+
+    const grid = document.getElementById('etapa3-grid');
+    const horas = document.getElementById('etapa3-horas');
+    const btn = document.getElementById('btn-etapa3');
+
+    const isUltima = currentPergunta === total - 1;
+    btn.textContent = isUltima ? 'REVELAR MEU ORÁCULO' : 'PRÓXIMO →';
+
+    if (p.tipo === 'hora') {
+        grid.classList.add('hidden');
+        horas.classList.remove('hidden');
+        document.getElementById('val-hora').textContent = horasOpcoes[horaIdx];
+    } else {
+        horas.classList.add('hidden');
+        grid.classList.remove('hidden');
+        grid.innerHTML = '';
+        p.opcoes.forEach(opcao => {
+            const card = document.createElement('div');
+            const naipe = naipes[Math.floor(Math.random() * naipes.length)];
+            card.className = 'card';
+            card.textContent = opcao;
+            card.style.setProperty('--naipe', `"${naipe}"`);
+            card.onclick = () => {
+                if (p.multiplo) {
+                    card.classList.toggle('selected');
+                } else {
+                    grid.querySelectorAll('.card').forEach(c => c.classList.remove('selected'));
+                    card.classList.add('selected');
+                }
+            };
+            grid.appendChild(card);
+        });
+    }
+}
+
+function nextPergunta() {
+    const p = PERGUNTAS[currentPergunta];
+    if (p.tipo === 'hora') {
+        currentUserData.detalhes['hora'] = horasOpcoes[horaIdx];
+    } else {
+        const selected = Array.from(document.querySelectorAll('#etapa3-grid .selected')).map(c => c.textContent);
+        currentUserData.detalhes[p.key] = selected;
+    }
+
+    currentPergunta++;
+    if (currentPergunta < PERGUNTAS.length) {
+        renderPergunta();
+        window.scrollTo(0, 0);
+    } else {
+        revelarOraculo();
+    }
+}
+
 function revelarOraculo() {
     showEtapa(4);
     const crystalBall = document.getElementById('crystal-ball-overlay');
