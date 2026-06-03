@@ -111,7 +111,7 @@ const PERGUNTAS = [
         key: 'emocao',
         titulo: 'SOBRE O SONHO',
         subtitulo: 'como você se sentiu?',
-        opcoes: ['MEDO','ALEGRIA','ANGÚSTIA','CONFUSÃO'],
+        opcoes: ['MEDO','ALEGRIA','ANGÚSTIA','CONFUSÃO','NOSTALGIA','EUFORIA'],
         multiplo: false
     },
     {
@@ -132,7 +132,7 @@ const PERGUNTAS = [
         key: 'cor_dominante',
         titulo: 'AS CORES',
         subtitulo: 'que cor mais apareceu?',
-        opcoes: ['PRETO','BRANCO','VERMELHO','ROXO','DOURADO','AZUL','NÃO LEMBRO'],
+        opcoes: ['PRETO','BRANCO','VERMELHO','ROXO','DOURADO','AZUL','VERDE','AMARELO','NÃO LEMBRO'],
         multiplo: false
     },
     {
@@ -146,7 +146,7 @@ const PERGUNTAS = [
         key: 'recorrente',
         titulo: 'A MEMÓRIA',
         subtitulo: 'já sonhou com isso antes?',
-        opcoes: ['SIM','NÃO'],
+        opcoes: ['SIM','NÃO','NÃO LEMBRO'],
         multiplo: false
     },
     {
