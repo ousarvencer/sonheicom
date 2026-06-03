@@ -1,9 +1,46 @@
 const ETAPAS_DATA = {
-    pessoas: ["Mãe", "Pai", "Ex", "Filho", "Irmã", "Avó", "Namorado(a)", "Chefe", "Amigo", "Estranho", "Pessoa falecida", "Eu mesmo"],
-    animais: ["Cobra", "Cachorro", "Gato", "Cavalo", "Peixe", "Aranha", "Coelho", "Pássaro", "Abelha", "Touro", "Leão", "Rato", "Sapo", "Crocodilo", "Borboleta"],
-    lugares: ["Mar", "Casa", "Igreja", "Hospital", "Escola", "Floresta", "Cemitério", "Festa", "Rua", "Montanha", "Lugar desconhecido", "Casa da infância"],
-    situacoes: ["Queda", "Voar", "Perseguição", "Briga", "Traição", "Abandono", "Sexo", "Casamento", "Morte", "Gravidez", "Acidente", "Estar nu"],
-    objetos: ["Dinheiro", "Chave", "Espelho", "Celular", "Faca", "Sangue", "Porta", "Vela", "Anel", "Arma", "Carro", "Dente"]
+    pessoas: [
+        "Mãe", "Pai", "Filho(a)", "Irmã", "Avó", "Avô",
+        "Namorado(a)", "Ex", "Chefe", "Amigo(a)", "Amigo(a) de infância",
+        "Estranho", "Pessoa falecida", "Eu mesmo",
+        "Criança desconhecida", "Figura desconhecida",
+        "Anjo / Entidade", "Demônio / Presença sombria",
+        "Versão de mim mesmo", "Pessoa famosa",
+        "Figura religiosa", "Velho(a) sábio(a)"
+    ],
+    animais: [
+        "Cobra", "Cachorro", "Gato", "Cavalo", "Peixe",
+        "Aranha", "Coelho", "Pássaro", "Abelha", "Touro",
+        "Leão", "Rato", "Sapo", "Crocodilo", "Borboleta",
+        "Lobo", "Águia", "Coruja", "Tubarão", "Elefante",
+        "Dragão", "Unicórnio", "Fênix", "Sereia",
+        "Lobisomem", "Criatura das trevas", "Animal gigante"
+    ],
+    lugares: [
+        "Mar", "Casa", "Igreja", "Hospital", "Escola",
+        "Floresta", "Cemitério", "Festa", "Rua", "Montanha",
+        "Lugar desconhecido", "Casa da infância",
+        "Praia", "Trabalho", "Quarto", "Prisão", "Ponte", "Aeroporto",
+        "Céu / Paraíso", "Inferno", "Caverna",
+        "Ruínas antigas", "Castelo", "Labirinto", "Lugar que não existe"
+    ],
+    situacoes: [
+        "Queda", "Voar", "Perseguição", "Briga", "Traição",
+        "Abandono", "Sexo", "Casamento", "Morte", "Gravidez",
+        "Acidente", "Estar nu",
+        "Estar perdido", "Perder algo importante", "Afogamento",
+        "Encontrar dinheiro", "Ser traído", "Chegar atrasado",
+        "Ressurreição", "Viagem no tempo", "Mundo paralelo",
+        "Fim do mundo", "Ser observado", "Transformação do corpo",
+        "Falar com mortos"
+    ],
+    objetos: [
+        "Dinheiro", "Chave", "Espelho", "Celular", "Faca",
+        "Sangue", "Porta", "Vela", "Anel", "Arma", "Carro", "Dente",
+        "Relógio", "Escada", "Livro", "Água", "Fogo", "Cruz", "Ponte",
+        "Cristal", "Poção", "Portal", "Caveira",
+        "Altar", "Pergaminho", "Talismã"
+    ]
 };
 
 function renderGrid(containerId, items, multiple = true) {
