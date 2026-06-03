@@ -228,94 +228,25 @@
 
         <!-- ETAPA 3 -->
         <div id="etapa-3" class="etapa hidden">
+            <div class="progress-container">
+                <div id="progress-bar-3" class="progress-bar"></div>
+            </div>
+            <h2 id="etapa3-titulo"></h2>
+            <p id="etapa3-subtitulo" class="site-tagline"></p>
+            <div id="etapa3-grid" class="card-grid card-grid-3"></div>
 
-            <h2>SOBRE O SONHO</h2>
-
-            <p class="label-section">COMO VOCE SE SENTIU?</p>
-            <div id="grid-emocao" class="card-grid">
-                <div class="card" data-group="emocao" data-value="medo" onclick="selecionarUnico(this,'emocao')">MEDO</div>
-                <div class="card" data-group="emocao" data-value="alegria" onclick="selecionarUnico(this,'emocao')">ALEGRIA</div>
-                <div class="card" data-group="emocao" data-value="angustia" onclick="selecionarUnico(this,'emocao')">ANGUSTIA</div>
-                <div class="card" data-group="emocao" data-value="confusao" onclick="selecionarUnico(this,'emocao')">CONFUSAO</div>
+            <!-- spinner horas -->
+            <div id="etapa3-horas" class="scroll-selector hidden">
+                <div class="spin-field" id="field-hora">
+                    <button type="button" class="spin-btn spin-up" onclick="spinHora(-1)">▲</button>
+                    <span class="spin-val" id="val-hora">--</span>
+                    <button type="button" class="spin-btn spin-down" onclick="spinHora(1)">▼</button>
+                </div>
             </div>
 
-            <p class="label-section">JA SONHOU COM ISSO ANTES?</p>
-            <div class="card-grid">
-                <div class="card" data-group="recorrente" data-value="sim" onclick="selecionarUnico(this,'recorrente')">SIM</div>
-                <div class="card" data-group="recorrente" data-value="nao" onclick="selecionarUnico(this,'recorrente')">NAO</div>
-            </div>
-
-            <p class="label-section">ERA DIA OU NOITE NO SONHO?</p>
-            <div class="card-grid">
-                <div class="card" data-group="periodo" data-value="dia" onclick="selecionarUnico(this,'periodo')">DIA</div>
-                <div class="card" data-group="periodo" data-value="noite" onclick="selecionarUnico(this,'periodo')">NOITE</div>
-                <div class="card" data-group="periodo" data-value="nao_lembro" onclick="selecionarUnico(this,'periodo')">NAO LEMBRO</div>
-            </div>
-
-            <p class="label-section">O SONHO ERA COLORIDO OU PRETO E BRANCO?</p>
-            <div class="card-grid">
-                <div class="card" data-group="cor_sonho" data-value="colorido" onclick="selecionarUnico(this,'cor_sonho')">COLORIDO</div>
-                <div class="card" data-group="cor_sonho" data-value="pb" onclick="selecionarUnico(this,'cor_sonho')">PRETO E BRANCO</div>
-                <div class="card" data-group="cor_sonho" data-value="nao_lembro" onclick="selecionarUnico(this,'cor_sonho')">NAO LEMBRO</div>
-            </div>
-
-            <p class="label-section">QUE COR MAIS APARECEU?</p>
-            <div class="card-grid">
-                <div class="card" data-group="cor_dominante" data-value="preto" onclick="selecionarUnico(this,'cor_dominante')">PRETO</div>
-                <div class="card" data-group="cor_dominante" data-value="branco" onclick="selecionarUnico(this,'cor_dominante')">BRANCO</div>
-                <div class="card" data-group="cor_dominante" data-value="vermelho" onclick="selecionarUnico(this,'cor_dominante')">VERMELHO</div>
-                <div class="card" data-group="cor_dominante" data-value="roxo" onclick="selecionarUnico(this,'cor_dominante')">ROXO</div>
-                <div class="card" data-group="cor_dominante" data-value="dourado" onclick="selecionarUnico(this,'cor_dominante')">DOURADO</div>
-                <div class="card" data-group="cor_dominante" data-value="azul" onclick="selecionarUnico(this,'cor_dominante')">AZUL</div>
-                <div class="card" data-group="cor_dominante" data-value="nao_lembro" onclick="selecionarUnico(this,'cor_dominante')">NAO LEMBRO</div>
-            </div>
-
-            <p class="label-section">COMO VOCE ACORDOU?</p>
-            <div id="grid-despertar" class="card-grid">
-                <div class="card" data-group="despertar" data-value="suor_frio" onclick="selecionarMultiplo(this,'despertar',2)">SUOR FRIO</div>
-                <div class="card" data-group="despertar" data-value="coracao_acelerado" onclick="selecionarMultiplo(this,'despertar',2)">CORACAO ACELERADO</div>
-                <div class="card" data-group="despertar" data-value="chorando" onclick="selecionarMultiplo(this,'despertar',2)">CHORANDO</div>
-                <div class="card" data-group="despertar" data-value="sensacao_de_paz" onclick="selecionarMultiplo(this,'despertar',2)">SENSACAO DE PAZ</div>
-                <div class="card" data-group="despertar" data-value="peso_no_peito" onclick="selecionarMultiplo(this,'despertar',2)">PESO NO PEITO</div>
-                <div class="card" data-group="despertar" data-value="leveza" onclick="selecionarMultiplo(this,'despertar',2)">LEVEZA</div>
-            </div>
-
-            <hr style="border: 1px dashed var(--border-color); margin: 30px 0;">
-            <h2>SOBRE VOCE HOJE</h2>
-
-            <p class="label-section">COMO ESTA O AMOR?</p>
-            <div class="card-grid">
-                <div class="card" data-group="amor" data-value="bem" onclick="selecionarUnico(this,'amor')">BEM</div>
-                <div class="card" data-group="amor" data-value="mais_ou_menos" onclick="selecionarUnico(this,'amor')">MAIS OU MENOS</div>
-                <div class="card" data-group="amor" data-value="mal" onclick="selecionarUnico(this,'amor')">MAL</div>
-            </div>
-
-            <p class="label-section">COMO ESTAO AS FINANCAS?</p>
-            <div class="card-grid">
-                <div class="card" data-group="financas" data-value="tranquilo" onclick="selecionarUnico(this,'financas')">TRANQUILO</div>
-                <div class="card" data-group="financas" data-value="apertado" onclick="selecionarUnico(this,'financas')">APERTADO</div>
-                <div class="card" data-group="financas" data-value="critico" onclick="selecionarUnico(this,'financas')">CRITICO</div>
-            </div>
-
-            <p class="label-section">QUE HORAS VOCE ACORDOU?</p>
-            <div class="card-grid" id="grid-horas">
-                <select id="hora-acordou" style="background: var(--bg-secondary); color: var(--text-primary); border: 2px solid var(--border-color); padding: 10px; font-family: inherit; font-size: 10px; width: 100%;">
-                    <option value="">-- SELECIONE --</option>
-                    <option>04h00</option><option>04h30</option>
-                    <option>05h00</option><option>05h30</option>
-                    <option>06h00</option><option>06h30</option>
-                    <option>07h00</option><option>07h30</option>
-                    <option>08h00</option><option>08h30</option>
-                    <option>09h00</option><option>09h30</option>
-                    <option>10h00</option><option>10h30</option>
-                    <option>11h00</option><option>11h30</option>
-                    <option>12h00</option>
-                </select>
-            </div>
-
-            <button onclick="revelarOraculo()" style="margin-top: 30px;">REVELAR MEU ORÁCULO</button>
+            <button id="btn-etapa3" onclick="nextPergunta()">PRÓXIMO →</button>
         </div>
-
+        
         <!-- ETAPA 4 -->
         <div id="etapa-4" class="etapa hidden">
             <div id="resultados"></div>
