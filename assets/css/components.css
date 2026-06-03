@@ -116,14 +116,14 @@
 }
 
 .trilha-card .card-sigil {
-    font-size: 16px;
+    font-size: 22px;
     color: var(--gold-dim);
     opacity: 1;
     margin-bottom: 10px;
 }
 
 .trilha-card .card-title {
-    font-size: 7px;
+    font-size: 10px;
     letter-spacing: 2px;
     color: var(--text-color);
 }
