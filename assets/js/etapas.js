@@ -50,6 +50,7 @@ function renderGrid(containerId, items, multiple = true) {
         const card = document.createElement('div');
         card.className = 'card';
         card.textContent = item;
+        card.dataset.label = item;
         card.onclick = () => {
             if (multiple) {
                 card.classList.toggle('selected');
