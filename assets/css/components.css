@@ -473,3 +473,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 8px;
 }
+
+#btn-proximo {
+    border-color: #2a0050;
+    color: var(--text-dim);
+    transition: all 0.3s;
+}
+#btn-proximo.ativo {
+    border-color: var(--gold-color);
+    color: var(--gold-color);
+    box-shadow: 3px 3px 0px var(--gold-dim);
+}
