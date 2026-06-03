@@ -25,3 +25,17 @@ function renderGrid(containerId, items, multiple = true) {
         container.appendChild(card);
     });
 }
+
+function selecionarUnico(card, grupo) {
+    document.querySelectorAll(`[data-group="${grupo}"]`).forEach(c => c.classList.remove('selected'));
+    card.classList.add('selected');
+}
+
+function selecionarMultiplo(card, grupo, max) {
+    const selecionados = document.querySelectorAll(`[data-group="${grupo}"].selected`);
+    if (card.classList.contains('selected')) {
+        card.classList.remove('selected');
+    } else if (selecionados.length < max) {
+        card.classList.add('selected');
+    }
+}
