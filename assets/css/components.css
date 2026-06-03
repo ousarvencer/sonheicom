@@ -117,8 +117,8 @@
     position: absolute;
     font-family: var(--font-pixel);
     font-size: 6px;
-    color: var(--text-dim);
-    opacity: 0.5;
+    color: var(--gold-dim);
+    opacity: 0.8;
     text-transform: uppercase;
     letter-spacing: 1px;
     line-height: 1;
