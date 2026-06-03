@@ -181,13 +181,13 @@
     border: none;
     box-shadow: none;
     padding: 6px 0;
-    font-size: 7px;
+    font-size: 13px;
     color: #4a0888;
     cursor: pointer;
     line-height: 1;
     letter-spacing: 0;
     transition: color 0.2s;
-    min-height: 28px;
+    min-height: 36px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -204,7 +204,7 @@
 
 .spin-val {
     font-family: var(--font-pixel);
-    font-size: 8px;
+    font-size: 11px;
     color: var(--text-color);
     letter-spacing: 2px;
     text-align: center;
