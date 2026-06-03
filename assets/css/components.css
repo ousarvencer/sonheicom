@@ -100,12 +100,37 @@
 .trilha-card {
     background: linear-gradient(160deg, #12002299 0%, #0a001799 100%);
     border: 1px solid #4a0888;
-    outline: 1px solid #2a005066;
-    outline-offset: -4px;
-    min-height: 110px;
+    outline: 2px solid #2a005066;
+    outline-offset: -6px;
+    min-height: 150px;
+    aspect-ratio: 2 / 3;
     padding: 20px 12px;
     color: var(--text-color);
     transition: border-color 0.3s, box-shadow 0.3s, background 0.3s;
+    position: relative;
+}
+
+/* Cantos decorativos estilo carta de baralho */
+.trilha-card::before,
+.trilha-card::after {
+    content: attr(data-trilha);
+    position: absolute;
+    font-family: var(--font-pixel);
+    font-size: 6px;
+    color: var(--text-dim);
+    opacity: 0.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.trilha-card::before {
+    top: 7px;
+    left: 9px;
+}
+.trilha-card::after {
+    bottom: 7px;
+    right: 9px;
+    transform: rotate(180deg);
 }
 
 .trilha-card:hover {
