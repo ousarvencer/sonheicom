@@ -12,9 +12,96 @@
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/components.css">
     <link rel="stylesheet" href="assets/css/animations.css">
+
+    <style>
+        /* ── BANNER AMAZON AFILIADO ── */
+        .amazon-banner {
+            font-family: var(--font-pixel);
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-color);
+            padding: 20px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            position: relative;
+            overflow: hidden;
+            margin: 30px 0;
+        }
+        .amazon-banner::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image:
+                radial-gradient(1px 1px at 10% 20%, #9b30ff55 0%, transparent 100%),
+                radial-gradient(1px 1px at 80% 80%, #ffd70022 0%, transparent 100%),
+                radial-gradient(1px 1px at 60% 10%, #9b30ff44 0%, transparent 100%),
+                radial-gradient(1px 1px at 30% 70%, #ffd70033 0%, transparent 100%);
+            pointer-events: none;
+        }
+        .amazon-banner-left {
+            flex: 1;
+            position: relative;
+            z-index: 1;
+        }
+        .amazon-banner-tag {
+            font-size: 7px;
+            color: var(--gold-color);
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .amazon-banner-title {
+            font-size: 11px;
+            color: var(--text-color);
+            line-height: 1.8;
+            margin-bottom: 6px;
+        }
+        .amazon-banner-sub {
+            font-size: 7px;
+            color: var(--text-dim);
+            line-height: 1.8;
+        }
+        .amazon-banner-icon {
+            font-size: 28px;
+            position: relative;
+            z-index: 1;
+            flex-shrink: 0;
+        }
+        .amazon-banner-btn {
+            font-family: var(--font-pixel);
+            font-size: 8px;
+            background: var(--highlight-color);
+            color: #fff;
+            border: none;
+            padding: 12px 16px;
+            cursor: pointer;
+            white-space: nowrap;
+            position: relative;
+            z-index: 1;
+            line-height: 1.6;
+            text-decoration: none;
+            display: inline-block;
+            flex-shrink: 0;
+        }
+        .amazon-banner-btn:hover {
+            background: var(--highlight-dim);
+        }
+    </style>
 </head>
 <body>
     <div class="container">
+
+        <!-- ✦ BANNER AMAZON — TOPO ✦ -->
+        <div class="amazon-banner">
+            <span class="amazon-banner-icon">📱</span>
+            <div class="amazon-banner-left">
+                <span class="amazon-banner-tag">✦ PATROCINADO ✦</span>
+                <p class="amazon-banner-title">Anote seus sonhos antes<br>que a memória apague.</p>
+                <p class="amazon-banner-sub">Os melhores celulares do momento →</p>
+            </div>
+            <a class="amazon-banner-btn" href="https://amzn.to/4vrU5Ge" target="_blank" rel="noopener sponsored">VER NA<br>AMAZON</a>
+        </div>
 
         <!-- Banner de Leitura Salva -->
         <div id="saved-banner" class="saved-banner hidden">
@@ -37,9 +124,43 @@
             <input type="text" id="input-nome" placeholder="SEU PRIMEIRO NOME" required>
 
             <div class="scroll-selector">
-                <select id="nasc-dia"><option>DIA</option></select>
-                <select id="nasc-mes"><option>MÊS</option></select>
-                <select id="nasc-ano"><option>ANO</option></select>
+                <select id="nasc-dia">
+                    <option value="">DIA</option>
+                    <option>01</option><option>02</option><option>03</option><option>04</option>
+                    <option>05</option><option>06</option><option>07</option><option>08</option>
+                    <option>09</option><option>10</option><option>11</option><option>12</option>
+                    <option>13</option><option>14</option><option>15</option><option>16</option>
+                    <option>17</option><option>18</option><option>19</option><option>20</option>
+                    <option>21</option><option>22</option><option>23</option><option>24</option>
+                    <option>25</option><option>26</option><option>27</option><option>28</option>
+                    <option>29</option><option>30</option><option>31</option>
+                </select>
+                <select id="nasc-mes">
+                    <option value="">MÊS</option>
+                    <option value="01">JAN</option>
+                    <option value="02">FEV</option>
+                    <option value="03">MAR</option>
+                    <option value="04">ABR</option>
+                    <option value="05">MAI</option>
+                    <option value="06">JUN</option>
+                    <option value="07">JUL</option>
+                    <option value="08">AGO</option>
+                    <option value="09">SET</option>
+                    <option value="10">OUT</option>
+                    <option value="11">NOV</option>
+                    <option value="12">DEZ</option>
+                </select>
+                <select id="nasc-ano">
+                    <option value="">ANO</option>
+                    <script>
+                        (function(){
+                            const currentYear = new Date().getFullYear();
+                            for (let y = currentYear - 10; y >= 1930; y--) {
+                                document.write(`<option value="${y}">${y}</option>`);
+                            }
+                        })();
+                    </script>
+                </select>
             </div>
             <p class="label-nascimento">USADO APENAS PARA CALCULAR SEU NÚMERO PESSOAL</p>
 
@@ -178,6 +299,17 @@
         <div id="crystal-ball-overlay" class="crystal-ball-container hidden">
             <div class="crystal-ball pulse"></div>
             <div id="loading-text" class="loading-text">lendo seus símbolos...</div>
+        </div>
+
+        <!-- ✦ BANNER AMAZON — RODAPÉ ✦ -->
+        <div class="amazon-banner">
+            <span class="amazon-banner-icon">📱</span>
+            <div class="amazon-banner-left">
+                <span class="amazon-banner-tag">✦ PATROCINADO ✦</span>
+                <p class="amazon-banner-title">Anote seus sonhos antes<br>que a memória apague.</p>
+                <p class="amazon-banner-sub">Os melhores celulares do momento →</p>
+            </div>
+            <a class="amazon-banner-btn" href="https://amzn.to/4vrU5Ge" target="_blank" rel="noopener sponsored">VER NA<br>AMAZON</a>
         </div>
 
         <!-- Footer legal minimalista -->
