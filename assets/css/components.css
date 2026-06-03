@@ -94,7 +94,7 @@
 /* ── TRILHA CARDS – cartas de cartomante ── */
 .trilha-grid {
     grid-template-columns: 1fr 1fr;
-    gap: 12px;
+    gap: 8px;
 }
 
 .trilha-card {
