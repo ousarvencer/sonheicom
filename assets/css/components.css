@@ -22,7 +22,7 @@
 }
 
 
-/* ── CARDS ── */
+/* ── CARDS genéricos ── */
 .card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -83,7 +83,6 @@
 }
 
 .card .context {
-    font-size: 6px;
     margin-top: 6px;
     opacity: 0.5;
     font-family: var(--font-mystic);
@@ -91,14 +90,74 @@
     letter-spacing: 0.5px;
 }
 
-/* grid de 4 trilhas — ocupa linha inteira se for único na linha */
+
+/* ── TRILHA CARDS – cartas de cartomante ── */
 .trilha-grid {
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 12px;
+}
+
+.trilha-card {
+    background: linear-gradient(160deg, #12002299 0%, #0a001799 100%);
+    border: 1px solid #4a0888;
+    outline: 1px solid #2a005066;
+    outline-offset: -4px;
+    min-height: 110px;
+    padding: 20px 12px;
+    color: var(--text-color);
+    transition: border-color 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.trilha-card:hover {
+    border-color: var(--gold-dim);
+    box-shadow: 0 0 14px #8a20f033, inset 0 0 20px #2a005044;
+    color: var(--text-color);
+    outline-color: #4a088833;
+}
+
+.trilha-card .card-sigil {
+    font-size: 16px;
+    color: var(--gold-dim);
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+.trilha-card .card-title {
+    font-size: 7px;
+    letter-spacing: 2px;
+    color: var(--text-color);
+}
+
+.trilha-card .context {
+    opacity: 0.65;
+    color: var(--text-dim);
+    font-size: 14px;
+}
+
+.trilha-card.selected {
+    background: linear-gradient(160deg, #2a005088 0%, #1a003566 100%);
+    border-color: var(--gold-color);
+    outline-color: #e8c87a22;
+    box-shadow: 0 0 20px #e8c87a22, inset 0 0 24px #2a005055;
+    color: var(--text-color);
+}
+
+.trilha-card.selected .card-sigil {
+    color: var(--gold-color);
+    opacity: 1;
+}
+
+.trilha-card.selected .card-title {
+    color: var(--gold-color);
+}
+
+.trilha-card.selected .context {
+    color: var(--text-color);
+    opacity: 0.8;
 }
 
 
-/* ── SCROLL SELECTOR — DIA / MÊS / ANO ── */
+/* ── SCROLL SELECTOR – DIA / MÊS / ANO ── */
 .scroll-selector {
     display: flex;
     justify-content: space-between;
@@ -106,40 +165,63 @@
     margin-bottom: 8px;
 }
 
-.scroll-selector select {
-    width: 30%;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: transparent;
-    color: var(--text-dim);
+.spin-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    border: 1px solid #2a0050;
+    padding: 6px 0;
+}
+
+.spin-btn {
+    width: auto;
+    background: transparent;
     border: none;
-    border-bottom: 1px solid #2a0050;
+    box-shadow: none;
+    padding: 6px 0;
+    font-size: 7px;
+    color: #4a0888;
+    cursor: pointer;
+    line-height: 1;
+    letter-spacing: 0;
+    transition: color 0.2s;
+    min-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spin-btn:hover,
+.spin-btn:active {
+    color: var(--gold-color);
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    transform: none;
+}
+
+.spin-val {
     font-family: var(--font-pixel);
     font-size: 8px;
-    padding: 10px 22px 10px 4px;
-    cursor: pointer;
-    outline: none;
-    text-transform: uppercase;
+    color: var(--text-color);
     letter-spacing: 2px;
-    transition: border-color 0.2s, color 0.2s;
-
-    /* seta dourada discreta */
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5' viewBox='0 0 8 5'%3E%3Cpath d='M0 0L4 5L8 0Z' fill='%234a0888'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 4px center;
+    text-align: center;
+    min-width: 40px;
+    padding: 4px 0;
+    text-transform: uppercase;
 }
 
-.scroll-selector select:focus {
-    border-color: var(--gold-dim);
-    color: var(--text-color);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5' viewBox='0 0 8 5'%3E%3Cpath d='M0 0L4 5L8 0Z' fill='%23e8c87a'/%3E%3C/svg%3E");
-}
-
-.scroll-selector select option {
-    background-color: #0f001e;
-    color: var(--text-color);
-    font-size: 10px;
+.label-nascimento {
+    font-size: 6px;
+    color: var(--text-dim);
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 6px;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    opacity: 0.8;
 }
 
 
@@ -232,7 +314,6 @@
     gap: 32px;
 }
 
-/* Bola pixel-art: quadrado com brilho interno via box-shadow em camadas */
 .crystal-ball {
     width: 64px;
     height: 64px;
@@ -242,16 +323,14 @@
     outline-offset: 4px;
     position: relative;
     image-rendering: pixelated;
-
     box-shadow:
-        inset  8px  8px 0 0 #2a005599,   /* canto brilho interno */
-        inset -4px -4px 0 0 #06000e,      /* sombra interna */
+        inset  8px  8px 0 0 #2a005599,
+        inset -4px -4px 0 0 #06000e,
         0 0 0  2px  #8a20f022,
         0 0 20px    #8a20f044,
         0 0 50px    #8a20f022;
 }
 
-/* estrelinhas pixel dentro da bola */
 .crystal-ball::before {
     content: '';
     position: absolute;
@@ -265,7 +344,6 @@
     animation: crystalStars 3s ease-in-out infinite;
 }
 
-/* reflexo de luz no canto superior */
 .crystal-ball::after {
     content: '';
     position: absolute;
@@ -285,11 +363,10 @@
 }
 
 @keyframes crystalGleam {
-    0%, 100% { opacity: 0.2; width: 8px; height: 8px; }
+    0%, 100% { opacity: 0.2; width: 8px;  height: 8px; }
     50%       { opacity: 0.7; width: 10px; height: 10px; }
 }
 
-/* anel pulsante em volta da bola */
 @keyframes crystalRing {
     0%   { box-shadow: 0 0 0  4px #8a20f033, 0 0 20px #8a20f044, 0 0 50px #8a20f022; }
     50%  { box-shadow: 0 0 0  8px #8a20f055, 0 0 30px #8a20f066, 0 0 70px #8a20f033; }
@@ -301,10 +378,8 @@
 }
 
 .loading-text {
-    font-size: 8px;
     text-align: center;
     color: var(--text-dim);
-    letter-spacing: 3px;
     text-transform: lowercase;
     font-family: var(--font-mystic);
     font-size: 16px;
@@ -348,7 +423,7 @@
 }
 
 
-/* ── ORACLE FLOW — etapa 2 ── */
+/* ── ORACLE FLOW – etapa 2 ── */
 #sub-etapa-title {
     letter-spacing: 4px;
     margin-bottom: 24px;
