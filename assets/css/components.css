@@ -54,6 +54,7 @@
 
 .card::before,
 .card::after {
+    content: var(--naipe);
     position: absolute;
     font-family: var(--font-mystic);
     font-size: 14px;
