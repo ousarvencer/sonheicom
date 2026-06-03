@@ -9,803 +9,199 @@
     <meta property="og:description" content="Consulte os astros e seus sonhos agora.">
     <meta property="og:type" content="website">
 
-    <!-- Google AdSense — slot topo (ativar quando conta aprovada) -->
-    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&family=Silkscreen&display=swap">
-
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/components.css">
     <link rel="stylesheet" href="assets/css/animations.css">
-
-    <style>
-        /* ── DRUM SCROLL SELECTOR ───────────────────────── */
-        .drum-row {
-            display: flex;
-            gap: 8px;
-            justify-content: center;
-            margin: 16px 0 6px;
-        }
-
-        .drum-col {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            flex: 1;
-        }
-
-        .drum-label {
-            font-family: 'VT323', monospace;
-            font-size: 11px;
-            color: var(--text-dim);
-            letter-spacing: 2px;
-            margin-bottom: 4px;
-        }
-
-        .drum-window {
-            width: 100%;
-            height: 44px;
-            overflow: hidden;
-            border: 2px solid var(--border-color);
-            background: var(--bg-secondary);
-            position: relative;
-            cursor: pointer;
-        }
-
-        .drum-window::before,
-        .drum-window::after {
-            content: '';
-            position: absolute;
-            left: 0; right: 0;
-            height: 14px;
-            z-index: 2;
-            pointer-events: none;
-        }
-
-        .drum-window::before {
-            top: 0;
-            background: linear-gradient(to bottom, var(--bg-secondary), transparent);
-        }
-
-        .drum-window::after {
-            bottom: 0;
-            background: linear-gradient(to top, var(--bg-secondary), transparent);
-        }
-
-        .drum-inner {
-            transition: transform 0.25s cubic-bezier(.4,0,.2,1);
-        }
-
-        .drum-item {
-            height: 44px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: 'VT323', monospace;
-            font-size: 20px;
-            color: var(--text-dim);
-            transition: color 0.2s;
-            user-select: none;
-        }
-
-        .drum-item.active {
-            color: var(--gold-color);
-            text-shadow: 0 0 8px #ffd70088;
-        }
-
-        .drum-arrows {
-            display: flex;
-            gap: 4px;
-            margin-top: 4px;
-        }
-
-        .drum-btn {
-            width: 28px; height: 22px;
-            background: var(--bg-secondary);
-            border: 1px solid var(--border-color);
-            color: var(--highlight-color);
-            font-size: 12px;
-            cursor: pointer;
-            font-family: 'VT323', monospace;
-            display: flex; align-items: center; justify-content: center;
-            padding: 0;
-        }
-
-        .drum-btn:hover { border-color: var(--gold-color); color: var(--gold-color); }
-
-        /* ── ETAPA 3 SEQUENCIAL ─────────────────────────── */
-        .pergunta-seq {
-            display: none;
-            animation: fadeIn 0.4s forwards;
-        }
-
-        .pergunta-seq.ativa {
-            display: block;
-        }
-
-        .pergunta-contador {
-            font-family: 'VT323', monospace;
-            font-size: 14px;
-            color: var(--text-dim);
-            text-align: center;
-            margin-bottom: 8px;
-            letter-spacing: 2px;
-        }
-
-        /* ── CARDS TRILHA COM ÍCONE ─────────────────────── */
-        .card-icon {
-            font-size: 20px;
-            display: block;
-            margin-bottom: 6px;
-            line-height: 1;
-        }
-
-        /* ── HORAS — CARDS GRID ─────────────────────────── */
-        .horas-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 6px;
-            margin-top: 8px;
-        }
-
-        .hora-card {
-            padding: 8px 4px;
-            border: 2px solid var(--border-color);
-            background: var(--bg-secondary);
-            color: var(--text-dim);
-            font-family: 'VT323', monospace;
-            font-size: 16px;
-            text-align: center;
-            cursor: pointer;
-            transition: all 0.15s;
-        }
-
-        .hora-card:hover,
-        .hora-card.selected {
-            border-color: var(--gold-color);
-            color: var(--gold-color);
-            background: #1a0033;
-        }
-
-        /* ── BANNER ADSENSE SLOT ────────────────────────── */
-        .adsense-slot {
-            width: 100%;
-            min-height: 60px;
-            border: 1px dashed #3a0066;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #3a0066;
-            font-family: 'VT323', monospace;
-            font-size: 11px;
-            letter-spacing: 2px;
-            margin: 12px 0;
-        }
-
-        /* ── FOOTER ACTIONS ─────────────────────────────── */
-        .footer-actions {
-            position: fixed;
-            bottom: 0; left: 0; right: 0;
-            display: flex;
-            gap: 8px;
-            padding: 12px 16px;
-            background: var(--bg-color);
-            border-top: 2px solid var(--border-color);
-            z-index: 100;
-        }
-
-        .footer-actions button { width: auto; flex: 1; }
-
-        /* ── BOLA DE CRISTAL ────────────────────────────── */
-        .crystal-ball-container {
-            position: fixed;
-            inset: 0;
-            background: rgba(8,0,16,0.95);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            z-index: 200;
-        }
-
-        .crystal-ball {
-            width: 80px; height: 80px;
-            border-radius: 50%;
-            background: radial-gradient(circle at 35% 35%, #c084fc, #7c3aed 50%, #2a0040);
-            box-shadow: 0 0 30px #9b30ff88, inset 0 0 20px #ffffff22;
-            margin-bottom: 24px;
-        }
-
-        .loading-text {
-            font-family: 'VT323', monospace;
-            font-size: 18px;
-            color: var(--highlight-color);
-            letter-spacing: 3px;
-            text-align: center;
-        }
-
-        /* ── SAVED BANNER ───────────────────────────────── */
-        .saved-banner {
-            background: var(--bg-secondary);
-            border: 2px solid var(--border-color);
-            padding: 12px 16px;
-            margin-bottom: 20px;
-            font-family: 'VT323', monospace;
-            font-size: 14px;
-            color: var(--text-dim);
-            text-align: center;
-        }
-
-        .saved-banner .banner-buttons {
-            display: flex;
-            gap: 8px;
-            margin-top: 10px;
-        }
-
-        .saved-banner.hidden,
-        .hidden { display: none !important; }
-
-        /* ── RESULTADO BLOCO ────────────────────────────── */
-        .result-block {
-            margin-bottom: 20px;
-            padding: 14px;
-            border: 2px solid var(--border-color);
-            background: #0d001f;
-            box-shadow: 4px 4px 0 var(--border-color);
-        }
-
-        .result-block h3 {
-            font-size: 13px;
-            color: var(--gold-color);
-            margin-bottom: 8px;
-            font-family: 'VT323', monospace;
-            letter-spacing: 2px;
-        }
-
-        .result-block p {
-            font-size: 14px;
-            font-family: 'VT323', monospace;
-            color: var(--text-color);
-            line-height: 1.6;
-        }
-
-        /* ── AFILIADOS AMAZON ───────────────────────────── */
-        .affiliate-links {
-            margin-top: 20px;
-            padding: 12px;
-            border: 2px dashed var(--border-color);
-        }
-
-        .affiliate-links p {
-            font-family: 'VT323', monospace;
-            font-size: 13px;
-            color: var(--text-dim);
-            text-align: center;
-            margin-bottom: 8px;
-        }
-
-        .affiliate-links a {
-            display: block;
-            padding: 8px;
-            margin: 4px 0;
-            background: var(--bg-secondary);
-            border: 1px solid var(--border-color);
-            font-family: 'VT323', monospace;
-            font-size: 14px;
-            color: var(--highlight-color);
-            text-align: center;
-        }
-
-        .affiliate-links a:hover { color: var(--gold-color); }
-    </style>
 </head>
 <body>
+    <div class="container">
 
-<!-- ═══════════════════════════════════════════════════════
-     SLOT ADSENSE — TOPO
-     ══════════════════════════════════════════════════════ -->
-<div class="adsense-slot" id="adsense-topo">
-    <!-- ADSENSE TOPO — ATIVAR APÓS APROVAÇÃO -->
-</div>
-
-<div class="container">
-
-    <!-- ── BANNER LEITURA SALVA ──────────────────────────── -->
-    <div id="saved-banner" class="saved-banner hidden">
-        VOCE TEM UMA LEITURA SALVA DE <span class="date"></span>. DESEJA VER?
-        <div class="banner-buttons">
-            <button onclick="alert('Em breve!')">VER ANTERIOR</button>
-            <button onclick="document.getElementById('saved-banner').classList.add('hidden')">NOVA LEITURA</button>
-        </div>
-    </div>
-
-    <!-- ════════════════════════════════════════════════════
-         ETAPA 1 — ENTRADA
-         ════════════════════════════════════════════════════ -->
-    <div id="etapa-1" class="etapa" data-etapa="1">
-
-        <div class="site-header">
-            <div class="glyph-top">✦ ✧ ✦</div>
-            <h1>sonheicom.com.br</h1>
-            <div class="glyph-sub">— ORACULO DE SONHOS —</div>
+        <!-- Banner de Leitura Salva -->
+        <div id="saved-banner" class="saved-banner hidden">
+            Você tem uma leitura salva de <span class="date"></span>. Deseja ver?
+            <div class="banner-buttons">
+                <button onclick="alert('Funcionalidade em breve!')">VER ANTERIOR</button>
+                <button onclick="document.getElementById('saved-banner').classList.add('hidden')">NOVA LEITURA</button>
+            </div>
         </div>
 
-        <input
-            type="text"
-            id="input-nome"
-            placeholder="SEU PRIMEIRO NOME"
-            maxlength="30"
-            autocomplete="off"
-            style="text-transform: uppercase;"
-            oninput="this.value = this.value.toUpperCase(); validarEtapa1();"
-        >
+        <!-- ETAPA 1 -->
+        <div id="etapa-1" class="etapa">
 
-        <!-- DRUM SCROLL — DIA / MÊS / ANO -->
-        <div class="drum-row">
-            <div class="drum-col">
-                <div class="drum-label">DIA</div>
-                <div class="drum-window" id="drum-dia-win"></div>
-                <div class="drum-arrows">
-                    <button class="drum-btn" onclick="drumStep('dia',-1)">&#9650;</button>
-                    <button class="drum-btn" onclick="drumStep('dia',1)">&#9660;</button>
+            <div class="site-header">
+                <div class="header-sigil">✦</div>
+                <h1>— ORÁCULO DE SONHOS —</h1>
+                <div class="header-sigil">✦</div>
+            </div>
+
+            <input type="text" id="input-nome" placeholder="SEU PRIMEIRO NOME" required>
+
+            <div class="scroll-selector">
+                <select id="nasc-dia"><option>DIA</option></select>
+                <select id="nasc-mes"><option>MÊS</option></select>
+                <select id="nasc-ano"><option>ANO</option></select>
+            </div>
+            <p class="label-nascimento">USADO APENAS PARA CALCULAR SEU NÚMERO PESSOAL</p>
+
+            <div id="trilha-selector" class="card-grid trilha-grid">
+                <div class="card trilha-card" data-trilha="significado">
+                    <span class="card-sigil">◆</span>
+                    <span class="card-title">SIGNIFICADO</span>
+                    <span class="context">entender o sonho</span>
+                </div>
+                <div class="card trilha-card" data-trilha="sorte">
+                    <span class="card-sigil">★</span>
+                    <span class="card-title">SORTE</span>
+                    <span class="context">números e jogo</span>
+                </div>
+                <div class="card trilha-card" data-trilha="amor">
+                    <span class="card-sigil">♥</span>
+                    <span class="card-title">AMOR</span>
+                    <span class="context">relacionamentos</span>
+                </div>
+                <div class="card trilha-card" data-trilha="mente">
+                    <span class="card-sigil">☽</span>
+                    <span class="card-title">MENTE</span>
+                    <span class="context">bem-estar e sono</span>
                 </div>
             </div>
-            <div class="drum-col">
-                <div class="drum-label">MES</div>
-                <div class="drum-window" id="drum-mes-win"></div>
-                <div class="drum-arrows">
-                    <button class="drum-btn" onclick="drumStep('mes',-1)">&#9650;</button>
-                    <button class="drum-btn" onclick="drumStep('mes',1)">&#9660;</button>
-                </div>
-            </div>
-            <div class="drum-col">
-                <div class="drum-label">ANO</div>
-                <div class="drum-window" id="drum-ano-win"></div>
-                <div class="drum-arrows">
-                    <button class="drum-btn" onclick="drumStep('ano',-1)">&#9650;</button>
-                    <button class="drum-btn" onclick="drumStep('ano',1)">&#9660;</button>
-                </div>
-            </div>
-        </div>
-        <p class="hint-text">USADO APENAS PARA CALCULAR SEU NUMERO PESSOAL</p>
 
-        <!-- TRILHAS -->
-        <div id="trilha-selector" class="card-grid">
-            <div class="card" data-trilha="significado" onclick="selecionarTrilha(this)">
-                <span class="card-icon">&#9670;</span>
-                SIGNIFICADO
-                <div class="context">entender o sonho</div>
-            </div>
-            <div class="card" data-trilha="sorte" onclick="selecionarTrilha(this)">
-                <span class="card-icon">&#9733;</span>
-                SORTE
-                <div class="context">numeros e jogo</div>
-            </div>
-            <div class="card" data-trilha="amor" onclick="selecionarTrilha(this)">
-                <span class="card-icon">&#9825;</span>
-                AMOR
-                <div class="context">relacionamentos</div>
-            </div>
-            <div class="card" data-trilha="mente" onclick="selecionarTrilha(this)">
-                <span class="card-icon">&#9788;</span>
-                MENTE
-                <div class="context">bem-estar e sono</div>
-            </div>
+            <button id="btn-entrar" disabled>ENTRAR NO ORÁCULO</button>
         </div>
 
-        <button id="btn-entrar" disabled onclick="entrarNoOraculo()">ENTRAR NO ORACULO</button>
-    </div>
-
-    <!-- ════════════════════════════════════════════════════
-         ETAPA 2 — SIMBOLOS (carrossel)
-         ════════════════════════════════════════════════════ -->
-    <div id="etapa-2" class="etapa hidden" data-etapa="2">
-
-        <div class="progress-container">
-            <div id="progress-bar" class="progress-bar"></div>
+        <!-- ETAPA 2 -->
+        <div id="etapa-2" class="etapa hidden">
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+            <h2 id="sub-etapa-title">PESSOAS</h2>
+            <div id="grid-sub-etapa" class="card-grid"></div>
+            <button onclick="nextSubEtapa()">PRÓXIMO / PULAR</button>
         </div>
 
-        <div class="glyph-top">&#9670; &#9670; &#9670;</div>
-        <h2 id="sub-etapa-title">PESSOAS</h2>
+        <!-- ETAPA 3 -->
+        <div id="etapa-3" class="etapa hidden">
 
-        <div id="carrossel-wrapper" class="carrossel-wrapper">
-            <div id="grid-sub-etapa" class="card-grid carrossel"></div>
-        </div>
+            <h2>SOBRE O SONHO</h2>
 
-        <button onclick="nextSubEtapa()">PROXIMO / PULAR &#9658;</button>
-    </div>
-
-    <!-- ════════════════════════════════════════════════════
-         ETAPA 3 — PERGUNTAS SEQUENCIAIS
-         ════════════════════════════════════════════════════ -->
-    <div id="etapa-3" class="etapa hidden" data-etapa="3">
-
-        <div class="glyph-top">&#9670; &#9670; &#9670;</div>
-        <h2>SOBRE O SONHO</h2>
-
-        <!-- Barra de progresso interna etapa 3 -->
-        <div class="progress-container" style="margin-bottom: 20px;">
-            <div id="progress-bar-3" class="progress-bar"></div>
-        </div>
-
-        <!-- P1: EMOCAO -->
-        <div class="pergunta-seq ativa" id="perg-1">
-            <p class="pergunta-contador">1 / 8</p>
             <p class="label-section">COMO VOCE SE SENTIU?</p>
-            <div class="card-grid">
-                <div class="card" data-group="emocao" data-value="medo"     onclick="selecionarUnicoSeq(this,'emocao')">MEDO</div>
-                <div class="card" data-group="emocao" data-value="alegria"  onclick="selecionarUnicoSeq(this,'emocao')">ALEGRIA</div>
-                <div class="card" data-group="emocao" data-value="angustia" onclick="selecionarUnicoSeq(this,'emocao')">ANGUSTIA</div>
-                <div class="card" data-group="emocao" data-value="confusao" onclick="selecionarUnicoSeq(this,'emocao')">CONFUSAO</div>
+            <div id="grid-emocao" class="card-grid">
+                <div class="card" data-group="emocao" data-value="medo" onclick="selecionarUnico(this,'emocao')">MEDO</div>
+                <div class="card" data-group="emocao" data-value="alegria" onclick="selecionarUnico(this,'emocao')">ALEGRIA</div>
+                <div class="card" data-group="emocao" data-value="angustia" onclick="selecionarUnico(this,'emocao')">ANGUSTIA</div>
+                <div class="card" data-group="emocao" data-value="confusao" onclick="selecionarUnico(this,'emocao')">CONFUSAO</div>
             </div>
-        </div>
 
-        <!-- P2: RECORRENTE -->
-        <div class="pergunta-seq" id="perg-2">
-            <p class="pergunta-contador">2 / 8</p>
             <p class="label-section">JA SONHOU COM ISSO ANTES?</p>
             <div class="card-grid">
-                <div class="card" data-group="recorrente" data-value="sim" onclick="selecionarUnicoSeq(this,'recorrente')">SIM</div>
-                <div class="card" data-group="recorrente" data-value="nao" onclick="selecionarUnicoSeq(this,'recorrente')">NAO</div>
+                <div class="card" data-group="recorrente" data-value="sim" onclick="selecionarUnico(this,'recorrente')">SIM</div>
+                <div class="card" data-group="recorrente" data-value="nao" onclick="selecionarUnico(this,'recorrente')">NAO</div>
             </div>
-        </div>
 
-        <!-- P3: PERIODO -->
-        <div class="pergunta-seq" id="perg-3">
-            <p class="pergunta-contador">3 / 8</p>
             <p class="label-section">ERA DIA OU NOITE NO SONHO?</p>
             <div class="card-grid">
-                <div class="card" data-group="periodo" data-value="dia"       onclick="selecionarUnicoSeq(this,'periodo')">DIA</div>
-                <div class="card" data-group="periodo" data-value="noite"     onclick="selecionarUnicoSeq(this,'periodo')">NOITE</div>
-                <div class="card" data-group="periodo" data-value="nao_lembro" onclick="selecionarUnicoSeq(this,'periodo')">NAO LEMBRO</div>
+                <div class="card" data-group="periodo" data-value="dia" onclick="selecionarUnico(this,'periodo')">DIA</div>
+                <div class="card" data-group="periodo" data-value="noite" onclick="selecionarUnico(this,'periodo')">NOITE</div>
+                <div class="card" data-group="periodo" data-value="nao_lembro" onclick="selecionarUnico(this,'periodo')">NAO LEMBRO</div>
             </div>
-        </div>
 
-        <!-- P4: COR SONHO -->
-        <div class="pergunta-seq" id="perg-4">
-            <p class="pergunta-contador">4 / 8</p>
             <p class="label-section">O SONHO ERA COLORIDO OU PRETO E BRANCO?</p>
             <div class="card-grid">
-                <div class="card" data-group="cor_sonho" data-value="colorido"  onclick="selecionarUnicoSeq(this,'cor_sonho')">COLORIDO</div>
-                <div class="card" data-group="cor_sonho" data-value="pb"        onclick="selecionarUnicoSeq(this,'cor_sonho')">PRETO E BRANCO</div>
-                <div class="card" data-group="cor_sonho" data-value="nao_lembro" onclick="selecionarUnicoSeq(this,'cor_sonho')">NAO LEMBRO</div>
+                <div class="card" data-group="cor_sonho" data-value="colorido" onclick="selecionarUnico(this,'cor_sonho')">COLORIDO</div>
+                <div class="card" data-group="cor_sonho" data-value="pb" onclick="selecionarUnico(this,'cor_sonho')">PRETO E BRANCO</div>
+                <div class="card" data-group="cor_sonho" data-value="nao_lembro" onclick="selecionarUnico(this,'cor_sonho')">NAO LEMBRO</div>
             </div>
-        </div>
 
-        <!-- P5: COR DOMINANTE -->
-        <div class="pergunta-seq" id="perg-5">
-            <p class="pergunta-contador">5 / 8</p>
             <p class="label-section">QUE COR MAIS APARECEU?</p>
             <div class="card-grid">
-                <div class="card" data-group="cor_dominante" data-value="preto"     onclick="selecionarUnicoSeq(this,'cor_dominante')">PRETO</div>
-                <div class="card" data-group="cor_dominante" data-value="branco"    onclick="selecionarUnicoSeq(this,'cor_dominante')">BRANCO</div>
-                <div class="card" data-group="cor_dominante" data-value="vermelho"  onclick="selecionarUnicoSeq(this,'cor_dominante')">VERMELHO</div>
-                <div class="card" data-group="cor_dominante" data-value="roxo"      onclick="selecionarUnicoSeq(this,'cor_dominante')">ROXO</div>
-                <div class="card" data-group="cor_dominante" data-value="dourado"   onclick="selecionarUnicoSeq(this,'cor_dominante')">DOURADO</div>
-                <div class="card" data-group="cor_dominante" data-value="azul"      onclick="selecionarUnicoSeq(this,'cor_dominante')">AZUL</div>
-                <div class="card" data-group="cor_dominante" data-value="nao_lembro" onclick="selecionarUnicoSeq(this,'cor_dominante')">NAO LEMBRO</div>
+                <div class="card" data-group="cor_dominante" data-value="preto" onclick="selecionarUnico(this,'cor_dominante')">PRETO</div>
+                <div class="card" data-group="cor_dominante" data-value="branco" onclick="selecionarUnico(this,'cor_dominante')">BRANCO</div>
+                <div class="card" data-group="cor_dominante" data-value="vermelho" onclick="selecionarUnico(this,'cor_dominante')">VERMELHO</div>
+                <div class="card" data-group="cor_dominante" data-value="roxo" onclick="selecionarUnico(this,'cor_dominante')">ROXO</div>
+                <div class="card" data-group="cor_dominante" data-value="dourado" onclick="selecionarUnico(this,'cor_dominante')">DOURADO</div>
+                <div class="card" data-group="cor_dominante" data-value="azul" onclick="selecionarUnico(this,'cor_dominante')">AZUL</div>
+                <div class="card" data-group="cor_dominante" data-value="nao_lembro" onclick="selecionarUnico(this,'cor_dominante')">NAO LEMBRO</div>
             </div>
-        </div>
 
-        <!-- P6: DESPERTAR -->
-        <div class="pergunta-seq" id="perg-6">
-            <p class="pergunta-contador">6 / 8</p>
-            <p class="label-section">COMO VOCE ACORDOU? (ate 2)</p>
-            <div class="card-grid">
-                <div class="card" data-group="despertar" data-value="suor_frio"         onclick="selecionarMultiploSeq(this,'despertar',2)">SUOR FRIO</div>
-                <div class="card" data-group="despertar" data-value="coracao_acelerado" onclick="selecionarMultiploSeq(this,'despertar',2)">CORACAO ACELERADO</div>
-                <div class="card" data-group="despertar" data-value="chorando"          onclick="selecionarMultiploSeq(this,'despertar',2)">CHORANDO</div>
-                <div class="card" data-group="despertar" data-value="sensacao_de_paz"   onclick="selecionarMultiploSeq(this,'despertar',2)">SENSACAO DE PAZ</div>
-                <div class="card" data-group="despertar" data-value="peso_no_peito"     onclick="selecionarMultiploSeq(this,'despertar',2)">PESO NO PEITO</div>
-                <div class="card" data-group="despertar" data-value="leveza"            onclick="selecionarMultiploSeq(this,'despertar',2)">LEVEZA</div>
+            <p class="label-section">COMO VOCE ACORDOU?</p>
+            <div id="grid-despertar" class="card-grid">
+                <div class="card" data-group="despertar" data-value="suor_frio" onclick="selecionarMultiplo(this,'despertar',2)">SUOR FRIO</div>
+                <div class="card" data-group="despertar" data-value="coracao_acelerado" onclick="selecionarMultiplo(this,'despertar',2)">CORACAO ACELERADO</div>
+                <div class="card" data-group="despertar" data-value="chorando" onclick="selecionarMultiplo(this,'despertar',2)">CHORANDO</div>
+                <div class="card" data-group="despertar" data-value="sensacao_de_paz" onclick="selecionarMultiplo(this,'despertar',2)">SENSACAO DE PAZ</div>
+                <div class="card" data-group="despertar" data-value="peso_no_peito" onclick="selecionarMultiplo(this,'despertar',2)">PESO NO PEITO</div>
+                <div class="card" data-group="despertar" data-value="leveza" onclick="selecionarMultiplo(this,'despertar',2)">LEVEZA</div>
             </div>
-            <button onclick="avancarPergunta(7)" style="margin-top:12px;">CONTINUAR &#9658;</button>
-        </div>
 
-        <!-- P7: AMOR -->
-        <div class="pergunta-seq" id="perg-7">
-            <p class="pergunta-contador">7 / 8</p>
+            <hr style="border: 1px dashed var(--border-color); margin: 30px 0;">
+            <h2>SOBRE VOCE HOJE</h2>
+
             <p class="label-section">COMO ESTA O AMOR?</p>
             <div class="card-grid">
-                <div class="card" data-group="amor" data-value="bem"          onclick="selecionarUnicoSeq(this,'amor')">BEM</div>
-                <div class="card" data-group="amor" data-value="mais_ou_menos" onclick="selecionarUnicoSeq(this,'amor')">MAIS OU MENOS</div>
-                <div class="card" data-group="amor" data-value="mal"          onclick="selecionarUnicoSeq(this,'amor')">MAL</div>
+                <div class="card" data-group="amor" data-value="bem" onclick="selecionarUnico(this,'amor')">BEM</div>
+                <div class="card" data-group="amor" data-value="mais_ou_menos" onclick="selecionarUnico(this,'amor')">MAIS OU MENOS</div>
+                <div class="card" data-group="amor" data-value="mal" onclick="selecionarUnico(this,'amor')">MAL</div>
             </div>
-        </div>
 
-        <!-- P8: HORAS -->
-        <div class="pergunta-seq" id="perg-8">
-            <p class="pergunta-contador">8 / 8</p>
+            <p class="label-section">COMO ESTAO AS FINANCAS?</p>
+            <div class="card-grid">
+                <div class="card" data-group="financas" data-value="tranquilo" onclick="selecionarUnico(this,'financas')">TRANQUILO</div>
+                <div class="card" data-group="financas" data-value="apertado" onclick="selecionarUnico(this,'financas')">APERTADO</div>
+                <div class="card" data-group="financas" data-value="critico" onclick="selecionarUnico(this,'financas')">CRITICO</div>
+            </div>
+
             <p class="label-section">QUE HORAS VOCE ACORDOU?</p>
-            <div class="horas-grid" id="grid-horas">
-                <div class="hora-card" data-value="04h00" onclick="selecionarHora(this)">04h00</div>
-                <div class="hora-card" data-value="04h30" onclick="selecionarHora(this)">04h30</div>
-                <div class="hora-card" data-value="05h00" onclick="selecionarHora(this)">05h00</div>
-                <div class="hora-card" data-value="05h30" onclick="selecionarHora(this)">05h30</div>
-                <div class="hora-card" data-value="06h00" onclick="selecionarHora(this)">06h00</div>
-                <div class="hora-card" data-value="06h30" onclick="selecionarHora(this)">06h30</div>
-                <div class="hora-card" data-value="07h00" onclick="selecionarHora(this)">07h00</div>
-                <div class="hora-card" data-value="07h30" onclick="selecionarHora(this)">07h30</div>
-                <div class="hora-card" data-value="08h00" onclick="selecionarHora(this)">08h00</div>
-                <div class="hora-card" data-value="08h30" onclick="selecionarHora(this)">08h30</div>
-                <div class="hora-card" data-value="09h00" onclick="selecionarHora(this)">09h00</div>
-                <div class="hora-card" data-value="09h30" onclick="selecionarHora(this)">09h30</div>
-                <div class="hora-card" data-value="10h00" onclick="selecionarHora(this)">10h00</div>
-                <div class="hora-card" data-value="10h30" onclick="selecionarHora(this)">10h30</div>
-                <div class="hora-card" data-value="11h00" onclick="selecionarHora(this)">11h00</div>
-                <div class="hora-card" data-value="11h30" onclick="selecionarHora(this)">11h30</div>
-                <div class="hora-card" data-value="12h00" onclick="selecionarHora(this)">12h00</div>
-                <div class="hora-card" data-value="nao_lembro" onclick="selecionarHora(this)">NAO LEMBRO</div>
+            <div class="card-grid" id="grid-horas">
+                <select id="hora-acordou" style="background: var(--bg-secondary); color: var(--text-primary); border: 2px solid var(--border-color); padding: 10px; font-family: inherit; font-size: 10px; width: 100%;">
+                    <option value="">-- SELECIONE --</option>
+                    <option>04h00</option><option>04h30</option>
+                    <option>05h00</option><option>05h30</option>
+                    <option>06h00</option><option>06h30</option>
+                    <option>07h00</option><option>07h30</option>
+                    <option>08h00</option><option>08h30</option>
+                    <option>09h00</option><option>09h30</option>
+                    <option>10h00</option><option>10h30</option>
+                    <option>11h00</option><option>11h30</option>
+                    <option>12h00</option>
+                </select>
             </div>
-            <button onclick="revelarOraculo()" style="margin-top: 20px;">REVELAR MEU ORACULO &#9670;</button>
+
+            <button onclick="revelarOraculo()" style="margin-top: 30px;">REVELAR MEU ORÁCULO</button>
         </div>
 
-    </div><!-- /etapa-3 -->
-
-    <!-- ════════════════════════════════════════════════════
-         ETAPA 4 — RESULTADO
-         ════════════════════════════════════════════════════ -->
-    <div id="etapa-4" class="etapa hidden" data-etapa="4">
-
-        <div class="glyph-top">&#9670; &#9670; &#9670;</div>
-        <div id="resultados"></div>
-
-        <!-- Links afiliado Amazon -->
-        <div class="affiliate-links" id="affiliate-links">
-            <p>&#9670; APROFUNDE SUA JORNADA &#9670;</p>
-            <a href="https://amzn.to/XXXXXX" target="_blank" rel="nofollow">LIVRO DE SONHOS — DICIONARIO SIMBOLICO</a>
-            <a href="https://amzn.to/XXXXXX" target="_blank" rel="nofollow">TAROT RIDER WAITE — BARALHO COMPLETO</a>
-            <a href="https://amzn.to/XXXXXX" target="_blank" rel="nofollow">CRISTAL DE QUARTZO ROSA — HARMONIZACAO</a>
+        <!-- ETAPA 4 -->
+        <div id="etapa-4" class="etapa hidden">
+            <div id="resultados"></div>
         </div>
 
-        <div style="height: 80px;"></div><!-- espaço pro footer fixo -->
+        <!-- Overlay Bola de Cristal -->
+        <div id="crystal-ball-overlay" class="crystal-ball-container hidden">
+            <div class="crystal-ball pulse"></div>
+            <div id="loading-text" class="loading-text">lendo seus símbolos...</div>
+        </div>
+
+        <!-- Footer legal minimalista -->
+        <footer class="footer-legal">
+            <p>este site tem caráter exclusivamente de entretenimento — não incentivamos apostas.</p>
+            <nav>
+                <a href="sobre.html">sobre</a>
+                <span>·</span>
+                <a href="politica-de-privacidade.html">privacidade</a>
+            </nav>
+        </footer>
+
+        <!-- Rodapé Fixo Etapa 4 -->
+        <div id="footer-actions" class="footer-actions hidden">
+            <button onclick="compartilharZap()">WHATSAPP</button>
+            <button onclick="salvarLeitura()">SALVAR LEITURA</button>
+        </div>
+
     </div>
 
-    <!-- ── OVERLAY BOLA DE CRISTAL ───────────────────────── -->
-    <div id="crystal-ball-overlay" class="crystal-ball-container hidden">
-        <div class="crystal-ball pulse"></div>
-        <div id="loading-text" class="loading-text">lendo seus simbolos...</div>
-    </div>
-
-    <!-- ── FOOTER ────────────────────────────────────────── -->
-    <footer>
-        <p>ESTE SITE TEM CARATER EXCLUSIVAMENTE DE ENTRETENIMENTO</p>
-        <p>NAO INCENTIVAMOS APOSTAS.</p>
-        <div class="footer-links">
-            <a href="sobre.html">SOBRE</a> <span>|</span> <a href="politica-de-privacidade.html">PRIVACIDADE</a>
-        </div>
-    </footer>
-
-</div><!-- /container -->
-
-<!-- ═══════════════════════════════════════════════════════
-     SLOT ADSENSE — RODAPÉ
-     ══════════════════════════════════════════════════════ -->
-<div class="adsense-slot" id="adsense-rodape">
-    <!-- ADSENSE RODAPÉ — ATIVAR APÓS APROVAÇÃO -->
-</div>
-
-<!-- ── FOOTER FIXO ETAPA 4 ──────────────────────────────── -->
-<div id="footer-actions" class="footer-actions hidden">
-    <button onclick="compartilharWhatsapp()">COMPARTILHAR</button>
-    <button onclick="salvarLeitura()">SALVAR LEITURA</button>
-    <button onclick="comecarDeNovo()">COMECAR DE NOVO</button>
-</div>
-
-<!-- ════════════════════════════════════════════════════════
-     SCRIPTS
-     ════════════════════════════════════════════════════ -->
-<script src="assets/js/lua.js"></script>
-<script src="assets/js/numeros.js"></script>
-<script src="assets/js/etapas.js"></script>
-<script src="assets/js/leitura.js"></script>
-<script src="assets/js/app.js"></script>
-
-<script>
-/* ═══════════════════════════════════════════════════════
-   DRUM SCROLL — DIA / MÊS / ANO
-   ══════════════════════════════════════════════════════ */
-const drumData = {
-    dia: { items: [], idx: 0 },
-    mes: { items: [], idx: 0 },
-    ano: { items: [], idx: 0 }
-};
-
-const MESES = ['JAN','FEV','MAR','ABR','MAI','JUN','JUL','AGO','SET','OUT','NOV','DEZ'];
-
-(function initDrums() {
-    // dias 1–31
-    drumData.dia.items = ['—', ...Array.from({length:31},(_,i)=>String(i+1).padStart(2,'0'))];
-    // meses
-    drumData.mes.items = ['—', ...MESES];
-    // anos (1940–2010)
-    const anos = ['—'];
-    for (let y = 2010; y >= 1940; y--) anos.push(String(y));
-    drumData.ano.items = anos;
-
-    renderDrum('dia');
-    renderDrum('mes');
-    renderDrum('ano');
-})();
-
-function renderDrum(key) {
-    const d = drumData[key];
-    const win = document.getElementById('drum-' + key + '-win');
-    const inner = document.createElement('div');
-    inner.className = 'drum-inner';
-    inner.id = 'drum-' + key + '-inner';
-
-    d.items.forEach((item, i) => {
-        const el = document.createElement('div');
-        el.className = 'drum-item' + (i === d.idx ? ' active' : '');
-        el.textContent = item;
-        inner.appendChild(el);
-    });
-
-    win.innerHTML = '';
-    win.appendChild(inner);
-    scrollDrum(key, true);
-}
-
-function scrollDrum(key, instant) {
-    const d = drumData[key];
-    const inner = document.getElementById('drum-' + key + '-inner');
-    if (!inner) return;
-    // centraliza item ativo na janela de 44px
-    const offset = d.idx * -44;
-    inner.style.transition = instant ? 'none' : 'transform 0.25s cubic-bezier(.4,0,.2,1)';
-    inner.style.transform = 'translateY(' + offset + 'px)';
-
-    // atualiza classe active
-    inner.querySelectorAll('.drum-item').forEach((el, i) => {
-        el.classList.toggle('active', i === d.idx);
-    });
-    validarEtapa1();
-}
-
-function drumStep(key, dir) {
-    const d = drumData[key];
-    d.idx = Math.max(0, Math.min(d.items.length - 1, d.idx + dir));
-    scrollDrum(key, false);
-}
-
-function getDrumValue(key) {
-    const d = drumData[key];
-    return d.idx === 0 ? null : d.items[d.idx];
-}
-
-/* ═══════════════════════════════════════════════════════
-   VALIDAÇÃO ETAPA 1
-   ══════════════════════════════════════════════════════ */
-let trilhaSelecionada = null;
-
-function validarEtapa1() {
-    const nome = document.getElementById('input-nome').value.trim();
-    const dia  = getDrumValue('dia');
-    const mes  = getDrumValue('mes');
-    const ano  = getDrumValue('ano');
-    const ok   = nome.length > 0 && dia && mes && ano && trilhaSelecionada;
-    document.getElementById('btn-entrar').disabled = !ok;
-}
-
-function selecionarTrilha(el) {
-    document.querySelectorAll('#trilha-selector .card').forEach(c => c.classList.remove('selected'));
-    el.classList.add('selected');
-    trilhaSelecionada = el.dataset.trilha;
-    // expõe global para etapas.js
-    window.trilhaAtiva = trilhaSelecionada;
-    validarEtapa1();
-}
-
-function entrarNoOraculo() {
-    // expõe dados para app.js / etapas.js
-    window.nomeUsuario  = document.getElementById('input-nome').value.trim();
-    window.nascDia      = getDrumValue('dia');
-    window.nascMes      = getDrumValue('mes');
-    window.nascAno      = getDrumValue('ano');
-
-    // chama função já existente no app.js (se existir), senão avança etapa
-    if (typeof iniciarJornada === 'function') {
-        iniciarJornada();
-    } else {
-        mostrarEtapa(2);
-    }
-}
-
-/* ═══════════════════════════════════════════════════════
-   ETAPA 3 — PERGUNTAS SEQUENCIAIS
-   ══════════════════════════════════════════════════════ */
-const TOTAL_PERGUNTAS = 8;
-let perguntaAtual = 1;
-
-function avancarPergunta(proxima) {
-    const atual = document.getElementById('perg-' + perguntaAtual);
-    const prox  = document.getElementById('perg-' + proxima);
-    if (!prox) return;
-
-    if (atual) atual.classList.remove('ativa');
-    prox.classList.add('ativa');
-    perguntaAtual = proxima;
-
-    // barra de progresso etapa 3
-    const pct = ((perguntaAtual - 1) / TOTAL_PERGUNTAS) * 100;
-    const bar = document.getElementById('progress-bar-3');
-    if (bar) bar.style.width = pct + '%';
-
-    // scroll topo suave
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-function selecionarUnicoSeq(el, grupo) {
-    document.querySelectorAll('[data-group="' + grupo + '"]').forEach(c => c.classList.remove('selected'));
-    el.classList.add('selected');
-    // avança automaticamente após 300ms
-    const prox = perguntaAtual + 1;
-    if (prox <= TOTAL_PERGUNTAS) {
-        setTimeout(() => avancarPergunta(prox), 300);
-    }
-}
-
-function selecionarMultiploSeq(el, grupo, max) {
-    const selecionados = document.querySelectorAll('[data-group="' + grupo + '"].selected');
-    if (el.classList.contains('selected')) {
-        el.classList.remove('selected');
-    } else if (selecionados.length < max) {
-        el.classList.add('selected');
-    }
-}
-
-function selecionarHora(el) {
-    document.querySelectorAll('.hora-card').forEach(c => c.classList.remove('selected'));
-    el.classList.add('selected');
-    window.horaAcordou = el.dataset.value;
-}
-
-/* ═══════════════════════════════════════════════════════
-   ETAPA 4 — AÇÕES
-   ══════════════════════════════════════════════════════ */
-function comecarDeNovo() {
-    perguntaAtual = 1;
-    trilhaSelecionada = null;
-    window.trilhaAtiva = null;
-
-    // limpa seleções
-    document.querySelectorAll('.card.selected').forEach(c => c.classList.remove('selected'));
-    document.querySelectorAll('.hora-card.selected').forEach(c => c.classList.remove('selected'));
-
-    // reseta drum
-    drumData.dia.idx = 0; scrollDrum('dia', true);
-    drumData.mes.idx = 0; scrollDrum('mes', true);
-    drumData.ano.idx = 0; scrollDrum('ano', true);
-
-    // reseta input
-    document.getElementById('input-nome').value = '';
-
-    // volta perguntas seq
-    document.querySelectorAll('.pergunta-seq').forEach(p => p.classList.remove('ativa'));
-    const p1 = document.getElementById('perg-1');
-    if (p1) p1.classList.add('ativa');
-
-    document.getElementById('footer-actions').classList.add('hidden');
-    mostrarEtapa(1);
-}
-
-function compartilharWhatsapp() {
-    const nome = window.nomeUsuario || '';
-    const msg  = encodeURIComponent('Acabei de consultar o Oraculo de Sonhos! Veja o seu em: https://sonheicom.com.br');
-    window.open('https://api.whatsapp.com/send?text=' + msg, '_blank');
-}
-
-/* ═══════════════════════════════════════════════════════
-   HELPER — mostrar etapa (fallback se app.js não cobrir)
-   ══════════════════════════════════════════════════════ */
-function mostrarEtapa(n) {
-    document.querySelectorAll('.etapa').forEach(e => e.classList.add('hidden'));
-    const alvo = document.getElementById('etapa-' + n);
-    if (alvo) alvo.classList.remove('hidden');
-}
-</script>
-
+    <script src="assets/js/lua.js"></script>
+    <script src="assets/js/numeros.js"></script>
+    <script src="assets/js/etapas.js"></script>
+    <script src="assets/js/leitura.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
