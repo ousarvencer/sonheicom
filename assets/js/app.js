@@ -102,6 +102,7 @@ function nextSubEtapa() {
         renderSubEtapa();
     } else {
         showEtapa(3);
+        startEtapa3();
     }
 }
 
