@@ -296,7 +296,7 @@ function renderResultados() {
 
     blocks.forEach((block, index) => {
         const div = document.createElement('div');
-        div.className = 'result-block fade-in-block';
+        div.className = `result-block ${index === 0 ? 'result-block--hero' : ''} fade-in-block`;
         div.style.animationDelay = `${index * 1.5}s`;
         div.innerHTML = `<h3>${block.title}</h3><p>${block.content}</p>`;
         resultsContainer.appendChild(div);
