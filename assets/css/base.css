@@ -239,8 +239,8 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-    border-color: var(--border-bright);
-    box-shadow: 0 0 10px #8a20f022;
+    border-color: var(--gold-dim);
+    box-shadow: 0 0 16px #8a20f055, 0 0 4px #e8c87a22;
 }
 
 input[type="text"]::placeholder {
