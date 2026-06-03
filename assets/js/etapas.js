@@ -57,6 +57,8 @@ function renderGrid(containerId, items, multiple = true) {
                 container.querySelectorAll('.card').forEach(c => c.classList.remove('selected'));
                 card.classList.add('selected');
             }
+            const temSelecionado = container.querySelectorAll('.selected').length > 0;
+            document.getElementById('btn-proximo').textContent = temSelecionado ? 'PRÓXIMO →' : 'PULAR →';
             updateButtons();
         };
         container.appendChild(card);
