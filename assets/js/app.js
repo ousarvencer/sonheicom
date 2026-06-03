@@ -75,19 +75,28 @@ function startSubEtapas() {
     renderSubEtapa();
 }
 
+const SUBTITULOS = {
+    pessoas: 'quem estava no seu sonho?',
+    animais: 'alguma criatura cruzou seu caminho?',
+    lugares: 'onde você estava?',
+    situacoes: 'o que aconteceu?',
+    objetos: 'o que você viu ou tocou?'
+};
+
 function renderSubEtapa() {
     const key = subEtapas[currentSubEtapa];
     const progressBar = document.getElementById('progress-bar');
     progressBar.style.width = `${((currentSubEtapa + 1) / 5) * 100}%`;
-    
+
     document.getElementById('sub-etapa-title').textContent = key.toUpperCase();
+    document.getElementById('sub-etapa-subtitulo').textContent = SUBTITULOS[key];
+    document.getElementById('btn-proximo').textContent = 'PULAR →';
     renderGrid('grid-sub-etapa', ETAPAS_DATA[key]);
 }
 
 function nextSubEtapa() {
     const selected = Array.from(document.querySelectorAll('#grid-sub-etapa .selected')).map(c => c.textContent);
     currentUserData.selecoes[subEtapas[currentSubEtapa]] = selected;
-
     currentSubEtapa++;
     if (currentSubEtapa < subEtapas.length) {
         renderSubEtapa();
