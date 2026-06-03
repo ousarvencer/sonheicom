@@ -59,7 +59,9 @@ function renderGrid(containerId, items, multiple = true) {
                 card.classList.add('selected');
             }
             const temSelecionado = container.querySelectorAll('.selected').length > 0;
-            document.getElementById('btn-proximo').textContent = temSelecionado ? 'PRÓXIMO →' : 'PULAR →';
+            const btn = document.getElementById('btn-proximo');
+            btn.textContent = temSelecionado ? 'PRÓXIMO →' : 'PULAR →';
+            btn.classList.toggle('ativo', temSelecionado);
             updateButtons();
         };
         container.appendChild(card);
