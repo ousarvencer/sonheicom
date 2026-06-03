@@ -39,3 +39,18 @@
 .result-block p {
     font-size: 8px;
 }
+
+.result-block--hero {
+    border-color: var(--gold-dim);
+    padding: 24px;
+}
+
+.result-block--hero h3 {
+    font-size: 13px;
+    color: var(--gold-color);
+}
+
+.result-block--hero p {
+    font-size: 10px;
+    line-height: 2;
+}
