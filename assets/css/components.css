@@ -102,8 +102,8 @@
     border: 1px solid #4a0888;
     outline: 2px solid #2a005066;
     outline-offset: -6px;
-    min-height: 80px;
-    aspect-ratio: 3 / 5;
+    min-height: 60px;
+    aspect-ratio: 3 / 4;
     padding: 20px 12px;
     color: var(--text-color);
     transition: border-color 0.3s, box-shadow 0.3s, background 0.3s;
@@ -197,7 +197,7 @@
     align-items: center;
     gap: 0;
     border: 1px solid #2a0050;
-    padding: 6px 0;
+    padding: 3px 0;
 }
 
 .spin-btn {
@@ -212,7 +212,7 @@
     line-height: 1;
     letter-spacing: 0;
     transition: color 0.2s;
-    min-height: 36px;
+    min-height: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -234,7 +234,7 @@
     letter-spacing: 2px;
     text-align: center;
     min-width: 40px;
-    padding: 4px 0;
+    padding: 2px 0;
     text-transform: uppercase;
 }
 
