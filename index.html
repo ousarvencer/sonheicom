@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>sonheicom.com.br - Oráculo de Sonhos</title>
+    <meta name="description" content="Descubra o significado dos seus sonhos, números da sorte e previsões místicas.">
+    <meta property="og:title" content="sonheicom.com.br - Seu Oráculo Digital">
+    <meta property="og:description" content="Consulte os astros e seus sonhos agora.">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Banner de Leitura Salva -->
+        <div id="saved-banner" class="saved-banner hidden">
+            Você tem uma leitura salva de <span class="date"></span>. Deseja ver?
+            <div class="banner-buttons">
+                <button onclick="alert('Funcionalidade em breve!')">VER ANTERIOR</button>
+                <button onclick="document.getElementById('saved-banner').classList.add('hidden')">NOVA LEITURA</button>
+            </div>
+        </div>
+
+        <!-- ETAPA 1 -->
+        <div id="etapa-1" class="etapa">
+            <h1>sonheicom.com.br</h1>
+            <input type="text" id="input-nome" placeholder="SEU PRIMEIRO NOME" required>
+            
+            <div class="scroll-selector">
+                <select id="nasc-dia"><option>DIA</option></select>
+                <select id="nasc-mes"><option>MÊS</option></select>
+                <select id="nasc-ano"><option>ANO</option></select>
+            </div>
+            <p style="font-size: 6px; text-align: center; margin-bottom: 20px;">USADO APENAS PARA CALCULAR SEU NÚMERO PESSOAL</p>
+
+            <div id="trilha-selector" class="card-grid">
+                <div class="card" data-trilha="significado">SIGNIFICADO<div class="context">entender o sonho</div></div>
+                <div class="card" data-trilha="sorte">SORTE<div class="context">números e jogo</div></div>
+                <div class="card" data-trilha="amor">AMOR<div class="context">relacionamentos</div></div>
+                <div class="card" data-trilha="mente">MENTE<div class="context">bem-estar e sono</div></div>
+            </div>
+
+            <button id="btn-entrar" disabled>ENTRAR NO ORACULO</button>
+        </div>
+
+        <!-- ETAPA 2 -->
+        <div id="etapa-2" class="etapa hidden">
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+            <h2 id="sub-etapa-title">PESSOAS</h2>
+            <div id="grid-sub-etapa" class="card-grid"></div>
+            <button onclick="nextSubEtapa()">PRÓXIMO / PULAR</button>
+        </div>
+
+        <!-- ETAPA 3 -->
+        <div id="etapa-3" class="etapa hidden">
+            <h2>SOBRE O SONHO</h2>
+            <div class="card-grid">
+                <div class="card">MEDO</div>
+                <div class="card">ALEGRIA</div>
+                <div class="card">ANGÚSTIA</div>
+                <div class="card">CONFUSÃO</div>
+            </div>
+            <hr style="border: 1px dashed var(--border-color); margin: 20px 0;">
+            <h2>SOBRE VOCÊ HOJE</h2>
+            <button onclick="revelarOraculo()">REVELAR MEU ORACULO</button>
+        </div>
+
+        <!-- ETAPA 4 -->
+        <div id="etapa-4" class="etapa hidden">
+            <div id="resultados"></div>
+        </div>
+
+        <!-- Overlay Bola de Cristal -->
+        <div id="crystal-ball-overlay" class="crystal-ball-container hidden">
+            <div class="crystal-ball pulse"></div>
+            <div id="loading-text" class="loading-text">lendo seus simbolos...</div>
+        </div>
+
+        <footer style="margin-top: 40px; text-align: center; font-size: 6px; padding-bottom: 80px;">
+            <p>ESTE SITE TEM CARÁTER EXCLUSIVAMENTE DE ENTRETENIMENTO — NÃO INCENTIVAMOS APOSTAS.</p>
+            <div style="margin-top: 10px;">
+                <a href="sobre.html">SOBRE</a> | <a href="politica-de-privacidade.html">PRIVACIDADE</a>
+            </div>
+        </footer>
+
+        <!-- Rodapé Fixo Etapa 4 -->
+        <div id="footer-actions" class="footer-actions hidden">
+            <button onclick="compartilharZap()">WHATSAPP</button>
+            <button onclick="salvarLeitura()">SALVAR LEITURA</button>
+        </div>
+    </div>
+
+    <script src="assets/js/lua.js"></script>
+    <script src="assets/js/numeros.js"></script>
+    <script src="assets/js/etapas.js"></script>
+    <script src="assets/js/leitura.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

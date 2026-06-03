@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    --bg-color: #0d0014;
+    --highlight-color: #9b30ff;
+    --text-color: #e8d5ff;
+    --border-color: #6a0dad;
+    --gold-color: #ffd700;
+    --font-pixel: 'Press Start 2P', cursive;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-pixel);
+    font-size: 10px;
+    line-height: 1.6;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    color: var(--highlight-color);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+a {
+    color: var(--highlight-color);
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button {
+    font-family: var(--font-pixel);
+    background-color: var(--highlight-color);
+    color: #fff;
+    border: 2px solid var(--border-color);
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px var(--border-color);
+    text-transform: uppercase;
+    transition: transform 0.1s, box-shadow 0.1s;
+    outline: none;
+}
+
+button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px var(--border-color);
+}
+
+button:disabled {
+    background-color: #444;
+    border-color: #222;
+    box-shadow: 4px 4px 0px #222;
+    cursor: not-allowed;
+    color: #888;
+}
+
+input[type="text"], select {
+    background-color: #1a0029;
+    border: 2px solid var(--border-color);
+    color: var(--text-color);
+    font-family: var(--font-pixel);
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.hidden {
+    display: none !important;
+}

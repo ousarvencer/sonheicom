@@ -1,0 +1,162 @@
+/* Progress Bar */
+.progress-container {
+    width: 100%;
+    height: 20px;
+    background: #1a0029;
+    border: 2px solid var(--border-color);
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    height: 100%;
+    background: var(--highlight-color);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+/* Cards */
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #1a0029;
+    border: 2px solid var(--border-color);
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+}
+
+.card.selected {
+    border-color: var(--gold-color);
+    background: var(--highlight-color);
+    color: #fff;
+}
+
+.card .context {
+    font-size: 6px;
+    margin-top: 5px;
+    opacity: 0.8;
+}
+
+/* Oráculo Flow */
+.etapa {
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 0.5s forwards;
+}
+
+/* Scroll Selectors */
+.scroll-selector {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.scroll-selector select {
+    width: 30%;
+}
+
+/* Banner */
+.saved-banner {
+    background: var(--highlight-color);
+    border: 2px solid var(--gold-color);
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 8px;
+}
+
+.banner-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.banner-buttons button {
+    font-size: 7px;
+    padding: 5px;
+}
+
+/* RPG Bars */
+.rpg-bar-container {
+    margin-bottom: 15px;
+}
+
+.rpg-label {
+    font-size: 8px;
+    margin-bottom: 5px;
+}
+
+.rpg-bar-bg {
+    height: 12px;
+    background: #000;
+    border: 2px solid var(--border-color);
+}
+
+.rpg-bar-fill {
+    height: 100%;
+    width: 0%;
+}
+
+.rpg-bar-fill.green { background: #00ff00; }
+.rpg-bar-fill.yellow { background: #ffff00; }
+.rpg-bar-fill.red { background: #ff0000; }
+
+/* Crystal Ball */
+.crystal-ball-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(13, 0, 20, 0.95);
+    z-index: 1000;
+}
+
+.crystal-ball {
+    width: 80px;
+    height: 80px;
+    background: var(--highlight-color);
+    border: 4px solid var(--border-color);
+    margin-bottom: 20px;
+}
+
+.loading-text {
+    font-size: 10px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+/* Footer buttons */
+.footer-actions {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: var(--bg-color);
+    border-top: 2px solid var(--border-color);
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    z-index: 100;
+}
+
+.footer-actions button {
+    flex: 1;
+    font-size: 8px;
+}

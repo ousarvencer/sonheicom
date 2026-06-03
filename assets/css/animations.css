@@ -1,0 +1,41 @@
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes pulseBall {
+    0% { background-color: #2a0040; transform: scale(1); }
+    50% { background-color: #9b30ff; transform: scale(1.1); }
+    100% { background-color: #e8d5ff; transform: scale(1); }
+}
+
+.pulse {
+    animation: pulseBall 1.5s infinite;
+}
+
+.fade-in-block {
+    opacity: 0;
+    animation: fadeIn 0.8s forwards;
+}
+
+.result-block {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 2px solid var(--border-color);
+    background: #1a0029;
+}
+
+.result-block h3 {
+    font-size: 10px;
+    color: var(--gold-color);
+    margin-bottom: 10px;
+}
+
+.result-block p {
+    font-size: 8px;
+}
