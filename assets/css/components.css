@@ -453,3 +453,8 @@
     letter-spacing: 4px;
     margin-bottom: 24px;
 }
+
+.card-grid-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+}
