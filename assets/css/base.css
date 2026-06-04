@@ -348,3 +348,17 @@ input[type="text"]::placeholder {
     opacity: 0.7;
     letter-spacing: 1px;
 }
+
+.favicon-home {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    z-index: 999;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    text-decoration: none;
+    user-select: none;
+}
+.favicon-home img { display: block; }
+.favicon-home:hover { opacity: 1; }
