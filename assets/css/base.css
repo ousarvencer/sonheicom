@@ -359,6 +359,15 @@ input[type="text"]::placeholder {
     transition: opacity 0.2s;
     text-decoration: none;
     user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 .favicon-home img { display: block; }
+.favicon-home span {
+    font-family: var(--font-pixel);
+    font-size: 10px;
+    color: var(--text-color);
+    letter-spacing: 1px;
+}
 .favicon-home:hover { opacity: 1; }
