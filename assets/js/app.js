@@ -111,7 +111,7 @@ const PERGUNTAS = [
         key: 'emocao',
         titulo: 'SOBRE O SONHO',
         subtitulo: 'como você se sentiu?',
-        opcoes: ['MEDO','ALEGRIA','ANGÚSTIA','CONFUSÃO','NOSTALGIA','EUFORIA'],
+        opcoes: ['MEDO','ALEGRIA','ANGÚSTIA','CONFUSÃO','PAZ','RAIVA'],
         multiplo: false
     },
     {
