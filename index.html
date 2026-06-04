@@ -25,6 +25,7 @@
 
     <!-- Canonical -->
     <link rel="canonical" href="https://sonheicom.com.br/">
+    <link rel="icon" type="image/svg+xml" href="assets/sonheicom-favicon.svg">
 
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/components.css">
@@ -108,6 +109,10 @@
 </head>
 <body>
     <div class="container">
+
+    <a class="favicon-home" href="index.html" title="Início">
+        <img src="assets/sonheicom-favicon.svg" width="28" height="28" alt="início">
+    </a>
 
         <!-- Banner de Leitura Salva -->
         <div id="saved-banner" class="saved-banner hidden">
@@ -283,6 +288,7 @@
         <div id="footer-actions" class="footer-actions hidden">
             <button onclick="compartilharZap()">WHATSAPP</button>
             <button onclick="salvarLeitura()">SALVAR LEITURA</button>
+            <button onclick="window.location.href='index.html'">RECOMEÇAR</button>
         </div>
 
     </div>
