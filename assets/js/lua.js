@@ -12,5 +12,3 @@ function getMoonPhase(date) {
     if (res < 22)              return { name: "Minguante", description: "Tempo de soltar. Libere o que não serve mais ao seu caminho." };
     return                            { name: "Minguante", description: "Recolhimento e encerramento. O ciclo se prepara para renascer." };
 }
-
-analise o arquivo e veja se pode tornar mais profissional ]
