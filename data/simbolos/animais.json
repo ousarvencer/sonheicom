@@ -3347,6 +3347,379 @@
       ],
       "estado_despertar": "leveza",
       "sonho_pb": false
-    }
+    },
+{
+  "barata": {
+    "simbolo": "Barata",
+    "slug": "barata",
+    "sinonimos": [
+      "barata",
+      "bicho barata",
+      "arquétipo barata"
+    ],
+    "categoria": "Animais",
+    "seo": {
+      "titulo_base": "Sonhar com Barata — Significado e Interpretação",
+      "descricao_base": "Descubra o que significa sonhar com Barata: interpretações junguianas, mitológicas, psicológicas e espirituais sobre este símbolo animal.",
+      "palavras_chave": [
+        "sonhar com barata",
+        "significado barata sonho",
+        "sonho barata"
+      ]
+    },
+    "mensagem_direta": "A manifestação do(a) Barata nos seus sonhos reflete a ativação de forças instintivas puras e movimentos profundos da sua natureza interior.",
+    "alerta": "Preste atenção ao comportamento do(a) Barata: se ele se mostra hostil ou amigável, indica como o seu ego está a lidar com os seus próprios instintos.",
+    "acao_recomendada": "Procure reconhecer quais as características biológicas ou míticas do(a) Barata que mais ressoam com a sua fase de vida atual e integre-as.",
+    "arquetipo": "A Sombra",
+    "elemento": "Terra",
+    "chakra": {
+      "nome": "Raiz",
+      "sanskrito": "Muladhara",
+      "significado": "Ativação e alinhamento do centro de energia correspondente à vibração e poder do arquétipo do(a) Barata."
+    },
+    "mitologia": {
+      "grega": "Associação com os mensageiros, montarias divinas ou metamorfoses arquetípicas associadas à energia clássica do(a) Barata.",
+      "egipcia": "Espírito guardião dos portais e representação ctônica ou solar das divindades zoomórficas primitivas.",
+      "hindu": "Vahana (veículo espiritual) de deidades maiores ou expression das forças criadoras e destrutivas da natureza física.",
+      "indigena_brasileira": "Animal de poder, guardião espiritual da floresta e aliado de cura nas jornadas xamânicas ancestrais.",
+      "nordica": "Criatura mítica ligada aos fios do destino, presságios de Odin ou forças elementares de Midgard.",
+      "judaico_crista": "Simbolismo profético de provação, renovação da aliança, discernimento espiritual ou forças da criação."
+    },
+    "psicologia": {
+      "jung": "Na perspetiva junguiana, o(a) Barata corporifica os instintos animais não domesticados da psique e conteúdos autônomos do inconsciente coletivo.",
+      "freud": "Freud interpretaria o(a) Barata como uma condensação e deslocamento de impulsos libidinais, desejos reprimidos ou receios inconscientes.",
+      "interpretacao_moderna": "A neurobiologia contemporânea analisa sonhos com animais como simulações evolutivas de ameaça, defesa e regulação de instintos primários.",
+      "fonte": "Jung, C.G. — Símbolos da Transformação; Freud, S. — A Interpretação dos Sonhos"
+    },
+    "sono": {
+      "fase_tipica": "Sono REM vívido e profundo, com intensa atividade do sistema límbico.",
+      "significado_sono": "Processamento de memórias filogenéticas, respostas de sobrevivência e integração emocional através da imagem do(a) Barata.",
+      "ciencia": "Alta ativação da amígdala cerebral e do tronco encefálico durante a simulação de interações biológicas primárias."
+    },
+    "numerologia": {
+      "numero_simbolo": 4,
+      "significado_numero": "Representação de poder material, manifestação da vontade, transmutação espiritual ou análise.",
+      "fonte": "Numerologia Pitagórica"
+    },
+    "leitures": {
+      "geral": "A presença do(a) Barata sugere que uma energia vital muito específica está a tentar capturar a atenção da sua consciência desperta.",
+      "trilha_significado": "Estudo profundo do totem do(a) Barata e o seu papel na evolução da consciência do sonhador.",
+      "trilha_sorte": "Palpites, dezenas e sincronias numéricas sintonizadas com a força animal do(a) Barata.",
+      "trilha_amor": "O reflexo dos instintos afetivos, paixões, dinâmicas de caça, conquista ou fidelidade representadas pelo(a) Barata.",
+      "trilha_mente": "Estratégias de regulação emocional, resiliência e saúde mental baseadas no comportamento do animal."
+    },
+    "contextos": {
+      "de_noite": "Ver o(a) Barata sob o manto da noite intensifica os mistérios ocultos e os aspetos sombrios do instinto.",
+      "de_dia": "O(A) Barata sob a luz do sol denota clareza consciente e uso prático dessa energia biológica na sua rotina.",
+      "com_medo": "Sentir medo do(a) Barata revela que você está a resistir ou a temer os seus próprios impulsos ou forças internas.",
+      "com_alegria": "Alegria ou cumplicidade com o(a) Barata indica uma excelente integração e pacificação com a sua natureza instintiva.",
+      "com_angustia": "Angústia neste cenário revela pressões internas e conflitos de sobrevivência emocional não resolvidos.",
+      "com_confusao": "A incerteza perante o bicho mostra que o sonhador ainda busca compreender os seus desejos genuínos.",
+      "com_paz": "Paz absoluta ao lado do(a) Barata confirma o alinhamento total com o Self e com as leis naturais.",
+      "com_raiva": "A fúria animal reflete limites pessoais severamente violados e a necessidade de se defender na vigília.",
+      "primeira_vez": "O primeiro encontro com este(a) Barata assinala o despertar de um novo potencial ou complexo na sua jornada.",
+      "ja_sonhei": "O retorno desta criatura avisa que uma lição instintiva específica do passado precisa de ser revista.",
+      "frequente": "Sonhar regularmente com o(a) Barata é um apelo imperativo da sua psique profunda por uma reconciliação visceral.",
+      "acordou_coracao_acelerado": "O sonho causou um forte impacto físico, demonstrando que o arquétipo ativou defesas viscerais.",
+      "acordou_leveza": "Sensação de leveza indica libertação de tensões primitivas e fluxo harmonioso após o repouso.",
+      "acordou_suor_frio": "Sinal de que o ego foi confrontado diretamente com forças imensas da Sombra ou do coletivo.",
+      "acordou_confuso": "A mente consciente tenta traduzir as leis e a linguagem puramente analógica do reino animal.",
+      "acordou_chorando": "Catarse ligada a sentimentos profundos de ligação biológica, luto ou libertação de energias reprimidas.",
+      "acordou_aliviado": "A experiência funcionou como uma purificação noturna perfeita de bloqueios instintivos.",
+      "sonho_pb": "A imagem em preto e branco foca a atenção na geometria pura e no significado arquetípico do(a) Barata.",
+      "sonho_colorido": "As cores exuberantes acentuam o vigor, as nuances emocionais e a vitalidade da mensagem trazida.",
+      "cenario_claro": "Ambiente aberto e visível permite mapear e compreender perfeitamente a mensagem do(a) Barata.",
+      "cenario_nebuloso": "A névoa encobre partes da criatura, indicando aspetos do instinto que ainda permanecem ocultos.",
+      "cenario_ameacador": "Ambiente hostil indica que forças autossabotadoras estão a cercar a sua energia vital.",
+      "cenario_pacifico": "Cenário tranquilo atesta que o ecossistema da sua mente está em equilíbrio com o(a) Barata.",
+      "lembrou_tudo": "A lembrança vívida retém cada detalhe, pista e movimento animal para uma tradução rica.",
+      "lembrou_fragmentos": "Agarre o detalhe mais marcante (o olhar, a pele, o rugido); ele contém a essência do recado.",
+      "nao_lembrava": "Mesmo esquecendo os detalhes visuais, a recalibração biológica e instintiva foi completada com sucesso."
+    },
+    "fase_lua": {
+      "nova": "Fase de recolhimento, sementeira e gestação silenciosa do potencial instintivo.",
+      "crescente": "Fase de ação, desenvolvimento e expansão ativa das características do animal.",
+      "cheia": "Plenitude, transbordo emocional e total visibilidade do poder arquetípico.",
+      "minguante": "Fase de limpeza, eliminação de excessos e banimento de aspetos nocivos ou destrutivos."
+    },
+    "emocoes": {
+      "medo": "Enfrentamento das barreiras e defesas do ego consciente.",
+      "alegria": "Harmonia, celebração e livre expressão da vitalidade biológica.",
+      "angustia": "Sufoco e necessidade urgente de espaço para respirar ou agir.",
+      "confusao": "Reavaliação das motivações e busca de direcionamento dos instintos.",
+      "paz": "Equilíbrio, serenidade e integração pacífica das energias internas.",
+      "raiva": "Sinal vital de que limites pessoais foram rompidos e necessitam de demarcação."
+    },
+    "jogo_bicho": {
+      "grupo": "3",
+      "animal": "Burro",
+      "dezenas": [
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "milhar_sugerido": "2011"
+    },
+    "periodo": "dia",
+    "cor_associada": "Castanho",
+    "recorrente": false,
+    "combinacoes_frequentes": [
+      "ataque",
+      "fuga",
+      "proteção",
+      "olhar profundo"
+    ],
+    "estado_despertar": "leveza",
+    "sonho_pb": false
+  },
+  "pomba": {
+    "simbolo": "Pomba",
+    "slug": "pomba",
+    "sinonimos": [
+      "pomba",
+      "bicho pomba",
+      "arquétipo pomba"
+    ],
+    "categoria": "Animais",
+    "seo": {
+      "titulo_base": "Sonhar com Pomba — Significado e Interpretação",
+      "descricao_base": "Descubra o que significa sonhar com Pomba: interpretações junguianas, mitológicas, psicológicas e espirituais sobre este símbolo animal.",
+      "palavras_chave": [
+        "sonhar com pomba",
+        "significado pomba sonho",
+        "sonho pomba"
+      ]
+    },
+    "mensagem_direta": "A manifestação do(a) Pomba nos seus sonhos reflete a ativação de forças instintivas puras e movimentos profundos da sua natureza interior.",
+    "alerta": "Preste atenção ao comportamento do(a) Pomba: se ele se mostra hostil ou amigável, indica como o seu ego está a lidar com os seus próprios instintos.",
+    "acao_recomendada": "Procure reconhecer quais as características biológicas ou míticas do(a) Pomba que mais ressoam com a sua fase de vida atual e integre-as.",
+    "arquetipo": "O Mensageiro",
+    "elemento": "Ar",
+    "chakra": {
+      "nome": "Cardíaco",
+      "sanskrito": "Anahata",
+      "significado": "Ativação e alinhamento do centro de energia correspondente à vibração e poder do arquétipo do(a) Pomba."
+    },
+    "mitologia": {
+      "grega": "Associação com os mensageiros, montarias divinas ou metamorfoses arquetípicas associadas à energia clássica do(a) Pomba.",
+      "egipcia": "Espírito guardião dos portais e representação ctônica ou solar das divindades zoomórficas primitivas.",
+      "hindu": "Vahana (veículo espiritual) de deidades maiores ou expression das forças criadoras e destrutivas da natureza física.",
+      "indigena_brasileira": "Animal de poder, guardião espiritual da floresta e aliado de cura nas jornadas xamânicas ancestrais.",
+      "nordica": "Criatura mítica ligada aos fios do destino, presságios de Odin ou forças elementares de Midgard.",
+      "judaico_crista": "Simbolismo profético de provação, renovação da aliança, discernimento espiritual ou forças da criação."
+    },
+    "psicologia": {
+      "jung": "Na perspetiva junguiana, o(a) Pomba corporifica os instintos animais não domesticados da psique e conteúdos autônomos do inconsciente coletivo.",
+      "freud": "Freud interpretaria o(a) Pomba como uma condensação e deslocamento de impulsos libidinais, desejos reprimidos ou receios inconscientes.",
+      "interpretacao_moderna": "A neurobiologia contemporânea analisa sonhos com animais como simulações evolutivas de ameaça, defense e regulação de instintos primários.",
+      "fonte": "Jung, C.G. — Símbolos da Transformação; Freud, S. — A Interpretação dos Sonhos"
+    },
+    "sono": {
+      "fase_tipica": "Sono REM vívido e profundo, com intensa atividade do sistema límbico.",
+      "significado_sono": "Processamento de memórias filogenéticas, respostas de sobrevivência e integração emocional através da imagem do(a) Pomba.",
+      "ciencia": "Alta ativação da amígdala cerebral e do tronco encefálico durante a simulação de interações biológicas primárias."
+    },
+    "numerologia": {
+      "numero_simbolo": 2,
+      "significado_numero": "Representação de poder material, manifestação da vontade, transmutação espiritual ou análise.",
+      "fonte": "Numerologia Pitagórica"
+    },
+    "leitures": {
+      "geral": "A presença do(a) Pomba sugere que uma energia vital muito específica está a tentar capturar a atenção da sua consciência desperta.",
+      "trilha_significado": "Estudo profundo do totem do(a) Pomba e o seu papel na evolução da consciência do sonhador.",
+      "trilha_sorte": "Palpites, dezenas e sincronias numéricas sintonizadas com a força animal do(a) Pomba.",
+      "trilha_amor": "O reflexo dos instintos afetivos, paixões, dinâmicas de caça, conquista ou fidelidade representadas pelo(a) Pomba.",
+      "trilha_mente": "Estratégias de regulação emocional, resiliência e saúde mental baseadas no comportamento do animal."
+    },
+    "contextos": {
+      "de_noite": "Ver o(a) Pomba sob o manto da noite intensifica os mistérios ocultos e os aspetos sombrios do instinto.",
+      "de_dia": "O(A) Pomba sob a luz do sol denota clareza consciente e uso prático dessa energia biológica na sua rotina.",
+      "com_medo": "Sentir medo do(a) Pomba revela que você está a resistir ou a temer os seus próprios impulsos ou forças internas.",
+      "com_alegria": "Alegria ou cumplicidade com o(a) Pomba indica uma excelente integração e pacificação com a sua natureza instintiva.",
+      "com_angustia": "Angústia neste cenário revela pressões internas e conflitos de sobrevivência emocional não resolvidos.",
+      "com_confusao": "A incerteza perante o bicho mostra que o sonhador ainda busca compreender os seus desejos genuínos.",
+      "com_paz": "Paz absoluta ao lado do(a) Pomba confirma o alinhamento total com o Self e com as leis naturais.",
+      "com_raiva": "A fúria animal reflete limites pessoais severamente violados e a necessidade de se defender na vigília.",
+      "primeira_vez": "O primeiro encontro com este(a) Pomba assinala o despertar de um novo potencial ou complexo na sua jornada.",
+      "ja_sonhei": "O retorno desta criatura avisa que uma lição instintiva específica do passado precisa de ser revista.",
+      "frequente": "Sonhar regularmente com o(a) Pomba é um apelo imperativo da sua psique profunda por uma reconciliação visceral.",
+      "acordou_coracao_acelerado": "O sonho causou um forte impacto físico, demonstrando que o arquétipo ativou defesas viscerais.",
+      "acordou_leveza": "Sensação de leveza indica libertação de tensões primitivas e fluxo harmonioso após o repouso.",
+      "acordou_suor_frio": "Sinal de que o ego foi confrontado diretamente com forças imensas da Sombra ou do coletivo.",
+      "acordou_confuso": "A mente consciente tenta traduzir as leis e a linguagem puramente analógica do reino animal.",
+      "acordou_chorando": "Catarse ligada a sentimentos profundos de ligação biológica, luto ou libertação de energias reprimidas.",
+      "acordou_aliviado": "A experiência funcionou como uma purificação noturna perfeita de bloqueios instintivos.",
+      "sonho_pb": "A imagem em preto e branco foca a atenção na geometria pura e no significado arquetípico do(a) Pomba.",
+      "sonho_colorido": "As cores exuberantes acentuam o vigor, as nuances emocionais e a vitalidade da mensagem trazida.",
+      "cenario_claro": "Ambiente aberto e visível permite mapear e compreender perfeitamente a mensagem do(a) Pomba.",
+      "cenario_nebuloso": "A névoa encobre partes da criatura, indicando aspetos do instinto que ainda permanecem ocultos.",
+      "cenario_ameacador": "Ambiente hostil indica que forças autossabotadoras estão a cercar a sua energia vital.",
+      "cenario_pacifico": "Cenário tranquilo atesta que o ecossistema da sua mente está em equilíbrio com o(a) Pomba.",
+      "lembrou_tudo": "A lembrança vívida retém cada detalhe, pista e movimento animal para uma tradução rica.",
+      "lembrou_fragmentos": "Agarre o detalhe mais marcante (o olhar, a pele, o rugido); ele contém a essência do recado.",
+      "nao_lembrava": "Mesmo esquecendo os detalhes visuais, a recalibração biológica e instintiva foi completada com sucesso."
+    },
+    "fase_lua": {
+      "nova": "Fase de recolhimento, sementeira e gestação silenciosa do potencial instintivo.",
+      "crescente": "Fase de ação, desenvolvimento e expansão ativa das características do animal.",
+      "cheia": "Plenitude, transbordo emocional e total visibilidade do poder arquetípico.",
+      "minguante": "Fase de limpeza, eliminação de excessos e banimento de aspetos nocivos ou destrutivos."
+    },
+    "emocoes": {
+      "medo": "Enfrentamento das barreiras e defesas do ego consciente.",
+      "alegria": "Harmonia, celebração e livre expressão da vitalidade biológica.",
+      "angustia": "Sufoco e necessidade urgente de espaço para respirar ou agir.",
+      "confusao": "Reavaliação das motivações e busca de direcionamento dos instintos.",
+      "paz": "Equilíbrio, serenidade e integração pacífica das energias internas.",
+      "raiva": "Sinal vital de que limites pessoais foram rompidos e necessitam de demarcação."
+    },
+    "jogo_bicho": {
+      "grupo": "16",
+      "animal": "Leão",
+      "dezenas": [
+        "61",
+        "62",
+        "63",
+        "64"
+      ],
+      "milhar_sugerido": "3062"
+    },
+    "periodo": "dia",
+    "cor_associada": "Branco",
+    "recorrente": false,
+    "combinacoes_frequentes": [
+      "ataque",
+      "fuga",
+      "proteção",
+      "olhar profundo"
+    ],
+    "estado_despertar": "leveza",
+    "sonho_pb": false
+  },
+  "gato_preto": {
+    "simbolo": "Gato preto",
+    "slug": "gato-preto",
+    "sinonimos": [
+      "gato preto",
+      "bicho gato preto",
+      "arquétipo gato preto"
+    ],
+    "categoria": "Animais",
+    "seo": {
+      "titulo_base": "Sonhar com Gato preto — Significado e Interpretação",
+      "descricao_base": "Descubra o que significa sonhar com Gato preto: interpretações junguianas, mitológicas, psicológicas e espirituais sobre este símbolo animal.",
+      "palavras_chave": [
+        "sonhar com gato preto",
+        "significado gato preto sonho",
+        "sonho gato preto"
+      ]
+    },
+    "mensagem_direta": "A manifestation do(a) Gato preto nos seus sonhos reflete a ativação de forças instintivas puras e movimentos profundos da sua natureza interior.",
+    "alerta": "Preste atenção ao comportamento do(a) Gato preto: se ele se mostra hostil ou amigável, indica como o seu ego está a lidar com os seus próprios instintos.",
+    "acao_recomendada": "Procure reconhecer quais as características biológicas ou míticas do(a) Gato preto que mais ressoam com a sua fase de vida atual e integre-as.",
+    "arquetipo": "O Mistério",
+    "elemento": "Água",
+    "chakra": {
+      "nome": "Terceiro Olho",
+      "sanskrito": "Ajna",
+      "significado": "Ativação e alinhamento do centro de energia correspondente à vibração e poder do arquétipo do(a) Gato preto."
+    },
+    "mitologia": {
+      "grega": "Associação com os mensageiros, montarias divinas ou metamorfoses arquetípicas associadas à energia clássica do(a) Gato preto.",
+      "egipcia": "Espírito guardião dos portais e representação ctônica ou solar das divindades zoomórficas primitivas.",
+      "hindu": "Vahana (veículo espiritual) de deidades maiores ou expression das forças criadoras e destrutivas da natureza física.",
+      "indigena_brasileira": "Animal de poder, guardião espiritual da floresta e aliado de cura nas jornadas xamânicas ancestrais.",
+      "nordica": "Criatura mítica ligada aos fios do destino, presságios de Odin ou forças elementares de Midgard.",
+      "judaico_crista": "Simbolismo profético de provação, renovação da aliança, discernimento espiritual ou forças da criação."
+    },
+    "psicologia": {
+      "jung": "Na perspetiva junguiana, o(a) Gato preto corporifica os instintos animais não domesticados da psique e conteúdos autônomos do inconsciente coletivo.",
+      "freud": "Freud interpretaria o(a) Gato preto como uma condensação e deslocamento de impulsos libidinais, desejos reprimidos ou receios inconscientes.",
+      "interpretacao_moderna": "A neurobiologia contemporânea analisa sonhos com animais como simulações evolutivas de ameaça, defense e regulação de instintos primários.",
+      "fonte": "Jung, C.G. — Símbolos da Transformação; Freud, S. — A Interpretação dos Sonhos"
+    },
+    "sono": {
+      "fase_tipica": "Sono REM vívido e profundo, com intensa atividade do sistema límbico.",
+      "significado_sono": "Processamento de memórias filogenéticas, respostas de sobrevivência e integração emocional através da imagem do(a) Gato preto.",
+      "ciencia": "Alta ativação da amígdala cerebral e do tronco encefálico durante a simulação de interações biológicas primárias."
+    },
+    "numerologia": {
+      "numero_simbolo": 9,
+      "significado_numero": "Representação de poder material, manifestação da vontade, transmutação espiritual ou análise.",
+      "fonte": "Numerologia Pitagórica"
+    },
+    "leitures": {
+      "geral": "A presença do(a) Gato preto sugere que uma energia vital muito específica está a tentar capturar a atenção da sua consciência desperta.",
+      "trilha_significado": "Estudo profundo do totem do(a) Gato preto e o seu papel na evolução da consciência do sonhador.",
+      "trilha_sorte": "Palpites, dezenas e sincronias numéricas sintonizadas com a força animal do(a) Gato preto.",
+      "trilha_amor": "O reflexo dos instintos afetivos, paixões, dinâmicas de caça, conquista ou fidelidade representadas pelo(a) Gato preto.",
+      "trilha_mente": "Estratégias de regulação emocional, resiliência e saúde mental baseadas no comportamento do animal."
+    },
+    "contextos": {
+      "de_noite": "Ver o(a) Gato preto sob o manto da noite intensifica os mistérios ocultos e os aspetos sombrios do instinto.",
+      "de_dia": "O(A) Gato preto sob a luz do sol denota clareza consciente e uso prático dessa energia biológica na sua rotina.",
+      "com_medo": "Sentir medo do(a) Gato preto revela que você está a resistir ou a temer os seus próprios impulsos ou forças internas.",
+      "com_alegria": "Alegria ou cumplicidade com o(a) Gato preto indica uma excelente integração e pacificação com a sua natureza instintiva.",
+      "com_angustia": "Angústia neste cenário revela pressões internas e conflitos de sobrevivência emocional não resolvidos.",
+      "com_confusao": "A incerteza perante o bicho mostra que o sonhador ainda busca compreender os seus desejos genuínos.",
+      "com_paz": "Paz absoluta ao lado do(a) Gato preto confirma o alinhamento total com o Self e com as leis naturais.",
+      "com_raiva": "A fúria animal reflete limites pessoais severamente violados e a necessidade de se defender na vigília.",
+      "primeira_vez": "O primeiro encontro com este(a) Gato preto assinala o despertar de um novo potencial ou complexo na sua jornada.",
+      "ja_sonhei": "O retorno desta criatura avisa que uma lição instintiva específica do passado precisa de ser revista.",
+      "frequente": "Sonhar regularmente com o(a) Gato preto é um apelo imperativo da sua psique profunda por uma reconciliação visceral.",
+      "acordou_coracao_acelerado": "O sonho causou um forte impacto físico, demonstrando que o arquétipo ativou defesas viscerais.",
+      "acordou_leveza": "Sensação de leveza indica libertação de tensões primitivas e fluxo harmonioso após o repouso.",
+      "acordou_suor_frio": "Sinal de que o ego foi confrontado diretamente com forças imensas da Sombra ou do coletivo.",
+      "acordou_confuso": "A mente consciente tenta traduzir as leis e a linguagem puramente analógica do reino animal.",
+      "acordou_chorando": "Catarse ligada a sentimentos profundos de ligação biológica, luto ou libertação de energias reprimidas.",
+      "acordou_aliviado": "A experiência funcionou como uma purificação noturna perfeita de bloqueios instintivos.",
+      "sonho_pb": "A imagem em preto e branco foca a atenção na geometria pura e no significado arquetípico do(a) Gato preto.",
+      "sonho_colorido": "As cores exuberantes acentuam o vigor, as nuances emocionais e a vitalidade da mensagem trazida.",
+      "cenario_claro": "Ambiente aberto e visível permite mapear e compreender perfeitamente a mensagem do(a) Gato preto.",
+      "cenario_nebuloso": "A névoa encobre partes da criatura, indicando aspetos do instinto que ainda permanecem ocultos.",
+      "cenario_ameacador": "Ambiente hostil indica que forças autossabotadoras estão a cercar a sua energia vital.",
+      "cenario_pacifico": "Cenário tranquilo atesta que o ecossistema da sua mente está em equilíbrio com o(a) Gato preto.",
+      "lembrou_tudo": "A lembrança vívida retém cada detalhe, pista e movimento animal para uma tradução rica.",
+      "lembrou_fragmentos": "Agarre o detalhe mais marcante (o olhar, a pele, o rugido); ele contém a essência do recado.",
+      "nao_lembrava": "Mesmo esquecendo os detalhes visuais, a recalibração biológica e instintiva foi completada com sucesso."
+    },
+    "fase_lua": {
+      "nova": "Fase de recolhimento, sementeira e gestação silenciosa do potencial instintivo.",
+      "crescente": "Fase de ação, desenvolvimento e expansão ativa das características do animal.",
+      "cheia": "Plenitude, transbordo emocional e total visibilidade do poder arquetípico.",
+      "minguante": "Fase de limpeza, eliminação de excessos e banimento de aspetos nocivos ou destrutivos."
+    },
+    "emocoes": {
+      "medo": "Enfrentamento das barreiras e defesas do ego consciente.",
+      "alegria": "Harmonia, celebração e livre expressão da vitalidade biológica.",
+      "angustia": "Sufoco e necessidade urgente de espaço para respirar ou agir.",
+      "confusao": "Reavaliação das motivações e busca de direcionamento dos instintos.",
+      "paz": "Equilíbrio, serenidade e integração pacífica das energias internas.",
+      "raiva": "Sinal vital de que limites pessoais foram rompidos e necessitam de demarcação."
+    },
+    "jogo_bicho": {
+      "grupo": "14",
+      "animal": "Gato",
+      "dezenas": [
+        "53",
+        "54",
+        "55",
+        "56"
+      ],
+      "milhar_sugerido": "5054"
+    },
+    "periodo": "dia",
+    "cor_associada": "Preto",
+    "recorrente": false,
+    "combinacoes_frequentes": [
+      "ataque",
+      "fuga",
+      "proteção",
+      "olhar profundo"
+    ],
+    "estado_despertar": "leveza",
+    "sonho_pb": false
+  }
   }
 }

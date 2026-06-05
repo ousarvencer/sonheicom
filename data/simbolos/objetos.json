@@ -3223,6 +3223,838 @@
       ],
       "estado_despertar": "leveza",
       "sonho_pb": false
-    }
+    },
+  "dente": {
+    "simbolo": "Dente",
+    "slug": "dente",
+    "sinonimos": [
+      "dente",
+      "item dente",
+      "arquétipo dente"
+    ],
+    "categoria": "Objetos",
+    "seo": {
+      "titulo_base": "Sonhar com Dente — Significado e Interpretação",
+      "descricao_base": "Descubra o que significa sonhar com Dente: abordagens junguianas, psicológicas, mitológicas e espirituais sobre este objeto.",
+      "palavras_chave": [
+        "sonhar com dente",
+        "significado dente sonho",
+        "sonho dente"
+      ]
+    },
+    "mensagem_direta": "A presença de Dente no seu sonho aponta para ferramentas psíquicas, recursos internos ou transições que estão ativas na sua consciência.",
+    "alerta": "Analise o estado e a utilidade do(a) Dente no sonho. Se estiver quebrado, perdido ou inacessível, indica bloqueios emocionais temporários.",
+    "acao_recomendada": "Reflicta sobre como utiliza o conceito simbólico de Dente na sua vida desperta (segurança, comunicação, corte, reflexão) e ajuste os seus limites.",
+    "arquetipo": "A Sombra / Força Vital",
+    "elemento": "Terra",
+    "chakra": {
+      "nome": "Raiz",
+      "sanskrito": "Muladhara",
+      "significado": "Ativação energética e ressonância do centro de força pessoal associado às propriedades dinâmicas de Dente."
+    },
+    "mitologia": {
+      "grega": "Associação com os atributos dos deuses olímpicos, chaves de Hécate, fios de Hermes ou ferramentas míticas ligadas a Dente.",
+      "egipcia": "Símbolos de poder e rituais de passagem encontrados nos livros sagrados e na pesagem do coração.",
+      "hindu": "Instrumentos divinos (Astras) ou representações de oferendas rituais e elementos cósmicos puros.",
+      "indigena_brasileira": "Objetos sagrados de poder, amuletos de proteção natural e ferramentas rituais dos pajés.",
+      "nordica": "Artefatos rúnicos forjados pelos anões ou símbolos de poder e runas sagradas gravadas.",
+      "judaico_crista": "Metáforas de provação, aliança espiritual, revelações proféticas ou instrumentos de santificação divina."
+    },
+    "psicologia": {
+      "jung": "Sob o olhar junguiano, o(a) Dente atua como um condensador de projeções da libido ou um objeto mediador entre o Ego e os conteúdos do Inconsciente.",
+      "freud": "Freud identificaria Dente como uma representação simbólica substitutiva, frequentemente associada a desejos recalcados ou mecanismos de defesa.",
+      "interpretacao_moderna": "A psicologia cognitiva interpreta como a reativação de ferramentas cotidianas ou conceitos abstratos usados no mapeamento de problemas reais.",
+      "fonte": "Jung, C.G. — O Homem e Seus Símbolos; Freud, S. — A Interpretação dos Sonhos"
+    },
+    "sono": {
+      "fase_tipica": "Sono REM intermediário e ciclos de resolução de problemas lógicos.",
+      "significado_sono": "Consolidação de estratégias de enfrentamento e organização de esquemas conceituais baseados na dinâmica de Dente.",
+      "ciencia": "Ativação das redes neurais motoras e do córtex parietal posterior envolvidos no manuseio de ferramentas e simulações espaciais."
+    },
+    "numerologia": {
+      "numero_simbolo": 4,
+      "significado_numero": "Representação de começos e autonomia, poder material e justiça ou de fundação estável.",
+      "fonte": "Numerologia Pitagórica"
+    },
+    "leitures": {
+      "geral": "A materialização de Dente no ambiente onírico indica a necessidade de usar os seus recursos internos com maior clareza e determinação.",
+      "trilha_significado": "Análise profunda do significado intrínseco de Dente como catalisador de autoconhecimento.",
+      "trilha_sorte": "Associações numéricas, dezenas e vibrations de sorte conectadas à geometria e propósito de Dente.",
+      "trilha_amor": "O reflexo das trocas afetivas, compromissos, cortes ou pontes emocionais através do símbolo de Dente.",
+      "trilha_mente": "Técnicas de foco, foco mental e organização neurológica a partir dos insights disparados pelo objeto."
+    },
+    "contextos": {
+      "de_noite": "Dente podre ou sob o manto da noite oculta segredos e evoca o uso oculto ou misterioso do objeto.",
+      "de_dia": "A presença de Dente durante o dia foca a mente consciente em resoluções diretas e ferramentas práticas.",
+      "com_medo": "Sentir medo ou ameaça ao lidar com Dente mostra resistência a assumir o controle ou enfrentar o que ele revela.",
+      "com_alegria": "Alegria ao interagir com Dente confirma a mestria, aceitação e uso bem-sucedido desse recurso psíquico.",
+      "com_angustia": "Angústia em torno de Dente reflete sentimentos de perda, impotência ou prazos apertados na vigília.",
+      "com_confusao": "A confusão indica falta de clareza sobre como utilizar os seus próprios dons ou ferramentas pessoais.",
+      "com_paz": "Paz profunda com Dente expressa alinhamento, segurança e harmonia com as resoluções alcançadas.",
+      "com_raiva": "A raiva denota o uso agressivo ou a necessidade premente de cortar e delimitar situações desconfortáveis.",
+      "primeira_vez": "O primeiro contato com Dente sinaliza a ativação de uma nova competência ou perspectiva interna.",
+      "ja_sonhei": "O retorno deste objeto mostra que há pendências pragmáticas ou lições antigas sendo revisitadas.",
+      "frequente": "A recorrência de Dente funciona como um lembrete persistente da psique para que você tome uma atitude firme.",
+      "acordou_coracao_acelerado": "O despertar tenso avisa que a mensagem do objeto tocou um ponto crítico de alta voltagem emocional.",
+      "acordou_leveza": "Sensação de leveza indica que a mente processou e organizou com sucesso os dilemas associados.",
+      "acordou_suor_frio": "Sinaliza que as defesas do ego foram confrontadas com verdades impactantes expostas pelo objeto.",
+      "acordou_confuso": "A mente racional tenta decifrar o manual de instruções simbólico e abstrato trazido pela noite.",
+      "acordou_chorando": "Libertação emocional profunda desencadeada por memórias, rompimentos ou ligações associadas ao objeto.",
+      "acordou_aliviado": "A jornada noturna atuou como uma perfeita limpeza psíquica de bloqueios e tensões.",
+      "sonho_pb": "O cenário em preto e branco destaca a função pura, a essência e o valor arquetípico do(a) Dente.",
+      "sonho_colorido": "As cores vivas expandem o campo de sentimentos e a urgência afetiva em torno do objeto.",
+      "cenario_claro": "O ambiente perfeitamente claro facilita o reconhecimento e o manuseio correto do(a) Dente.",
+      "cenario_nebuloso": "A névoa indica que você ainda não compreende totalmente o propósito ou o valor desta ferramenta atual.",
+      "cenario_ameacador": "Atmosfera hostil projeta perigos percebidos que tentam desviar ou sabotar o uso dos seus recursos.",
+      "cenario_pacifico": "Cenário tranquilo atesta estabilidade interna para o usufruto e integração do símbolo.",
+      "lembrou_tudo": "A recordação completa armazena todos os detalhes visuais cruciais para a decodificação exata.",
+      "lembrou_fragmentos": "Segure a lembrança mais nítida do objeto; aquele fragmento é o vetor essencial do recado.",
+      "nao_lembrava": "Mesmo sem memórias visuais fixas, o ajuste estrutural promovido pelo símbolo foi assimilado."
+    },
+    "fase_lua": {
+      "nova": "Fase ideal para plantar intenções e iniciar o uso consciente deste novo recurso.",
+      "crescente": "Fase de desenvolvimento, aceleração e fortalecimento dos planos associados.",
+      "cheia": "Plenitude, colheita e clareza total das realizações mediadas pelo objeto.",
+      "minguante": "Fase de limpeza, descarte e desapego de velhas ferramentas que já não servem."
+    },
+    "emocoes": {
+      "medo": "Enfrentamento de defesas e resistência inconsciente.",
+      "alegria": "Integração plena de competências e satisfação interior.",
+      "angustia": "Sensação de limitação ou escassez de caminhos.",
+      "confusao": "Período de ajuste e calibração de rotas e escolhas.",
+      "paz": "Profundo sentimento de segurança e resolução interna.",
+      "raiva": "Sinal de força motriz para romper barreiras e definir limites severos."
+    },
+    "jogo_bicho": {
+      "grupo": "11",
+      "animal": "Cavalo",
+      "dezenas": [
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "milhar_sugerido": "2242"
+    },
+    "periodo": "dia",
+    "cor_associada": "Marfim",
+    "recorrente": false,
+    "combinacoes_frequentes": [
+      "uso",
+      "achado",
+      "perda",
+      "quebra"
+    ],
+    "estado_despertar": "leveza",
+    "sonho_pb": false
+  },
+  "chuva": {
+    "simbolo": "Chuva",
+    "slug": "chuva",
+    "sinonimos": [
+      "chuva",
+      "item chuva",
+      "arquétipo chuva"
+    ],
+    "categoria": "Objetos",
+    "seo": {
+      "titulo_base": "Sonhar com Chuva — Significado e Interpretação",
+      "descricao_base": "Descubra o que significa sonhar com Chuva: abordagens junguianas, psicológicas, mitológicas e espirituais sobre este objeto.",
+      "palavras_chave": [
+        "sonhar com chuva",
+        "significado chuva sonho",
+        "sonho chuva"
+      ]
+    },
+    "mensagem_direta": "A presença de Chuva no seu sonho aponta para ferramentas psíquicas, recursos internos ou transições que estão ativas na sua consciência.",
+    "alerta": "Analise o estado e a utilidade do(a) Chuva no sonho. Se estiver quebrado, perdido ou inacessível, indica bloqueios emocionais temporários.",
+    "acao_recomendada": "Reflicta sobre como utiliza o conceito simbólico de Chuva na sua vida desperta (segurança, comunicação, corte, reflexão) e ajuste os seus limites.",
+    "arquetipo": "A Purificação / Renovação",
+    "elemento": "Água",
+    "chakra": {
+      "nome": "Cardíaco",
+      "sanskrito": "Anahata",
+      "significado": "Ativação energética e ressonância do centro de força pessoal associado às propriedades dinâmicas de Chuva."
+    },
+    "mitologia": {
+      "grega": "Associação com os atributos dos deuses olímpicos, chaves de Hécate, fios de Hermes ou ferramentas míticas ligadas a Chuva.",
+      "egipcia": "Símbolos de poder e rituais de passagem encontrados nos livros sagrados e na pesagem do coração.",
+      "hindu": "Instrumentos divinos (Astras) ou representações de oferendas rituais e elementos cósmicos puros.",
+      "indigena_brasileira": "Objetos sagrados de poder, amuletos de proteção natural e ferramentas rituais dos pajés.",
+      "nordica": "Artefatos rúnicos forjados pelos anões ou símbolos de poder e runas sagradas gravadas.",
+      "judaico_crista": "Metáforas de provação, aliança espiritual, revelações proféticas ou instrumentos de santificação divina."
+    },
+    "psicologia": {
+      "jung": "Sob o olhar junguiano, o(a) Chuva atua como um condensador de projeções da libido ou um objeto mediador entre o Ego e os conteúdos do Inconsciente.",
+      "freud": "Freud identificaria Chuva como uma representation simbólica substitutiva, frequentemente associada a desejos recalcados ou mecanismos de defesa.",
+      "interpretacao_moderna": "A psicologia cognitiva interpreta como a reativação de ferramentas cotidianas ou conceitos abstratos usados no mapeamento de problemas reais.",
+      "fonte": "Jung, C.G. — O Homem e Seus Símbolos; Freud, S. — A Interpretação dos Sonhos"
+    },
+    "sono": {
+      "fase_tipica": "Sono REM intermediário e ciclos de resolução de problemas lógicos.",
+      "significado_sono": "Consolidação de estratégias de enfrentamento e organização de esquemas conceituais baseados na dinâmica de Chuva.",
+      "ciencia": "Ativação das redes neurais motoras e do córtex parietal posterior envolvidos no manuseio de ferramentas e simulações espaciais."
+    },
+    "numerologia": {
+      "numero_simbolo": 7,
+      "significado_numero": "Representação de começos e autonomia, poder material e justiça ou de fundação estável.",
+      "fonte": "Numerologia Pitagórica"
+    },
+    "leitures": {
+      "geral": "A materialização de Chuva no ambiente onírico indica a necessidade de usar os seus recursos internos com maior clareza e determinação.",
+      "trilha_significado": "Análise profunda do significado intrínseco de Chuva como catalisador de autoconhecimento.",
+      "trilha_sorte": "Associações numéricas, dezenas e vibrações de sorte conectadas à geometria e propósito de Chuva.",
+      "trilha_amor": "O reflexo das trocas afetivas, compromissos, cortes ou pontes emocionais através do símbolo de Chuva.",
+      "trilha_mente": "Técnicas de foco, foco mental e organização neurológica a partir dos insights disparados pelo objeto."
+    },
+    "contextos": {
+      "de_noite": "Chuva sob o manto da noite oculta segredos e evoca o uso oculto ou misterioso do objeto.",
+      "de_dia": "A presença de Chuva durante o dia foca a mente consciente em resoluções diretas e ferramentas práticas.",
+      "com_medo": "Sentir medo ou ameaça ao lidar com Chuva mostra resistência a assumir o controle ou enfrentar o que ele revela.",
+      "com_alegria": "Alegria ao interagir com Chuva confirma a mestria, aceitação e uso bem-sucedido desse recurso psíquico.",
+      "com_angustia": "Angústia em torno de Chuva reflete sentimentos de perda, impotência ou prazos apertados na vigília.",
+      "com_confusao": "A confusão indica falta de clareza sobre como utilizar os seus próprios dons ou ferramentas pessoais.",
+      "com_paz": "Paz profunda com Chuva expressa alinhamento, segurança e harmonia com as resoluções alcançadas.",
+      "com_raiva": "A raiva denota o uso agressivo ou a necessidade premente de cortar e delimitar situações desconfortáveis.",
+      "primeira_vez": "O primeiro contato com Chuva sinaliza a ativação de uma nova competência ou perspectiva interna.",
+      "ja_sonhei": "O retorno deste objeto mostra que há pendências pragmáticas ou lições antigas sendo revisitadas.",
+      "frequente": "A recorrência de Chuva funciona como um lembrete persistente da psique para que você tome uma atitude firme.",
+      "acordou_coracao_acelerado": "O despertar tenso avisa que a mensagem do objeto tocou um ponto crítico de alta voltagem emocional.",
+      "acordou_leveza": "Sensação de leveza indica que houve liberação emocional e a mente organizou os dilemas associados.",
+      "acordou_suor_frio": "Sinaliza que as defesas do ego foram confrontadas com verdades impactantes expostas pelo objeto.",
+      "acordou_confuso": "A mente racional tenta decifrar o manual de instruções simbólico e abstrato trazido pela noite.",
+      "acordou_chorando": "Libertação emocional profunda desencadeada por memórias, rompimentos ou ligações associadas ao objeto.",
+      "acordou_aliviado": "A jornada noturna atuou como uma perfeita limpeza psíquica de bloqueios e tensões.",
+      "sonho_pb": "O cenário em preto e branco destaca a função pura, a essência e o valor arquetípico do(a) Chuva.",
+      "sonho_colorido": "As cores vivas expandem o campo de sentimentos e a urgência afetiva em torno do objeto.",
+      "cenario_claro": "O ambiente perfeitamente claro facilita o reconhecimento e o manuseio correto do(a) Chuva.",
+      "cenario_nebuloso": "A névoa indica que você ainda não compreende totalmente o propósito ou o valor desta ferramenta atual.",
+      "cenario_ameacador": "Atmosfera hostil projeta perigos percebidos que tentam desviar ou sabotar o uso dos seus recursos.",
+      "cenario_pacifico": "Cenário tranquilo atesta estabilidade interna para o usufruto e integração do símbolo.",
+      "lembrou_tudo": "A recordação completa armazena todos os detalhes visuais cruciais para a decodificação exata.",
+      "lembrou_fragmentos": "Segure a lembrança mais nítida do objeto; aquele fragmento é o vetor essencial do recado.",
+      "nao_lembrava": "Mesmo sem memórias visuais fixas, o ajuste estrutural promovido pelo símbolo foi assimilado."
+    },
+    "fase_lua": {
+      "nova": "Fase ideal para plantar intenções e iniciar o uso consciente deste novo recurso.",
+      "crescente": "Fase de desenvolvimento, aceleração e fortalecimento dos planos associados.",
+      "cheia": "Plenitude, colheita e clareza total das realizações mediadas pelo objeto.",
+      "minguante": "Fase de limpeza, descarte e desapego de velhas ferramentas que já não servem."
+    },
+    "emocoes": {
+      "medo": "Enfrentamento de defesas e resistência inconsciente.",
+      "alegria": "Integração plena de competências e satisfação interior.",
+      "angustia": "Sensação de limitação ou escassez de caminhos.",
+      "confusao": "Período de ajuste e calibração de rotas e escolhas.",
+      "paz": "Profundo sentimento de segurança e resolução interna.",
+      "raiva": "Sinal de força motriz para romper barreiras e definir limites severos."
+    },
+    "jogo_bicho": {
+      "grupo": "1",
+      "animal": "Avestruz",
+      "dezenas": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "milhar_sugerido": "4002"
+    },
+    "periodo": "dia",
+    "cor_associada": "Azul Claro",
+    "recorrente": false,
+    "combinacoes_frequentes": [
+      "uso",
+      "achado",
+      "perda",
+      "quebra"
+    ],
+    "estado_despertar": "leveza",
+    "sonho_pb": false
+  },
+  "tempestade": {
+    "simbolo": "Tempestade",
+    "slug": "tempestade",
+    "sinonimos": [
+      "tempestade",
+      "item tempestade",
+      "arquétipo tempestade"
+    ],
+    "categoria": "Objetos",
+    "seo": {
+      "titulo_base": "Sonhar com Tempestade — Significado e Interpretação",
+      "descricao_base": "Descubra o que significa sonhar com Tempestade: abordagens junguianas, psicológicas, mitológicas e espirituais sobre este objeto.",
+      "palavras_chave": [
+        "sonhar com tempestade",
+        "significado tempestade sonho",
+        "sonho tempestade"
+      ]
+    },
+    "mensagem_direta": "A presença de Tempestade no seu sonho aponta para ferramentas psíquicas, recursos internos ou transições que estão ativas na sua consciência.",
+    "alerta": "Analise o estado e a utilidade do(a) Tempestade no sonho. Se estiver quebrado, perdido ou inacessível, indica bloqueios emocionais temporários.",
+    "acao_recomendada": "Reflicta sobre como utiliza o conceito simbólico de Tempestade na sua vida desperta (segurança, comunicação, corte, reflexão) e ajuste os seus limites.",
+    "arquetipo": "A Transformação / Caos Criativo",
+    "elemento": "Ar",
+    "chakra": {
+      "nome": "Plexo Solar",
+      "sanskrito": "Manipura",
+      "significado": "Ativação energética e ressonância do centro de força pessoal associado às propriedades dinâmicas de Tempestade."
+    },
+    "mitologia": {
+      "grega": "Associação com os atributos dos deuses olímpicos, chaves de Hécate, fios de Hermes ou ferramentas míticas ligadas a Tempestade.",
+      "egipcia": "Símbolos de poder e rituais de passagem encontrados nos livros sagrados e na pesagem do coração.",
+      "hindu": "Instrumentos divinos (Astras) ou representações de oferendas rituais e elementos cósmicos puros.",
+      "indigena_brasileira": "Objetos sagrados de poder, amuletos de proteção natural e ferramentas rituais dos pajés.",
+      "nordica": "Artefatos rúnicos forjados pelos anões ou símbolos de poder e runas sagradas gravadas.",
+      "judaico_crista": "Metáforas de provação, aliança espiritual, revelações proféticas ou instrumentos de santificação divina."
+    },
+    "psicologia": {
+      "jung": "Sob o olhar junguiano, o(a) Tempestade atua como um condensador de projeções da libido ou um objeto mediador entre o Ego e os conteúdos do Inconsciente.",
+      "freud": "Freud identificaria Tempestade como uma representação simbólica substitutiva, frequentemente associada a desejos recalcados ou mecanismos de defesa.",
+      "interpretacao_moderna": "A psicologia cognitiva interpreta como a reativação de ferramentas cotidianas ou conceitos abstratos usados no mapeamento de problemas reais.",
+      "fonte": "Jung, C.G. — O Homem e Seus Símbolos; Freud, S. — A Interpretação dos Sonhos"
+    },
+    "sono": {
+      "fase_tipica": "Sono REM intermediário e ciclos de resolução de problemas lógicos.",
+      "significado_sono": "Consolidação de estratégias de enfrentamento e organization de esquemas conceituais baseados na dinâmica de Tempestade.",
+      "ciencia": "Ativação das redes neurais motoras e do córtex parietal posterior envolvidos no manuseio de ferramentas e simulações espaciais."
+    },
+    "numerologia": {
+      "numero_simbolo": 9,
+      "significado_numero": "Representação de começos e autonomia, poder material e justiça ou de fundação estável.",
+      "fonte": "Numerologia Pitagórica"
+    },
+    "leitures": {
+      "geral": "A materialização de Tempestade no ambiente onírico indica a necessidade de usar os seus recursos internos com maior clareza e determinação.",
+      "trilha_significado": "Análise profunda do significado intrínseco de Tempestade como catalisador de autoconhecimento.",
+      "trilha_sorte": "Associações numéricas, dezenas e vibrações de sorte conectadas à geometria e propósito de Tempestade.",
+      "trilha_amor": "O reflexo das trocas afetivas, compromissos, cortes ou pontes emocionais através do símbolo de Tempestade.",
+      "trilha_mente": "Técnicas de foco, foco mental e organização neurológica a partir dos insights disparados pelo objeto."
+    },
+    "contextos": {
+      "de_noite": "Tempestade sob o manto da noite oculta segredos e evoca o uso oculto ou misterioso do objeto.",
+      "de_dia": "A presença de Tempestade durante o dia foca a mente consciente em resoluções diretas e ferramentas práticas.",
+      "com_medo": "Sentir medo ou ameaça ao lidar com Tempestade mostra resistência a assumir o controle ou enfrentar o que ele revela.",
+      "com_alegria": "Alegria ao interagir com Tempestade confirma a mestria, aceitação e uso bem-sucedido desse recurso psíquico.",
+      "com_angustia": "Angústia em torno de Tempestade reflete sentimentos de perda, impotência ou prazos apertados na vigília.",
+      "com_confusao": "A confusão indica falta de clareza sobre como utilizar os seus próprios dons ou ferramentas pessoais.",
+      "com_paz": "Paz profunda com Tempestade expressa alinhamento, segurança e harmonia com as resoluções alcançadas.",
+      "com_raiva": "A raiva denota o uso agressivo ou a necessidade premente de cortar e delimitar situações desconfortáveis.",
+      "primeira_vez": "O primeiro contato com Tempestade sinaliza a ativação de uma nova competência ou perspectiva interna.",
+      "ja_sonhei": "O retorno deste objeto mostra que há pendências pragmáticas ou lições antigas sendo revisitadas.",
+      "frequente": "A recorrência de Tempestade funciona como um lembrete persistente da psique para que você tome uma atitude firme.",
+      "acordou_coracao_acelerado": "O despertar tenso avisa que a mensagem do objeto tocou um ponto crítico de alta voltagem emocional.",
+      "acordou_leveza": "Sensação de leveza indica que a mente processou e organizou com sucesso os dilemas associados.",
+      "acordou_suor_frio": "Sinaliza que as defesas do ego foram confrontadas com verdadeiras impactantes expostas pelo objeto.",
+      "acordou_confuso": "A mente racional tenta decifrar o manual de instruções simbólico e abstrato trazido pela noite.",
+      "acordou_chorando": "Liberação emocional profunda desencadeada por memórias, rompimentos ou ligações associadas ao objeto.",
+      "acordou_aliviado": "A jornada noturna atuou como uma perfeita limpeza psíquica de bloqueios e tensões."
+    },
+    "fase_lua": {
+      "nova": "Fase ideal para plantar intenções e iniciar o uso consciente deste novo recurso.",
+      "crescente": "Fase de desenvolvimento, aceleração e fortalecimento dos planos associados.",
+      "cheia": "Plenitude, colheita e clareza total das realizações mediadas pelo objeto.",
+      "minguante": "Fase de limpeza, descarte e desapego de velhas ferramentas que já não servem."
+    },
+    "emocoes": {
+      "medo": "Enfrentamento de defesas e resistência inconsciente.",
+      "alegria": "Integração plena de competências e satisfação interior.",
+      "angustia": "Sensação de limitação ou escassez de caminhos.",
+      "confusao": "Período de ajuste e calibração de rotas e escolhas.",
+      "paz": "Profundo sentimento de segurança e resolução interna.",
+      "raiva": "Sinal de força motriz para romper barreiras e definir limites severos."
+    },
+    "jogo_bicho": {
+      "grupo": "5",
+      "animal": "Cachorro",
+      "dezenas": [
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "milhar_sugerido": "5019"
+    },
+    "periodo": "noite",
+    "cor_associada": "Chumbo",
+    "recorrente": false,
+    "combinacoes_frequentes": [
+      "uso",
+      "achado",
+      "perda",
+      "quebra"
+    ],
+    "estado_despertar": "leveza",
+    "sonho_pb": false
+  },
+  "luz_intensa": {
+    "simbolo": "Luz intensa",
+    "slug": "luz-intensa",
+    "sinonimos": [
+      "luz intensa",
+      "item luz intensa",
+      "arquétipo luz intensa"
+    ],
+    "categoria": "Objetos",
+    "seo": {
+      "titulo_base": "Sonhar com Luz intensa — Significado e Interpretação",
+      "descricao_base": "Descubra o que significa sonhar com Luz intensa: abordagens junguianas, psicológicas, mitológicas e espirituais sobre este objeto.",
+      "palavras_chave": [
+        "sonhar com luz intensa",
+        "significado luz intensa sonho",
+        "sonho luz intensa"
+      ]
+    },
+    "mensagem_direta": "A presença de Luz intensa no seu sonho aponta para ferramentas psíquicas, recursos internos ou transições que estão ativas na sua consciência.",
+    "alerta": "Analise o estado e a utilidade do(a) Luz intensa no sonho. Se estiver quebrado, perdido ou inacessível, indica bloqueios emocionais temporários.",
+    "acao_recomendada": "Reflicta sobre como utiliza o conceito simbólico de Luz intensa na sua vida desperta (segurança, comunicação, corte, reflexão) e ajuste os seus limites.",
+    "arquetipo": "A Consciência / Iluminação",
+    "elemento": "Fogo",
+    "chakra": {
+      "nome": "Coroa",
+      "sanskrito": "Sahasrara",
+      "significado": "Ativação energética e ressonância do centro de força pessoal associado às propriedades dinâmicas de Luz intensa."
+    },
+    "mitologia": {
+      "grega": "Associação com os atributos dos deuses olímpicos, chaves de Hécate, fios de Hermes ou ferramentas míticas ligadas a Luz intensa.",
+      "egipcia": "Símbolos de poder e rituais de passagem encontrados nos livros sagrados e na pesagem do coração.",
+      "hindu": "Instrumentos divinos (Astras) ou representações de oferendas rituais e elementos cósmicos puros.",
+      "indigena_brasileira": "Objetos sagrados de poder, amuletos de proteção natural e ferramentas rituais dos pajés.",
+      "nordica": "Artefatos rúnicos forjados pelos anões ou símbolos de poder e runas sagradas gravadas.",
+      "judaico_crista": "Metáforas de provação, aliança espiritual, revelações proféticas ou instrumentos de santificação divina."
+    },
+    "psicologia": {
+      "jung": "Sob o olhar junguiano, o(a) Luz intensa atua como um condensador de projeções da libido ou um objeto mediador entre o Ego e os conteúdos do Inconsciente.",
+      "freud": "Freud identificaria Luz intensa como uma representação simbólica substitutiva, frequentemente associada a desejos recalcados ou mecanismos de defesa.",
+      "interpretacao_moderna": "A psicologia cognitiva interpreta como a reativação de ferramentas cotidianas ou conceitos abstratos usados no mapeamento de problemas reais.",
+      "fonte": "Jung, C.G. — O Homem e Seus Símbolos; Freud, S. — A Interpretação dos Sonhos"
+    },
+    "sono": {
+      "fase_tipica": "Sono REM intermediário e ciclos de resolução de problemas lógicos.",
+      "significado_sono": "Consolidação de estratégias de enfrentamento e organização de esquemas conceituais baseados na dinâmica de Luz intensa.",
+      "ciencia": "Ativação das redes neurais motoras e do córtex parietal posterior envolvidos no manuseio de ferramentas e simulações espaciais."
+    },
+    "numerologia": {
+      "numero_simbolo": 1,
+      "significado_numero": "Representação de começos e autonomia, poder material e justiça ou de fundação estável.",
+      "fonte": "Numerologia Pitagórica"
+    },
+    "leitures": {
+      "geral": "A materialização de Luz intensa no ambiente onírico indica a necessidade de usar os seus recursos internos com maior clareza e determinação.",
+      "trilha_significado": "Análise profunda do significado intrínseco de Luz intensa como catalisador de autoconhecimento.",
+      "trilha_sorte": "Associações numéricas, dezenas e vibrações de sorte conectadas à geometria e propósito de Luz intensa.",
+      "trilha_amor": "O reflexo das trocas afetivas, compromissos, cortes ou pontes emocionais através do símbolo de Luz intensa.",
+      "trilha_mente": "Técnicas de foco, foco mental e organização neurológica a partir dos insights disparados pelo objeto."
+    },
+    "contextos": {
+      "de_noite": "Luz intensa sob o manto da noite oculta segredos e evoca o uso oculto ou misterioso do objeto.",
+      "de_dia": "A presença de Luz intensa durante o dia foca a mente consciente em resoluções diretas e ferramentas práticas.",
+      "com_medo": "Sentir medo ou ameaça ao lidar com Luz intensa mostra resistência a assumir o controle ou enfrentar o que ele revela.",
+      "com_alegria": "Alegria ao interagir com Luz intensa confirma a mestria, aceitação e uso bem-sucedido desse recurso psíquico.",
+      "com_angustia": "Angústia em torno de Luz intensa reflete sentimentos de perda, impotência ou prazos apertados na vigília.",
+      "com_confusao": "A confusão indica falta de clareza sobre como utilizar os seus próprios dons ou ferramentas pessoais.",
+      "com_paz": "Paz profunda com Luz intensa expressa alinhamento, segurança e harmonia com as resoluções alcançadas.",
+      "com_raiva": "A raiva denota o uso agressivo ou a necessidade premente de cortar e delimitar situações desconfortáveis.",
+      "primeira_vez": "O primeiro contato com Luz intensa sinaliza a ativação de uma nova competência ou perspectiva interna.",
+      "ja_sonhei": "O retorno deste objeto mostra que há pendências pragmáticas ou lições antigas sendo revisitadas.",
+      "frequente": "A recorrência de Luz intensa funciona como um lembrete persistente da psique para que você tome uma atitude firme.",
+      "acordou_coracao_acelerado": "O despertar tenso avisa que a mensagem do objeto tocou um ponto crítico de alta voltagem emocional.",
+      "acordou_leveza": "Sensação de leveza indica que a mente processou e organizou com sucesso os dilemas associados.",
+      "acordou_suor_frio": "Sinaliza que as defesas do ego foram confrontadas com verdades impactantes expostas pelo objeto.",
+      "acordou_confuso": "A mente racional tenta decifrar o manual de instruções simbólico e abstrato trazido pela noite.",
+      "acordou_chorando": "Liberação emocional profunda desencadeada por memórias, rompimentos ou ligações associadas ao objeto.",
+      "acordou_aliviado": "A jornada noturna atuou como uma perfeita limpeza psíquica de bloqueios e tensões."
+    },
+    "fase_lua": {
+      "nova": "Fase ideal para plantar intenções e iniciar o uso consciente deste novo recurso.",
+      "crescente": "Fase de desenvolvimento, aceleração e fortalecimento dos planos associados.",
+      "cheia": "Plenitude, colheita e clareza total das realizações mediadas pelo objeto.",
+      "minguante": "Fase de limpeza, descarte e desapego de velhas ferramentas que já não servem."
+    },
+    "emocoes": {
+      "medo": "Enfrentamento de defesas e resistência inconsciente.",
+      "alegria": "Integração plena de competências e satisfação interior.",
+      "angustia": "Sensação de limitação ou escassez de caminhos.",
+      "confusao": "Período de ajuste e calibração de rotas e escolhas.",
+      "paz": "Profundo sentimento de segurança e resolução interna.",
+      "raiva": "Sinal de força motriz para romper barreiras e definir limites severos."
+    },
+    "jogo_bicho": {
+      "grupo": "22",
+      "animal": "Tigre",
+      "dezenas": [
+        "85",
+        "86",
+        "87",
+        "88"
+      ],
+      "milhar_sugerido": "7086"
+    },
+    "periodo": "dia",
+    "cor_associada": "Branco",
+    "recorrente": false,
+    "combinacoes_frequentes": [
+      "uso",
+      "achado",
+      "perda",
+      "quebra"
+    ],
+    "estado_despertar": "leveza",
+    "sonho_pb": false
+  },
+  "escuridao_total": {
+    "simbolo": "Escuridão total",
+    "slug": "escuridao-total",
+    "sinonimos": [
+      "escuridão total",
+      "item escuridão total",
+      "arquétipo escuridão total"
+    ],
+    "categoria": "Objetos",
+    "seo": {
+      "titulo_base": "Sonhar com Escuridão total — Significado e Interpretação",
+      "descricao_base": "Descubra o que significa sonhar com Escuridão total: abordagens junguianas, psicológicas, mitológicas e espirituais sobre este objeto.",
+      "palavras_chave": [
+        "sonhar com escuridão total",
+        "significado escuridão total sonho",
+        "sonho escuridão total"
+      ]
+    },
+    "mensagem_direta": "A presença de Escuridão total no seu sonho aponta para ferramentas psíquicas, recursos internos ou transições que estão ativas na sua consciência.",
+    "alerta": "Analise o estado e a utilidade do(a) Escuridão total no sonho. Se estiver quebrado, perdido ou inacessível, indica bloqueios emocionais temporários.",
+    "acao_recomendada": "Reflicta sobre como utiliza o conceito simbólico de Escuridão total na sua vida desperta (segurança, comunicação, corte, reflexão) e ajuste os seus limites.",
+    "arquetipo": "A Sombra / O Inconsciente",
+    "elemento": "Éter",
+    "chakra": {
+      "nome": "Terceiro Olho",
+      "sanskrito": "Ajna",
+      "significado": "Ativação energética e ressonância do centro de força pessoal associado às propriedades dinâmicas de Escuridão total."
+    },
+    "mitologia": {
+      "grega": "Associação com os atributos dos deuses olímpicos, chaves de Hécate, fios de Hermes ou ferramentas míticas ligadas a Escuridão total.",
+      "egipcia": "Símbolos de poder e rituais de passagem encontrados nos livros sagrados e na pesagem do coração.",
+      "hindu": "Instrumentos divinos (Astras) ou representações de oferendas rituais e elementos cósmicos puros.",
+      "indigena_brasileira": "Objetos sagrados de poder, amuletos de proteção natural e ferramentas rituais dos pajés.",
+      "nordica": "Artefatos rúnicos forjados pelos anões ou símbolos de poder e runas sagradas gravadas.",
+      "judaico_crista": "Metáforas de provação, aliança espiritual, revelações proféticas ou instrumentos de santificação divina."
+    },
+    "psicologia": {
+      "jung": "Sob o olhar junguiano, o(a) Escuridão total atua como um condensador de projeções da libido ou um objeto mediador entre o Ego e os conteúdos do Inconsciente.",
+      "freud": "Freud identificaria Escuridão total como uma representação simbólica substitutiva, frequentemente associada a desejos recalcados ou mecanismos de defesa.",
+      "interpretacao_moderna": "A psicologia cognitiva interpreta como a reativação de ferramentas cotidianas ou conceitos abstratos usados no mapeamento de problemas reais.",
+      "fonte": "Jung, C.G. — O Homem e Seus Símbolos; Freud, S. — A Interpretação dos Sonhos"
+    },
+    "sono": {
+      "fase_tipica": "Sono REM intermediário e ciclos de resolução de problemas lógicos.",
+      "significado_sono": "Consolidação de estratégias de enfrentamento e organização de esquemas conceituais baseados na dinâmica de Escuridão total.",
+      "ciencia": "Ativação das redes neurais motoras e do córtex parietal posterior envolvidos no manuseio de ferramentas e simulações espaciais."
+    },
+    "numerologia": {
+      "numero_simbolo": 0,
+      "significado_numero": "Representação de começos e autonomia, poder material e justiça ou de fundação estável.",
+      "fonte": "Numerologia Pitagórica"
+    },
+    "leitures": {
+      "geral": "A materialização de Escuridão total no ambiente onírico indica a necessidade de usar os seus recursos internos com maior clareza e determinação.",
+      "trilha_significado": "Análise profunda do significado intrínseco de Escuridão total como catalisador de autoconhecimento.",
+      "trilha_sorte": "Associações numéricas, dezenas e vibrações de sorte conectadas à geometria e propósito de Escuridão total.",
+      "trilha_amor": "O reflexo das trocas afetivas, compromissos, cortes ou pontes emocionais através do símbolo de Escuridão total.",
+      "trilha_mente": "Técnicas de foco, foco mental e organização neurológica a partir dos insights disparados pelo objeto."
+    },
+    "contextos": {
+      "de_noite": "Escuridão total sob o manto da noite oculta segredos e evoca o uso oculto ou misterioso do objeto.",
+      "de_dia": "A presença de Escuridão total durante o dia foca a mente consciente em resoluções diretas e ferramentas práticas.",
+      "com_medo": "Sentir medo ou ameaça ao lidar com Escuridão total mostra resistência a assumir o controle ou enfrentar o que ele revela.",
+      "com_alegria": "Alegria ao interagir com Escuridão total confirma a mestria, aceitação e uso bem-sucedido desse recurso psíquico.",
+      "com_angustia": "Angústia em torno de Escuridão total reflete sentimentos de perda, impotência ou prazos apertados na vigília.",
+      "com_confusao": "A confusão indica falta de clareza sobre como utilizar os seus próprios dons ou ferramentas pessoais.",
+      "com_paz": "Paz profunda com Escuridão total expressa alinhamento, segurança e harmonia com as resoluções alcançadas.",
+      "com_raiva": "A raiva denota o uso agressivo ou a necessidade premente de cortar e delimitar situações desconfortáveis.",
+      "primeira_vez": "O primeiro contato com Escuridão total sinaliza a ativação de uma nova competência ou perspectiva interna.",
+      "ja_sonhei": "O retorno deste objeto mostra que há pendências pragmáticas ou lições antigas sendo revisitadas.",
+      "frequente": "A recorrência de Escuridão total funciona como um lembrete persistente da psique para que você tome uma atitude firme.",
+      "acordou_coracao_acelerado": "O despertar tenso avisa que a mensagem do objeto tocou um ponto crítico de alta voltagem emocional.",
+      "acordou_leveza": "Sensação de leveza indica que a mente processou e organizou com sucesso os dilemas associados.",
+      "acordou_suor_frio": "Sinaliza que as defesas do ego foram confrontadas com verdades impactantes expostas pelo objeto.",
+      "acordou_confuso": "A mente racional tenta decifrar o manual de instruções simbólico e abstrato trazido pela noite.",
+      "acordou_chorando": "Liberação emocional profunda desencadeada por memórias, rompimentos ou ligações associadas ao objeto.",
+      "acordou_aliviado": "A jornada noturna atuou como uma perfeita limpeza psíquica de bloqueios e tensões."
+    },
+    "fase_lua": {
+      "nova": "Fase ideal para plantar intenções e iniciar o uso consciente deste novo recurso.",
+      "crescente": "Fase de desenvolvimento, aceleração e fortalecimento dos planos associados.",
+      "cheia": "Plenitude, colheita e clareza total das realizações mediadas pelo objeto.",
+      "minguante": "Fase de limpeza, descarte e desapego de velhas ferramentas que já não servem."
+    },
+    "emocoes": {
+      "medo": "Enfrentamento de defesas e resistência inconsciente.",
+      "alegria": "Integração plena de competências e satisfação interior.",
+      "angustia": "Sensação de limitação ou escassez de caminhos.",
+      "confusao": "Período de ajuste e calibração de rotas e escolhas.",
+      "paz": "Profundo sentimento de segurança e resolução interna.",
+      "raiva": "Sinal de força motriz para romper barreiras e definir limites severos."
+    },
+    "jogo_bicho": {
+      "grupo": "15",
+      "animal": "Cobra",
+      "dezenas": [
+        "57",
+        "58",
+        "59",
+        "60"
+      ],
+      "milhar_sugerido": "3058"
+    },
+    "periodo": "noite",
+    "cor_associada": "Preto",
+    "recorrente": false,
+    "combinacoes_frequentes": [
+      "uso",
+      "achado",
+      "perda",
+      "quebra"
+    ],
+    "estado_despertar": "leveza",
+    "sonho_pb": true
+  },
+  "numero": {
+    "simbolo": "Número",
+    "slug": "numero",
+    "sinonimos": [
+      "número",
+      "item número",
+      "arquétipo número"
+    ],
+    "categoria": "Objetos",
+    "seo": {
+      "titulo_base": "Sonhar com Número — Significado e Interpretação",
+      "descricao_base": "Descubra o que significa sonhar com Número: abordagens junguianas, psicológicas, mitológicas e espirituais sobre este objeto.",
+      "palavras_chave": [
+        "sonhar com número",
+        "significado número sonho",
+        "sonho número"
+      ]
+    },
+    "mensagem_direta": "A presença de Número no seu sonho aponta para ferramentas psíquicas, recursos internos ou transições que estão ativas na sua consciência.",
+    "alerta": "Analise o estado e a utilidade do(a) Número no sonho. Se estiver quebrado, perdido ou inacessível, indica bloqueios emocionais temporários.",
+    "acao_recomendada": "Reflicta sobre como utiliza o conceito simbólico de Número na sua vida desperta (segurança, comunicação, corte, reflexão) e ajuste os seus limites.",
+    "arquetipo": "A Ordem Cósmica / Logos",
+    "elemento": "Ar",
+    "chakra": {
+      "nome": "Garganta",
+      "sanskrito": "Vishuddha",
+      "significado": "Ativação energética e ressonância do centro de força pessoal associado às propriedades dinâmicas de Número."
+    },
+    "mitologia": {
+      "grega": "Associação com os atributos dos deuses olímpicos, chaves de Hécate, fios de Hermes ou ferramentas míticas ligadas a Número.",
+      "egipcia": "Símbolos de poder e rituais de passagem encontrados nos livros sagrados e na pesagem do coração.",
+      "hindu": "Instrumentos divinos (Astras) ou representações de oferendas rituais e elements cósmicos puros.",
+      "indigena_brasileira": "Objetos sagrados de poder, amuletos de proteção natural e ferramentas rituais dos pajés.",
+      "nordica": "Artefatos rúnicos forjados pelos anões ou símbolos de poder e runas sagradas gravadas.",
+      "judaico_crista": "Metáforas de provação, aliança espiritual, revelações proféticas ou instrumentos de santificação divina."
+    },
+    "psicologia": {
+      "jung": "Sob o olhar junguiano, o(a) Número atua como um condensador de projeções da libido ou um objeto mediador entre o Ego e os conteúdos do Inconsciente.",
+      "freud": "Freud identificaria Número como uma representação simbólica substitutiva, frequentemente associada a desejos recalcados ou mecanismos de defesa.",
+      "interpretacao_moderna": "A psicologia cognitiva interpreta como a reativação de ferramentas cotidianas ou conceitos abstratos usados no mapeamento de problemas reais.",
+      "fonte": "Jung, C.G. — O Homem e Seus Símbolos; Freud, S. — A Interpretação dos Sonhos"
+    },
+    "sono": {
+      "fase_tipica": "Sono REM intermediário e ciclos de resolução de problemas lógicos.",
+      "significado_sono": "Consolidação de estratégias de enfrentamento e organização de esquemas conceituais baseados na dinâmica de Número.",
+      "ciencia": "Ativação das redes neurais motoras e do córtex parietal posterior envolvidos no manuseio de ferramentas e simulações espaciais."
+    },
+    "numerologia": {
+      "numero_simbolo": 5,
+      "significado_numero": "Representação de começos e autonomia, poder material e justiça ou de fundação estável.",
+      "fonte": "Numerologia Pitagórica"
+    },
+    "leitures": {
+      "geral": "A materialização de Número no ambiente onírico indica a necessidade de usar os seus recursos internos com maior clareza e determinação.",
+      "trilha_significado": "Análise profunda do significado intrínseco de Número como catalisador de autoconhecimento.",
+      "trilha_sorte": "Associações numéricas, dezenas e vibrações de sorte conectadas à geometria e propósito de Número.",
+      "trilha_amor": "O reflexo das trocas afetivas, compromissos, cortes ou pontes emocionais através do símbolo de Número.",
+      "trilha_mente": "Técnicas de foco, foco mental e organização neurológica a partir dos insights disparados pelo objeto."
+    },
+    "contextos": {
+      "de_noite": "Número sob o manto da noite oculta segredos e evoca o uso oculto ou misterioso do objeto.",
+      "de_dia": "A presença de Número durante o dia foca a mente consciente em resoluções diretas e ferramentas práticas.",
+      "com_medo": "Sentir medo ou ameaça ao lidar com Número mostra resistência a assumir o controle ou enfrentar o que ele revela.",
+      "com_alegria": "Alegria ao interagir com Número confirma a mestria, aceitação e uso bem-sucedido desse recurso psíquico.",
+      "com_angustia": "Angústia em torno de Número reflete sentimentos de perda, impotência ou prazos apertados na vigília.",
+      "com_confusao": "A confusão indica falta de clareza sobre como utilizar os seus próprios dons ou ferramentas pessoais.",
+      "com_paz": "Paz profunda com Número expressa alinhamento, segurança e harmonia com as resoluções alcançadas.",
+      "com_raiva": "A raiva denota o uso agressivo ou a necessidade premente de cortar e delimitar situações desconfortáveis.",
+      "primeira_vez": "O primeiro contato com Número sinaliza a ativação de uma nova competência ou perspectiva interna.",
+      "ja_sonhei": "O retorno deste objeto mostra que há pendências pragmáticas ou lições antigas sendo revisitadas.",
+      "frequente": "A recorrência de Número funciona como um lembrete persistente da psique para que você tome uma atitude firme.",
+      "acordou_coracao_acelerado": "O despertar tenso avisa que a mensagem do objeto tocou um ponto crítico de alta voltagem emocional.",
+      "acordou_leveza": "Sensação de leveza indica que a mente processou e organizou com sucesso os dilemas associados.",
+      "acordou_suor_frio": "Sinaliza que as defesas do ego foram confrontadas com verdades impactantes expostas pelo objeto.",
+      "acordou_confuso": "A mente racional tenta decifrar o manual de instruções simbólico e abstrato trazido pela noite.",
+      "acordou_chorando": "Liberação emocional profunda desencadeada por memórias, rompimentos ou ligações associadas ao objeto.",
+      "acordou_aliviado": "A jornada noturna atuou como uma perfeita limpeza psíquica de bloqueios e tensões."
+    },
+    "fase_lua": {
+      "nova": "Fase ideal para plantar intenções e iniciar o uso consciente deste novo recurso.",
+      "crescente": "Fase de desenvolvimento, aceleração e fortalecimento dos planos associados.",
+      "cheia": "Plenitude, colheita e clareza total das realizações mediadas pelo objeto.",
+      "minguante": "Fase de limpeza, descarte e desapego de velhas ferramentas que já não servem."
+    },
+    "emocoes": {
+      "medo": "Enfrentamento de defesas e resistência inconsciente.",
+      "alegria": "Integração plena de competências e satisfação interior.",
+      "angustia": "Sensação de limitação ou escassez de caminhos.",
+      "confusao": "Período de ajuste e calibração de rotas e escolhas.",
+      "paz": "Profundo sentimento de segurança e resolução interna.",
+      "raiva": "Sinal de força motriz para romper barreiras e definir limites severos."
+    },
+    "jogo_bicho": {
+      "grupo": "24",
+      "animal": "Veado",
+      "dezenas": [
+        "93",
+        "94",
+        "95",
+        "96"
+      ],
+      "milhar_sugerido": "5095"
+    },
+    "periodo": "dia",
+    "cor_associada": "Prata",
+    "recorrente": false,
+    "combinacoes_frequentes": [
+      "uso",
+      "achado",
+      "perda",
+      "quebra"
+    ],
+    "estado_despertar": "leveza",
+    "sonho_pb": false
+  },
+  "documento_contrato": {
+    "simbolo": "Documento / contrato",
+    "slug": "documento-contrato",
+    "sinonimos": [
+      "documento / contrato",
+      "item documento / contrato",
+      "arquétipo documento / contrato"
+    ],
+    "categoria": "Objetos",
+    "seo": {
+      "titulo_base": "Sonhar com Documento / contrato — Significado e Interpretação",
+      "descricao_base": "Descubra o que significa sonhar com Documento / contrato: abordagens junguianas, psicológicas, mitológicas e espirituais sobre este objeto.",
+      "palavras_chave": [
+        "sonhar com documento contrato",
+        "significado documento contrato sonho",
+        "sonho documento contrato"
+      ]
+    },
+    "mensagem_direta": "A presença de Documento / contrato no seu sonho aponta para ferramentas psíquicas, recursos internos ou transições que estão ativas na sua consciência.",
+    "alerta": "Analise o estado e a utilidade do(a) Documento / contrato no sonho. Se estiver quebrado, perdido ou inacessível, indica bloqueios emocionais temporários.",
+    "acao_recomendada": "Reflicta sobre como utiliza o conceito simbólico de Documento / contrato na sua vida desperta (segurança, comunicação, corte, reflexão) and ajuste os seus limites.",
+    "arquetipo": "O Compromisso / Persona",
+    "elemento": "Terra",
+    "chakra": {
+      "nome": "Plexo Solar",
+      "sanskrito": "Manipura",
+      "significado": "Ativação energética e ressonância do centro de força pessoal associado às propriedades dinâmicas de Documento / contrato."
+    },
+    "mitologia": {
+      "grega": "Associação com os atributos dos deuses olímpicos, chaves de Hécate, fios de Hermes ou ferramentas míticas ligadas a Documento / contrato.",
+      "egipcia": "Símbolos de poder e rituais de passagem encontrados nos livros sagrados e na pesagem do coração.",
+      "hindu": "Instrumentos divinos (Astras) ou representações de oferendas rituais e elementos cósmicos puros.",
+      "indigena_brasileira": "Objetos sagrados de poder, amuletos de proteção natural e ferramentas rituais dos pajés.",
+      "nordica": "Artefatos rúnicos forjados pelos anões ou símbolos de poder e runas sagradas gravadas.",
+      "judaico_crista": "Metáforas de provação, aliança espiritual, revelações proféticas ou instrumentos de santificação divina."
+    },
+    "psicologia": {
+      "jung": "Sob o olhar junguiano, o(a) Documento / contrato atua como um condensador de projeções da libido ou um objeto mediador entre o Ego e os conteúdos do Inconsciente.",
+      "freud": "Freud identificaria Documento / contrato como uma representação simbólica substitutiva, frequentemente associada a desejos recalcados ou mecanismos de defesa.",
+      "interpretacao_moderna": "A psicologia cognitiva interpreta como a reativação de ferramentas cotidianas ou conceitos abstratos usados no mapeamento de problemas reais.",
+      "fonte": "Jung, C.G. — O Homem e Seus Símbolos; Freud, S. — A Interpretação dos Sonhos"
+    },
+    "sono": {
+      "fase_tipica": "Sono REM intermediário e ciclos de resolução de problemas lógicos.",
+      "significado_sono": "Consolidação de estratégias de enfrentamento e organização de esquemas conceituais baseados na dinâmica de Documento / contrato.",
+      "ciencia": "Ativação das redes neurais motoras e do córtex parietal posterior envolvidos no manuseio de ferramentas e simulações espaciais."
+    },
+    "numerologia": {
+      "numero_simbolo": 8,
+      "significado_numero": "Representação de começos e autonomia, poder material e justiça ou de fundação estável.",
+      "fonte": "Numerologia Pitagórica"
+    },
+    "leitures": {
+      "geral": "A materialização de Documento / contrato no ambiente onírico indica a necessidade de usar os seus recursos internos com maior clareza e determinação.",
+      "trilha_significado": "Análise profunda do significado intrínseco de Documento / contrato como catalisador de autoconhecimento.",
+      "trilha_sorte": "Associações numéricas, dezenas e vibrações de sorte conectadas à geometria e propósito de Documento / contrato.",
+      "trilha_amor": "O reflexo das trocas afetivas, compromissos, cortes ou pontes emocionais através do símbolo de Documento / contrato.",
+      "trilha_mente": "Técnicas de foco, foco mental e organização neurológica a partir dos insights disparados pelo objeto."
+    },
+    "contextos": {
+      "de_noite": "Documento / contrato sob o manto da noite oculta segredos e evoca o uso oculto ou misterioso do objeto.",
+      "de_dia": "A presença de Documento / contrato durante o dia foca a mente consciente em resoluções diretas e ferramentas práticas.",
+      "com_medo": "Sentir medo ou ameaça ao lidar com Documento / contrato mostra resistência a assumir o controle ou enfrentar o que ele revela.",
+      "com_alegria": "Alegria ao interagir com Documento / contrato confirma a mestria, aceitação e uso bem-sucedido desse recurso psíquico.",
+      "com_angustia": "Angústia em torno de Documento / contrato reflete sentimentos de perda, impotência ou prazos apertados na vigília.",
+      "com_confusao": "A confusão indica falta de clareza sobre como utilizar os seus próprios dons ou ferramentas pessoais.",
+      "com_paz": "Paz profunda com Documento / contrato expressa alinhamento, segurança e harmonia com as resoluções alcançadas.",
+      "com_raiva": "A raiva denota o uso agressivo ou a necessidade premente de cortar e delimitar situações desconfortáveis.",
+      "primeira_vez": "O primeiro contato com Documento / contrato sinaliza a ativação de uma nova competência ou perspectiva interna.",
+      "ja_sonhei": "O retorno deste objeto mostra que há pendências pragmáticas ou lições antigas sendo revisitadas.",
+      "frequente": "A recorrência de Documento / contrato funciona como um lembrete persistente da psique para que você tome uma atitude firme.",
+      "acordou_coracao_acelerado": "O despertar tenso avisa que a mensagem do objeto tocou um ponto crítico de alta voltagem emocional.",
+      "acordou_leveza": "Sensação de leveza indica que a mente processou e organizou com sucesso os dilemas associados.",
+      "acordou_suor_frio": "Sinaliza que as defesas do ego foram confrontadas com verdades impactantes expostas pelo objeto.",
+      "acordou_confuso": "A mente racional tenta decifrar o manual de instruções simbólico e abstrato trazido pela noite.",
+      "acordou_chorando": "Liberação emocional profunda desencadeada por memórias, rompimentos ou ligações associadas ao objeto.",
+      "acordou_aliviado": "A jornada noturna atuou como uma perfeita limpeza psíquica de bloqueios e tensões.",
+      "sonho_pb": "O cenário em preto e branco destaca a função pura, a essência e o valor arquetípico do(a) Documento / contrato.",
+      "sonho_colorido": "As cores vivas expandem o campo de sentimentos e a urgência afetiva em torno do objeto.",
+      "cenario_claro": "O ambiente perfeitamente claro facilita o reconhecimento e o manuseio correto do(a) Documento / contrato.",
+      "cenario_nebuloso": "A névoa indica que você ainda não compreende totalmente o propósito ou o valor desta ferramenta atual.",
+      "cenario_ameacador": "Atmosfera hostil projeta perigos percebidos que tentam desviar ou sabotar o uso dos seus recursos.",
+      "cenario_pacifico": "Cenário tranquilo atesta estabilidade interna para o usufruto e integração do símbolo.",
+      "lembrou_tudo": "A recordação completa armazena todos os detalhes visuais cruciais para a decodificação exata.",
+      "lembrou_fragmentos": "Segure a lembrança mais nítida do objeto; aquele fragmento é o vetor essencial do recado.",
+      "nao_lembrava": "Mesmo sem memórias visuais fixas, o ajuste estrutural promovido pelo símbolo foi assimilado."
+    },
+    "fase_lua": {
+      "nova": "Fase ideal para plantar intenções e iniciar o uso consciente deste novo recurso.",
+      "crescente": "Fase de desenvolvimento, aceleração e fortalecimento dos planos associados.",
+      "cheia": "Plenitude, colheita e clareza total das realizações mediadas pelo objeto.",
+      "minguante": "Fase de limpeza, descarte e desapego de velhas ferramentas que já não servem."
+    },
+    "emocoes": {
+      "medo": "Enfrentamento de defesas e resistência inconsciente.",
+      "alegria": "Integração plena de competências e satisfação interior.",
+      "angustia": "Sensação de limitação ou escassez de caminhos.",
+      "confusao": "Período de ajuste e calibração de rotas e escolhas.",
+      "paz": "Profundo sentimento de segurança e resolução interna.",
+      "raiva": "Sinal de força motriz para romper barreiras e definir limites severos."
+    },
+    "jogo_bicho": {
+      "grupo": "12",
+      "animal": "Elefante",
+      "dezenas": [
+        "45",
+        "46",
+        "47",
+        "48"
+      ],
+      "milhar_sugerido": "8446"
+    },
+    "periodo": "dia",
+    "cor_associada": "Sépia",
+    "recorrente": false,
+    "combinacoes_frequentes": [
+      "uso",
+      "achado",
+      "perda",
+      "quebra"
+    ],
+    "estado_despertar": "leveza",
+    "sonho_pb": false
+  }
   }
 }

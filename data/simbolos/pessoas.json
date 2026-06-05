@@ -2603,6 +2603,626 @@
       ],
       "estado_despertar": "leveza",
       "sonho_pb": false
-    }
+    },
+  "bebe": {
+    "simbolo": "Bebê",
+    "slug": "bebe",
+    "sinonimos": [
+      "bebê",
+      "figura de bebê",
+      "arquétipo bebê"
+    ],
+    "categoria": "Pessoas",
+    "seo": {
+      "titulo_base": "Sonhar com Bebê — Significado e Interpretação",
+      "descricao_base": "Descubra o que significa sonhar com Bebê: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+      "palavras_chave": [
+        "sonhar com bebê",
+        "significado bebê sonho",
+        "sonho bebê"
+      ]
+    },
+    "mensagem_direta": "A aparição de Bebê nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+    "alerta": "Observe o comportamento e as palavras de Bebê no sonho, pois expressam verdadeiras ocultas que o ego costuma ignorar na vigília.",
+    "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Bebê e busque integrá-las conscientemente.",
+    "arquetipo": "A Criança Divina",
+    "elemento": "Água",
+    "chakra": {
+      "nome": "Sacral",
+      "sanskrito": "Svadhisthana",
+      "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Bebê."
+    },
+    "mitologia": {
+      "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Bebê.",
+      "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+      "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+      "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+      "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+      "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+    },
+    "psicologia": {
+      "jung": "Sob a ótica junguiana, Bebê é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+      "freud": "Freud veria Bebê como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+      "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+      "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+    },
+    "sono": {
+      "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+      "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Bebê.",
+      "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+    },
+    "numerologia": {
+      "numero_simbolo": 1,
+      "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+      "fonte": "Numerologia Pitagórica"
+    },
+    "leitures": {
+      "geral": "Ver Bebê sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+      "trilha_significado": "Estudo profundo do simbolismo de Bebê na evolução pessoal e espiritual.",
+      "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+      "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Bebê.",
+      "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+    },
+    "contextos": {
+      "de_noite": "O encontro com Bebê à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+      "de_dia": "Sob a luz do dia, Bebê aponta para situações claras e interações conscientes no cotidiano.",
+      "com_medo": "Sentir medo de Bebê indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+      "com_alegria": "Alegria ao lado de Bebê sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+      "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+      "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+      "com_paz": "Paz profunda com Bebê confirma aceitação, maturidade e integração emocional.",
+      "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+      "primeira_vez": "Primeira aparição de Bebê marca a ativação de um novo aspecto ou complexo na sua jornada.",
+      "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+      "frequente": "Sonhar repetidamente com Bebê é um chamado urgente para resolver pendências afetivas ou integrativas.",
+      "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+      "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+      "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+      "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+      "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+      "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+      "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Bebê.",
+      "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+      "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Bebê.",
+      "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+      "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+      "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+      "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+      "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+      "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilibrio dos laços psíquicos foi processado."
+    },
+    "fase_lua": {
+      "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+      "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+      "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+      "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+    },
+    "emocoes": {
+      "medo": "Enfrentamento de defesas pessoais internas.",
+      "alegria": "Integração plena e fluxo livre de afeto.",
+      "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+      "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+      "paz": "Harmonia e alinhamento pacífico alcançados.",
+      "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+    },
+    "jogo_bicho": {
+      "grupo": "Borboleta",
+      "animal": "Borboleta",
+      "dezenas": [
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "milhar_sugerido": "2026"
+    },
+    "periodo": "dia",
+    "cor_associated": "Branco",
+    "recorrente": false,
+    "combinacoes_frequentes": [
+      "diálogo",
+      "olhar",
+      "abraço",
+      "distanciamento"
+    ],
+    "estado_despertar": "leveza",
+    "sonho_pb": false
+  },
+  "desafeto_inimigo": {
+    "simbolo": "Desafeto / inimigo",
+    "slug": "desafeto-inimigo",
+    "sinonimos": [
+      "desafeto / inimigo",
+      "figura de desafeto / inimigo",
+      "arquétipo desafeto / inimigo"
+    ],
+    "categoria": "Pessoas",
+    "seo": {
+      "titulo_base": "Sonhar com Desafeto / inimigo — Significado e Interpretação",
+      "descricao_base": "Descubra o que significa sonhar com Desafeto / inimigo: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+      "palavras_chave": [
+        "sonhar com desafeto inimigo",
+        "significado desafeto inimigo sonho",
+        "sonho desafeto inimigo"
+      ]
+    },
+    "mensagem_direta": "A aparição de Desafeto / inimigo nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+    "alerta": "Observe o comportamento e as palavras de Desafeto / inimigo no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+    "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Desafeto / inimigo e busque integrá-las conscientemente.",
+    "arquetipo": "A Sombra",
+    "elemento": "Fogo",
+    "chakra": {
+      "nome": "Plexo Solar",
+      "sanskrito": "Manipura",
+      "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Desafeto / inimigo."
+    },
+    "mitologia": {
+      "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Desafeto / inimigo.",
+      "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+      "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+      "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+      "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+      "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+    },
+    "psicologia": {
+      "jung": "Sob a ótica junguiana, Desafeto / inimigo é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+      "freud": "Freud veria Desafeto / inimigo como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+      "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+      "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+    },
+    "sono": {
+      "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+      "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Desafeto / inimigo.",
+      "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+    },
+    "numerologia": {
+      "numero_simbolo": 8,
+      "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+      "fonte": "Numerologia Pitagórica"
+    },
+    "leitures": {
+      "geral": "Ver Desafeto / inimigo sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+      "trilha_significado": "Estudo profundo do simbolismo de Desafeto / inimigo na evolução pessoal e espiritual.",
+      "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+      "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Desafeto / inimigo.",
+      "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+    },
+    "contextos": {
+      "de_noite": "O encontro com Desafeto / inimigo à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+      "de_dia": "Sob a luz do dia, Desafeto / inimigo aponta para situações claras e interações conscientes no cotidiano.",
+      "com_medo": "Sentir medo de Desafeto / inimigo indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+      "com_alegria": "Alegria ao lado de Desafeto / inimigo sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+      "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+      "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+      "com_paz": "Paz profunda com Desafeto / inimigo confirma aceitação, maturidade e integração emocional.",
+      "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+      "primeira_vez": "Primeira aparição de Desafeto / inimigo marca a ativação de um novo aspecto ou complexo na sua jornada.",
+      "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+      "frequente": "Sonhar repetidamente com Desafeto / inimigo é um chamado urgente para resolver pendências afetivas ou integrativas.",
+      "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+      "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+      "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+      "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+      "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+      "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+      "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Desafeto / inimigo.",
+      "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+      "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Desafeto / inimigo.",
+      "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+      "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+      "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+      "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+      "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+      "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilibrio dos laços psíquicos foi processado."
+    },
+    "fase_lua": {
+      "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+      "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+      "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+      "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+    },
+    "emocoes": {
+      "medo": "Enfrentamento de defesas pessoais internas.",
+      "alegria": "Integração plena e fluxo livre de afeto.",
+      "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+      "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+      "paz": "Harmonia e alinhamento pacífico alcançados.",
+      "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+    },
+    "jogo_bicho": {
+      "grupo": "Cobra",
+      "animal": "Cobra",
+      "dezenas": [
+        "57",
+        "58",
+        "59",
+        "60"
+      ],
+      "milhar_sugerido": "1058"
+    },
+    "periodo": "noite",
+    "cor_associated": "Vermelho",
+    "recorrente": false,
+    "combinacoes_frequentes": [
+      "diálogo",
+      "olhar",
+      "abraço",
+      "distanciamento"
+    ],
+    "estado_despertar": "leveza",
+    "sonho_pb": false
+  },
+  "gemeo_sosia": {
+    "simbolo": "Gêmeo / sósia",
+    "slug": "gemeo-sosia",
+    "sinonimos": [
+      "gêmeo / sósia",
+      "figura de gêmeo / sósia",
+      "arquétipo gêmeo / sósia"
+    ],
+    "categoria": "Pessoas",
+    "seo": {
+      "titulo_base": "Sonhar com Gêmeo / sósia — Significado e Interpretação",
+      "descricao_base": "Descubra o que significa sonhar com Gêmeo / sósia: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+      "palavras_chave": [
+        "sonhar com gêmeo sósia",
+        "significado gêmeo sósia sonho",
+        "sonho gêmeo sósia"
+      ]
+    },
+    "mensagem_direta": "A aparição de Gêmeo / sósia nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+    "alerta": "Observe o comportamento e as palavras de Gêmeo / sósia no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+    "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Gêmeo / sósia e busque integrá-las conscientemente.",
+    "arquetipo": "O Doppelgänger / O Duplo",
+    "elemento": "Ar",
+    "chakra": {
+      "nome": "Terceiro Olho",
+      "sanskrito": "Ajna",
+      "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Gêmeo / sósia."
+    },
+    "mitologia": {
+      "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Gêmeo / sósia.",
+      "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+      "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+      "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+      "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+      "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+    },
+    "psicologia": {
+      "jung": "Sob a ótica junguiana, Gêmeo / sósia é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+      "freud": "Freud veria Gêmeo / sósia como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+      "interpretacao_moderna": "A psychology moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+      "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+    },
+    "sono": {
+      "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+      "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Gêmeo / sósia.",
+      "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+    },
+    "numerologia": {
+      "numero_simbolo": 2,
+      "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+      "fonte": "Numerologia Pitagórica"
+    },
+    "leitures": {
+      "geral": "Ver Gêmeo / sósia sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+      "trilha_significado": "Estudo profundo do simbolismo de Gêmeo / sósia na evolução pessoal e espiritual.",
+      "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+      "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Gêmeo / sósia.",
+      "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+    },
+    "contextos": {
+      "de_noite": "O encontro com Gêmeo / sósia à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+      "de_dia": "Sob a luz do dia, Gêmeo / sósia aponta para situações claras e interações conscientes no cotidiano.",
+      "com_medo": "Sentir medo de Gêmeo / sósia indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+      "com_alegria": "Alegria ao lado de Gêmeo / sósia sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+      "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+      "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+      "com_paz": "Paz profunda com Gêmeo / sósia confirma aceitação, maturidade e integração emocional.",
+      "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+      "primeira_vez": "Primeira aparição de Gêmeo / sósia marca a ativação de um novo aspecto ou complexo na sua jornada.",
+      "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+      "frequente": "Sonhar repetidamente com Gêmeo / sósia é um chamado urgente para resolver pendências afetivas ou integrativas.",
+      "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+      "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+      "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+      "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+      "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+      "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+      "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Gêmeo / sósia.",
+      "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+      "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Gêmeo / sósia.",
+      "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+      "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+      "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+      "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+      "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+      "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilibrio dos laços psíquicos foi processado."
+    },
+    "fase_lua": {
+      "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+      "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+      "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+      "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+    },
+    "emocoes": {
+      "medo": "Enfrentamento de defesas pessoais internas.",
+      "alegria": "Integração plena e fluxo livre de afeto.",
+      "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+      "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+      "paz": "Harmonia e alinhamento pacífico alcançados.",
+      "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+    },
+    "jogo_bicho": {
+      "grupo": "Macaco",
+      "animal": "Macaco",
+      "dezenas": [
+        "65",
+        "66",
+        "67",
+        "68"
+      ],
+      "milhar_sugerido": "3066"
+    },
+    "periodo": "dia",
+    "cor_associated": "Cinza",
+    "recorrente": false,
+    "combinacoes_frequentes": [
+      "diálogo",
+      "olhar",
+      "abraço",
+      "distanciamento"
+    ],
+    "estado_despertar": "leveza",
+    "sonho_pb": false
+  },
+  "medico": {
+    "simbolo": "Médico",
+    "slug": "medico",
+    "sinonimos": [
+      "médico",
+      "figura de médico",
+      "arquétipo médico"
+    ],
+    "categoria": "Pessoas",
+    "seo": {
+      "titulo_base": "Sonhar com Médico — Significado e Interpretação",
+      "descricao_base": "Descubra o que significa sonhar com Médico: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+      "palavras_chave": [
+        "sonhar com médico",
+        "significado médico sonho",
+        "sonho médico"
+      ]
+    },
+    "mensagem_direta": "A aparição de Médico nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+    "alerta": "Observe o comportamento e as palavras de Médico no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+    "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Médico e busque integrá-las conscientemente.",
+    "arquetipo": "O Curador Ferido",
+    "elemento": "Éter",
+    "chakra": {
+      "nome": "Laríngeo",
+      "sanskrito": "Vishuddha",
+      "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Médico."
+    },
+    "mitologia": {
+      "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Médico.",
+      "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+      "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+      "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+      "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+      "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+    },
+    "psicologia": {
+      "jung": "Sob a ótica junguiana, Médico é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+      "freud": "Freud veria Médico como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+      "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+      "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+    },
+    "sono": {
+      "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+      "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Médico.",
+      "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+    },
+    "numerologia": {
+      "numero_simbolo": 7,
+      "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+      "fonte": "Numerologia Pitagórica"
+    },
+    "leitures": {
+      "geral": "Ver Médico sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+      "trilha_significado": "Estudo profundo do simbolismo de Médico na evolução pessoal e espiritual.",
+      "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+      "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Médico.",
+      "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+    },
+    "contextos": {
+      "de_noite": "O encontro com Médico à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+      "de_dia": "Sob a luz do dia, Médico aponta para situações claras e interações conscientes no cotidiano.",
+      "com_medo": "Sentir medo de Médico indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+      "com_alegria": "Alegria ao lado de Médico sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+      "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+      "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+      "com_paz": "Paz profunda com Médico confirma aceitação, maturidade e integração emocional.",
+      "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+      "primeira_vez": "Primeira aparição de Médico marca a ativação de um novo aspecto ou complexo na sua jornada.",
+      "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+      "frequente": "Sonhar repetidamente com Médico é um chamado urgente para resolver pendências afetivas ou integrativas.",
+      "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+      "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+      "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+      "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+      "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+      "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+      "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Médico.",
+      "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+      "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Médico.",
+      "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+      "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+      "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+      "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+      "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+      "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilibrio dos laços psíquicos foi processado."
+    },
+    "fase_lua": {
+      "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+      "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+      "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+      "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+    },
+    "emocoes": {
+      "medo": "Enfrentamento de defesas pessoais internas.",
+      "alegria": "Integração plena e fluxo livre de afeto.",
+      "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+      "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+      "paz": "Harmonia e alinhamento pacífico alcançados.",
+      "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+    },
+    "jogo_bicho": {
+      "grupo": "Veado",
+      "animal": "Veado",
+      "dezenas": [
+        "93",
+        "94",
+        "95",
+        "96"
+      ],
+      "milhar_sugerido": "4094"
+    },
+    "periodo": "dia",
+    "cor_associated": "Verde Claro",
+    "recorrente": false,
+    "combinacoes_frequentes": [
+      "diálogo",
+      "olhar",
+      "abraço",
+      "distanciamento"
+    ],
+    "estado_despertar": "leveza",
+    "sonho_pb": false
+  },
+  "policial": {
+    "simbolo": "Policial",
+    "slug": "policial",
+    "sinonimos": [
+      "policial",
+      "figura de policial",
+      "arquétipo policial"
+    ],
+    "categoria": "Pessoas",
+    "seo": {
+      "titulo_base": "Sonhar com Policial — Significado e Interpretação",
+      "descricao_base": "Descubra o que significa sonhar com Policial: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+      "palavras_chave": [
+        "sonhar com policial",
+        "significado policial sonho",
+        "sonho policial"
+      ]
+    },
+    "mensagem_direta": "A aparição de Policial nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+    "alerta": "Observe o comportamento e as palavras de Policial no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+    "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Policial e busque integrá-las conscientemente.",
+    "arquetipo": "A Lei / O Guardião da Ordem",
+    "elemento": "Metal",
+    "chakra": {
+      "nome": "Plexo Solar",
+      "sanskrito": "Manipura",
+      "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Policial."
+    },
+    "mitologia": {
+      "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Policial.",
+      "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+      "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+      "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+      "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+      "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+    },
+    "psicologia": {
+      "jung": "Sob a ótica junguiana, Policial é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+      "freud": "Freud veria Policial como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+      "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+      "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+    },
+    "sono": {
+      "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+      "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Policial.",
+      "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+    },
+    "numerologia": {
+      "numero_simbolo": 4,
+      "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+      "fonte": "Numerologia Pitagórica"
+    },
+    "leitures": {
+      "geral": "Ver Policial sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+      "trilha_significado": "Estudo profundo do simbolismo de Policial na evolução pessoal e espiritual.",
+      "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+      "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Policial.",
+      "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+    },
+    "contextos": {
+      "de_noite": "O encontro com Policial à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+      "de_dia": "Sob a luz do dia, Policial aponta para situações claras e interações conscientes no cotidiano.",
+      "com_medo": "Sentir medo de Policial indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+      "com_alegria": "Alegria ao lado de Policial sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+      "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+      "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+      "com_paz": "Paz profunda com Policial confirma aceitação, maturidade e integração emocional.",
+      "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+      "primeira_vez": "Primeira aparição de Policial marca a ativação de um novo aspecto ou complexo na sua jornada.",
+      "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+      "frequente": "Sonhar repetidamente com Policial é um chamado urgente para resolver pendências afetivas ou integrativas.",
+      "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+      "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+      "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+      "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+      "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+      "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+      "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Policial.",
+      "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+      "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Policial.",
+      "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+      "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+      "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+      "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+      "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+      "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilibrio dos laços psíquicos foi processado."
+    },
+    "fase_lua": {
+      "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+      "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+      "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+      "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+    },
+    "emocoes": {
+      "medo": "Enfrentamento de defesas pessoais internas.",
+      "alegria": "Integração plena e fluxo livre de afeto.",
+      "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+      "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+      "paz": "Harmonia e alinhamento pacífico alcançados.",
+      "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+    },
+    "jogo_bicho": {
+      "grupo": "Cachorro",
+      "animal": "Cachorro",
+      "dezenas": [
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "milhar_sugerido": "5018"
+    },
+    "periodo": "dia",
+    "cor_associated": "Azul Escuro",
+    "recorrente": false,
+    "combinacoes_frequentes": [
+      "diálogo",
+      "olhar",
+      "abraço",
+      "distanciamento"
+    ],
+    "estado_despertar": "leveza",
+    "sonho_pb": false
+  }
   }
 }
