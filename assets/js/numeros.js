@@ -1,4 +1,6 @@
 function generateLuckyNumbers(seed) {
+    const hoje = new Date().toISOString().slice(0, 10);
+    seed = seed + hoje;
     // Simple hash deterministic function
     let hash = 0;
     for (let i = 0; i < seed.length; i++) {
