@@ -1,0 +1,52 @@
+{
+  "estados": {
+    "coracao_acelerado": {
+      "id": "coracao_acelerado",
+      "titulo": "Coração Acelerado",
+      "significado_fisiologico": "Durante o sono REM, o sistema nervoso autônomo oscila entre ativação simpática intensa e relaxamento parassimpático — causando variações abruptas na frequência cardíaca. Acordar com coração acelerado indica que o sonho ativou a amígdala e o sistema de resposta ao estresse, liberando adrenalina e cortisol mesmo sem ameaça física real.",
+      "significado_psicologico": "O coração acelerado ao despertar revela que o sonho tocou em um conflito emocional não resolvido, um medo profundo ou uma situação que provoca ansiedade na vida desperta. O corpo processou a emoção como se fosse real — o que, para o inconsciente, ela é.",
+      "fase_sono_associada": "Predominantemente sono REM tardio (últimos ciclos da noite), quando os sonhos são mais vívidos, longos e emocionalmente intensos. A fase REM é marcada por paralisia muscular mas ativação intensa do sistema nervoso central.",
+      "mensagem": "Seu corpo registrou algo importante. Este sonho não foi apenas simbólico — foi visceral. Respire fundo antes de se levantar. Anote tudo que lembrar imediatamente. A aceleração cardíaca é seu sistema nervoso confirmando que a mensagem do sonho é urgente e real para sua psique."
+    },
+    "leveza": {
+      "id": "leveza",
+      "titulo": "Sensação de Leveza",
+      "significado_fisiologico": "A sensação de leveza ao acordar indica ativação predominante do sistema parassimpático — estado de relaxamento profundo com liberação de serotonina e endorfinas. O corpo saiu do sono em estado de baixo cortisol e baixa tensão muscular.",
+      "significado_psicologico": "A leveza ao despertar é sinal de integração psíquica bem-sucedida. O sono processou algo que estava pesando — uma preocupação, uma emoção represada ou um conflito interno. O inconsciente encontrou uma resolução simbólica que alivio o sistema.",
+      "fase_sono_associada": "Frequentemente associada ao despertar natural após sono REM de qualidade ou após sono de ondas lentas (N3 — sono profundo), quando ocorre a maior liberação de hormônio do crescimento e a consolidação emocional mais eficaz.",
+      "mensagem": "Você processou algo valioso esta noite. Seu sistema nervoso está em equilíbrio e o inconsciente está em paz. Carregue esta leveza conscientemente ao longo do dia — ela é um presente do seu sono. O símbolo do sonho traz uma mensagem de harmonia e alinhamento."
+    },
+    "suor_frio": {
+      "id": "suor_frio",
+      "titulo": "Suor Frio",
+      "significado_fisiologico": "O suor frio ao acordar de um sonho é produzido pela ativação intensa do sistema nervoso simpático — a resposta de luta ou fuga. A sudorese termorreguladora é suprimida durante o REM, mas o stress emocional intenso do sonho pode ativar a sudorese emocional (palmas, axilas, testa) mesmo com a temperatura corporal normal ou baixa.",
+      "significado_psicologico": "Acordar em suor frio indica que o sonho tocou em um terror primitivo, um trauma não processado ou uma ansiedade existencial profunda. O corpo tratou o conteúdo onírico como ameaça real e mobilizou recursos de sobrevivência. É um sinal de que há material emocional significativo pedindo atenção.",
+      "fase_sono_associada": "Sono REM com alta ativação amigdaliana, ou terror noturno em NREM (N3) — neste caso sem memória do sonho mas com estado de arousal intenso. Pesadelos tipicamente ocorrem em REM, terrores noturnos em NREM profundo.",
+      "mensagem": "Seu corpo mobilizou seus recursos de sobrevivência enquanto você dormia. Isso significa que algo neste sonho tocou em um medo ou trauma real. Não minimize esta experiência. Beba água, respire, oriente-se no espaço. Se este estado se repete com frequência, considere apoio terapêutico — seu inconsciente está pedindo ajuda."
+    },
+    "confuso": {
+      "id": "confuso",
+      "titulo": "Confuso / Desorientado",
+      "significado_fisiologico": "A confusão ao despertar é conhecida como 'inércia do sono' — um estado transitório onde o córtex pré-frontal ainda não retomou plena atividade, enquanto regiões subcorticais já estão parcialmente ativas. Pode durar de segundos a minutos, especialmente após despertar abrupto em sono profundo (N3).",
+      "significado_psicologico": "A desorientação ao acordar revela que o sonho foi de natureza profundamente diferente da realidade ordinária — muito simbólico, muito emocional ou muito não-linear para a mente consciente processar imediatamente. É o sinal de um sonho de transição, onde a identidade do sonhador estava em transformação.",
+      "fase_sono_associada": "Despertar abrupto em sono NREM profundo (N3) ou em transição REM→NREM. A inércia do sono é mais intensa quando o despertar ocorre em sono de ondas lentas — o oposto do ideal, que seria acordar naturalmente ao final do ciclo REM.",
+      "mensagem": "Dê-se tempo. Você está retornando de um lugar muito distante do cotidiano. Não se force a reconstruir o sonho imediatamente — permita que os fragmentos venham naturalmente. Este estado de confusão é o sinal de que algo profundo foi acessado. Sente-se, respire, deixe a clareza chegar gradualmente."
+    },
+    "chorando": {
+      "id": "chorando",
+      "titulo": "Acordou Chorando",
+      "significado_fisiologico": "Acordar chorando após um sonho indica que o choro real ocorreu durante o sono REM, quando a atividade muscular facial não é completamente suprimida pela paralisia REM. O sistema límbico — especialmente amígdala e cíngulo anterior — estava em máxima ativação emocional, processando luto, saudade ou dor psíquica intensa.",
+      "significado_psicologico": "O choro ao despertar é uma das manifestações mais sinceras do inconsciente. Ele indica que o sonho tocou em uma dor que não pôde ser expressa na vida desperta — luto não processado, amor perdido, saudade, ou a dor de partes do self que foram suprimidas por muito tempo.",
+      "fase_sono_associada": "Sono REM de alta intensidade emocional, frequentemente nos ciclos finais da noite (após 4-6 horas de sono), quando o REM é mais longo e emocionalmente carregado. O choro REM indica processamento emocional ativo de memórias carregadas.",
+      "mensagem": "Você chorou em um lugar seguro — no sonho. Seu inconsciente encontrou espaço para uma dor que talvez não tenha tido espaço na vigília. Honre essas lágrimas. Elas são cura. Não se apresse em 'superar' o que sentiu. Pergunte-se gentilmente: que dor precisa de mais atenção e compaixão na minha vida?"
+    },
+    "aliviado": {
+      "id": "aliviado",
+      "titulo": "Sensação de Alívio",
+      "significado_fisiologico": "O alívio ao acordar é acompanhado por queda nos níveis de cortisol, liberação de oxitocina e ativação do sistema de recompensa (dopamina). O organismo saiu de um estado de tensão — seja porque o sonho resolveu simbolicamente um conflito, seja porque o corpo entrou em sono reparador profundo.",
+      "significado_psicologico": "O alívio ao despertar indica que o sonho cumpriu função catártica — liberou tensão emocional acumulada, resolveu simbolicamente um problema ou ofereceu closure para algo incompleto. É uma das funções mais terapêuticas do sonho descrita por Freud e confirmada pela neurociência moderna.",
+      "fase_sono_associada": "Geralmente associado ao despertar após sono REM de resolução — onde o sonho teve um arco narrativo que chegou a alguma forma de conclusão. Matthew Walker (Why We Sleep, 2017) descreve este estado como 'emotional first aid' do sono REM.",
+      "mensagem": "O sonho fez seu trabalho. Algo que estava pesando foi processado e liberado enquanto você dormia. Reconheça este presente. Seu inconsciente encontrou um caminho que sua mente consciente ainda não havia descoberto. Leve este alívio como orientação: a direção do sonho é a direção do seu bem-estar."
+    }
+  }
+}

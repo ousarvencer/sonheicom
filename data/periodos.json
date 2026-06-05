@@ -1,0 +1,26 @@
+{
+  "noite": {
+    "id": "noite",
+    "titulo": "Noite",
+    "significado_geral": "Quando o cenário onírico é envolto pela escuridão, a psique submerge nas camadas mais profundas e primitivas da alma. Este território da noite mitológica desliga os filtros do controle consciente, forçando o confronto com os mistérios ocultos, os medos reprimidos e os conteúdos da sombra que o indivíduo evita encarar durante a vigília.\nNesse estado de negrume sagrado, a escuridão não representa um perigo, mas sim o útero primordial da criação, onde as verdades mais cruas e viscerais ganham forma. É um chamado para o recolhimento, exigindo que você apure a sua visão espiritual para enxergar aquilo que a razão comum insiste em ignorar.",
+    "simbolismo": "A noite simboliza o reino do mistério insondável, o mergulho na ancestralidade e a necessidade de introspecção profunda.",
+    "impacto_leitura": "Este período oculta o significado imediato do símbolo, indicando que a mensagem exige uma decifração cuidadosa e intuitiva.",
+    "mensagem": "O que se revela na escuridão carrega verdades que a luz do dia não consegue mostrar."
+  },
+  "dia": {
+    "id": "dia",
+    "titulo": "Dia",
+    "significado_geral": "O cenário iluminado pela claridade solar reflete um estado de prontidão e expansão da consciência desperta. Quando o sonho se desenrola sob a luz do dia, o inconsciente está operando em perfeita harmonia com o ego, indicando que os conteúdos manifestados estão maduros, decodificados e prontos para serem integrados à realidade prática.\nA luz solar atua como um elemento purificador que afasta as ilusões e os fantasmas da mente, trazendo foco, discernimento e objetividade. É o momento em que a alma projeta suas aspirações mais límpidas, revelando caminhos de ação, crescimento e florescimento pessoal que estão ao seu alcance.",
+    "simbolismo": "O dia simboliza a iluminação espiritual, a clareza de propósitos e a manifestação ativa das forças criativas.",
+    "impacto_leitura": "Este período expõe o significado do símbolo de forma direta, mostrando que sua aplicação na vida prática deve ser imediata.",
+    "mensagem": "A claridade do seu sonho indica que a mensagem está pronta para ser compreendida e vivida."
+  },
+  "nao_lembro": {
+    "id": "nao_lembro",
+    "titulo": "Não Lembro",
+    "significado_geral": "O esquecimento do cenário ou do período em que o sonho ocorreu revela a atuação de um mecanismo sagrado de preservação psíquica. Quando o véu do esquecimento é lançado sobre o espaço-tempo onírico, significa que a experiência vivida na transcendência do sono foi tão intensa que ultrapassou a capacidade de tradução da linguagem humana, operando em níveis puramente vibracionais.\nEsse vazio aparente é, na verdade, um silêncio preenchido de potencial protetor, onde a alma trabalha na reorganização das forças internas sem a interferência das dúvidas do ego. A ausência de imagem força o indivíduo a se desapegar da forma e a se concentrar unicamente no resíduo emocional deixado no peito ao despertar.",
+    "simbolismo": "O esquecimento simboliza o vazio primordial, o mistério protegido e a sabedoria que opera além das formas visíveis.",
+    "impacto_leitura": "Este período indefinido transfere o peso da interpretação para a sensação térmica e afetiva que permaneceu no seu corpo.",
+    "mensagem": "Mesmo sem lembrar o cenário, a sensação que ficou ao acordar é o recado mais verdadeiro do sonho."
+  }
+}

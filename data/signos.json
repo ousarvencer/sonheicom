@@ -1,0 +1,206 @@
+{
+  "Áries": {
+    "periodo": {
+      "inicio": "03-21",
+      "fim": "04-19"
+    },
+    "elemento": "Fogo",
+    "regente": "Marte",
+    "tema": "Impulso, coragem e novos começos.",
+    "sonho": "O ariano tende a sonhar com situações de ação intensa, lutas, corridas ou liderança em momentos de crise. Os seus sonhos atuam como verdadeiros chamados à iniciativa e à libertação de energias instintivas reprimidas, exibindo frequentemente o arquétipo do Guerreiro.",
+    "positivo": "Determinação inabalável, pioneirismo, coragem face ao desconhecido e espontaneidade cativante.",
+    "negativo": "Impaciência crónica, impulsividade destrutiva, agressividade verbal e competitividade excessiva.",
+    "compativel": [
+      "Leão",
+      "Sagitário",
+      "Aquário"
+    ]
+  },
+  "Touro": {
+    "periodo": {
+      "inicio": "04-20",
+      "fim": "05-20"
+    },
+    "elemento": "Terra",
+    "regente": "Vénus",
+    "tema": "Estabilidade, prazer material e perseverança.",
+    "sonho": "Os taurinos costumam vivenciar sonhos muito sensoriais, envolvendo banquetes, texturas marcantes, contacto com a natureza ou a construção/perda de propriedades. Cenários de escassez ou de jardins luxuriantes refletem diretamente a sua estabilidade psíquica e material.",
+    "positivo": "Lealdade absoluta, paciência de longo prazo, senso estético refinado e pragmatismo realizador.",
+    "negativo": "Teimosia inflexível, apego excessivo a bens materiais, possessividade nas relações e resistência severa a mudanças.",
+    "compativel": [
+      "Virgem",
+      "Capricórnio",
+      "Escorpião"
+    ]
+  },
+  "Gémeos": {
+    "periodo": {
+      "inicio": "05-21",
+      "fim": "06-20"
+    },
+    "elemento": "Ar",
+    "regente": "Mercúrio",
+    "tema": "Dualidade, comunicação e curiosidade intelectual.",
+    "sonho": "Sonhos geminianos são dinâmicos, fragmentados e repletos de diálogos, charadas, labirintos urbanos ou aparelhos de comunicação. O arquétipo do Trapaceiro (Trickster) ou encontros com o próprio Duplo são comuns, espelhando a sua constante busca por conexões lógicas.",
+    "positivo": "Adaptabilidade mental, inteligência fulgurante, versatilidade e facilidade de expressão escrita e verbal.",
+    "negativo": "Superficialidade nas avaliações, inconstância emocional, tendência à distração crónica e duplicidade de caráter.",
+    "compativel": [
+      "Libra",
+      "Aquário",
+      "Leão"
+    ]
+  },
+  "Caranguejo": {
+    "periodo": {
+      "inicio": "06-21",
+      "fim": "07-22"
+    },
+    "elemento": "Água",
+    "regente": "Lua",
+    "tema": "Nutrição emocional, ancestralidade e proteção.",
+    "sonho": "Com uma das mentes oníricas mais ricas do zodíaco, sonha frequentemente com mares profundos, inundações, casas da infância e figuras maternas. Os seus sonhos servem como termómetros emocionais que processam ressentimentos do passado e ativam o arquétipo da Grande Mãe.",
+    "positivo": "Empatia profunda, instinto protetor aguçado, excelente memória afetiva e intuição espiritual.",
+    "negativo": "Hipensibilidade vulnerável, oscilações severas de humor, manipulação através da culpa e apego ao passado.",
+    "compativel": [
+      "Escorpião",
+      "Peixes",
+      "Touro"
+    ]
+  },
+  "Leão": {
+    "periodo": {
+      "inicio": "07-23",
+      "fim": "08-22"
+    },
+    "elemento": "Fogo",
+    "regente": "Sol",
+    "tema": "Expressão da identidade, soberania e criatividade.",
+    "sonho": "Os sonhos leoninos tendem a ser teatrais, grandiosos e cheios de cores vivas, onde o sonhador ocupa palcos, recebe honrarias ou enfrenta feras douradas. O arquétipo do Rei/Rainha domina a narrativa, refletindo a necessidade do Ego de ser reconhecido pelo Self.",
+    "positivo": "Magnanimidade, generosidade contagiante, autoconfiança radiante e liderança inspiradora.",
+    "negativo": "Orgulho ferino, egocentrismo cego, vaidade desmedida e necessidade tirânica de controlo e atenção.",
+    "compativel": [
+      "Áries",
+      "Sagitário",
+      "Gémeos"
+    ]
+  },
+  "Virgem": {
+    "periodo": {
+      "inicio": "08-23",
+      "fim": "09-22"
+    },
+    "elemento": "Terra",
+    "regente": "Mercúrio",
+    "tema": "Discernimento, purificação e aperfeiçoamento técnico.",
+    "sonho": "O sonhador virginiano costuma enfrentar cenários que exigem organização meticulosa, exames escolares, contagens ou a reparação de máquinas complexas. Sonhos com sujidade ou desordem revelam ansiedades internas em relação ao controlo da sua rotina e saúde física.",
+    "positivo": "Espírito analítico, prestatividade genuína, precisão milimétrica e forte senso de responsabilidade.",
+    "negativo": "Criticismo destrutivo, perfeccionismo paralisante, tendência a focar em detalhes insignificantes e autocrítica severa.",
+    "compativel": [
+      "Touro",
+      "Capricórnio",
+      "Peixes"
+    ]
+  },
+  "Libra": {
+    "periodo": {
+      "inicio": "09-23",
+      "fim": "10-22"
+    },
+    "elemento": "Ar",
+    "regente": "Vénus",
+    "tema": "Harmonia, alteridade e justiça relacional.",
+    "sonho": "Sonhar com casamentos, jantares diplomáticos, espelhos ou balanças pesando escolhas são marcas da mente libriana. A busca arquetípica pela Anima/Animus manifesta-se em interações românticas refinadas, onde o equilíbrio estético é o norte psíquico.",
+    "positivo": "Sentido de justiça, diplomacia pacífica, charme social natural e capacidade de ver múltiplos lados.",
+    "negativo": "Indecisão crónica, tendência a anular-se para agradar terceiros, superficialidade social e fobia de conflitos.",
+    "compativel": [
+      "Gémeos",
+      "Aquário",
+      "Sagitário"
+    ]
+  },
+  "Escorpião": {
+    "periodo": {
+      "inicio": "10-23",
+      "fim": "11-21"
+    },
+    "elemento": "Água",
+    "regente": "Plutão (tradicionalmente Marte)",
+    "tema": "Transmutação, poder oculto e regeneração profunda.",
+    "sonho": "Os sonhos escorpianos são intensos, viscerais e frequentemente classificados como pesadelos de transformação: envolvem mortes, ressurreições, cobras, catacumbas ou mistérios sexuais ocultos. É a mente onírica operando o trabalho alquímico de descida à Sombra.",
+    "positivo": "Resiliência psicológica inabalável, magnetismo pessoal, lealdade profunda e perspicácia investigativa.",
+    "negativo": "Rancor vingativo, ciúme obsessivo, tendência à autodestruição e necessidade de manipulação oculta.",
+    "compativel": [
+      "Caranguejo",
+      "Peixes",
+      "Touro"
+    ]
+  },
+  "Sagitário": {
+    "periodo": {
+      "inicio": "11-22",
+      "fim": "12-21"
+    },
+    "elemento": "Fogo",
+    "regente": "Júpiter",
+    "tema": "Expansão de horizontes, filosofia e busca da verdade.",
+    "sonho": "O sagitariano voa alto nos seus sonhos, viajando por países distantes, escalando montanhas sagradas ou conversando com sábios e mentores espirituais. O arquétipo do Explorador ou do Centauro guia a busca noturna por novos sentidos existenciais.",
+    "positivo": "Otimismo contagiante, mente filosófica aberta, generosidade intelectual e amor incondicional à liberdade.",
+    "negativo": "Dogmatismo arrogante, excesso de autoconfiança (húbris), imprudência perante limites e falta de tato prático.",
+    "compativel": [
+      "Áries",
+      "Leão",
+      "Libra"
+    ]
+  },
+  "Capricórnio": {
+    "periodo": {
+      "inicio": "12-22",
+      "fim": "01-19"
+    },
+    "elemento": "Terra",
+    "regente": "Saturno",
+    "tema": "Estrutura, tempo, autoridade e maestria terrena.",
+    "sonho": "Sonhar com relógios antigos marcando prazos, escaladas solitárias em desfiladeiros de pedra, ruínas históricas ou figuras de velhos sábios (Senex) caracteriza o capricorniano. Os sonhos testam o peso do dever, as cobranças do superego e a resiliência.",
+    "positivo": "Disciplina exemplar, paciência construtiva, maturidade precoce e forte senso de dever e honra.",
+    "negativo": "Pessimismo rígido, frieza emocional calculista, avareza com recursos e cobranças internas severas demais.",
+    "compativel": [
+      "Touro",
+      "Virgem",
+      "Escorpião"
+    ]
+  },
+  "Aquário": {
+    "periodo": {
+      "inicio": "01-20",
+      "fim": "02-18"
+    },
+    "elemento": "Ar",
+    "regente": "Úrano (tradicionalmente Saturno)",
+    "tema": "Inovação, consciência coletiva e quebra de paradigmas.",
+    "sonho": "A atividade onírica aquariana projeta cenários futuristas, tecnologias de ponta, utopias ou distopias sociais, revoluções de massas e voos espaciais. É a mente coletiva e visionária rompendo os limites do tempo linear e testando o arquétipo do Rebelde.",
+    "positivo": "Mentalidade vanguardista, humanitarismo genuíno, originalidade marcante e forte senso de comunidade.",
+    "negativo": "Desapego emocional frio, radicalismo intransigente, excentricidade forçada e rebeldia sem propósito prático.",
+    "compativel": [
+      "Gémeos",
+      "Libra",
+      "Áries"
+    ]
+  },
+  "Peixes": {
+    "periodo": {
+      "inicio": "02-19",
+      "fim": "03-20"
+    },
+    "elemento": "Água",
+    "regente": "Neptuno (tradicionalmente Júpiter)",
+    "tema": "Dissolução do ego, misticismo e empatia universal.",
+    "sonho": "Como o signo mais poroso do zodíaco, a sua fronteira com o inconsciente quase não existe. Sonha com oceanos infinitos, fusões místicas, música celestial, sereias ou experiências mediúnicas profundas. O arquétipo do Místico ou do Salvador domina o seu vasto mar noturno.",
+    "positivo": "Compaixão ilimitada, sensibilidade artística divinal, intuição profética e espiritualidade fluida.",
+    "negativo": "Tendência ao escapismo através de vícios, vitimização mártir, confusão psíquica e falta crónica de limites pessoais.",
+    "compativel": [
+      "Caranguejo",
+      "Escorpião",
+      "Virgem"
+    ]
+  }
+}

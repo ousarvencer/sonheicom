@@ -1,0 +1,2123 @@
+﻿================================================================
+  SONHEICOM — BACKUP COMPLETO
+================================================================
+
+================================================================
+  ARQUIVO: index.html
+================================================================
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sonhei Com... | sonheicom.com.br</title>
+    <meta name="description" content="Sonhou com algo e quer descobrir o que significa? Conte pra Cigana â€” ela revela o significado, seus nÃºmeros da sorte e o que os astros dizem sobre vocÃª.">
+    <meta name="keywords" content="sonhei com, significado de sonhos, orÃ¡culo, nÃºmeros da sorte, jogo do bicho, sonhos, cigana, numerologia">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="sonheicom.com.br">
+    <!-- Open Graph (WhatsApp, Facebook) -->
+    <meta property="og:title" content="Sonhei Com... â€” Consulte a Cigana">
+    <meta property="og:description" content="Sonhou com algo? Conte pra Cigana. Ela revela o significado, nÃºmeros da sorte e previsÃµes para o seu sonho.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sonheicom.com.br/">
+    <meta property="og:image" content="https://sonheicom.com.br/assets/og-image.jpg">
+    <meta property="og:locale" content="pt_BR">
+    <!-- Twitter/X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sonhei Com... â€” Consulte a Cigana">
+    <meta name="twitter:description" content="Sonhou com algo? Conte pra Cigana. Ela responde.">
+    <meta name="twitter:image" content="https://sonheicom.com.br/assets/og-image.jpg">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://sonheicom.com.br/">
+    <link rel="icon" type="image/svg+xml" href="assets/sonheicom-favicon.svg">
+
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+
+    <style>
+        /* â”€â”€ BANNER AMAZON AFILIADO â”€â”€ */
+        .amazon-banner {
+            font-family: var(--font-pixel);
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-color);
+            padding: 15px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            position: relative;
+            overflow: hidden;
+            margin: 30px 0;
+        }
+        .amazon-banner::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image:
+                radial-gradient(1px 1px at 10% 20%, #9b30ff55 0%, transparent 100%),
+                radial-gradient(1px 1px at 80% 80%, #ffd70022 0%, transparent 100%),
+                radial-gradient(1px 1px at 60% 10%, #9b30ff44 0%, transparent 100%),
+                radial-gradient(1px 1px at 30% 70%, #ffd70033 0%, transparent 100%);
+            pointer-events: none;
+        }
+        .amazon-banner-left {
+            flex: 1;
+            position: relative;
+            z-index: 1;
+        }
+        .amazon-banner-tag {
+            font-size: 7px;
+            color: var(--gold-color);
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .amazon-banner-title {
+            font-size: 11px;
+            color: var(--text-color);
+            line-height: 1.8;
+            margin-bottom: 6px;
+        }
+        .amazon-banner-sub {
+            font-size: 7px;
+            color: var(--text-dim);
+            line-height: 1.8;
+        }
+        .amazon-banner-icon {
+            font-size: 28px;
+            position: relative;
+            z-index: 1;
+            flex-shrink: 0;
+        }
+        .amazon-banner-btn {
+            font-family: var(--font-pixel);
+            font-size: 8px;
+            background: var(--highlight-color);
+            color: #fff;
+            border: none;
+            padding: 12px 16px;
+            cursor: pointer;
+            white-space: nowrap;
+            position: relative;
+            z-index: 1;
+            line-height: 1.6;
+            text-decoration: none;
+            display: inline-block;
+            flex-shrink: 0;
+        }
+        .amazon-banner-btn:hover {
+            background: var(--highlight-dim);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    <a class="favicon-home" href="index.html" title="InÃ­cio">
+        <img src="assets/sonheicom-favicon.svg" width="28" height="28" alt="inÃ­cio">
+        <span>sonheicom</span>
+    </a>
+
+        <!-- Banner de Leitura Salva -->
+        <div id="saved-banner" class="saved-banner hidden">
+            VocÃª tem uma leitura salva de <span class="date"></span>. Deseja ver?
+            <div class="banner-buttons">
+                <button onclick="alert('Funcionalidade em breve!')">VER ANTERIOR</button>
+                <button onclick="document.getElementById('saved-banner').classList.add('hidden')">NOVA LEITURA</button>
+            </div>
+        </div>
+
+        <!-- ETAPA 1 -->
+        <div id="etapa-1" class="etapa">
+
+            <div class="site-header">
+                <div class="header-sigil">âœ¦</div>
+                <h1>â€” A CIGANA â€”</h1>
+                <div class="header-sigil">âœ¦</div>
+            </div>
+            <p class="site-tagline">conte o que sonhou. ela responde.</p>
+
+            <input type="text" id="input-nome" placeholder="SEU PRIMEIRO NOME" required>
+
+            <div class="scroll-selector">
+
+                <div class="spin-field" id="field-dia">
+                    <button type="button" class="spin-btn spin-up" onclick="spinStep('dia',-1)" aria-label="dia anterior">â–²</button>
+                    <span class="spin-val" id="val-dia">DIA</span>
+                    <button type="button" class="spin-btn spin-down" onclick="spinStep('dia',1)" aria-label="prÃ³ximo dia">â–¼</button>
+                </div>
+
+                <div class="spin-field" id="field-mes">
+                    <button type="button" class="spin-btn spin-up" onclick="spinStep('mes',-1)" aria-label="mÃªs anterior">â–²</button>
+                    <span class="spin-val" id="val-mes">MÃŠS</span>
+                    <button type="button" class="spin-btn spin-down" onclick="spinStep('mes',1)" aria-label="prÃ³ximo mÃªs">â–¼</button>
+                </div>
+
+                <div class="spin-field" id="field-ano">
+                    <button type="button" class="spin-btn spin-up" onclick="spinStep('ano',-1)" aria-label="ano anterior">â–²</button>
+                    <span class="spin-val" id="val-ano">ANO</span>
+                    <button type="button" class="spin-btn spin-down" onclick="spinStep('ano',1)" aria-label="prÃ³ximo ano">â–¼</button>
+                </div>
+
+            </div>
+
+            <!-- hidden inputs mantÃªm compatibilidade com o app.js existente -->
+            <input type="hidden" id="nasc-dia">
+            <input type="hidden" id="nasc-mes">
+            <input type="hidden" id="nasc-ano">
+
+            <script>
+            const _spin = {
+                dia:  { idx: -1, vals: Array.from({length:31}, (_,i) => String(i+1).padStart(2,'0')) },
+                mes:  { idx: -1, vals: ['JAN','FEV','MAR','ABR','MAI','JUN','JUL','AGO','SET','OUT','NOV','DEZ'],
+                     nums: ['01','02','03','04','05','06','07','08','09','10','11','12'] },
+                ano:  { idx: -1, vals: (()=>{ const a=[]; for(let y=new Date().getFullYear()-10; y>=1930; y--) a.push(String(y)); return a; })() }
+            };
+
+            function spinStep(field, dir) {
+                const f = _spin[field];
+                const len = f.vals.length;
+                if (f.idx === -1) f.idx = (dir === 1) ? 0 : len - 1;
+                else f.idx = (f.idx + dir + len) % len;
+
+                const display = f.vals[f.idx];
+                const valEl   = document.getElementById('val-' + field);
+                const hidden  = document.getElementById('nasc-' + field);
+
+                // animaÃ§Ã£o de slide
+                valEl.classList.remove('spin-up-anim','spin-down-anim');
+                void valEl.offsetWidth; // reflow
+                valEl.classList.add(dir === -1 ? 'spin-up-anim' : 'spin-down-anim');
+
+                valEl.textContent = display;
+                hidden.value = (field === 'mes') ? f.nums[f.idx] : display;
+
+                updateButtons();
+            }
+            </script>
+            
+            <p class="label-nascimento">USADO APENAS PARA CALCULAR SEU NÃšMERO PESSOAL</p>
+
+            <div id="trilha-selector" class="card-grid trilha-grid">
+                <div class="card trilha-card" data-trilha="significado">
+                    <span class="card-sigil">â—†</span>
+                    <span class="card-title">SIGNIFICADO</span>
+                    <span class="context">entender o sonho</span>
+                </div>
+                <div class="card trilha-card" data-trilha="sorte">
+                    <span class="card-sigil">â˜…</span>
+                    <span class="card-title">SORTE</span>
+                    <span class="context">nÃºmeros e jogo</span>
+                </div>
+                <div class="card trilha-card" data-trilha="amor">
+                    <span class="card-sigil">â™¥</span>
+                    <span class="card-title">AMOR</span>
+                    <span class="context">relacionamentos</span>
+                </div>
+                <div class="card trilha-card" data-trilha="mente">
+                    <span class="card-sigil">â˜½</span>
+                    <span class="card-title">MENTE</span>
+                    <span class="context">bem-estar e sono</span>
+                </div>
+            </div>
+
+            <button id="btn-entrar" disabled>CONSULTAR A CIGANA</button>
+        </div>
+
+        <!-- ETAPA 2 -->
+        <div id="etapa-2" class="etapa hidden">
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+            <h2 id="sub-etapa-title">PESSOAS</h2>
+            <p id="sub-etapa-subtitulo" class="site-tagline"></p>
+            <div id="grid-sub-etapa" class="card-grid card-grid-3"></div>
+            <button id="btn-proximo" onclick="nextSubEtapa()">PULAR â†’</button>
+        </div>
+
+        <!-- ETAPA 3 -->
+        <div id="etapa-3" class="etapa hidden">
+            <div class="progress-container">
+                <div id="progress-bar-3" class="progress-bar"></div>
+            </div>
+            <h2 id="etapa3-titulo"></h2>
+            <p id="etapa3-subtitulo" class="site-tagline"></p>
+            <div id="etapa3-grid" class="card-grid card-grid-3"></div>
+
+            <!-- spinner horas -->
+            <div id="etapa3-horas" class="scroll-selector hidden">
+                <div class="spin-field" id="field-hora">
+                    <button type="button" class="spin-btn spin-up" onclick="spinHora(-1)">â–²</button>
+                    <span class="spin-val" id="val-hora">--</span>
+                    <button type="button" class="spin-btn spin-down" onclick="spinHora(1)">â–¼</button>
+                </div>
+            </div>
+
+            <button id="btn-etapa3" onclick="nextPergunta()">PRÃ“XIMO â†’</button>
+        </div>
+        
+        <!-- ETAPA 4 -->
+        <div id="etapa-4" class="etapa hidden">
+            <div id="resultados"></div>
+        </div>
+
+        <!-- Overlay Bola de Cristal -->
+        <div id="crystal-ball-overlay" class="crystal-ball-container hidden">
+            <div class="crystal-ball pulse"></div>
+            <div id="loading-text" class="loading-text">lendo seus sÃ­mbolos...</div>
+        </div>
+
+        <!-- âœ¦ BANNER AMAZON â€” RODAPÃ‰ âœ¦ -->
+        <div class="amazon-banner">
+            <span class="amazon-banner-icon">âœ¦</span>
+            <div class="amazon-banner-left">
+                <span class="amazon-banner-tag">âœ¦ PATROCINADO âœ¦</span>
+                <p class="amazon-banner-title">NÃ£o perca essa oferta.</p>
+                <p class="amazon-banner-sub">Os melhores celulares do momento â†’</p>
+            </div>
+            <a class="amazon-banner-btn" href="https://amzn.to/4vrU5Ge" target="_blank" rel="noopener sponsored">VER NA<br>AMAZON</a>
+        </div>
+
+        <!-- Footer legal minimalista -->
+        <footer class="footer-legal">
+            <p>este site tem carÃ¡ter exclusivamente de entretenimento â€” nÃ£o incentivamos apostas.</p>
+            <nav>
+                <a href="sobre.html">sobre</a>
+                <span>Â·</span>
+                <a href="politica-de-privacidade.html">privacidade</a>
+            </nav>
+        </footer>
+
+        <!-- RodapÃ© Fixo Etapa 4 -->
+        <div id="footer-actions" class="footer-actions hidden">
+            <button onclick="compartilharZap()">WHATSAPP</button>
+            <button onclick="salvarLeitura()">SALVAR LEITURA</button>
+            <button onclick="window.location.href='index.html'">RECOMEÃ‡AR</button>
+        </div>
+
+    </div>
+
+    <canvas id="shooting-stars" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;"></canvas>
+    <script>
+    (function(){
+        const c = document.getElementById('shooting-stars');
+        const ctx = c.getContext('2d');
+        let W, H, stars = [];
+
+        function resize(){ W = c.width = window.innerWidth; H = c.height = window.innerHeight; }
+        window.addEventListener('resize', resize);
+        resize();
+
+        function newStar(){
+            const angle = (Math.random() * 40 + 60) * Math.PI / 180; // 60Â°~100Â° = cima pra baixo
+            const speed = Math.random() * 2.5 + 1.5;
+            return {
+                x: Math.random() * W * 1.5 - W * 0.25,
+                y: -10,
+                vx: Math.cos(angle - Math.PI/2) * speed * (Math.random() > 0.5 ? 1 : -1),
+                vy: Math.sin(angle) * speed,
+                len: Math.random() * 80 + 40,
+                alpha: Math.random() * 0.5 + 0.3,
+                life: 0,
+                maxLife: Math.random() * 120 + 80
+            };
+        }
+
+        for(let i=0;i<6;i++) stars.push(newStar());
+
+        function draw(){
+            ctx.clearRect(0,0,W,H);
+            if(Math.random() < 0.025) stars.push(newStar());
+
+            stars = stars.filter(s => {
+                s.x += s.vx; s.y += s.vy; s.life++;
+                const progress = s.life / s.maxLife;
+                const alpha = s.alpha * (1 - progress);
+
+                const grad = ctx.createLinearGradient(s.x, s.y, s.x - s.vx*(s.len/2), s.y - s.vy*(s.len/2));
+                grad.addColorStop(0, `rgba(255,255,255,${alpha})`);
+                grad.addColorStop(1, 'rgba(255,255,255,0)');
+
+                ctx.beginPath();
+                ctx.moveTo(s.x, s.y);
+                ctx.lineTo(s.x - s.vx*(s.len/2), s.y - s.vy*(s.len/2));
+                ctx.strokeStyle = grad;
+                ctx.lineWidth = 1.2;
+                ctx.stroke();
+
+                return s.life < s.maxLife && s.y < H + 20;
+            });
+
+            requestAnimationFrame(draw);
+        }
+        draw();
+    })();
+    </script>
+    
+    <script src="assets/js/lua.js"></script>
+    <script src="assets/js/numeros.js"></script>
+    <script src="assets/js/etapas.js"></script>
+    <script src="assets/js/leitura.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
+
+================================================================
+  ARQUIVO: politica-de-privacidade.html
+================================================================
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacidade - sonheicom.com.br</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PRIVACIDADE</h1>
+        <p style="font-size: 8px; margin-bottom: 20px;">
+            No sonheicom.com.br, respeitamos sua privacidade. NÃ£o coletamos dados pessoais para fins de identificaÃ§Ã£o externa. 
+            As informaÃ§Ãµes fornecidas (nome, data de nascimento) sÃ£o processadas localmente para gerar sua leitura e podem ser salvas apenas no seu prÃ³prio navegador via LocalStorage.
+        </p>
+        <p style="font-size: 8px; margin-bottom: 20px;">
+            Utilizamos cookies bÃ¡sicos para melhorar a experiÃªncia do usuÃ¡rio e exibir anÃºncios via Google AdSense. Ao utilizar nosso site, vocÃª concorda com essas prÃ¡ticas.
+        </p>
+        <button onclick="window.location.href='index.html'">VOLTAR</button>
+    </div>
+</body>
+</html>
+
+================================================================
+  ARQUIVO: README.md
+================================================================
+# ðŸ”® SonheiCom
+
+OrÃ¡culo digital gratuito que interpreta sonhos com base em sabedoria popular brasileira, numerologia e fases da lua. O visitante informa seu nome, data de nascimento e os elementos do sonho â€” sem criar conta, sem burocracia â€” e recebe uma leitura mÃ­stica personalizada com nÃºmeros da sorte, animal do jogo do bicho, trilha temÃ¡tica e status emocional.
+
+**Site:** [sonheicom.com.br](https://sonheicom.com.br) Â· **CarÃ¡ter:** exclusivamente de entretenimento â€” nÃ£o incentivamos apostas.
+
+---
+
+## Stack
+
+| Camada | Tecnologia |
+|---|---|
+| Frontend | HTML5, CSS3, JavaScript Vanilla |
+| Hospedagem | Cloudflare Pages |
+| Fontes | Press Start 2P Â· VT323 (Google Fonts) |
+| Fase da Lua | CÃ¡lculo local via algoritmo astronÃ´mico |
+| NÃºmeros da Sorte | Gerador determinÃ­stico baseado em hash do nome |
+| SEO | sitemap.xml gerado via script Â· robots.txt configurado |
+
+---
+
+## Estrutura de Arquivos
+
+**PÃ¡ginas**
+```
+â”œâ”€â”€ index.html                      # OrÃ¡culo principal (4 etapas)
+â”œâ”€â”€ sobre.html                      # Sobre o projeto
+â””â”€â”€ politica-de-privacidade.html    # PolÃ­tica de privacidade
+```
+
+**CSS**
+```
+assets/css/
+â”œâ”€â”€ base.css          # VariÃ¡veis, reset, tipografia e fundo mÃ­stico animado
+â”œâ”€â”€ components.css    # Cards, grids, botÃµes, barras RPG, footer fixo
+â””â”€â”€ animations.css    # Fade-in, pulse da bola de cristal, estrelas flutuantes
+```
+
+**JavaScript**
+```
+assets/js/
+â”œâ”€â”€ app.js      # OrquestraÃ§Ã£o geral, fluxo de etapas, resultados e compartilhamento
+â”œâ”€â”€ etapas.js   # Dados das sub-etapas e funÃ§Ãµes de renderizaÃ§Ã£o de grid
+â”œâ”€â”€ leitura.js  # GeraÃ§Ã£o da interpretaÃ§Ã£o textual e dados do jogo do bicho
+â”œâ”€â”€ lua.js      # CÃ¡lculo da fase lunar atual
+â””â”€â”€ numeros.js  # Gerador determinÃ­stico de nÃºmeros da sorte
+```
+
+**Dados e Scripts**
+```
+data/
+â””â”€â”€ index.json          # Banco de sÃ­mbolos (slug, sinÃ´nimos, categorias, leituras por trilha, jogo do bicho, numerologia, fases da lua, emoÃ§Ãµes)
+
+scripts/
+â”œâ”€â”€ gerar-paginas.js    # Gerador de pÃ¡ginas HTML individuais por sÃ­mbolo (em implementaÃ§Ã£o)
+â””â”€â”€ gerar-sitemap.js    # Gerador de sitemap.xml (em implementaÃ§Ã£o)
+```
+
+---
+
+## Hospedagem
+
+Projeto hospedado no [Cloudflare Pages](https://pages.cloudflare.com) com deploy automÃ¡tico a cada push na branch principal.
+
+---
+
+## Funcionalidades
+
+### Fluxo do OrÃ¡culo (4 etapas)
+
+**Etapa 1 â€” IdentificaÃ§Ã£o**
+- Nome do usuÃ¡rio e data de nascimento (usados apenas para cÃ¡lculo do nÃºmero pessoal)
+- Escolha da trilha temÃ¡tica: Significado Â· Sorte Â· Amor Â· Mente
+
+**Etapa 2 â€” Elementos do Sonho**
+- SeleÃ§Ã£o de sÃ­mbolos em 5 sub-etapas com barra de progresso: Pessoas Â· Animais Â· Lugares Â· SituaÃ§Ãµes Â· Objetos
+
+**Etapa 3 â€” Contexto do Sonho e do Dia**
+- EmoÃ§Ã£o sentida no sonho, recorrÃªncia, perÃ­odo (dia/noite), cor dominante, estado ao acordar
+- SituaÃ§Ã£o atual de amor, finanÃ§as e hora do despertar
+
+**Etapa 4 â€” RevelaÃ§Ã£o**
+- AnimaÃ§Ã£o de bola de cristal durante o carregamento
+- Blocos de resultado com fade-in sequencial:
+  - InterpretaÃ§Ã£o do sonho (texto personalizado por sÃ­mbolo e trilha)
+  - Animal do jogo do bicho com grupo, dezenas e milhar sugerido
+  - NÃºmeros da sorte do dia (geraÃ§Ã£o determinÃ­stica por nome + data)
+  - Leitura da trilha escolhida
+  - Barras RPG de status (Mente Â· Amor Â· FinanÃ§as)
+  - Fase da lua atual
+
+### Recursos Adicionais
+- Salvar leitura no navegador via localStorage
+- Compartilhar resultado via WhatsApp
+- Banner de leitura anterior salva ao revisitar o site
+
+---
+
+## Banco de SÃ­mbolos (`data/index.json`)
+
+Cada sÃ­mbolo possui os seguintes campos:
+
+| Campo | DescriÃ§Ã£o |
+|---|---|
+| `simbolo` / `slug` | Nome e identificador Ãºnico |
+| `sinonimos` | VariaÃ§Ãµes do termo para busca |
+| `categoria` | Animais Â· Objetos Â· SituaÃ§Ãµes Â· Pessoas Â· Lugares |
+| `jogo_bicho` | Grupo, animal, dezenas e milhar sugerido |
+| `numerologia` | NÃºmero numerolÃ³gico do sÃ­mbolo |
+| `leituras` | Texto geral + leitura especÃ­fica por trilha (significado, sorte, amor, mente) |
+| `emocoes` | Afinidade com cada emoÃ§Ã£o (Alta / MÃ©dia / Baixa / Nula) |
+| `recorrente` | Se Ã© um sÃ­mbolo tipicamente recorrente |
+| `combinacoes_frequentes` | SÃ­mbolos que costumam aparecer juntos |
+| `fase_lua` | InterpretaÃ§Ã£o do sÃ­mbolo em cada fase lunar |
+| `periodo` | PerÃ­odo predominante do sonho (Dia / Noite) |
+| `cor_associada` | Cor ligada ao sÃ­mbolo |
+| `sonho_pb` | Se o sÃ­mbolo Ã© comum em sonhos preto e branco |
+| `estado_despertar` | Estado tÃ­pico ao acordar apÃ³s este sonho |
+
+---
+
+## Trilhas TemÃ¡ticas
+
+`Significado` Â· `Sorte` Â· `Amor` Â· `Mente`
+
+## Categorias de SÃ­mbolos
+
+`Animais` Â· `Objetos` Â· `SituaÃ§Ãµes` Â· `Pessoas` Â· `Lugares`
+
+---
+
+## Privacidade
+
+Nenhum dado pessoal Ã© enviado a servidores externos. Nome e data de nascimento sÃ£o processados localmente no navegador e salvos apenas via localStorage, a critÃ©rio do usuÃ¡rio. O site utiliza cookies bÃ¡sicos para experiÃªncia do usuÃ¡rio e anÃºncios via Google AdSense.
+
+---
+
+<p align="center">Desenvolvido com âœ¨ para quem acredita que cada sonho carrega uma mensagem.</p>
+
+================================================================
+  ARQUIVO: robots.txt
+================================================================
+User-agent: *
+Allow: /
+Sitemap: https://sonheicom.com.br/sitemap.xml
+
+================================================================
+  ARQUIVO: sobre.html
+================================================================
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - sonheicom.com.br</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SOBRE O ORACULO</h1>
+        <p style="font-size: 8px; margin-bottom: 20px;">
+            O sonheicom.com.br nasceu da sabedoria popular brasileira, unindo a tradiÃ§Ã£o dos significados de sonhos com a estÃ©tica retro pixel art. 
+            Nossa missÃ£o Ã© traduzir os mistÃ©rios do subconsciente em orientaÃ§Ãµes para o seu dia a dia, seja no amor, na sorte ou no bem-estar mental.
+        </p>
+        <p style="font-size: 8px; margin-bottom: 20px;">
+            Acreditamos que cada sonho Ã© um portal. Aqui, vocÃª encontra as chaves para decifrar essas mensagens atravÃ©s da numerologia, das fases da lua e da interpretaÃ§Ã£o simbÃ³lica.
+        </p>
+        <button onclick="window.location.href='index.html'">VOLTAR</button>
+    </div>
+</body>
+</html>
+
+================================================================
+  ARQUIVO: assets\css\animations.css
+================================================================
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes pulseBall {
+    0% { background-color: #2a0040; transform: scale(1); }
+    50% { background-color: #9b30ff; transform: scale(1.1); }
+    100% { background-color: #e8d5ff; transform: scale(1); }
+}
+
+.pulse {
+    animation: pulseBall 1.5s infinite;
+}
+
+.fade-in-block {
+    opacity: 0;
+    animation: fadeIn 0.8s forwards;
+}
+
+.result-block {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 2px solid var(--border-color);
+    background: #1a0029;
+}
+
+.result-block h3 {
+    font-size: 10px;
+    color: var(--gold-color);
+    margin-bottom: 10px;
+}
+
+.result-block p {
+    font-size: 8px;
+}
+
+.result-block--hero {
+    border-color: var(--gold-dim);
+    padding: 24px;
+}
+
+.result-block--hero h3 {
+    font-size: 13px;
+    color: var(--gold-color);
+}
+
+.result-block--hero p {
+    font-size: 10px;
+    line-height: 2;
+}
+
+================================================================
+  ARQUIVO: assets\css\base.css
+================================================================
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Press+Start+2P&display=swap');
+
+:root {
+    --bg-color: #07000f;
+    --bg-secondary: #0f001e;
+    --highlight-color: #8a20f0;
+    --highlight-dim: #5a10a0;
+    --text-color: #ddd0f5;
+    --text-dim: #7a6090;
+    --border-color: #4a0888;
+    --border-bright: #8a20f0;
+    --gold-color: #e8c87a;
+    --gold-dim: #9a7a30;
+    --font-pixel: 'Press Start 2P', cursive;
+    --font-mystic: 'VT323', monospace;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* FUNDO: grade pixel 2x2 sutil + nÃ©voa */
+body {
+    background-color: var(--bg-color);
+    background-image:
+        linear-gradient(rgba(138, 32, 240, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(138, 32, 240, 0.04) 1px, transparent 1px);
+    background-size: 32px 32px;
+    color: var(--text-color);
+    font-family: var(--font-pixel);
+    font-size: 11px;
+    line-height: 1.8;
+    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* CAMADA 1: estrelas flutuantes */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    background-image:
+        radial-gradient(1px 1px at 12% 18%, #c090ff66 0%, transparent 100%),
+        radial-gradient(1px 1px at 33% 62%, #e8c87a44 0%, transparent 100%),
+        radial-gradient(1px 1px at 58% 9%,  #c090ff55 0%, transparent 100%),
+        radial-gradient(1px 1px at 77% 77%, #e8c87a33 0%, transparent 100%),
+        radial-gradient(1px 1px at 48% 44%, #ddd0f544 0%, transparent 100%),
+        radial-gradient(1px 1px at 22% 88%, #c090ff44 0%, transparent 100%),
+        radial-gradient(1px 1px at 88% 33%, #e8c87a55 0%, transparent 100%),
+        radial-gradient(1px 1px at 5%  55%, #ddd0f533 0%, transparent 100%),
+        radial-gradient(1px 1px at 66% 40%, #c090ff33 0%, transparent 100%);
+    animation: starsFloat 22s ease-in-out infinite;
+}
+
+/* CAMADA 2: estrelas reversas */
+body::after {
+    content: '';
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    background-image:
+        radial-gradient(1px 1px at 17% 52%, #ddd0f555 0%, transparent 100%),
+        radial-gradient(1px 1px at 44% 27%, #c090ff44 0%, transparent 100%),
+        radial-gradient(1px 1px at 72% 68%, #e8c87a44 0%, transparent 100%),
+        radial-gradient(1px 1px at 83% 14%, #ddd0f533 0%, transparent 100%),
+        radial-gradient(1px 1px at 6%  73%, #c090ff33 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 85%, #e8c87a33 0%, transparent 100%);
+    animation: starsFloat 32s ease-in-out infinite reverse;
+}
+
+@keyframes starsFloat {
+    0%   { transform: translateY(0px) rotate(0deg); }
+    50%  { transform: translateY(-25px) rotate(1deg); }
+    100% { transform: translateY(0px) rotate(0deg); }
+}
+
+/* NÃ‰VOA central */
+.container::before {
+    content: '';
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; height: 400px;
+    background: radial-gradient(ellipse, #2a005544 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+    animation: nebulaBreath 10s ease-in-out infinite;
+}
+
+@keyframes nebulaBreath {
+    0%, 100% { opacity: 0.3; transform: translate(-50%, -50%) scale(1); }
+    50%       { opacity: 0.7; transform: translate(-50%, -50%) scale(1.25); }
+}
+
+.container {
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 28px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+/* HEADER DO SITE */
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 32px;
+    margin-top: 12px;
+}
+
+.header-sigil {
+    color: var(--text-dim);
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+h1 {
+    font-family: var(--font-pixel);
+    font-size: 11px;
+    color: var(--text-color);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    opacity: 0.9;
+}
+
+h2 {
+    font-family: var(--font-pixel);
+    font-size: 11px;
+    color: var(--highlight-color);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    text-shadow: 0 0 12px #8a20f055;
+}
+
+h3 {
+    font-family: var(--font-pixel);
+    font-size: 9px;
+    color: var(--gold-color);
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+
+a {
+    color: var(--text-dim);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: var(--text-color);
+}
+
+button {
+    font-family: var(--font-pixel);
+    font-size: 10px;
+    background-color: var(--bg-secondary);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    padding: 14px 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px var(--border-color);
+    text-transform: uppercase;
+    transition: transform 0.1s, box-shadow 0.1s, border-color 0.2s, color 0.2s;
+    outline: none;
+    width: 100%;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+button:hover {
+    border-color: var(--gold-color);
+    box-shadow: 3px 3px 0px var(--gold-dim);
+    color: var(--gold-color);
+}
+
+button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px 0px var(--border-color);
+}
+
+button:disabled {
+    background-color: #0e0018;
+    border-color: #280050;
+    box-shadow: 3px 3px 0px #0e0018;
+    cursor: not-allowed;
+    color: #3a1a55;
+}
+
+button.btn-primary {
+    background-color: var(--highlight-color);
+    color: #fff;
+    border-color: var(--border-bright);
+    box-shadow: 3px 3px 0px var(--border-color);
+}
+
+button.btn-primary:hover {
+    background-color: var(--highlight-dim);
+    border-color: var(--gold-color);
+    box-shadow: 3px 3px 0px var(--gold-dim);
+}
+
+button.btn-gold {
+    background-color: var(--gold-dim);
+    color: #000;
+    border-color: var(--gold-color);
+    box-shadow: 3px 3px 0px #6a4a00;
+}
+
+input[type="text"] {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-bottom: 2px solid var(--highlight-color);
+    color: var(--text-color);
+    font-family: var(--font-pixel);
+    font-size: 11px;
+    padding: 14px 12px;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="text"]:focus {
+    border-color: var(--gold-dim);
+    box-shadow: 0 0 16px #8a20f055, 0 0 4px #e8c87a22;
+}
+
+input[type="text"]::placeholder {
+    color: var(--text-dim);
+    font-size: 8px;
+    letter-spacing: 2px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.label-nascimento {
+    font-size: 6px;
+    color: var(--text-dim);
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: -8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.label-section {
+    font-size: 7px;
+    color: var(--text-dim);
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* DIVISOR ORNAMENTAL */
+.divider {
+    text-align: center;
+    margin: 28px 0;
+    color: var(--border-color);
+    font-family: var(--font-pixel);
+    font-size: 8px;
+    letter-spacing: 3px;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--border-color));
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.divider::after {
+    background: linear-gradient(to left, transparent, var(--border-color));
+}
+
+/* FOOTER LEGAL */
+.footer-legal {
+    margin-top: 64px;
+    padding-bottom: 48px;
+    text-align: center;
+    font-family: var(--font-mystic);
+    font-size: 13px;
+    color: var(--text-dim);
+    opacity: 0.45;
+    line-height: 2;
+    text-transform: lowercase;
+    letter-spacing: 0.5px;
+}
+
+.footer-legal p {
+    margin-bottom: 6px;
+}
+
+.footer-legal nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-legal a {
+    color: var(--text-dim);
+    text-decoration: none;
+}
+
+.footer-legal a:hover {
+    color: var(--text-color);
+    opacity: 1;
+}
+
+.footer-legal span {
+    opacity: 0.4;
+}
+
+.site-tagline {
+    font-family: var(--font-mystic);
+    font-size: 18px;
+    color: var(--text-dim);
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 28px;
+    opacity: 0.7;
+    letter-spacing: 1px;
+}
+
+.favicon-home {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    z-index: 999;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    text-decoration: none;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.favicon-home img { display: block; }
+.favicon-home span {
+    font-family: var(--font-pixel);
+    font-size: 10px;
+    color: var(--text-color);
+    letter-spacing: 1px;
+}
+.favicon-home:hover { opacity: 1; }
+
+================================================================
+  ARQUIVO: assets\css\components.css
+================================================================
+/* ================================================================
+   COMPONENTS.CSS â€” sonheicom.com.br
+   EstÃ©tica: minimalista mÃ­stico, referÃªncia Poolsuite/nostÃ¡lgico
+   ================================================================ */
+
+
+/* â”€â”€ PROGRESS BAR â”€â”€ */
+.progress-container {
+    width: 100%;
+    height: 3px;
+    background: #1a0029;
+    margin-bottom: 32px;
+    position: relative;
+}
+
+.progress-bar {
+    height: 100%;
+    background: var(--gold-color);
+    width: 0%;
+    transition: width 0.5s ease;
+    box-shadow: 0 0 6px var(--gold-color);
+}
+
+
+/* â”€â”€ CARDS genÃ©ricos â”€â”€ */
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.card {
+    background: linear-gradient(160deg, #12002299 0%, #0a001799 100%);
+    border: 1px solid #4a0888;
+    outline: 1px solid #2a005066;
+    outline-offset: -4px;
+    padding: 16px 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 9px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 76px;
+    aspect-ratio: 4 / 5;
+    justify-content: center;
+    transition: border-color 0.25s, outline-color 0.25s, background 0.25s, color 0.25s, transform 0.25s, box-shadow 0.25s;
+    position: relative;
+    color: var(--text-color);
+}
+
+.card::before,
+.card::after {
+    content: var(--naipe);
+    position: absolute;
+    font-family: var(--font-mystic);
+    font-size: 14px;
+    color: var(--gold-dim);
+    opacity: 0.8;
+    line-height: 1;
+}
+.card::before { top: 6px; left: 8px; }
+.card::after  { bottom: 6px; right: 8px; transform: rotate(180deg); display: block; }
+
+.card.selected::before,
+.card.selected::after {
+    color: var(--gold-color);
+    opacity: 1;
+}
+
+.card:hover {
+    border-color: var(--gold-dim);
+    outline-color: #2a005033;
+    color: var(--text-color);
+}
+
+.card.selected {
+    background: linear-gradient(160deg, #2a005088 0%, #1a003566 100%);
+    border-color: var(--gold-color);
+    outline-color: #e8c87a22;
+    box-shadow: 0 0 14px #e8c87a22, inset 0 0 20px #2a005044;
+    color: var(--text-color);
+    transform: translateY(-4px);
+}
+
+.card.selected .context,
+.card.selected .card-sigil,
+.card.selected .card-title {
+    color: var(--gold-color);
+    opacity: 1;
+}
+
+.card .card-sigil {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: var(--text-dim);
+    opacity: 0.5;
+}
+
+.card .card-title {
+    font-size: 7px;
+    letter-spacing: 2px;
+}
+
+.card .context {
+    margin-top: 6px;
+    opacity: 0.5;
+    font-family: var(--font-mystic);
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+/* â”€â”€ TRILHA CARDS â€“ cartas de cartomante â”€â”€ */
+.trilha-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.trilha-card {
+    background: linear-gradient(160deg, #12002299 0%, #0a001799 100%);
+    border: 1px solid #4a0888;
+    outline: 2px solid #2a005066;
+    outline-offset: -6px;
+    min-height: 60px;
+    aspect-ratio: 3 / 4;
+    padding: 20px 12px;
+    color: var(--text-color);
+    transition: border-color 0.3s, box-shadow 0.3s, background 0.3s;
+    position: relative;
+}
+
+/* Cantos decorativos estilo carta de baralho */
+.trilha-card::before,
+.trilha-card::after {
+    content: attr(data-trilha);
+    position: absolute;
+    font-family: var(--font-pixel);
+    font-size: 6px;
+    color: var(--gold-dim);
+    opacity: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+.trilha-card::before {
+    top: 7px;
+    left: 9px;
+}
+.trilha-card::after {
+    bottom: 7px;
+    right: 9px;
+    transform: rotate(180deg);
+}
+
+.trilha-card:hover {
+    border-color: var(--gold-dim);
+    box-shadow: 0 0 14px #8a20f033, inset 0 0 20px #2a005044;
+    color: var(--text-color);
+    outline-color: #4a088833;
+}
+
+.trilha-card .card-sigil {
+    font-size: 22px;
+    color: var(--gold-dim);
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+.trilha-card .card-title {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--text-color);
+}
+
+.trilha-card .context {
+    opacity: 0.65;
+    color: var(--text-dim);
+    font-size: 14px;
+}
+
+.trilha-card.selected {
+    background: linear-gradient(160deg, #2a005088 0%, #1a003566 100%);
+    border-color: var(--gold-color);
+    outline-color: #e8c87a22;
+    box-shadow: 0 0 20px #e8c87a22, inset 0 0 24px #2a005055;
+    color: var(--text-color);
+}
+
+.trilha-card.selected .card-sigil {
+    color: var(--gold-color);
+    opacity: 1;
+}
+
+.trilha-card.selected .card-title {
+    color: var(--gold-color);
+}
+
+.trilha-card.selected .context {
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+
+/* â”€â”€ SCROLL SELECTOR â€“ DIA / MÃŠS / ANO â”€â”€ */
+.scroll-selector {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.spin-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    border: 1px solid #2a0050;
+    padding: 3px 0;
+}
+
+.spin-btn {
+    width: auto;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 6px 0;
+    font-size: 13px;
+    color: #4a0888;
+    cursor: pointer;
+    line-height: 1;
+    letter-spacing: 0;
+    transition: color 0.2s;
+    min-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spin-btn:hover,
+.spin-btn:active {
+    color: var(--gold-color);
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    transform: none;
+}
+
+.spin-val {
+    font-family: var(--font-pixel);
+    font-size: 11px;
+    color: var(--text-color);
+    letter-spacing: 2px;
+    text-align: center;
+    min-width: 40px;
+    padding: 2px 0;
+    text-transform: uppercase;
+}
+
+.label-nascimento {
+    font-size: 6px;
+    color: var(--text-dim);
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 6px;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    opacity: 0.8;
+}
+
+
+/* â”€â”€ SAVED BANNER â”€â”€ */
+.saved-banner {
+    border: 1px solid var(--border-color);
+    outline: 1px solid #15002a;
+    outline-offset: -4px;
+    background: transparent;
+    padding: 14px 16px;
+    margin-bottom: 28px;
+    text-align: center;
+    font-size: 7px;
+    color: var(--text-dim);
+    letter-spacing: 1px;
+}
+
+.banner-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.banner-buttons button {
+    font-size: 7px;
+    padding: 6px 12px;
+    width: auto;
+}
+
+
+/* â”€â”€ RPG STATUS BARS â”€â”€ */
+.rpg-bar-container {
+    margin-bottom: 14px;
+}
+
+.rpg-label {
+    font-size: 7px;
+    margin-bottom: 6px;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rpg-bar-bg {
+    height: 3px;
+    background: #0f001e;
+    border: none;
+    position: relative;
+}
+
+.rpg-bar-fill {
+    height: 100%;
+    width: 0%;
+    transition: width 1s ease;
+    position: relative;
+}
+
+.rpg-bar-fill::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -2px;
+    width: 3px;
+    height: 7px;
+    background: inherit;
+    opacity: 0.8;
+}
+
+.rpg-bar-fill.green  { background: #39ff7a; box-shadow: 0 0 6px #39ff7a88; }
+.rpg-bar-fill.yellow { background: var(--gold-color); box-shadow: 0 0 6px #e8c87a66; }
+.rpg-bar-fill.red    { background: #ff3a5c; box-shadow: 0 0 6px #ff3a5c66; }
+
+
+/* â”€â”€ CRYSTAL BALL â”€â”€ */
+.crystal-ball-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 0, 15, 0.97);
+    z-index: 1000;
+    gap: 32px;
+}
+
+.crystal-ball {
+    width: 64px;
+    height: 64px;
+    background: #0f001e;
+    border: 2px solid #4a0888;
+    outline: 2px solid #1a0035;
+    outline-offset: 4px;
+    position: relative;
+    image-rendering: pixelated;
+    box-shadow:
+        inset  8px  8px 0 0 #2a005599,
+        inset -4px -4px 0 0 #06000e,
+        0 0 0  2px  #8a20f022,
+        0 0 20px    #8a20f044,
+        0 0 50px    #8a20f022;
+}
+
+.crystal-ball::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(1px 1px at 20% 25%, #c090ffcc 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 35%, #e8c87a99 0%, transparent 100%),
+        radial-gradient(1px 1px at 45% 70%, #c090ff88 0%, transparent 100%),
+        radial-gradient(1px 1px at 80% 75%, #ddd0f577 0%, transparent 100%),
+        radial-gradient(1px 1px at 15% 65%, #e8c87a66 0%, transparent 100%);
+    animation: crystalStars 3s ease-in-out infinite;
+}
+
+.crystal-ball::after {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    background: #c090ff;
+    opacity: 0.4;
+    image-rendering: pixelated;
+    animation: crystalGleam 2s ease-in-out infinite;
+}
+
+@keyframes crystalStars {
+    0%, 100% { opacity: 0.4; transform: scale(1); }
+    50%       { opacity: 1;   transform: scale(1.05); }
+}
+
+@keyframes crystalGleam {
+    0%, 100% { opacity: 0.2; width: 8px;  height: 8px; }
+    50%       { opacity: 0.7; width: 10px; height: 10px; }
+}
+
+@keyframes crystalRing {
+    0%   { box-shadow: 0 0 0  4px #8a20f033, 0 0 20px #8a20f044, 0 0 50px #8a20f022; }
+    50%  { box-shadow: 0 0 0  8px #8a20f055, 0 0 30px #8a20f066, 0 0 70px #8a20f033; }
+    100% { box-shadow: 0 0 0  4px #8a20f033, 0 0 20px #8a20f044, 0 0 50px #8a20f022; }
+}
+
+.crystal-ball.pulse {
+    animation: crystalRing 2s ease-in-out infinite;
+}
+
+.loading-text {
+    text-align: center;
+    color: var(--text-dim);
+    text-transform: lowercase;
+    font-family: var(--font-mystic);
+    font-size: 16px;
+    letter-spacing: 4px;
+    animation: loadingFade 1.5s ease-in-out infinite;
+}
+
+@keyframes loadingFade {
+    0%, 100% { opacity: 0.3; }
+    50%       { opacity: 1; }
+}
+
+
+/* â”€â”€ FOOTER ACTIONS (botÃµes fixos etapa 4) â”€â”€ */
+.footer-actions {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(7, 0, 15, 0.96);
+    border-top: 1px solid #2a0050;
+    padding: 12px 16px;
+    display: flex;
+    gap: 10px;
+    z-index: 100;
+}
+
+.footer-actions button {
+    flex: 1;
+    font-size: 7px;
+    letter-spacing: 2px;
+    padding: 12px;
+}
+
+
+/* â”€â”€ ETAPA (container de cada passo) â”€â”€ */
+.etapa {
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 0.4s forwards;
+}
+
+
+/* â”€â”€ ORACLE FLOW â€“ etapa 2 â”€â”€ */
+#sub-etapa-title {
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+}
+
+.card-grid-3 {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+@media (min-width: 560px) {
+    .card-grid-3 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+#btn-proximo {
+    border-color: #2a0050;
+    color: var(--text-dim);
+    transition: all 0.3s;
+}
+#btn-proximo.ativo {
+    border-color: var(--gold-color);
+    color: var(--gold-color);
+    box-shadow: 3px 3px 0px var(--gold-dim);
+}
+
+================================================================
+  ARQUIVO: assets\js\app.js
+================================================================
+let SIMBOLOS = [];
+let currentUserData = {
+    nome: "",
+    nascimento: "",
+    trilha: "",
+    selecoes: {},
+    detalhes: {}
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('./data/index.json')
+        .then(response => response.json())
+        .then(data => {
+            SIMBOLOS = data.simbolos;
+            initApp();
+        });
+});
+
+function initApp() {
+    checkSavedLeitura();
+    setupEtapa1();
+}
+
+function checkSavedLeitura() {
+    const saved = localStorage.getItem('ultima_leitura');
+    if (saved) {
+        const data = JSON.parse(saved);
+        const banner = document.getElementById('saved-banner');
+        banner.querySelector('.date').textContent = data.data;
+        banner.classList.remove('hidden');
+    }
+}
+
+function setupEtapa1() {
+    const btnEntrar = document.getElementById('btn-entrar');
+    const inputNome = document.getElementById('input-nome');
+    const trilhaCards = document.querySelectorAll('#trilha-selector .card');
+
+    inputNome.addEventListener('input', updateButtons);
+    
+    trilhaCards.forEach(card => {
+        card.addEventListener('click', () => {
+            trilhaCards.forEach(c => c.classList.remove('selected'));
+            card.classList.add('selected');
+            currentUserData.trilha = card.dataset.trilha;
+            updateButtons();
+        });
+    });
+
+    btnEntrar.onclick = () => {
+        currentUserData.nome = inputNome.value;
+        showEtapa(2);
+        startSubEtapas();
+    };
+}
+
+function updateButtons() {
+    const btnEntrar = document.getElementById('btn-entrar');
+    const inputNome = document.getElementById('input-nome');
+    if (btnEntrar) {
+        btnEntrar.disabled = !(inputNome.value.length > 0 && currentUserData.trilha);
+    }
+}
+
+function showEtapa(num) {
+    document.querySelectorAll('.etapa').forEach(e => e.classList.add('hidden'));
+    document.getElementById(`etapa-${num}`).classList.remove('hidden');
+    window.scrollTo(0, 0);
+}
+
+let currentSubEtapa = 0;
+const subEtapas = ['pessoas', 'animais', 'lugares', 'situacoes', 'objetos'];
+
+function startSubEtapas() {
+    renderSubEtapa();
+}
+
+const SUBTITULOS = {
+    pessoas: 'quem estava no seu sonho?',
+    animais: 'alguma criatura cruzou seu caminho?',
+    lugares: 'onde vocÃª estava?',
+    situacoes: 'o que aconteceu?',
+    objetos: 'o que vocÃª viu ou tocou?'
+};
+
+function renderSubEtapa() {
+    const key = subEtapas[currentSubEtapa];
+    const progressBar = document.getElementById('progress-bar');
+    progressBar.style.width = `${((currentSubEtapa + 1) / 5) * 100}%`;
+
+    document.getElementById('sub-etapa-title').textContent = key.toUpperCase();
+    document.getElementById('sub-etapa-subtitulo').textContent = SUBTITULOS[key];
+    document.getElementById('btn-proximo').textContent = 'PULAR â†’';
+    renderGrid('grid-sub-etapa', ETAPAS_DATA[key]);
+}
+
+function nextSubEtapa() {
+    const selected = Array.from(document.querySelectorAll('#grid-sub-etapa .selected')).map(c => c.textContent);
+    currentUserData.selecoes[subEtapas[currentSubEtapa]] = selected;
+    currentSubEtapa++;
+    if (currentSubEtapa < subEtapas.length) {
+        renderSubEtapa();
+    } else {
+        showEtapa(3);
+        startEtapa3();
+    }
+}
+
+const PERGUNTAS = [
+    {
+        key: 'emocao',
+        titulo: 'SOBRE O SONHO',
+        subtitulo: 'como vocÃª se sentiu?',
+        opcoes: ['MEDO','ALEGRIA','ANGÃšSTIA','CONFUSÃƒO','PAZ','RAIVA'],
+        multiplo: false
+    },
+    {
+        key: 'periodo',
+        titulo: 'O CENÃRIO',
+        subtitulo: 'era dia ou noite no sonho?',
+        opcoes: ['DIA','NOITE','NÃƒO LEMBRO'],
+        multiplo: false
+    },
+    {
+        key: 'cor_sonho',
+        titulo: 'AS CORES',
+        subtitulo: 'o sonho era colorido?',
+        opcoes: ['COLORIDO','PRETO E BRANCO','NÃƒO LEMBRO'],
+        multiplo: false
+    },
+    {
+        key: 'cor_dominante',
+        titulo: 'AS CORES',
+        subtitulo: 'que cor mais apareceu?',
+        opcoes: ['PRETO','BRANCO','VERMELHO','ROXO','DOURADO','AZUL','VERDE','AMARELO','NÃƒO LEMBRO'],
+        multiplo: false
+    },
+    {
+        key: 'despertar',
+        titulo: 'O DESPERTAR',
+        subtitulo: 'como vocÃª acordou?',
+        opcoes: ['SUOR FRIO','CORAÃ‡ÃƒO ACELERADO','CHORANDO','SENSAÃ‡ÃƒO DE PAZ','PESO NO PEITO','LEVEZA'],
+        multiplo: true
+    },
+    {
+        key: 'recorrente',
+        titulo: 'A MEMÃ“RIA',
+        subtitulo: 'jÃ¡ sonhou com isso antes?',
+        opcoes: ['SIM','NÃƒO','NÃƒO LEMBRO'],
+        multiplo: false
+    },
+    {
+        key: 'amor',
+        titulo: 'SOBRE VOCÃŠ HOJE',
+        subtitulo: 'como estÃ¡ o amor?',
+        opcoes: ['BEM','MAIS OU MENOS','MAL'],
+        multiplo: false
+    },
+    {
+        key: 'financas',
+        titulo: 'SOBRE VOCÃŠ HOJE',
+        subtitulo: 'como estÃ£o as finanÃ§as?',
+        opcoes: ['TRANQUILO','APERTADO','CRÃTICO'],
+        multiplo: false
+    },
+    {
+        key: 'hora',
+        titulo: 'O DESPERTAR',
+        subtitulo: 'que horas vocÃª acordou?',
+        opcoes: [],
+        multiplo: false,
+        tipo: 'hora'
+    }
+];
+
+let currentPergunta = 0;
+const naipes = ['â™ ','â™¥','â™¦','â™£'];
+
+const horasOpcoes = [
+    '04h00','04h30','05h00','05h30','06h00','06h30',
+    '07h00','07h30','08h00','08h30','09h00','09h30',
+    '10h00','10h30','11h00','11h30','12h00'
+];
+let horaIdx = 0;
+
+function spinHora(dir) {
+    horaIdx = (horaIdx + dir + horasOpcoes.length) % horasOpcoes.length;
+    document.getElementById('val-hora').textContent = horasOpcoes[horaIdx];
+}
+
+function startEtapa3() {
+    currentPergunta = 0;
+    renderPergunta();
+}
+
+function renderPergunta() {
+    const p = PERGUNTAS[currentPergunta];
+    const total = PERGUNTAS.length;
+    const progress = document.getElementById('progress-bar-3');
+    progress.style.width = `${((currentPergunta + 1) / total) * 100}%`;
+
+    document.getElementById('etapa3-titulo').textContent = p.titulo;
+    document.getElementById('etapa3-subtitulo').textContent = p.subtitulo;
+
+    const grid = document.getElementById('etapa3-grid');
+    const horas = document.getElementById('etapa3-horas');
+    const btn = document.getElementById('btn-etapa3');
+
+    const isUltima = currentPergunta === total - 1;
+    btn.textContent = isUltima ? 'REVELAR MEU ORÃCULO' : 'PRÃ“XIMO â†’';
+
+    if (p.tipo === 'hora') {
+        grid.classList.add('hidden');
+        horas.classList.remove('hidden');
+        document.getElementById('val-hora').textContent = horasOpcoes[horaIdx];
+    } else {
+        horas.classList.add('hidden');
+        grid.classList.remove('hidden');
+        grid.innerHTML = '';
+        p.opcoes.forEach(opcao => {
+            const card = document.createElement('div');
+            const naipe = naipes[Math.floor(Math.random() * naipes.length)];
+            card.className = 'card';
+            card.textContent = opcao;
+            card.style.setProperty('--naipe', `"${naipe}"`);
+            card.onclick = () => {
+                if (p.multiplo) {
+                    card.classList.toggle('selected');
+                } else {
+                    grid.querySelectorAll('.card').forEach(c => c.classList.remove('selected'));
+                    card.classList.add('selected');
+                }
+            };
+            grid.appendChild(card);
+        });
+    }
+}
+
+function nextPergunta() {
+    const p = PERGUNTAS[currentPergunta];
+    if (p.tipo === 'hora') {
+        currentUserData.detalhes['hora'] = horasOpcoes[horaIdx];
+    } else {
+        const selected = Array.from(document.querySelectorAll('#etapa3-grid .selected')).map(c => c.textContent);
+        currentUserData.detalhes[p.key] = selected;
+    }
+
+    currentPergunta++;
+    if (currentPergunta < PERGUNTAS.length) {
+        renderPergunta();
+        window.scrollTo(0, 0);
+    } else {
+        revelarOraculo();
+    }
+}
+
+function revelarOraculo() {
+    showEtapa(4);
+    const crystalBall = document.getElementById('crystal-ball-overlay');
+    crystalBall.classList.remove('hidden');
+    
+    const messages = ["lendo seus simbolos...", "consultando os astros...", "sua leitura esta pronta"];
+    let mIdx = 0;
+    const interval = setInterval(() => {
+        mIdx++;
+        if (mIdx < messages.length) {
+            document.getElementById('loading-text').textContent = messages[mIdx];
+        } else {
+            clearInterval(interval);
+            crystalBall.classList.add('hidden');
+            renderResultados();
+        }
+    }, 1500);
+}
+
+function renderResultados() {
+    const resultsContainer = document.getElementById('resultados');
+    resultsContainer.innerHTML = '';
+    
+    // Encontrar sÃ­mbolo principal
+    const allSelected = [].concat(...Object.values(currentUserData.selecoes));
+    const mainSymbolData = SIMBOLOS.find(s => allSelected.includes(s.simbolo)) || SIMBOLOS[0];
+    
+    const blocks = [
+        { id: 1, title: "O QUE SEU SONHO DIZ", content: generateInterpretation(currentUserData, [mainSymbolData]).texto },
+        { id: 2, title: "SEU ANIMAL DA SORTE", content: `Animal: ${mainSymbolData.jogo_bicho.animal}<br>Grupo: ${mainSymbolData.jogo_bicho.grupo}<br>Dezenas: ${mainSymbolData.jogo_bicho.dezenas.join(', ')}<br>Milhar: ${mainSymbolData.jogo_bicho.milhar_sugerido}` },
+        { id: 3, title: "SEUS NUMEROS DE HOJE", content: `<span style="color:var(--gold-color); font-size:14px;">${generateLuckyNumbers(currentUserData.nome + Date.now()).join(' - ')}</span>` },
+        { id: 4, title: `TRILHA: ${currentUserData.trilha.toUpperCase()}`, content: mainSymbolData.leituras[`trilha_${currentUserData.trilha.toLowerCase()}`] },
+        { id: 5, title: "COMO VOCE ESTA", content: `
+            <div class="rpg-bar-container"><div class="rpg-label">MENTE</div><div class="rpg-bar-bg"><div class="rpg-bar-fill green" style="width:80%"></div></div></div>
+            <div class="rpg-bar-container"><div class="rpg-label">AMOR</div><div class="rpg-bar-bg"><div class="rpg-bar-fill yellow" style="width:50%"></div></div></div>
+            <div class="rpg-bar-container"><div class="rpg-label">FINANÃ‡AS</div><div class="rpg-bar-bg"><div class="rpg-bar-fill red" style="width:30%"></div></div></div>
+        ` },
+        { id: 6, title: "A LUA ESTA NOITE", content: `${getMoonPhase(new Date()).icon} Fase: ${getMoonPhase(new Date()).name}` }
+    ];
+
+    blocks.forEach((block, index) => {
+        const div = document.createElement('div');
+        div.className = `result-block ${index === 0 ? 'result-block--hero' : ''} fade-in-block`;
+        div.style.animationDelay = `${index * 1.5}s`;
+        div.innerHTML = `<h3>${block.title}</h3><p>${block.content}</p>`;
+        resultsContainer.appendChild(div);
+    });
+
+    document.getElementById('footer-actions').classList.remove('hidden');
+}
+
+function salvarLeitura() {
+    const leitura = {
+        data: new Date().toLocaleDateString(),
+        usuario: currentUserData.nome,
+        trilha: currentUserData.trilha
+    };
+    localStorage.setItem('ultima_leitura', JSON.stringify(leitura));
+    alert('Leitura salva com sucesso!');
+}
+
+function compartilharZap() {
+    const text = `Meu OrÃ¡culo no sonheicom.com.br: ${currentUserData.nome}, minha trilha foi ${currentUserData.trilha}!`;
+    window.open(`https://wa.me/?text=${encodeURIComponent(text)}`);
+}
+
+================================================================
+  ARQUIVO: assets\js\etapas.js
+================================================================
+const ETAPAS_DATA = {
+    pessoas: [
+        "MÃ£e", "Pai", "Filho(a)", "IrmÃ£", "AvÃ³", "AvÃ´",
+        "Namorado(a)", "Ex", "Chefe", "Amigo(a)", "Amigo(a) de infÃ¢ncia",
+        "Estranho", "Pessoa falecida", "Eu mesmo",
+        "CrianÃ§a desconhecida", "Figura desconhecida",
+        "Anjo / Entidade", "DemÃ´nio / PresenÃ§a sombria",
+        "VersÃ£o de mim mesmo", "Pessoa famosa",
+        "Figura religiosa", "Velho(a) sÃ¡bio(a)"
+    ],
+    animais: [
+        "Cobra", "Cachorro", "Gato", "Cavalo", "Peixe",
+        "Aranha", "Coelho", "PÃ¡ssaro", "Abelha", "Touro",
+        "LeÃ£o", "Rato", "Sapo", "Crocodilo", "Borboleta",
+        "Lobo", "Ãguia", "Coruja", "TubarÃ£o", "Elefante",
+        "DragÃ£o", "UnicÃ³rnio", "FÃªnix", "Sereia",
+        "Lobisomem", "Criatura das trevas", "Animal gigante"
+    ],
+    lugares: [
+        "Mar", "Casa", "Igreja", "Hospital", "Escola",
+        "Floresta", "CemitÃ©rio", "Festa", "Rua", "Montanha",
+        "Lugar desconhecido", "Casa da infÃ¢ncia",
+        "Praia", "Trabalho", "Quarto", "PrisÃ£o", "Ponte", "Aeroporto",
+        "CÃ©u / ParaÃ­so", "Inferno", "Caverna",
+        "RuÃ­nas antigas", "Castelo", "Labirinto", "Lugar que nÃ£o existe"
+    ],
+    situacoes: [
+        "Queda", "Voar", "PerseguiÃ§Ã£o", "Briga", "TraiÃ§Ã£o",
+        "Abandono", "Sexo", "Casamento", "Morte", "Gravidez",
+        "Acidente", "Estar nu",
+        "Estar perdido", "Perder algo importante", "Afogamento",
+        "Encontrar dinheiro", "Ser traÃ­do", "Chegar atrasado",
+        "RessurreiÃ§Ã£o", "Viagem no tempo", "Mundo paralelo",
+        "Fim do mundo", "Ser observado", "TransformaÃ§Ã£o do corpo",
+        "Falar com mortos"
+    ],
+    objetos: [
+        "Dinheiro", "Chave", "Espelho", "Celular", "Faca",
+        "Sangue", "Porta", "Vela", "Anel", "Arma", "Carro", "Dente",
+        "RelÃ³gio", "Escada", "Livro", "Ãgua", "Fogo", "Cruz", "Ponte",
+        "Cristal", "PoÃ§Ã£o", "Portal", "Caveira",
+        "Altar", "Pergaminho", "TalismÃ£"
+    ]
+};
+
+function renderGrid(containerId, items, multiple = true) {
+    const container = document.getElementById(containerId);
+    container.innerHTML = '';
+    items.forEach(item => {
+        const card = document.createElement('div');
+        const naipes = ['â™ ', 'â™¥', 'â™¦', 'â™£'];
+        const naipe = naipes[Math.floor(Math.random() * naipes.length)];
+
+        card.className = 'card';
+        card.textContent = item;
+        card.style.setProperty('--naipe', `"${naipe}"`);
+        card.onclick = () => {
+            if (multiple) {
+                card.classList.toggle('selected');
+            } else {
+                container.querySelectorAll('.card').forEach(c => c.classList.remove('selected'));
+                card.classList.add('selected');
+            }
+            const temSelecionado = container.querySelectorAll('.selected').length > 0;
+            const btn = document.getElementById('btn-proximo');
+            btn.textContent = temSelecionado ? 'PRÃ“XIMO â†’' : 'PULAR â†’';
+            btn.classList.toggle('ativo', temSelecionado);
+            updateButtons();
+        };
+        container.appendChild(card);
+    });
+}
+
+function selecionarUnico(card, grupo) {
+    document.querySelectorAll(`[data-group="${grupo}"]`).forEach(c => c.classList.remove('selected'));
+    card.classList.add('selected');
+}
+
+function selecionarMultiplo(card, grupo, max) {
+    const selecionados = document.querySelectorAll(`[data-group="${grupo}"].selected`);
+    if (card.classList.contains('selected')) {
+        card.classList.remove('selected');
+    } else if (selecionados.length < max) {
+        card.classList.add('selected');
+    }
+}
+
+================================================================
+  ARQUIVO: assets\js\leitura.js
+================================================================
+function generateInterpretation(userData, symbols) {
+    const mainSymbol = symbols[0] || { simbolo: "MistÃ©rio", leituras: { geral: "Seu sonho Ã© complexo e exige reflexÃ£o." } };
+    const name = userData.nome;
+    
+    return {
+        titulo: "O QUE SEU SONHO DIZ",
+        texto: `${name}, seu sonho com ${mainSymbol.simbolo} revela que vocÃª estÃ¡ em um momento de transiÃ§Ã£o. ${mainSymbol.leituras.geral}`
+    };
+}
+
+function getBichoData(symbol) {
+    if (symbol && symbol.jogo_bicho) return symbol.jogo_bicho;
+    return { grupo: "00", animal: "Sorte", dezenas: ["00"], milhar_sugerido: "0000" };
+}
+
+================================================================
+  ARQUIVO: assets\js\lua.js
+================================================================
+function getMoonPhase(date) {
+    const lp = 2551443; 
+    const now = new Date(date.getFullYear(), date.getMonth(), date.getDate(), 20, 35, 0);
+    const new_moon = new Date(1970, 0, 7, 20, 35, 0);
+    const phase = ((now.getTime() - new_moon.getTime()) / 1000) % lp;
+    const res = Math.floor(phase / (24 * 3600)) + 1;
+    
+    if (res <= 1 || res >= 29) return { name: "Nova", icon: "ðŸŒ‘" };
+    if (res < 7) return { name: "Crescente", icon: "ðŸŒ’" };
+    if (res < 14) return { name: "Crescente", icon: "ðŸŒ“" };
+    if (res < 15) return { name: "Cheia", icon: "ðŸŒ•" };
+    if (res < 22) return { name: "Minguante", icon: "ðŸŒ–" };
+    return { name: "Minguante", icon: "ðŸŒ˜" };
+}
+
+================================================================
+  ARQUIVO: assets\js\numeros.js
+================================================================
+function generateLuckyNumbers(seed) {
+    // Simple hash deterministic function
+    let hash = 0;
+    for (let i = 0; i < seed.length; i++) {
+        hash = ((hash << 5) - hash) + seed.charCodeAt(i);
+        hash |= 0;
+    }
+
+    const numbers = [];
+    let currentSeed = Math.abs(hash);
+    
+    while (numbers.length < 6) {
+        currentSeed = (currentSeed * 16807) % 2147483647;
+        let num = (currentSeed % 60) + 1;
+        if (!numbers.includes(num)) {
+            numbers.push(num);
+        }
+    }
+    return numbers.sort((a, b) => a - b);
+}
+
+================================================================
+  ARQUIVO: data\index.json
+================================================================
+{
+  "simbolos": [
+    {
+      "simbolo": "Cobra",
+      "slug": "cobra",
+      "sinonimos": ["serpente", "vÃ­bora"],
+      "categoria": "Animais",
+      "jogo_bicho": {
+        "grupo": "9",
+        "animal": "Cobra",
+        "dezenas": ["33", "34", "35", "36"],
+        "milhar_sugerido": "1234"
+      },
+      "numerologia": {
+        "numero_simbolo": 9
+      },
+      "leituras": {
+        "geral": "Sonhar com cobra indica renovaÃ§Ã£o ou perigo oculto.",
+        "trilha_sorte": "A cobra traz sorte em mudanÃ§as rÃ¡pidas. Aposte com cautela.",
+        "trilha_amor": "Cuidado com traiÃ§Ãµes ou paixÃµes avassaladoras.",
+        "trilha_mente": "Sua mente estÃ¡ processando medos profundos.",
+        "trilha_significado": "O arquÃ©tipo da cobra representa a cura e o renascimento."
+      },
+      "emocoes": {
+        "medo": "Alta",
+        "alegria": "Baixa",
+        "angustia": "MÃ©dia",
+        "confusao": "MÃ©dia"
+      },
+      "recorrente": false,
+      "combinacoes_frequentes": ["Ã¡gua", "floresta"],
+      "fase_lua": {
+        "nova": "RenovaÃ§Ã£o",
+        "crescente": "Crescimento de problemas",
+        "cheia": "Perigo Ã  vista",
+        "minguante": "Cura de feridas"
+      },
+      "periodo": "Noite",
+      "cor_associada": "verde",
+      "sonho_pb": false,
+      "estado_despertar": "coracao_acelerado"
+    },
+    {
+      "simbolo": "Dente",
+      "slug": "dente",
+      "sinonimos": ["molar", "dentadura"],
+      "categoria": "Objetos",
+      "jogo_bicho": {
+        "grupo": "11",
+        "animal": "Cavalo",
+        "dezenas": ["41", "42", "43", "44"],
+        "milhar_sugerido": "5678"
+      },
+      "numerologia": {
+        "numero_simbolo": 4
+      },
+      "leituras": {
+        "geral": "Sonhar com dentes caindo sugere inseguranÃ§a ou perda de controle.",
+        "trilha_sorte": "Evite decisÃµes financeiras impulsivas hoje.",
+        "trilha_amor": "Sua comunicaÃ§Ã£o com o parceiro precisa de atenÃ§Ã£o.",
+        "trilha_mente": "Ansiedade sobre sua imagem social.",
+        "trilha_significado": "Dentes representam nossa forÃ§a vital e poder de expressÃ£o."
+      },
+      "emocoes": {
+        "medo": "Alta",
+        "alegria": "Nula",
+        "angustia": "Alta",
+        "confusao": "Alta"
+      },
+      "recorrente": true,
+      "combinacoes_frequentes": ["espelho", "sangue"],
+      "fase_lua": {
+        "nova": "InseguranÃ§a",
+        "crescente": "Medo de crescer",
+        "cheia": "Crise de imagem",
+        "minguante": "Perda de energia"
+      },
+      "periodo": "Dia",
+      "cor_associada": "branco",
+      "sonho_pb": true,
+      "estado_despertar": "suor_frio"
+    },
+    {
+      "simbolo": "Voar",
+      "slug": "voar",
+      "sinonimos": ["voo", "planando"],
+      "categoria": "SituaÃ§Ãµes",
+      "jogo_bicho": {
+        "grupo": "1",
+        "animal": "Avestruz",
+        "dezenas": ["01", "02", "03", "04"],
+        "milhar_sugerido": "9999"
+      },
+      "numerologia": {
+        "numero_simbolo": 7
+      },
+      "leituras": {
+        "geral": "Voar simboliza liberdade e transcendÃªncia de problemas.",
+        "trilha_sorte": "O momento Ã© de expansÃ£o. Seus caminhos estÃ£o abertos.",
+        "trilha_amor": "Liberdade no amor. Aproveite a leveza.",
+        "trilha_mente": "Paz interior e clareza mental.",
+        "trilha_significado": "A elevaÃ§Ã£o espiritual e o desejo de escapar do mundano."
+      },
+      "emocoes": {
+        "medo": "Baixa",
+        "alegria": "Alta",
+        "angustia": "Baixa",
+        "confusao": "Baixa"
+      },
+      "recorrente": false,
+      "combinacoes_frequentes": ["nuvens", "cÃ©u"],
+      "fase_lua": {
+        "nova": "Novos horizontes",
+        "crescente": "Progresso rÃ¡pido",
+        "cheia": "Sucesso total",
+        "minguante": "Desapego necessÃ¡rio"
+      },
+      "periodo": "Dia",
+      "cor_associada": "azul",
+      "sonho_pb": false,
+      "estado_despertar": "leveza"
+    }
+  ]
+}
+
+================================================================
+  ARQUIVO: scripts\gerar-paginas.js
+================================================================
+// Este script serÃ¡ responsÃ¡vel por ler o arquivo /data/index.json
+// e gerar arquivos HTML individuais para cada sÃ­mbolo dentro da pasta /sonhos/.
+// A lÃ³gica de geraÃ§Ã£o serÃ¡ implementada futuramente.
+console.log("Script de geraÃ§Ã£o de pÃ¡ginas pronto para implementaÃ§Ã£o.");
+
+================================================================
+  ARQUIVO: scripts\gerar-sitemap.js
+================================================================
+// Este script gerarÃ¡ o sitemap.xml do site baseado nos sÃ­mbolos existentes.
+console.log("Script de sitemap pronto para implementaÃ§Ã£o.");

@@ -1,0 +1,30 @@
+{
+  "claro": {
+    "id": "claro",
+    "label": "CLARO",
+    "significado": "Um cenário claro e nítido no sonho indica que sua consciência está pronta para receber a mensagem sem filtros. O que você viu estava iluminado por uma razão: seu inconsciente não precisou esconder nada. Este é um dos sonhos mais honestos que você pode ter.",
+    "energia": "Clareza, consciência e prontidão.",
+    "mensagem": "Não interprete demais. O que você viu é exatamente o que precisa enxergar na sua vida agora."
+  },
+  "nebuloso": {
+    "id": "nebuloso",
+    "label": "NEBULOSO",
+    "significado": "A névoa no sonho não é falha de memória, é linguagem. Seu inconsciente está processando algo que ainda não tem forma definida na sua vida. Pode ser uma decisão que ainda não amadureceu, um sentimento que você ainda não nomeou ou uma verdade que ainda dói encarar.",
+    "energia": "Mistério, processo interno e gestação.",
+    "mensagem": "Não force a clareza agora. Deixe o tempo trabalhar. O que está nebuloso vai se revelar quando estiver pronto."
+  },
+  "ameacador": {
+    "id": "ameacador",
+    "label": "AMEACADOR",
+    "significado": "Um cenário hostil ou ameaçador revela tensões reais que você está carregando acordado. O sonho não cria o perigo, ele espelha o que você já sente mas talvez não esteja admitindo. Pode ser um relacionamento que drena, uma situação que te oprime ou um medo que você ainda não enfrentou de frente.",
+    "energia": "Tensão, alerta e confronto necessário.",
+    "mensagem": "O sonho está do seu lado, não contra você. Ele mostra o que precisa ser enfrentado para que você volte a se sentir seguro."
+  },
+  "pacifico": {
+    "id": "pacifico",
+    "label": "PACIFICO",
+    "significado": "Um cenário de paz e tranquilidade no sonho é sinal de que algo dentro de você foi resolvido, aceito ou integrado. Não necessariamente na vida exterior, mas na sua relação interna com aquela situação. A paz que você sentiu no sonho é real e foi conquistada pela sua psique durante a noite.",
+    "energia": "Paz, integração e equilíbrio interno.",
+    "mensagem": "Carregue essa sensação para o dia. Seu inconsciente te mostrou que é possível estar em paz com isso."
+  }
+}

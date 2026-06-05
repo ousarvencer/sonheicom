@@ -1,0 +1,94 @@
+{
+  "significado": {
+    "id": "significado",
+    "titulo": "SIGNIFICADO",
+    "sigil": "◆",
+    "contexto": "entender o sonho",
+    "tom": "reflexivo, profundo, junguiano",
+    "foco": "o que seu inconsciente está te dizendo",
+    "fontes_prioritarias": [
+      "jung",
+      "mitologia",
+      "simbolismo_universal"
+    ],
+    "campos_destacados": [
+      "psicologia",
+      "mitologia",
+      "arquetipo",
+      "leituras.trilha_significado"
+    ],
+    "descricao_completa": "A trilha SIGNIFICADO mergulha nas camadas mais profundas do seu sonho, buscando a mensagem que o inconsciente coletivo está tentando entregar. Baseada na psicologia analítica, ela decodifica arquétipos, símbolos universais e padrões míticos presentes na experiência onírica. Cada imagem projetada pelo inconsciente é tratada como um fragmento vivo do psiquismo que busca compensar, equilibrar ou expandir a atitude do ego consciente no cotidiano.\nAo seguir esta trilha, você desvenda os mitos pessoais que regem as suas decisões invisíveis e entra em contato com as forças atemporais da mente humana. O sonho deixa de ser um evento isolado da noite e passa a ser compreendido como uma bússola no processo de individuação, onde decifrar o símbolo significa dar um passo concreto em direção à sua totalidade psíquica.",
+    "como_ler": "Leia primeiro o campo 'arquétipo' para identificar qual força psíquica universal está em jogo. Em seguida, mergulhe em 'psicologia.jung' para compreender a interpretação simbólica profunda. Observe as referências mitológicas para ver como culturas distintas encontraram o mesmo padrão. Por fim, leia 'leituras.trilha_significado' como síntese pessoal e acionável da mensagem do seu sonho.",
+    "pergunta_guia": "O que dentro de você está pedindo para ser visto, integrado ou transformado?",
+    "mensagem": "Cada símbolo que seu inconsciente escolheu tem um propósito. Este é o momento de ouvi-lo."
+  },
+  "sorte": {
+    "id": "sorte",
+    "titulo": "SORTE",
+    "sigil": "★",
+    "contexto": "números e jogo",
+    "tom": "místico, objetivo, acionável",
+    "foco": "números, sinais e timing",
+    "fontes_prioritarias": [
+      "numerologia",
+      "jogo_bicho",
+      "fase_lua"
+    ],
+    "campos_destacados": [
+      "jogo_bicho",
+      "numerologia",
+      "fase_lua",
+      "leituras.trilha_sorte"
+    ],
+    "descricao_completa": "A trilha SORTE transforma a linguagem enigmática do sonho em sinais matemáticos e práticos voltados para o mundo material. Ela cruza a numerologia pitagórica com sistemas tradicionais de apostas e os ciclos astrológicos vigentes para extrair frequências numéricas, animais e janelas de oportunidade ocultas na sua experiência noturna.\nPartindo do princípio arquetípico de que o inconsciente opera por sincronicidade e ressonância geométrica, esta leitura entende que as imagens oníricas carregam cargas numéricas intrínsecas capazes de alinhar suas ações com o fluxo da abundância. É uma abordagem que traduz o sutil em palpável, oferecendo ao usuário um mapa de intuição pura direcionado para a atração de prosperidade e para a leitura correta dos sinais do acaso.",
+    "como_ler": "Comece pelo campo 'jogo_bicho' para identificar o grupo, o animal e as dezenas associadas ao símbolo. Em seguida, consulte 'numerologia' para compreender a vibração numérica do sonho. Cruze com a fase da lua vigente para identificar o timing ideal de agir. Leia 'leituras.trilha_sorte' como a síntese final com os números mais indicados e a orientação sobre quando apostar.",
+    "pergunta_guia": "Que sinal o universo está codificando para você através deste sonho?",
+    "mensagem": "A sincronicidade não comete erros. Siga os sinais numéricos que a sua mente captou no astral."
+  },
+  "amor": {
+    "id": "amor",
+    "titulo": "AMOR",
+    "sigil": "♥",
+    "contexto": "vínculos e relacionamentos",
+    "tom": "íntimo, direto, sensível",
+    "foco": "o que isso diz sobre seus relacionamentos",
+    "fontes_prioritarias": [
+      "chakra",
+      "elemento",
+      "situacao_amor"
+    ],
+    "campos_destacados": [
+      "chakra",
+      "elemento",
+      "situacao_amor",
+      "leituras.trilha_amor"
+    ],
+    "descricao_completa": "A trilha AMOR revela o mapa geográfico do seu sistema emocional e relacional, iluminando como os seus vínculos afetivos e dinâmicas de projeção psicológica estão operando. Cada símbolo onírico atua como um revelador de tensões ou harmonias afetivas, mapeando a energia dos sentimentos através de analogias elementares e centros psicossomáticos.\nEsta análise ajuda a discernir entre as reais necessidades do seu coração e os padrões repetitivos originados por carências ou defesas egóicas. Ao projetar cenários de parceria, conflito ou entrega amorosa, o inconsciente oferece um diagnóstico preciso sobre como você está gerenciando suas conexões íntimas, fornecendo o direcionamento necessário para curar o campo afetivo e cultivar relacionamentos autênticos.",
+    "como_ler": "Inicie pela identificação do chakra ativo no sonho — ele revela qual centro energético está em foco no campo afetivo. O elemento associado (fogo, água, terra, ar) oferece a textura emocional do momento. Leia 'leituras.trilha_amor' para compreender o que o símbolo diz especificamente sobre seus relacionamentos atuais e os padrões que podem estar se revelando.",
+    "pergunta_guia": "O que seu coração está tentando te dizer sobre como você ama e como quer ser amado?",
+    "mensagem": "Os sonhos curam o coração em segredo. Permita que essa leitura clareie os seus sentimentos mais profundos."
+  },
+  "mente": {
+    "id": "mente",
+    "titulo": "MENTE",
+    "sigil": "☽",
+    "contexto": "bem-estar e sono",
+    "tom": "acolhedor, psicológico, prático",
+    "foco": "o que seu cérebro está processando",
+    "fontes_prioritarias": [
+      "sono",
+      "psicologia",
+      "emocoes"
+    ],
+    "campos_destacados": [
+      "sono",
+      "psicologia",
+      "estado_despertar",
+      "leituras.trilha_mente"
+    ],
+    "descricao_completa": "A trilha MENTE integra a vivência subjetiva do sonho aos mecanismos reguladores da sua saúde mental e homeostase orgânica. Sob a ótica da neuropsicologia integrativa, as produções oníricas agem como um sistema de processamento de dados e regulação do afeto, metabolizando o estresse residual e consolidando memórias para aliviar a sobrecarga cognitiva da vigília.\nEsta leitura oferece um olhar terapêutico e acolhedor sobre o seu estado psicofisiológico atual, destrinchando o cansaço ou a vitalidade que o sistema nervoso registrou. Longe de ser apenas um mistério etéreo, o sonho aqui é decodificado como uma ferramenta biológica e psicológica essencial para o seu bem-estar, fornecendo estratégias de autorregulação e higiene mental para o seu dia a dia.",
+    "como_ler": "Comece pelo campo 'sono' para entender em qual fase do sono este símbolo costuma emergir e o que isso indica sobre seu ciclo de descanso. Em seguida, leia 'psicologia.interpretacao_moderna' para a perspectiva contemporânea. O 'estado_despertar' revela o que seu sistema nervoso registrou ao acordar. Finalize com 'leituras.trilha_mente' para orientações práticas de autocuidado e saúde mental.",
+    "pergunta_guia": "O que seu cérebro e seu sistema nervoso precisam de você para descansar e se curar de verdade?",
+    "mensagem": "O equilíbrio da sua mente desperta começa na organização silenciosa que a noite opera em seu cérebro."
+  }
+}

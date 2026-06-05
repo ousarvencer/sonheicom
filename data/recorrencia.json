@@ -1,0 +1,28 @@
+{
+  "recorrencia": {
+    "primeira_vez": {
+      "id": "primeira_vez",
+      "titulo": "Primeira vez que sonhei com isso",
+      "significado": "Um símbolo que aparece pela primeira vez num sonho carrega energia de iniciação — algo novo está entrando na sua vida psíquica. Pode ser um tema, uma energia ou uma dinâmica que ainda não havia se manifestado com suficiente força para cruzar o limiar da consciência onírica.",
+      "neurociencia": "Do ponto de vista neurocientífico, sonhar com algo pela primeira vez indica que o cérebro formou novas associações entre memórias, emoções e conceitos. O hipocampo e o neocórtex estão transferindo informação recente para estruturas de longo prazo, gerando novas configurações de ativação durante o REM.",
+      "jung": "Para Jung, um símbolo que aparece pela primeira vez num sonho é como um visitante do inconsciente coletivo batendo à porta da consciência. É um arquétipo emergindo — algo que o Self considera relevante para o processo de individuação do sonhador neste momento específico.",
+      "mensagem": "Este símbolo é um novo personagem na sua história interior. Preste atenção com curiosidade, não com julgamento. Anote todos os detalhes que lembrar — cor, tamanho, sensações, o que aconteceu. Este pode ser o início de uma conversa importante entre você e seu inconsciente."
+    },
+    "ja_sonhei": {
+      "id": "ja_sonhei",
+      "titulo": "Já sonhei antes com isso",
+      "significado": "Sonhar novamente com um símbolo que já apareceu indica que um tema está em processo de aprofundamento. O inconsciente retorna a ele porque a mensagem ainda não foi plenamente integrada ou porque o tema está ganhando nova relevância na vida atual.",
+      "neurociencia": "A reativação de padrões neurais associados a um símbolo específico sugere consolidação de memória emocional em curso. O cérebro pode estar reprocessando situações similares a experiências passadas ou atualizando memórias com novos dados emocionais.",
+      "jung": "Jung observou que a repetição de símbolos nos sonhos indica que o inconsciente persiste em comunicar uma mensagem enquanto ela não for ouvida e integrada. É como se a psique dissesse: 'ainda não terminamos esta conversa.' Compare este sonho com os anteriores — o que mudou? O que permanece?",
+      "mensagem": "Este símbolo voltou — seu inconsciente não esqueceu. Algo neste tema continua ativo na sua vida. Pergunte-se: o que mudou desde a última vez que sonhou com isso? O que ainda não foi resolvido ou compreendido? A chave está na diferença entre os sonhos."
+    },
+    "frequente": {
+      "id": "frequente",
+      "titulo": "Sonho frequente / recorrente",
+      "significado": "Sonhos recorrentes são uma das manifestações mais significativas da vida onírica. Eles indicam um conflito psíquico central, um padrão comportamental instalado, um trauma não processado ou uma mensagem vital que o inconsciente insiste em entregar até ser ouvida com real atenção.",
+      "neurociencia": "Pesquisas de Stickgold e Walker demonstram que sonhos recorrentes estão associados à memória emocional não consolidada. O cérebro tenta repetidamente processar uma experiência ou emoção que não encontrou resolução. A recorrência diminui quando o conteúdo emocional subjacente é reconhecido e trabalhado.",
+      "jung": "Para Jung, o sonho recorrente é o sinal mais urgente do inconsciente. É como um nó na corda da psique — um complexo ativo que não cessa de perturbar o sono até ser reconhecido. Sonhos recorrentes muitas vezes encerram quando o sonhador, em terapia ou por insight próprio, compreende e integra o que estava sendo comunicado.",
+      "mensagem": "Este símbolo tem aparecido repetidamente porque há uma mensagem que ainda não foi plenamente recebida. Seu inconsciente é persistente porque a mensagem é importante. Não fuja — aproxime-se com curiosidade. Considere registrar todos os sonhos recorrentes em diário e, se possível, trabalhar este tema com apoio terapêutico."
+    }
+  }
+}

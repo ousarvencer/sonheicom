@@ -1,0 +1,56 @@
+{
+  "medo": {
+    "id": "medo",
+    "titulo": "Medo",
+    "descricao_sonho": "O medo no sonho se manifesta como paralisia, fuga inevitável, perseguição por sombras ou o confronto direto com figuras profundamente ameaçadoras.",
+    "significado_psicologico": "Esta emoção raramente indica um perigo real no mundo físico, funcionando como um espelho para as nossas ameaças internas. Ela aponta diretamente para conflitos reprimidos, transições de vida que estamos evitando encarar ou partes renegadas da nossa própria personalidade que o ego consciente se recusa a integrar.",
+    "impacto_leitura": "Quando combinado com qualquer símbolo, o medo intensifica drasticamente a urgência da mensagem, transformando o cenário neutro em um ponto de pressão psíquica ativa.",
+    "combinacao_simbolo": "Este símbolo surge com medo porque seu inconsciente está sinalizando que há algo nesta área que você ainda não tem coragem de olhar de frente.",
+    "mensagem": "O que te assusta no sonho é exatamente o que mais precisa da sua atenção agora."
+  },
+  "alegria": {
+    "id": "alegria",
+    "titulo": "Alegria",
+    "descricao_sonho": "A alegria no sonho aparece como uma forte sensação de expansão, voos de liberdade, encontros felizes e caminhadas por paisagens luminosas.",
+    "significado_psicologico": "Esta emoção indica um perfeito alinhamento entre as suas escolhas conscientes e as necessidades do seu inconsciente. Ela revela processos de cura bem-sucedidos, desejos autênticos que estão sendo reconhecidos pela sua alma e uma fase de profunda harmonia interna.",
+    "impacto_leitura": "A alegria amplifica o potencial positivo do símbolo, trazendo a mensagem em seu aspecto mais construtivo, luminoso e auspicioso.",
+    "combinacao_simbolo": "Este símbolo chega com leveza e alegria como um presente da sua alma, indicando que este tema está florescendo lindamente em você.",
+    "mensagem": "A felicidade experimentada na noite é o sinal de que a sua essência está em perfeita harmonia com o universo."
+  },
+  "angustia": {
+    "id": "angustia",
+    "titulo": "Angústia",
+    "descricao_sonho": "A angústia onírica se manifesta como opressão no peito, sensação de sufocamento, tarefas impossíveis de concluir ou labirintos sem saída.",
+    "significado_psicologico": "Esta emoção aponta para conflitos existenciais profundos, como a falta de propósito, escolhas de vida que estão sendo adiadas indefinidamente ou uma crise de identidade. Ela funciona como um alerta do inconsciente de que há uma sobrecarga psíquica que não encontra vazão na vigília.",
+    "impacto_leitura": "A angústia indica que o símbolo está tocando em um nó emocional complexo que exige uma mudança radical de perspectiva ou uma ação prática imediata.",
+    "combinacao_simbolo": "Este símbolo aparece envolto em angústia porque seu inconsciente está sob forte pressão nesta área, pedindo que você resolva essa pendência.",
+    "mensagem": "O aperto no peito durante o sono é o chamado da alma para você se libertar dos pesos que não te pertencem."
+  },
+  "confusao": {
+    "id": "confusao",
+    "titulo": "Confusão",
+    "descricao_sonho": "A confusão no sonho se manifesta como desorientação espacial, caminhos que mudam de lugar, identidades trocadas ou narrativas fragmentadas.",
+    "significado_psicologico": "Esta emoção indica um momento de transição psíquica essencial, onde o seu antigo mapa mental já não funciona mais, mas o novo ainda está sendo construído. É o caos criativo necessário que antecede os grandes saltos de consciência e as reconfigurações da vida.",
+    "impacto_leitura": "A confusão pede que você não force uma interpretação rígida ou lógica do símbolo, permitindo que o significado real ecoe e se revele nos próximos dias.",
+    "combinacao_simbolo": "Este símbolo chegou envolto em névoa e confusão porque você está no meio de uma metamorfose e ainda não precisa de todas as respostas.",
+    "mensagem": "Não tente entender tudo agora; o caos no sonho é apenas a organização silenciosa de um novo despertar."
+  },
+  "paz": {
+    "id": "paz",
+    "titulo": "Paz",
+    "descricao_sonho": "A paz no sonho se manifesta como uma quietude indescritível, cenários serenos, presença de luzes suaves e um profundo relaxamento corporal.",
+    "significado_psicologico": "Esta emoção é o reflexo de uma integração psíquica bem-sucedida e de um estado de saúde psicológica elevado. Ela demonstra que a sua jornada interior encontrou um ritmo natural e que suas forças internas estão em perfeito equilíbrio e alinhamento sagrado.",
+    "impacto_leitura": "A paz eleva o símbolo ao seu potencial espiritual mais alto, permitindo que a mensagem chegue limpa, clara e sem as distorções do medo.",
+    "combinacao_simbolo": "Este símbolo surge em perfeita paz para confirmar que você está trilhando o caminho correto e em harmonia com este aspecto da vida.",
+    "mensagem": "A serenidade do seu sonho é o reflexo da sua alma descansando no centro da sua própria verdade."
+  },
+  "raiva": {
+    "id": "raiva",
+    "titulo": "Raiva",
+    "descricao_sonho": "A raiva no sonho aparece como confrontos diretos, explosões, gritos, destruição de barreiras ou reações intensas contra figuras dominadoras.",
+    "significado_psicologico": "Esta emoção representa pura energia vital que foi represada na vida desperta e busca uma válvula de escape. Ela sinaliza limites pessoais que foram violados, necessidades emocionais negligenciadas, injustiças engolidas ou o clamor da psique por autonomia e espaço.",
+    "impacto_leitura": "A raiva confere ao símbolo uma carga máxima de poder e urgência, indicando que a situação está viva e exige um posicionamento firme.",
+    "combinacao_simbolo": "Este símbolo surge com fúria porque há uma força gigante contida em você que precisa ser canalizada de forma construtiva na sua rotina.",
+    "mensagem": "A força da raiva no sonho é o seu poder interno despertando para quebrar as correntes que te limitam."
+  }
+}

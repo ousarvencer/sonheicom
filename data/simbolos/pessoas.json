@@ -1,0 +1,2608 @@
+{
+  "pessoas": {
+    "mae": {
+      "simbolo": "Mãe",
+      "slug": "mae",
+      "sinonimos": [
+        "mãe",
+        "figura de mãe",
+        "arquétipo mãe"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Mãe — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Mãe: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com mãe",
+          "significado mãe sonho",
+          "sonho mãe"
+        ]
+      },
+      "mensagem_direta": "A aparição de Mãe nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Mãe no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Mãe e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Água",
+      "chakra": {
+        "nome": "Cardíaco",
+        "sanskrito": "Anahata",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Mãe."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Mãe.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Mãe é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Mãe como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Mãe.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 2,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Mãe sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Mãe na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Mãe.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Mãe à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Mãe aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Mãe indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Mãe sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Mãe confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Mãe marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Mãe é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Mãe.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Mãe.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Borboleta",
+        "animal": "Borboleta",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Rosa",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "pai": {
+      "simbolo": "Pai",
+      "slug": "pai",
+      "sinonimos": [
+        "pai",
+        "figura de pai",
+        "arquétipo pai"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Pai — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Pai: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com pai",
+          "significado pai sonho",
+          "sonho pai"
+        ]
+      },
+      "mensagem_direta": "A aparição de Pai nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Pai no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Pai e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Plexo Solar",
+        "sanskrito": "Manipura",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Pai."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Pai.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Pai é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Pai como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Pai.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Pai sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Pai na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Pai.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Pai à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Pai aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Pai indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Pai sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Pai confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Pai marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Pai é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Pai.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Pai.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "filho": {
+      "simbolo": "Filho(a)",
+      "slug": "filho",
+      "sinonimos": [
+        "filho(a)",
+        "figura de filho(a)",
+        "arquétipo filho(a)"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Filho(a) — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Filho(a): abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com filho(a)",
+          "significado filho(a) sonho",
+          "sonho filho(a)"
+        ]
+      },
+      "mensagem_direta": "A aparição de Filho(a) nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Filho(a) no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Filho(a) e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Plexo Solar",
+        "sanskrito": "Manipura",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Filho(a)."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Filho(a).",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Filho(a) é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Filho(a) como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Filho(a).",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Filho(a) sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Filho(a) na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Filho(a).",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Filho(a) à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Filho(a) aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Filho(a) indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Filho(a) sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Filho(a) confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Filho(a) marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Filho(a) é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Filho(a).",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Filho(a).",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "irma": {
+      "simbolo": "Irmã",
+      "slug": "irma",
+      "sinonimos": [
+        "irmã",
+        "figura de irmã",
+        "arquétipo irmã"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Irmã — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Irmã: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com irmã",
+          "significado irmã sonho",
+          "sonho irmã"
+        ]
+      },
+      "mensagem_direta": "A aparição de Irmã nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Irmã no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Irmã e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Plexo Solar",
+        "sanskrito": "Manipura",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Irmã."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Irmã.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Irmã é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Irmã como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Irmã.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Irmã sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Irmã na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Irmã.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Irmã à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Irmã aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Irmã indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Irmã sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Irmã confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Irmã marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Irmã é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Irmã.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Irmã.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "avo": {
+      "simbolo": "Avô",
+      "slug": "avo",
+      "sinonimos": [
+        "avô",
+        "figura de avô",
+        "arquétipo avô"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Avô — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Avô: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com avô",
+          "significado avô sonho",
+          "sonho avô"
+        ]
+      },
+      "mensagem_direta": "A aparição de Avô nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Avô no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Avô e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Plexo Solar",
+        "sanskrito": "Manipura",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Avô."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Avô.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Avô é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Avô como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Avô.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Avô sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Avô na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Avô.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Avô à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Avô aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Avô indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Avô sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Avô confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Avô marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Avô é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Avô.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Avô.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "namorado": {
+      "simbolo": "Namorado(a)",
+      "slug": "namorado",
+      "sinonimos": [
+        "namorado(a)",
+        "figura de namorado(a)",
+        "arquétipo namorado(a)"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Namorado(a) — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Namorado(a): abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com namorado(a)",
+          "significado namorado(a) sonho",
+          "sonho namorado(a)"
+        ]
+      },
+      "mensagem_direta": "A aparição de Namorado(a) nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Namorado(a) no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Namorado(a) e busque integrá-las conscientemente.",
+      "arquetipo": "Anima/Animus",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Cardíaco",
+        "sanskrito": "Anahata",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Namorado(a)."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Namorado(a).",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Namorado(a) é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Namorado(a) como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Namorado(a).",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 2,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Namorado(a) sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Namorado(a) na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Namorado(a).",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Namorado(a) à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Namorado(a) aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Namorado(a) indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Namorado(a) sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Namorado(a) confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Namorado(a) marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Namorado(a) é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Namorado(a).",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Namorado(a).",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Rosa",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "ex": {
+      "simbolo": "Ex",
+      "slug": "ex",
+      "sinonimos": [
+        "ex",
+        "figura de ex",
+        "arquétipo ex"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Ex — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Ex: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com ex",
+          "significado ex sonho",
+          "sonho ex"
+        ]
+      },
+      "mensagem_direta": "A aparição de Ex nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Ex no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Ex e busque integrá-las conscientemente.",
+      "arquetipo": "Anima/Animus",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Plexo Solar",
+        "sanskrito": "Manipura",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Ex."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Ex.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Ex é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Ex como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Ex.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Ex sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Ex na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Ex.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Ex à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Ex aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Ex indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Ex sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Ex confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Ex marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Ex é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Ex.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Ex.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "chefe": {
+      "simbolo": "Chefe",
+      "slug": "chefe",
+      "sinonimos": [
+        "chefe",
+        "figura de chefe",
+        "arquétipo chefe"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Chefe — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Chefe: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com chefe",
+          "significado chefe sonho",
+          "sonho chefe"
+        ]
+      },
+      "mensagem_direta": "A aparição de Chefe nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Chefe no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Chefe e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Fogo",
+      "chakra": {
+        "nome": "Plexo Solar",
+        "sanskrito": "Manipura",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Chefe."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Chefe.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Chefe é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Chefe como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Chefe.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Chefe sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Chefe na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Chefe.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Chefe à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Chefe aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Chefe indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Chefe sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Chefe confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Chefe marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Chefe é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Chefe.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Chefe.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Leão",
+        "animal": "Leão",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "amigo": {
+      "simbolo": "Amigo(a)",
+      "slug": "amigo",
+      "sinonimos": [
+        "amigo(a)",
+        "figura de amigo(a)",
+        "arquétipo amigo(a)"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Amigo(a) — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Amigo(a): abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com amigo(a)",
+          "significado amigo(a) sonho",
+          "sonho amigo(a)"
+        ]
+      },
+      "mensagem_direta": "A aparição de Amigo(a) nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Amigo(a) no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Amigo(a) e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Água",
+      "chakra": {
+        "nome": "Cardíaco",
+        "sanskrito": "Anahata",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Amigo(a)."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Amigo(a).",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Amigo(a) é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Amigo(a) como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Amigo(a).",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Amigo(a) sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Amigo(a) na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Amigo(a).",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Amigo(a) à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Amigo(a) aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Amigo(a) indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Amigo(a) sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Amigo(a) confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Amigo(a) marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Amigo(a) é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Amigo(a).",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Amigo(a).",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "amigo-de-infância": {
+      "simbolo": "Amigo(a) de infância",
+      "slug": "amigo-de-infância",
+      "sinonimos": [
+        "amigo(a) de infância",
+        "figura de amigo(a) de infância",
+        "arquétipo amigo(a) de infância"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Amigo(a) de infância — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Amigo(a) de infância: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com amigo(a) de infância",
+          "significado amigo(a) de infância sonho",
+          "sonho amigo(a) de infância"
+        ]
+      },
+      "mensagem_direta": "A aparição de Amigo(a) de infância nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Amigo(a) de infância no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Amigo(a) de infância e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Água",
+      "chakra": {
+        "nome": "Cardíaco",
+        "sanskrito": "Anahata",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Amigo(a) de infância."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Amigo(a) de infância.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Amigo(a) de infância é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Amigo(a) de infância como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Amigo(a) de infância.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Amigo(a) de infância sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Amigo(a) de infância na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Amigo(a) de infância.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Amigo(a) de infância à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Amigo(a) de infância aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Amigo(a) de infância indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Amigo(a) de infância sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Amigo(a) de infância confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Amigo(a) de infância marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Amigo(a) de infância é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Amigo(a) de infância.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Amigo(a) de infância.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "estranho": {
+      "simbolo": "Estranho",
+      "slug": "estranho",
+      "sinonimos": [
+        "estranho",
+        "figura de estranho",
+        "arquétipo estranho"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Estranho — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Estranho: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com estranho",
+          "significado estranho sonho",
+          "sonho estranho"
+        ]
+      },
+      "mensagem_direta": "A aparição de Estranho nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Estranho no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Estranho e busque integrá-las conscientemente.",
+      "arquetipo": "Sombra",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Plexo Solar",
+        "sanskrito": "Manipura",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Estranho."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Estranho.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Estranho é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Estranho como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Estranho.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Estranho sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Estranho na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Estranho.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Estranho à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Estranho aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Estranho indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Estranho sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Estranho confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Estranho marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Estranho é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Estranho.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Estranho.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "pessoa-falecida": {
+      "simbolo": "Pessoa falecida",
+      "slug": "pessoa-falecida",
+      "sinonimos": [
+        "pessoa falecida",
+        "figura de pessoa falecida",
+        "arquétipo pessoa falecida"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Pessoa falecida — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Pessoa falecida: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com pessoa falecida",
+          "significado pessoa falecida sonho",
+          "sonho pessoa falecida"
+        ]
+      },
+      "mensagem_direta": "A aparição de Pessoa falecida nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Pessoa falecida no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Pessoa falecida e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Plexo Solar",
+        "sanskrito": "Manipura",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Pessoa falecida."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Pessoa falecida.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Pessoa falecida é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Pessoa falecida como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Pessoa falecida.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Pessoa falecida sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Pessoa falecida na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Pessoa falecida.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Pessoa falecida à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Pessoa falecida aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Pessoa falecida indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Pessoa falecida sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Pessoa falecida confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Pessoa falecida marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Pessoa falecida é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Pessoa falecida.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Pessoa falecida.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "eu-mesmo": {
+      "simbolo": "Eu mesmo",
+      "slug": "eu-mesmo",
+      "sinonimos": [
+        "eu mesmo",
+        "figura de eu mesmo",
+        "arquétipo eu mesmo"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Eu mesmo — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Eu mesmo: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com eu mesmo",
+          "significado eu mesmo sonho",
+          "sonho eu mesmo"
+        ]
+      },
+      "mensagem_direta": "A aparição de Eu mesmo nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Eu mesmo no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Eu mesmo e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Plexo Solar",
+        "sanskrito": "Manipura",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Eu mesmo."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Eu mesmo.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Eu mesmo é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Eu mesmo como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Eu mesmo.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 1,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Eu mesmo sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Eu mesmo na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Eu mesmo.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Eu mesmo à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Eu mesmo aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Eu mesmo indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Eu mesmo sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Eu mesmo confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Eu mesmo marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Eu mesmo é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Eu mesmo.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Eu mesmo.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "crianca-desconhecida": {
+      "simbolo": "Criança desconhecida",
+      "slug": "crianca-desconhecida",
+      "sinonimos": [
+        "criança desconhecida",
+        "figura de criança desconhecida",
+        "arquétipo criança desconhecida"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Criança desconhecida — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Criança desconhecida: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com criança desconhecida",
+          "significado criança desconhecida sonho",
+          "sonho criança desconhecida"
+        ]
+      },
+      "mensagem_direta": "A aparição de Criança desconhecida nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Criança desconhecida no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Criança desconhecida e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Plexo Solar",
+        "sanskrito": "Manipura",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Criança desconhecida."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Criança desconhecida.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Criança desconhecida é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Criança desconhecida como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Criança desconhecida.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Criança desconhecida sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Criança desconhecida na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Criança desconhecida.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Criança desconhecida à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Criança desconhecida aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Criança desconhecida indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Criança desconhecida sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Criança desconhecida confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Criança desconhecida marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Criança desconhecida é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Criança desconhecida.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Criança desconhecida.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "figura-desconhecida": {
+      "simbolo": "Figura desconhecida",
+      "slug": "figura-desconhecida",
+      "sinonimos": [
+        "figura desconhecida",
+        "figura de figura desconhecida",
+        "arquétipo figura desconhecida"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Figura desconhecida — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Figura desconhecida: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com figura desconhecida",
+          "significado figura desconhecida sonho",
+          "sonho figura desconhecida"
+        ]
+      },
+      "mensagem_direta": "A aparição de Figura desconhecida nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Figura desconhecida no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Figura desconhecida e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Plexo Solar",
+        "sanskrito": "Manipura",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Figura desconhecida."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Figura desconhecida.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Figura desconhecida é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Figura desconhecida como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Figura desconhecida.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Figura desconhecida sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Figura desconhecida na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Figura desconhecida.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Figura desconhecida à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Figura desconhecida aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Figura desconhecida indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Figura desconhecida sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Figura desconhecida confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Figura desconhecida marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Figura desconhecida é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Figura desconhecida.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Figura desconhecida.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "anjo-entidade": {
+      "simbolo": "Anjo / Entidade",
+      "slug": "anjo-entidade",
+      "sinonimos": [
+        "anjo / entidade",
+        "figura de anjo / entidade",
+        "arquétipo anjo / entidade"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Anjo / Entidade — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Anjo / Entidade: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com anjo / entidade",
+          "significado anjo / entidade sonho",
+          "sonho anjo / entidade"
+        ]
+      },
+      "mensagem_direta": "A aparição de Anjo / Entidade nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Anjo / Entidade no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Anjo / Entidade e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Frontal",
+        "sanskrito": "Ajna",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Anjo / Entidade."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Anjo / Entidade.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Anjo / Entidade é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Anjo / Entidade como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Anjo / Entidade.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Anjo / Entidade sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Anjo / Entidade na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Anjo / Entidade.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Anjo / Entidade à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Anjo / Entidade aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Anjo / Entidade indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Anjo / Entidade sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Anjo / Entidade confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Anjo / Entidade marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Anjo / Entidade é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Anjo / Entidade.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Anjo / Entidade.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Dourado",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "demonio-presenca-sombria": {
+      "simbolo": "Demônio / Presença sombria",
+      "slug": "demonio-presenca-sombria",
+      "sinonimos": [
+        "demônio / presença sombria",
+        "figura de demônio / presença sombria",
+        "arquétipo demônio / presença sombria"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Demônio / Presença sombria — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Demônio / Presença sombria: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com demônio / presença sombria",
+          "significado demônio / presença sombria sonho",
+          "sonho demônio / presença sombria"
+        ]
+      },
+      "mensagem_direta": "A aparição de Demônio / Presença sombria nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Demônio / Presença sombria no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Demônio / Presença sombria e busque integrá-las conscientemente.",
+      "arquetipo": "Sombra",
+      "elemento": "Fogo",
+      "chakra": {
+        "nome": "Plexo Solar",
+        "sanskrito": "Manipura",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Demônio / Presença sombria."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Demônio / Presença sombria.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Demônio / Presença sombria é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Demônio / Presença sombria como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Demônio / Presença sombria.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Demônio / Presença sombria sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Demônio / Presença sombria na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Demônio / Presença sombria.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Demônio / Presença sombria à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Demônio / Presença sombria aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Demônio / Presença sombria indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Demônio / Presença sombria sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Demônio / Presença sombria confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Demônio / Presença sombria marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Demônio / Presença sombria é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Demônio / Presença sombria.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Demônio / Presença sombria.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "versao-de-mim-mesmo": {
+      "simbolo": "Versão de mim mesmo",
+      "slug": "versao-de-mim-mesmo",
+      "sinonimos": [
+        "versão de mim mesmo",
+        "figura de versão de mim mesmo",
+        "arquétipo versão de mim mesmo"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Versão de mim mesmo — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Versão de mim mesmo: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com versão de mim mesmo",
+          "significado versão de mim mesmo sonho",
+          "sonho versão de mim mesmo"
+        ]
+      },
+      "mensagem_direta": "A aparição de Versão de mim mesmo nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Versão de mim mesmo no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Versão de mim mesmo e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Plexo Solar",
+        "sanskrito": "Manipura",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Versão de mim mesmo."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Versão de mim mesmo.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Versão de mim mesmo é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Versão de mim mesmo como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Versão de mim mesmo.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Versão de mim mesmo sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Versão de mim mesmo na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Versão de mim mesmo.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Versão de mim mesmo à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Versão de mim mesmo aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Versão de mim mesmo indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Versão de mim mesmo sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Versão de mim mesmo confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Versão de mim mesmo marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Versão de mim mesmo é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Versão de mim mesmo.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Versão de mim mesmo.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "pessoa-famosa": {
+      "simbolo": "Pessoa famosa",
+      "slug": "pessoa-famosa",
+      "sinonimos": [
+        "pessoa famosa",
+        "figura de pessoa famosa",
+        "arquétipo pessoa famosa"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Pessoa famosa — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Pessoa famosa: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com pessoa famosa",
+          "significado pessoa famosa sonho",
+          "sonho pessoa famosa"
+        ]
+      },
+      "mensagem_direta": "A aparição de Pessoa famosa nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Pessoa famosa no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Pessoa famosa e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Plexo Solar",
+        "sanskrito": "Manipura",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Pessoa famosa."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Pessoa famosa.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Pessoa famosa é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Pessoa famosa como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Pessoa famosa.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Pessoa famosa sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Pessoa famosa na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Pessoa famosa.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Pessoa famosa à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Pessoa famosa aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Pessoa famosa indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Pessoa famosa sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Pessoa famosa confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Pessoa famosa marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Pessoa famosa é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Pessoa famosa.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Pessoa famosa.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "figura-religiosa": {
+      "simbolo": "Figura religiosa",
+      "slug": "figura-religiosa",
+      "sinonimos": [
+        "figura religiosa",
+        "figura de figura religiosa",
+        "arquétipo figura religiosa"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Figura religiosa — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Figura religiosa: abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com figura religiosa",
+          "significado figura religiosa sonho",
+          "sonho figura religiosa"
+        ]
+      },
+      "mensagem_direta": "A aparição de Figura religiosa nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Figura religiosa no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Figura religiosa e busque integrá-las conscientemente.",
+      "arquetipo": "A Grande Mãe/Pai",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Plexo Solar",
+        "sanskrito": "Manipura",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Figura religiosa."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Figura religiosa.",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Figura religiosa é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Figura religiosa como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Figura religiosa.",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Figura religiosa sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Figura religiosa na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Figura religiosa.",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Figura religiosa à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Figura religiosa aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Figura religiosa indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Figura religiosa sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Figura religiosa confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Figura religiosa marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Figura religiosa é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Figura religiosa.",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Figura religiosa.",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Azul",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    },
+    "velho-sabio": {
+      "simbolo": "Velho(a) sábio(a)",
+      "slug": "velho-sabio",
+      "sinonimos": [
+        "velho(a) sábio(a)",
+        "figura de velho(a) sábio(a)",
+        "arquétipo velho(a) sábio(a)"
+      ],
+      "categoria": "Pessoas",
+      "seo": {
+        "titulo_base": "Sonhar com Velho(a) sábio(a) — Significado e Interpretação",
+        "descricao_base": "Descubra o que significa sonhar com Velho(a) sábio(a): abordagens junguianas, freudianas, mitológicas e emocionais sobre este símbolo.",
+        "palavras_chave": [
+          "sonhar com velho(a) sábio(a)",
+          "significado velho(a) sábio(a) sonho",
+          "sonho velho(a) sábio(a)"
+        ]
+      },
+      "mensagem_direta": "A aparição de Velho(a) sábio(a) nos seus sonhos reflete dinâmicas profundas de relacionamentos ou aspectos projetados da sua própria psique.",
+      "alerta": "Observe o comportamento e as palavras de Velho(a) sábio(a) no sonho, pois expressam verdades ocultas que o ego costuma ignorar na vigília.",
+      "acao_recomendada": "Considere que parte de si mesma possui as mesmas características que você associa a Velho(a) sábio(a) e busque integrá-las conscientemente.",
+      "arquetipo": "O Velho Sábio",
+      "elemento": "Ar",
+      "chakra": {
+        "nome": "Frontal",
+        "sanskrito": "Ajna",
+        "significado": "Alinhamento do centro energético ligado à expressão e integração do princípio de Velho(a) sábio(a)."
+      },
+      "mitologia": {
+        "grega": "Associação com deuses tutelares, mentores ou figuras arquetípicas da jornada do herói que correspondem à energia de Velho(a) sábio(a).",
+        "egipcia": "Representação dos guias espirituais, ancestrais ou protetores do plano divino e terrestre.",
+        "hindu": "O encontro com aspectos do Karma e lições de Dharma através de encarnações simbólicas no sonho.",
+        "indigena_brasileira": "Manifestação de espíritos ancestrais, guias da floresta ou mentores da comunidade.",
+        "nordica": "Figuras associadas aos Alfar (elfos), Disir (espíritos familiares protetores) ou deuses de Asgard.",
+        "judaico_crista": "Visitações de mensageiros celestes, provações através do próximo ou revelações do coração."
+      },
+      "psicologia": {
+        "jung": "Sob a ótica junguiana, Velho(a) sábio(a) é tipicamente uma projeção de um complexo autônomo, da Anima/Animus, da Sombra ou do próprio Self.",
+        "freud": "Freud veria Velho(a) sábio(a) como uma figura de transferência, ligada a desejos reprimidos da infância ou remanescentes diurnos.",
+        "interpretacao_moderna": "A psicologia moderna e a neurociência interpretam como a simulação mental de interações sociais e consolidação de vínculos afetivos.",
+        "fonte": "Jung, C.G. — Tipos Psicológicos; Freud, S. — A Interpretação dos Sonhos"
+      },
+      "sono": {
+        "fase_tipica": "Sono REM de alta intensidade emocional e ciclos tardios da madrugada.",
+        "significado_sono": "Regulação emocional, empatia social e integração de memórias interpessoais ligadas a Velho(a) sábio(a).",
+        "ciencia": "Forte ativação da rede de modo padrão (DMN) e do córtex pré-frontal medial durante interações sociais oníricas."
+      },
+      "numerologia": {
+        "numero_simbolo": 9,
+        "significado_numero": "Representação de dualidade, parceria e reflexão ou de individuação e início de ciclo.",
+        "fonte": "Numerologia Pitagórica"
+      },
+      "leitures": {
+        "geral": "Ver Velho(a) sábio(a) sugere um espelhamento imediato de conflitos ou afetos que precisam de atenção na sua realidade atual.",
+        "trilha_significado": "Estudo profundo do simbolismo de Velho(a) sábio(a) na evolução pessoal e espiritual.",
+        "trilha_sorte": "Combinações numéricas e harmonia vibracional baseadas nos arquétipos desta pessoa.",
+        "trilha_amor": "O reflexo dos seus relacionamentos, projeções românticas ou carências afetivas através de Velho(a) sábio(a).",
+        "trilha_mente": "Análise da saúde mental, limites pessoais e cura de traumas intergeracionais."
+      },
+      "contextos": {
+        "de_noite": "O encontro com Velho(a) sábio(a) à noite acentua mistérios, segredos e o lado oculto desse vínculo.",
+        "de_dia": "Sob a luz do dia, Velho(a) sábio(a) aponta para situações claras e interações conscientes no cotidiano.",
+        "com_medo": "Sentir medo de Velho(a) sábio(a) indica resistência a encarar verdades ou aspectos reprimidos que essa pessoa projeta.",
+        "com_alegria": "Alegria ao lado de Velho(a) sábio(a) sinaliza cura, harmonia e reconciliação com essa energia psíquica.",
+        "com_angustia": "Angústia revela pendências emocionais e nós relacionais que precisam ser desatados.",
+        "com_confusao": "Confusão na identidade ou comportamento da pessoa indica incerteza sobre seus papéis sociais.",
+        "com_paz": "Paz profunda com Velho(a) sábio(a) confirma aceitação, maturidade e integração emocional.",
+        "com_raiva": "A raiva sinaliza limites pessoais que foram violados ou mágoas guardadas que exigem expressão.",
+        "primeira_vez": "Primeira aparição de Velho(a) sábio(a) marca a ativação de um novo aspecto ou complexo na sua jornada.",
+        "ja_sonhei": "O retorno desta pessoa mostra que o tema central do relacionamento ainda necessita de revisão.",
+        "frequente": "Sonhar repetidamente com Velho(a) sábio(a) é um chamado urgente para resolver pendências afetivas ou integrativas.",
+        "acordou_coracao_acelerado": "O sonho carregava alta voltagem afetiva, indicando que o recado tocou uma zona sensível.",
+        "acordou_leveza": "Sensação de leveza indica que houve uma liberação ou entendimento pacífico durante a noite.",
+        "acordou_suor_frio": "Sinaliza que as defesas conscientes foram abaladas por conteúdos profundos da sombra.",
+        "acordou_confuso": "A psique ainda está digerindo a complexidade da mensagem trazida por esta figura.",
+        "acordou_chorando": "Liberação emocional profunda e catarse associada a perdas ou saudades.",
+        "acordou_aliviado": "A interação atuou com sucesso como uma terapia noturna e harmonização de conflitos.",
+        "sonho_pb": "A ausência de cores destaca a essência arquetípica pura e a importância da mensagem de Velho(a) sábio(a).",
+        "sonho_colorido": "As cores vivas destacam a intensidade das emoções atuais envolvidas nesse cenário social.",
+        "cenario_claro": "Ambiente nítido e iluminado facilita a compreensão clara das intenções de Velho(a) sábio(a).",
+        "cenario_nebuloso": "A névoa aponta para mal-entendidos ou aspectos da relação que você ainda não consegue enxergar.",
+        "cenario_ameacador": "A atmosfera hostil projeta conflitos externos ou autossabotagem projetada.",
+        "cenario_pacifico": "Confirma um porto seguro e suporte emocional proporcionado pelo arquétipo.",
+        "lembrou_tudo": "A lembrança exata preserva os diálogos e detalhes fundamentais para a análise.",
+        "lembrou_fragmentos": "Foque no principal sentimento ou palavra dita; ali está a chave que você precisa.",
+        "nao_lembrava": "Mesmo sem memórias exatas acordadas, o reequilíbrio dos laços psíquicos foi processado."
+      },
+      "fase_lua": {
+        "nova": "Fase de novos começos e intenções puras no relacionamento ou aspecto.",
+        "crescente": "Desenvolvimento, amadurecimento e fortalecimento dos laços.",
+        "cheia": "Plenitude emocional, ápice do vínculo ou revelação total de sentimentos.",
+        "minguante": "Momento de recolhimento, encerramento de ciclos nocivos e desapego."
+      },
+      "emocoes": {
+        "medo": "Enfrentamento de defesas pessoais internas.",
+        "alegria": "Integração plena e fluxo livre de afeto.",
+        "angustia": "Necessidade de espaço e resolução de sufocos emocionais.",
+        "confusao": "Reavaliação de dinâmicas e busca por clareza de papéis.",
+        "paz": "Harmonia e alinhamento pacífico alcançados.",
+        "raiva": "Sinalizador de limites rompidos que necessitam de correção."
+      },
+      "jogo_bicho": {
+        "grupo": "Águia",
+        "animal": "Águia",
+        "dezenas": [
+          "05",
+          "06",
+          "07",
+          "08"
+        ],
+        "milhar_sugerido": "2026"
+      },
+      "periodo": "dia",
+      "cor_associada": "Dourado",
+      "recorrente": false,
+      "combinacoes_frequentes": [
+        "diálogo",
+        "olhar",
+        "abraço",
+        "distanciamento"
+      ],
+      "estado_despertar": "leveza",
+      "sonho_pb": false
+    }
+  }
+}

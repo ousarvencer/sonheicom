@@ -1,0 +1,338 @@
+{
+  "00h00": {
+    "hora": "00h00",
+    "periodo": "madrugada",
+    "significado": "A meia-noite marca o limiar entre dias. Sonhos recordados agora carregam recados sobre encerramentos e novos ciclos.",
+    "energia": "Renovação e silêncio profundo.",
+    "mensagem": "O que ficou para trás pede resolução antes do amanhecer."
+  },
+  "00h30": {
+    "hora": "00h30",
+    "periodo": "madrugada",
+    "significado": "Este horário abre os portais do inconsciente profundo, trazendo à tona desejos que você esconde de si mesmo.",
+    "energia": "Mistério e introspecção.",
+    "mensagem": "Confie no que sua alma sussurra quando o mundo exterior está dormindo."
+  },
+  "01h00": {
+    "hora": "01h00",
+    "periodo": "madrugada",
+    "significado": "Acordar aqui indica forte conexão com a intuição e com as correntes invisíveis do universo.",
+    "energia": "Intuição e magnetismo astral.",
+    "mensagem": "Sua sensibilidade está aguçada, use essa percepção a seu favor durante o dia."
+  },
+  "01h30": {
+    "hora": "01h30",
+    "periodo": "madrugada",
+    "significado": "Os sonhos deste momento refletem laços espirituais e conexões com pessoas que estão distantes física ou temporalmente.",
+    "energia": "Conexão de almas e sensibilidade.",
+    "mensagem": "O amor e a proteção não conhecem barreiras de espaço ou tempo."
+  },
+  "02h00": {
+    "hora": "02h00",
+    "periodo": "madrugada",
+    "significado": "A hora da calmaria total indica que o sonho serve para purificar e acalmar os excessos da sua mente.",
+    "energia": "Purificação e quietude espiritual.",
+    "mensagem": "Deixe que as águas do seu inconsciente limpem suas preocupações agora."
+  },
+  "02h30": {
+    "hora": "02h30",
+    "periodo": "madrugada",
+    "significado": "Sonhar neste ponto revela tesouros escondidos na sua força interior e talentos ainda não explorados.",
+    "energia": "Potencial oculto e revelação.",
+    "mensagem": "Existe uma força gigante guardada aí dentro esperando o momento de despertar."
+  },
+  "03h00": {
+    "hora": "03h00",
+    "periodo": "madrugada",
+    "significado": "A hora sagrada do despertar espiritual. Os sonhos trazem avisos diretos dos seus guias e protetores.",
+    "energia": "Alta vibração e mistério sagrado.",
+    "mensagem": "Preste muita atenção aos detalhes, você recebeu um direcionamento espiritual valioso."
+  },
+  "03h30": {
+    "hora": "03h30",
+    "periodo": "madrugada",
+    "significado": "Este momento testa sua fé e resiliência, traduzindo medos antigos em superação através das imagens do sonho.",
+    "energia": "Superação e força interior.",
+    "mensagem": "A escuridão da noite está acabando e você é forte o suficiente para vencer os desafios."
+  },
+  "04h00": {
+    "hora": "04h00",
+    "periodo": "madrugada",
+    "significado": "Os sonhos aqui mostram os primeiros sinais de caminhos se abrindo e soluções práticas para problemas antigos.",
+    "energia": "Esperança e clareza mental.",
+    "mensagem": "O universo está desenhando novas saídas para a sua vida neste exato momento."
+  },
+  "04h30": {
+    "hora": "04h30",
+    "periodo": "madrugada",
+    "significado": "A aproximação da alvorada traz sonhos de cura e acolhimento para o seu coração cansado.",
+    "energia": "Cura e transmutação espiritual.",
+    "mensagem": "Sua alma foi regenerada esta noite, levante-se com a certeza de que dias melhores virão."
+  },
+  "05h00": {
+    "hora": "05h00",
+    "periodo": "madrugada",
+    "significado": "Sonhar no fim da madrugada é um chamado para alinhar suas ações com o propósito maior da sua existência.",
+    "energia": "Alinhamento e preparação interna.",
+    "mensagem": "Seu destino está chamando, prepare-se para caminhar com firmeza hoje."
+  },
+  "05h30": {
+    "hora": "05h30",
+    "periodo": "madrugada",
+    "significado": "A transição final da noite traz sonhos que funcionam como verdadeiros mapas para o seu sucesso pessoal.",
+    "energia": "Foco e transição energética.",
+    "mensagem": "Anote o que lembrou, pois esse sonho guarda a chave do seu próximo passo."
+  },
+  "06h00": {
+    "hora": "06h00",
+    "periodo": "manha",
+    "significado": "O nascer do sol abençoa este momento. O sonho traz a promessa de novos começos e vitalidade renovada.",
+    "energia": "Luz primordial e renascimento.",
+    "mensagem": "O dia começa agora e traz com ele a chance de reescrever a sua história."
+  },
+  "06h30": {
+    "hora": "06h30",
+    "periodo": "manha",
+    "significado": "Sonhos guardados neste horário trazem insights valiosos sobre sua rotina, saúde e bem-estar físico.",
+    "energia": "Vitalidade e aterramento prático.",
+    "mensagem": "Cuide do seu templo sagrado que é o seu corpo neste novo dia."
+  },
+  "07h00": {
+    "hora": "07h00",
+    "periodo": "manha",
+    "significado": "O despertar com sonho às sete horas vibra a energia da autoconfiança e da expansão pessoal.",
+    "energia": "Poder pessoal e brilho.",
+    "mensagem": "Não tenha medo de ocupar o seu espaço e mostrar o seu valor ao mundo."
+  },
+  "07h30": {
+    "hora": "07h30",
+    "periodo": "manha",
+    "significado": "Mensagens deste horário estão ligadas à sua criatividade e à forma como você se expressa para os outros.",
+    "energia": "Criatividade e leveza matinal.",
+    "mensagem": "Coloque mais cor e alegria na sua jornada hoje, o mundo precisa disso."
+  },
+  "08h00": {
+    "hora": "08h00",
+    "periodo": "manha",
+    "significado": "Sonhar aqui reflete suas conexões sociais e a importância das alianças e parcerias no seu caminho.",
+    "energia": "Socialização e trocas afetivas.",
+    "mensagem": "Unir forças com as pessoas certas vai acelerar o seu progresso."
+  },
+  "08h30": {
+    "hora": "08h30",
+    "periodo": "manha",
+    "significado": "Este momento do sonho alerta sobre a necessidade de focar nos seus objetivos materiais com disciplina.",
+    "energia": "Foco material e determinação.",
+    "mensagem": "A determinação de agora construirá a estabilidade do seu futuro."
+  },
+  "09h00": {
+    "hora": "09h00",
+    "periodo": "manha",
+    "significado": "O sonho às nove horas aponta para a sabedoria acumulada e o aprendizado através das experiências da vida.",
+    "energia": "Sabedoria prática e evolução.",
+    "mensagem": "Use os aprendizados do passado para tomar decisões mais inteligentes hoje."
+  },
+  "09h30": {
+    "hora": "09h30",
+    "periodo": "manha",
+    "significado": "Momento de forte conexão com a justiça divina, mostrando que suas ações honestas serão recompensadas.",
+    "energia": "Equilíbrio, harmonia e verdade.",
+    "mensagem": "Siga agindo com o coração limpo, a colheita justa está garantida."
+  },
+  "10h00": {
+    "hora": "10h00",
+    "periodo": "manha",
+    "significado": "Sonhos nesta hora indicam a necessidade de expandir seus horizontes mentais e buscar novos conhecimentos.",
+    "energia": "Expansão e busca intelectual.",
+    "mensagem": "Abra sua mente para novas ideias, o conhecimento abre caminhos trancados."
+  },
+  "10h30": {
+    "hora": "10h30",
+    "periodo": "manha",
+    "significado": "A vibração deste horário traz sonhos que mostram o valor da paciência e da maturação dos seus planos.",
+    "energia": "Paciência e resiliência interna.",
+    "mensagem": "Tudo na natureza tem seu tempo de crescimento, respeite o seu próprio ritmo."
+  },
+  "11h00": {
+    "hora": "11h00",
+    "periodo": "manha",
+    "significado": "Sonhos perto do meio-dia trazem mensagens urgentes sobre suas ambições profissionais e metas de carreira.",
+    "energia": "Ambição, foco e progresso.",
+    "mensagem": "Você nasceu para vencer, direcione sua força total para as suas metas."
+  },
+  "11h30": {
+    "hora": "11h30",
+    "periodo": "manha",
+    "significado": "A última meia hora da manhã limpa as energias pesadas e prepara a mente para o ápice do dia.",
+    "energia": "Limpeza, transição e clareza.",
+    "mensagem": "Deixe de lado o cansaço da manhã e encare o restante do dia de cabeça erguida."
+  },
+  "12h00": {
+    "hora": "12h00",
+    "periodo": "tarde",
+    "significado": "O sol no topo ilumina a verdade. Sonhos agora revelam situações com total clareza e sem ilusões.",
+    "energia": "Luz total e discernimento.",
+    "mensagem": "A verdade foi exposta, agora cabe a você agir com sabedoria e coragem."
+  },
+  "12h30": {
+    "hora": "12h30",
+    "periodo": "tarde",
+    "significado": "Sonhar no início da tarde indica a necessidade de equilibrar o dar e o receber nas suas relações.",
+    "energia": "Reciprocidade e balanço interno.",
+    "mensagem": "Apoie quem te estende a mão e saiba aceitar ajuda quando precisar."
+  },
+  "13h00": {
+    "hora": "13h00",
+    "periodo": "tarde",
+    "significado": "Este horário traz sonhos ligados à prosperidade e à abundância que estão tentando entrar na sua vida.",
+    "energia": "Abundância e merecimento pessoal.",
+    "mensagem": "Sinta-se merecedor das coisas boas do universo e elas chegarão até você."
+  },
+  "13h30": {
+    "hora": "13h30",
+    "periodo": "tarde",
+    "significado": "Os sonhos deste momento pedem atenção redobrada aos detalhes práticos do seu trabalho ou estudos.",
+    "energia": "Foco prático e atenção.",
+    "mensagem": "Pequenos ajustes nas suas tarefas diárias trarão grandes resultados futuros."
+  },
+  "14h00": {
+    "hora": "14h00",
+    "periodo": "tarde",
+    "significado": "Sonhar aqui estimula sua força de liderança e a capacidade de guiar outras pessoas pelo exemplo.",
+    "energia": "Liderança e autoridade positiva.",
+    "mensagem": "Confie na sua capacidade de guiar os acontecimentos ao seu redor."
+  },
+  "14h30": {
+    "hora": "14h30",
+    "periodo": "tarde",
+    "significado": "Vibração de renovação criativa. O sonho traz ideias inovadoras para solucionar antigos impasses.",
+    "energia": "Inovação, inspiração e movimento.",
+    "mensagem": "Tente fazer as coisas de um jeito diferente e surpreenda a todos."
+  },
+  "15h00": {
+    "hora": "15h00",
+    "periodo": "tarde",
+    "significado": "A hora da transformação sutil. Sonhos neste momento ajudam a desapegar do que bloqueia sua evolução.",
+    "energia": "Transmutação de energia e desapego.",
+    "mensagem": "Mude seus pensamentos e você mudará a realidade do seu mundo."
+  },
+  "15h30": {
+    "hora": "15h30",
+    "periodo": "tarde",
+    "significado": "Este horário traz sonhos que funcionam como escudos de proteção contra energias negativas externas.",
+    "energia": "Proteção, blindagem e paz.",
+    "mensagem": "Sua energia está protegida, caminhe sem medo de influências externas."
+  },
+  "16h00": {
+    "hora": "16h00",
+    "periodo": "tarde",
+    "significado": "Sonhos neste ponto da tarde trazem mensagens de paz e reconciliação com o seu passado emocional.",
+    "energia": "Harmonia, afeto e acolhimento.",
+    "mensagem": "Faça as pazes com a sua história para poder caminhar mais leve."
+  },
+  "16h30": {
+    "hora": "16h30",
+    "periodo": "tarde",
+    "significado": "Este momento ativa sua intuição prática, ajudando a tomar decisões rápidas e certeiras no cotidiano.",
+    "energia": "Percepção aguda e agilidade.",
+    "mensagem": "Siga o seu primeiro palpite, ele costuma vir direto do coração."
+  },
+  "17h00": {
+    "hora": "17h00",
+    "periodo": "tarde",
+    "significado": "A proximidade do poente traz sonhos que ensinam o valor da gratidão por tudo o que foi vivido.",
+    "energia": "Gratidão e encerramento diário.",
+    "mensagem": "Agradeça pelo aprendizado de hoje e fortaleça a sua fé no amanhã."
+  },
+  "17h30": {
+    "hora": "17h30",
+    "periodo": "tarde",
+    "significado": "A última meia hora da tarde limpa as tensões acumuladas, preparando a mente para o repouso da noite.",
+    "energia": "Desaceleração e alívio mental.",
+    "mensagem": "Entregue os problemas do dia e permita que sua mente descanse em paz."
+  },
+  "18h00": {
+    "hora": "18h00",
+    "periodo": "noite",
+    "significado": "O crepúsculo abre o portal místico da noite. Sonhos revelam a transição entre o visível e o invisível.",
+    "energia": "Mistério, magia e transição.",
+    "mensagem": "A noite chega trazendo respostas profundas para as dúvidas do seu coração."
+  },
+  "18h30": {
+    "hora": "18h30",
+    "periodo": "noite",
+    "significado": "Sonhos no início da noite trazem alertas sobre o cuidado com a sua energia familiar e proteção do lar.",
+    "energia": "Aconchego e união familiar.",
+    "mensagem": "Fortaleça os laços com quem te ama de verdade e protege sua base."
+  },
+  "19h00": {
+    "hora": "19h00",
+    "periodo": "noite",
+    "significado": "Este horário desperta sonhos de conexão espiritual forte, mostrando que você nunca caminha sozinho.",
+    "energia": "Amparo espiritual e fé.",
+    "mensagem": "Seus mentores estão por perto guiando e protegendo os seus passos."
+  },
+  "19h30": {
+    "hora": "19h30",
+    "periodo": "noite",
+    "significado": "Imagens sonhadas aqui trabalham a sua autoestima e o amor-próprio, curando rejeições antigas.",
+    "energia": "Amor-próprio e valorização interna.",
+    "mensagem": "Reconheça a sua beleza e a sua raridade antes de buscar a aprovação alheia."
+  },
+  "20h00": {
+    "hora": "20h00",
+    "periodo": "noite",
+    "significado": "Sonhos às oito da noite indicam a necessidade de focar nos seus planos de estabilidade financeira de longo prazo.",
+    "energia": "Foco financeiro e estratégia.",
+    "mensagem": "Planeje seus gastos e investimentos com a mente fria e pés no chão."
+  },
+  "20h30": {
+    "hora": "20h30",
+    "periodo": "noite",
+    "significado": "A vibração deste momento incentiva a busca por silêncio interno e meditação através dos símbolos oníricos.",
+    "energia": "Quietude mental e serenidade.",
+    "mensagem": "Silencie o barulho do mundo para escutar as verdades da sua alma."
+  },
+  "21h00": {
+    "hora": "21h00",
+    "periodo": "noite",
+    "significado": "Sonhar neste horário expande a sua consciência e traz visões sobre o impacto das suas ações no coletivo.",
+    "energia": "Consciência ampla e altruísmo.",
+    "mensagem": "Pense no bem maior e suas ações individuais ganharão uma força gigante."
+  },
+  "21h30": {
+    "hora": "21h30",
+    "periodo": "noite",
+    "significado": "Este momento traz sonhos que ajudam a digerir mágoas e ressentimentos que pesam no seu peito.",
+    "energia": "Perdão e alívio emocional.",
+    "mensagem": "Liberte quem te magoou para que você possa voar livre de amarras."
+  },
+  "22h00": {
+    "hora": "22h00",
+    "periodo": "noite",
+    "significado": "Sonhos no fim da noite indicam que sua mente está processando grandes aprendizados e sabedoria ancestral.",
+    "energia": "Sabedoria ancestral e raiz.",
+    "mensagem": "A sabedoria dos seus antepassados vive em você e te guia nas escolhas."
+  },
+  "22h30": {
+    "hora": "22h30",
+    "periodo": "noite",
+    "significado": "Esta hora ativa sonhos de forte intuição mística, revelando perigos contornados ou caminhos abençoados.",
+    "energia": "Intuição sagrada e aviso.",
+    "mensagem": "Sua sensibilidade te protegeu mais uma vez, confie no seu sexto sentido."
+  },
+  "23h00": {
+    "hora": "23h00",
+    "periodo": "noite",
+    "significado": "A hora que antecede o novo dia traz sonhos de encerramento total de pendências emocionais antigas.",
+    "energia": "Fechamento de ciclo absoluto.",
+    "mensagem": "Deixe no passado o que pertence ao passado e abra os braços para o futuro."
+  },
+  "23h30": {
+    "hora": "23h30",
+    "periodo": "noite",
+    "significado": "No limite do dia, os sonhos funcionam como sementes mágicas plantadas para o amanhecer que virá.",
+    "energia": "Esperança, plantio e fé.",
+    "mensagem": "Durma com a certeza de que o universo já está preparando um lindo recomeço."
+  }
+}

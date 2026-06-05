@@ -1,0 +1,90 @@
+{
+  "1": {
+    "numero": 1,
+    "nome": "O Líder",
+    "missao": "Sua jornada é de autodescoberta e inauguração de novos caminhos.",
+    "sonho": "Seu caminho de vida reforça que este sonho trata de um novo começo que só você pode iniciar.",
+    "talentos": "Iniciativa, foco e visão.",
+    "armadilha": "Ego e isolamento."
+  },
+  "2": {
+    "numero": 2,
+    "nome": "O Cooperador",
+    "missao": "Sua jornada é trazer união, equilíbrio e a força da parceria para o mundo.",
+    "sonho": "Seus sonhos mostram que a verdadeira realização vem de criar pontes e pacificar os corações ao seu redor.",
+    "talentos": "Diplomacia, sensibilidade e paciência.",
+    "armadilha": "Insegurança e anular a si mesmo."
+  },
+  "3": {
+    "numero": 3,
+    "nome": "O Comunicador",
+    "missao": "Sua jornada é expressar a sua verdade e colocar alegria e criatividade no mundo.",
+    "sonho": "Seu espírito busca um palco invisível, onde seus desejos se manifestam através da arte, do riso e da leveza.",
+    "talentos": "Criatividade, carisma e otimismo.",
+    "armadilha": "Dispersão e fofoca."
+  },
+  "4": {
+    "numero": 4,
+    "nome": "O Construtor",
+    "missao": "Sua jornada é criar bases sólidas, trazendo segurança e estrutura para sua vida e para os outros.",
+    "sonho": "Seus sonhos são o rascunho de uma fortaleza espiritual; eles revelam que a estabilidade é o seu solo sagrado.",
+    "talentos": "Organização, persistência e lealdade.",
+    "armadilha": "Teimosia e medo de mudar."
+  },
+  "5": {
+    "numero": 5,
+    "nome": "O Viajante",
+    "missao": "Sua jornada é viver a liberdade, abraçar as mudanças e evoluir com as experiências.",
+    "sonho": "O invisível sobra em seu ouvido que a vida é um horizonte infinito; seu sonho é o vento que te move para o novo.",
+    "talentos": "Adaptabilidade, coragem e versatilidade.",
+    "armadilha": "Impulsividade e falta de rumo."
+  },
+  "6": {
+    "numero": 6,
+    "nome": "O Protetor",
+    "missao": "Sua jornada é acolher, cuidar do lar, da comunidade e espalhar harmonia.",
+    "sonho": "O plano espiritual te conecta ao sonho de um mundo acolhedor, onde o amor em família cura todas as feridas.",
+    "talentos": "Empatia, generosidade e senso de justiça.",
+    "armadilha": "Cobrança excessiva e ciúme."
+  },
+  "7": {
+    "numero": 7,
+    "nome": "O Sábio",
+    "missao": "Sua jornada é buscar o autoconhecimento, a verdade profunda e os mistérios da vida.",
+    "sonho": "Seus sonhos são portais de intuição pura, revelando segredos da alma que a mente comum não consegue ver.",
+    "talentos": "Intuição, mente analítica e espiritualidade.",
+    "armadilha": "Frieza e se fechar no próprio mundo."
+  },
+  "8": {
+    "numero": 8,
+    "nome": "O Realizador",
+    "missao": "Sua jornada é dominar o mundo material e espiritual, gerando prosperidade com justiça.",
+    "sonho": "O universo te mostra que o sucesso e o poder são ferramentas sagradas para transformar a realidade da terra.",
+    "talentos": "Liderança, tino para negócios e resiliência.",
+    "armadilha": "Ganância e autoritarismo."
+  },
+  "9": {
+    "numero": 9,
+    "nome": "O Humanitário",
+    "missao": "Sua jornada é de desapego, amor universal e encerramento de ciclos para o bem de todos.",
+    "sonho": "Sua alma sonha em escala global, conectada à cura da humanidade e à sabedoria de que tudo é um só.",
+    "talentos": "Compaixão, sabedoria de vida e desprendimento.",
+    "armadilha": "Carregar o mundo nas costas e drama."
+  },
+  "11": {
+    "numero": 11,
+    "nome": "O Iluminador",
+    "missao": "Sua jornada mestre é canalizar a luz divina e inspirar as pessoas com sua forte intuição.",
+    "sonho": "Seus sonhos vêm direto do astral; são visões de despertar espiritual e mensagens que guiam multidões.",
+    "talentos": "Sexto sentido apurado, inspiração e magnetismo.",
+    "armadilha": "Nervosismo extremo e viver fora da realidade."
+  },
+  "22": {
+    "numero": 22,
+    "nome": "O Arquiteto do Mundo",
+    "missao": "Sua jornada mestre é transformar grandes ideais espirituais em realidades práticas que ajudam o planeta.",
+    "sonho": "Seu sonho é gigante e tem força de profecia; você é chamado a materializar na Terra o que a alma projeta no céu.",
+    "talentos": "Visão de futuro, capacidade de realização e genialidade prática.",
+    "armadilha": "Complexo de superioridade e ambição cega."
+  }
+}

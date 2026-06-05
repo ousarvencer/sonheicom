@@ -1,0 +1,23 @@
+{
+  "colorido": {
+    "id": "colorido",
+    "label": "COLORIDO",
+    "significado": "Sonhar em cores vivas revela uma alma em plena expansão e profundamente conectada com o plano das emoções humanas. O universo pinta suas noites com tons reais para mostrar que sua percepção espiritual está aguçada, captando cada nuance das mensagens que o plano invisível envia para o seu caminhar.",
+    "energia": "Intensidade, vivacidade e expansão.",
+    "mensagem": "Sua vida está pronta para receber a mesma beleza e intensidade que sua alma experimentou durante a noite."
+  },
+  "preto_e_branco": {
+    "id": "preto_e_branco",
+    "label": "PRETO E BRANCO",
+    "significado": "A ausência de cores nos sonhos indica um momento de profunda sabedoria ancestral e foco no que é essencial. As imagens em tons de cinza funcionam como um filtro sagrado que elimina as distrações do mundo material, forçando você a olhar diretamente para a estrutura e a verdade nua e crua da sua vida.",
+    "energia": "Essência, sobriedade e estrutura.",
+    "mensagem": "Simplifique as coisas ao seu redor e foque na verdade nua e crua, pois as respostas que você busca são diretas."
+  },
+  "nao_lembro": {
+    "id": "nao_lembro",
+    "label": "NÃO LEMBRO",
+    "significado": "Quando o véu do esquecimento apaga as lembranças da noite, isso significa que sua mente passou por uma faxina espiritual profunda nos bastidores do astral. Sua alma trabalhou intensamente em dimensões elevadas, e o esquecimento serve apenas para proteger sua mente desperta de mistérios que ela ainda não precisa carregar.",
+    "energia": "Pausa, mistério e proteção.",
+    "mensagem": "Mesmo sem lembrar das imagens, confie que o seu espírito foi abastecido e a proteção para o seu dia está garantida."
+  }
+}

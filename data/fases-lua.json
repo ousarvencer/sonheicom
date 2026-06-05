@@ -1,0 +1,52 @@
+{
+  "fases_lua": {
+    "nova": {
+      "id": "nova",
+      "titulo": "Lua Nova",
+      "significado_geral": "A Lua Nova representa o início de um ciclo, o potencial absoluto ainda não manifestado. É o útero do tempo — escuro, fértil e carregado de possibilidades. Espiritualmente, simboliza sementes plantadas no invisível e intenções que pedem silêncio para germinar.",
+      "numerologia": "Número 1 — início, liderança, impulso criador. Na numerologia pitagórica, o 1 é a unidade primordial de onde toda manifestação emerge. Sonhar em lua nova amplifica a vibração do 1 e do 10 (renovação completa).",
+      "impacto_sonho": "Sonhos em lua nova tendem a ser mais simbólicos e iniciáticos. O inconsciente planta sementes de mudança através de imagens arquetípicas densas. São sonhos que pedem registro cuidadoso — seu significado pode se revelar completamente apenas semanas depois.",
+      "impacto_amor": "Em lua nova, sonhos sobre amor indicam o início de um novo ciclo afetivo — seja um novo vínculo se formando ou um relacionamento existente entrando em nova fase. É tempo de definir intenções claras sobre o que você quer nos seus relacionamentos.",
+      "impacto_sorte": "Lua nova favorece números impares e especialmente os múltiplos de 1: 1, 11, 21, 31. É o momento para apostas iniciais, não para dobrar. A sorte está nos começos. Dezenas ligadas ao símbolo ganham força especial nesta fase.",
+      "impacto_mente": "Neurologicamente, alguns estudos sugerem leve redução no sono profundo em lua nova (Cajochen et al., 2013 — Current Biology). A mente pode estar mais agitada, gerando sonhos mais vívidos e estranhos. Pratique rituais de desaceleração antes de dormir.",
+      "impacto_significado": "Na interpretação junguiana, lua nova amplifica a voz do inconsciente profundo — a mensagem do símbolo pode ser mais crua, menos processada, mais urgente. Preste atenção especial às primeiras impressões do sonho.",
+      "ritual_sugerido": "Escreva em papel suas intenções para o próximo ciclo. Queime uma vela preta ou cinza para liberar o passado e abrir espaço para o novo. Registre o sonho em diário antes de qualquer outra atividade ao acordar."
+    },
+    "crescente": {
+      "id": "crescente",
+      "titulo": "Lua Crescente",
+      "significado_geral": "A Lua Crescente é o símbolo do impulso, da expansão e da manifestação em progresso. O que foi semeado na lua nova começa a brotar. É o tempo do movimento, da ação alinhada com o desejo e da construção consciente do que se quer criar.",
+      "numerologia": "Número 3 — criatividade, expressão, crescimento. O 3 é o número da síntese criativa entre opostos, da comunicação e da alegria de manifestar. Dezenas terminadas em 3 (03, 13, 23, 33) são favorecidas.",
+      "impacto_sonho": "Sonhos em lua crescente tendem a ter narrativa mais ativa — perseguições, jornadas, conquistas parciais. O inconsciente está impulsionando o sonhador para frente. Preste atenção aos obstáculos no sonho: eles representam o que bloqueia seu crescimento real.",
+      "impacto_amor": "Lua crescente em sonhos amorosos indica relacionamentos ganhando força e profundidade. É um período favorável para iniciar conversas importantes, aprofundar vínculos e agir sobre sentimentos que estavam represados.",
+      "impacto_sorte": "Fase altamente favorável para apostas e ações de sorte. A energia está em ascensão. Números favorecidos: 3, 7, 13, 23. O timing é importante — aja nos primeiros três dias após a lua crescente para máximo aproveitamento.",
+      "impacto_mente": "O sono tende a ser mais leve e os sonhos mais longos durante a lua crescente. O cérebro está em modo de construção de memória ativa. É ideal para iniciar novos aprendizados ou práticas de meditação antes de dormir.",
+      "impacto_significado": "Na perspectiva junguiana, a lua crescente amplifica o aspecto heróico do símbolo — o que ele convida você a construir e conquistar. A mensagem é mais orientada para ação do que para contemplação.",
+      "ritual_sugerido": "Faça uma lista de três ações concretas relacionadas ao que o sonho revelou. Realize pelo menos uma delas nas próximas 48 horas. Use cristais de citrino ou cornalina para amplificar a energia de manifestação."
+    },
+    "cheia": {
+      "id": "cheia",
+      "titulo": "Lua Cheia",
+      "significado_geral": "A Lua Cheia é o ápice da iluminação, da revelação e da intensidade emocional. É o momento em que o que estava oculto se torna visível. Espiritualmente, representa a plenitude, a verdade exposta e o clímax de ciclos que vinham se desenvolvendo.",
+      "numerologia": "Número 6 — amor, harmonia, responsabilidade, completude. O 6 é o número de Vênus, da família e dos vínculos profundos. Também ressoa com o 9, número do cumprimento e da colheita. Dezenas: 06, 16, 26, 36.",
+      "impacto_sonho": "Sonhos em lua cheia são os mais vívidos, intensos e emocionalmente carregados do ciclo. Estudos de Cajochen et al. (2013) mostraram redução do sono profundo e aumento do tempo para adormecer em lua cheia. Os sonhos tendem a ser cinematográficos e simbólicos.",
+      "impacto_amor": "Em lua cheia, sonhos amorosos trazem revelações sobre relacionamentos — verdades que não podem mais ser ignoradas. Pode haver confronto, paixão intensa ou clareza sobre o que funciona e o que não funciona. É hora da honestidade radical.",
+      "impacto_sorte": "A lua cheia é o pico do ciclo de sorte. Números favorecidos: 6, 9, 16, 19, 36. Aposte nos números mais altos associados ao símbolo. A energia está no auge — mas dura pouco. Aja em até dois dias após a lua cheia.",
+      "impacto_mente": "A lua cheia afeta o sono através do ritmo circadiano e possivelmente da sensibilidade à luz. Sonhos são mais emocionais e perturbadores. Se você tem tendência a insônia ou sonhos intensos, prepare o ambiente do quarto com mais cuidado nesta fase.",
+      "impacto_significado": "Junguianamente, a lua cheia representa o encontro com o Self em toda sua intensidade. Os símbolos ganham máxima carga arquetípica. Este é o sonho mais importante do mês — registre absolutamente tudo que lembrar.",
+      "ritual_sugerido": "Escreva em papel o que você quer liberar ou colher neste ciclo. Leia em voz alta sob a lua se possível. Tome um banho com sal grosso para purificação energética. Coloque cristais de selenita ou lua ao luar para carregar."
+    },
+    "minguante": {
+      "id": "minguante",
+      "titulo": "Lua Minguante",
+      "significado_geral": "A Lua Minguante representa o tempo da dissolução, do desprendimento e da sabedoria conquistada. É o ciclo de integrar o que foi aprendido, liberar o que já cumpriu seu papel e preparar o terreno para o próximo começo. Espiritualmente, é o tempo do descanso merecido.",
+      "numerologia": "Número 8 — transformação, karma, poder interno, transmutação. O 8 é o número do infinito e da renovação cíclica. Na fase minguante, ele convida a fechar ciclos e saldar dívidas — emocionais, kármicas e materiais.",
+      "impacto_sonho": "Sonhos em lua minguante tendem a ser mais melancólicos, nostálgicos ou de despedida. O inconsciente está processando e liberando conteúdos do ciclo que se encerra. Sonhos recorrentes que terminam em lua minguante costumam deixar de aparecer no próximo ciclo.",
+      "impacto_amor": "Lua minguante em sonhos amorosos indica que algo em um relacionamento está chegando ao fim de um ciclo — não necessariamente o relacionamento em si, mas um padrão, um comportamento ou uma fase. É tempo de perdoar e liberar.",
+      "impacto_sorte": "A lua minguante não é favorável para novas apostas. Concentre-se em fechar apostas em aberto. Números de encerramento: 8, 18, 28. Se precisar apostar, prefira números que já apareceram antes no seu histórico pessoal.",
+      "impacto_mente": "O sono tende a ser mais profundo e restaurador em lua minguante. É o melhor momento do ciclo para sonhos que trazem resolução de conflitos. O cérebro está consolidando e arquivando memórias — propício para terapia e autoconhecimento.",
+      "impacto_significado": "Na psicologia junguiana, a lua minguante amplifica o aspecto da sombra a ser integrado — o que precisa ser reconhecido, aceito e transformado. A mensagem do símbolo inclui o que você precisa deixar para trás para evoluir.",
+      "ritual_sugerido": "Faça uma lista do que você quer liberar — hábitos, padrões, ressentimentos. Queime a lista em segurança como ato simbólico de liberação. Pratique meditação de perdão, especialmente autoperdão. Durma cedo e priorize o descanso profundo."
+    }
+  }
+}

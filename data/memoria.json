@@ -1,0 +1,23 @@
+{
+  "sim": {
+    "id": "sim",
+    "label": "LEMBREI TUDO",
+    "significado": "Sua mente desperta está em perfeito alinhamento com os planos mais sutis da espiritualidade. Lembrar de cada detalhe mostra que o portal da sua intuição está escancarado e sua alma está pronta para decifrar os grandes mistérios da sua jornada.",
+    "energia": "Clareza, alinhamento e lucidez.",
+    "mensagem": "Anote cada detalhe agora mesmo, pois você recebeu um mapa completo para guiar seus próximos passos."
+  },
+  "fragmentos": {
+    "id": "fragmentos",
+    "label": "LEMBREI FRAGMENTOS",
+    "significado": "Pedaços de sonhos são como pedras preciosas espalhadas pelo caminho que exigem a sua atenção. O invisível te entregou apenas os enigmas essenciais, desafiando você a juntar os pontos e a confiar mais nos seus sentimentos do que na lógica.",
+    "energia": "Mistério, intuição e busca.",
+    "mensagem": "Siga o rastro dessa lembrança sutil, pois mesmo um pequeno fragmento guarda o poder de transformar o seu dia."
+  },
+  "nao_lembro": {
+    "id": "nao_lembro",
+    "label": "NÃO LEMBRO",
+    "significado": "O esquecimento total indica que sua alma passou por um profundo processo de cura espiritual enquanto você dormia. As memórias foram guardadas a sete chaves no seu coração para que sua mente descanse sem o peso de mistérios que ainda não precisa carregar.",
+    "energia": "Pausa, proteção e silêncio sagrado.",
+    "mensagem": "Fique em paz, pois a força e a proteção do seu sonho já foram integradas ao seu espírito para o dia de hoje."
+  }
+}

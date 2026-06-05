@@ -1,0 +1,104 @@
+{
+  "cores": {
+    "sem_cor": {
+      "id": "sem_cor",
+      "titulo": "Preto e branco / sem cor",
+      "significado": "Sonhos em preto e branco representam uma forma de processar a realidade despida de carga emocional intensa. A ausência de cor indica que o inconsciente está trabalhando em um nível mais racional, arquetípico ou distante — como se o sonho fosse uma memória antiga, um registro neutro de algo não resolvido. É comum em períodos de dissociação emocional ou introspecção profunda.",
+      "neurociencia": "Estudos conduzidos por Eva Murzyn (2008, Universidade de Dundee) sugerem que pessoas expostas à televisão em preto e branco na infância relatam mais sonhos acromáticos. Neurologicamente, a área V4 do córtex visual, responsável pela percepção de cores, é menos ativada em alguns ciclos do sono — especialmente nas fases NREM — o que resulta em experiências oníricas em escala de cinza. Cerca de 12% dos sonhos em adultos modernos são reportados como sem cor.",
+      "psicologia": "Para Jung, os sonhos sem cor frequentemente indicam que o material onírico é de natureza mais coletiva e arquetípica do que pessoal. A ausência de cor pode sinalizar que o ego ainda não se engajou emocionalmente com o conteúdo apresentado — o símbolo está presente, mas sua vivificação emocional ainda não ocorreu. É como uma imagem fotográfica que ainda não foi revelada.",
+      "chakra": null,
+      "elemento": null,
+      "mensagem": "Seu sonho trouxe uma mensagem em silêncio de cores — às vezes a verdade mais profunda se revela sem adornos. Observe o que apareceu: não a emoção que deveria estar lá, mas aquela que ficou suprimida. O inconsciente te entregou um espelho neutro. Cabe a você colori-lo com consciência."
+    },
+    "vermelho": {
+      "id": "vermelho",
+      "titulo": "Vermelho",
+      "significado": "O vermelho nos sonhos é a cor da força vital, da paixão e do perigo. Representa o sangue, o desejo, a raiva e a coragem — tudo aquilo que vive com intensidade máxima. É a cor da sobrevivência e da ação imediata. Quando aparece em sonhos, indica que forças primárias estão em movimento na psique: amor ardente, raiva reprimida, necessidade urgente de agir ou conflito não resolvido.",
+      "neurociencia": "A cor vermelha ativa o sistema nervoso simpático mesmo durante o sono — estudos de neuroimagem (fMRI) demonstram maior ativação da amígdala em resposta a estímulos vermelhos, associados ao processamento de ameaça e excitação emocional. No contexto onírico, o vermelho está relacionado à elevação da frequência cardíaca durante o REM, indicando que o sonhador está processando material emocionalmente carregado.",
+      "psicologia": "No Teste de Lüscher, o vermelho representa excitação, conquista e força de vontade. Jung associava o vermelho à sombra e às pulsões instintivas — quando o vermelho aparece no sonho como ameaça, pode indicar raiva reprimida ou energia vital não canalizada. Quando aparece como vitalidade (flores vermelhas, roupas vermelhas), sinaliza poder criativo e libido no sentido junguiano amplo.",
+      "chakra": "raiz",
+      "elemento": "fogo",
+      "mensagem": "O vermelho que você viu não é apenas uma cor — é um chamado. Seu corpo e sua psique estão sinalizando que algo precisa de atenção urgente: uma emoção represada, um desejo não admitido, uma ação adiada por medo. O fogo está aceso. A pergunta é: você vai usá-lo para criar ou para destruir?"
+    },
+    "azul": {
+      "id": "azul",
+      "titulo": "Azul",
+      "significado": "O azul nos sonhos é a cor da mente, da introspecção e da verdade interior. Representa a profundidade das águas e a vastidão do céu — dois domínios que a consciência humana associa ao infinito e ao sagrado. Em sonhos, o azul indica necessidade ou presença de comunicação verdadeira, clareza mental, quietude emocional e conexão espiritual. Azul profundo sugere mergulho nos mistérios; azul claro sugere clareza e leveza.",
+      "neurociencia": "O azul está associado à produção de melatonina e à regulação do ritmo circadiano — comprimentos de onda azuis suprimem a melatonina na vigília, mas durante o sono REM, a percepção de azul pode indicar estados de alta coerência neural. Pesquisas sobre percepção cromática em sonhos (Rechtschaffen & Buchignani, 1992) indicam que tons frios como o azul aparecem com mais frequência em sonhos de conteúdo filosófico ou espiritual.",
+      "psicologia": "Para Jung, o azul está associado ao pensamento e à função do intelecto — em contraste com o vermelho (sentimento/instinto). Lüscher classificava o azul como a cor da profundidade e da quietude, representando necessidade de paz e harmonia. O azul nos sonhos frequentemente acompanha figuras de sabedoria, figuras do Self ou mensagens do inconsciente coletivo. Quando o azul aparece ameaçador (mar tempestuoso, céu sombrio), pode indicar sobrecarga mental ou distância emocional.",
+      "chakra": "garganta",
+      "elemento": "ar",
+      "mensagem": "O azul do seu sonho é um convite à profundidade. Algo dentro de você quer ser dito, ouvido ou compreendido — uma verdade que talvez você ainda não tenha colocado em palavras. Deixe-se afundar nessa quietude: ela não é vazio, é espaço para ouvir a própria voz interior."
+    },
+    "verde": {
+      "id": "verde",
+      "titulo": "Verde",
+      "significado": "O verde nos sonhos é a cor da cura, do crescimento e da renovação. É a cor da natureza em seu estado mais vital — florestas, primavera, brotos novos. Em sonhos, o verde indica que processos de cura emocional estão em curso, que algo novo está nascendo na vida do sonhador, ou que há necessidade de reconexão com a natureza e com o próprio coração. Verde vibrante sugere saúde e abundância; verde escuro pode indicar inveja ou ciúme.",
+      "neurociencia": "O verde é a cor que o olho humano distingue com maior facilidade, ocupando o centro do espectro visível. Em termos neurológicos, tons verdes ativam o sistema nervoso parassimpático, induzindo relaxamento. Durante o REM, ambientes verdes nos sonhos estão associados a maior sensação de segurança e resolução de conflitos — o cérebro usa o verde como sinalização de ambiente seguro, segundo estudos de psicologia evolucionária do sono.",
+      "psicologia": "Kandinsky descrevia o verde como a cor do equilíbrio — nem movimento nem repouso, o ponto de harmonia. Para Lüscher, o verde representa a necessidade de autoafirmação e persistência. Em psicologia junguiana, o verde aparece frequentemente em sonhos de transformação — é a cor da obra alquímica (viriditas, o verde vivo de Hildegarda de Bingen) que representa o princípio vital universal. O verde no sonho pode indicar que o chakra cardíaco está se abrindo.",
+      "chakra": "coracao",
+      "elemento": "terra",
+      "mensagem": "Verde é a promessa de que a vida continua, que a ferida cicatriza, que o inverno passa. Algo em você está se curando ou se preparando para florescer. Confie no ritmo natural dos seus processos internos — a natureza nunca apressa uma primavera."
+    },
+    "amarelo": {
+      "id": "amarelo",
+      "titulo": "Amarelo",
+      "significado": "O amarelo nos sonhos é a cor da luz solar, do intelecto e da confiança. Representa a energia do sol — iluminação, clareza, otimismo e poder pessoal. Quando aparece vívido e radiante, indica expansão do ego no sentido positivo, confiança, criatividade e alegria. Quando amarelo aparece doentio ou opaco, pode indicar ansiedade, covardia ou excesso mental.",
+      "neurociencia": "O amarelo é a cor com maior visibilidade no espectro luminoso e está associado à liberação de serotonina, neurotransmissor do bem-estar. Estudos de psicologia das cores indicam que o amarelo estimula o hemisfério esquerdo do cérebro (analítico, lógico). Em sonhos, amarelo vívido frequentemente acompanha momentos de insight ou resolução de problema — o cérebro sinalizando uma conexão neural bem-sucedida.",
+      "psicologia": "Para Lüscher, o amarelo representa a projeção para o futuro, esperança e mudança. Goethe, em sua Teoria das Cores, classificava o amarelo como a cor mais próxima da luz — representando alegria e expansão. Jung associava o amarelo ao arquétipo do Sol e ao princípio da consciência: a luz que ilumina o inconsciente. Amarelo no sonho frequentemente acompanha figuras do Self ou momentos de grande clareza psíquica.",
+      "chakra": "plexo_solar",
+      "elemento": "fogo",
+      "mensagem": "O amarelo que surgiu no seu sonho é um raio de sol vindo de dentro. Sua intuição está clara, seu poder pessoal está disponível. Este é um momento favorável para tomar decisões, confiar no próprio julgamento e expandir sua presença no mundo. A luz já está acesa — abra as janelas."
+    },
+    "roxo": {
+      "id": "roxo",
+      "titulo": "Roxo / Violeta",
+      "significado": "O roxo e o violeta nos sonhos são as cores da transcendência, da intuição expandida e dos mistérios espirituais. Situado na fronteira entre o azul (mente) e o vermelho (paixão), o roxo representa a síntese dos dois princípios — a espiritualidade encarnada, a magia, a sabedoria mística. Sonhos dominados por roxo frequentemente indicam despertar espiritual, desenvolvimento da percepção intuitiva, ou que o sonhador está sendo chamado a explorar dimensões mais sutis da existência.",
+      "neurociencia": "O violeta está no limite da percepção visual humana, próximo ao ultravioleta. Neurologicamente, é associado à atividade do córtex pré-frontal e à integração entre sistemas límbicos (emoção) e neocorticais (razão). Pesquisas em neuroteologia (Andrew Newberg, Universidade Thomas Jefferson) sugerem que estados alterados de consciência — incluindo sonhos vívidos — ativam padrões cerebrais similares a experiências místicas, nos quais o espectro violeta é frequentemente relatado.",
+      "psicologia": "Kandinsky considerava o violeta a cor do equilíbrio entre espiritual e corporal, quente e frio — uma cor de transição entre mundos. Para Jung, o roxo e o violeta aparecem em sonhos que tocam o arquétipo do Self ou Mandala — processos de individuação avançados. No Livro Vermelho de Jung, visões em tons violeta marcavam encontros com o inconsciente profundo. Lüscher associava o violeta à necessidade de fusão mágica entre o eu e o outro.",
+      "chakra": "terceiro_olho",
+      "elemento": "eter",
+      "mensagem": "O roxo que você viu é o portal entre o que você sabe e o que está além do saber. Sua intuição está aguçada, seu terceiro olho está se abrindo. Preste atenção às sincronicidades nos próximos dias — o sonho pode estar anunciando uma expansão de percepção que vai muito além do que as palavras conseguem explicar."
+    },
+    "branco": {
+      "id": "branco",
+      "titulo": "Branco",
+      "significado": "O branco nos sonhos é a cor da totalidade, da pureza e dos novos começos. Por conter todas as cores do espectro, o branco representa potencial infinito — o espaço antes da criação, a tela virgem antes da primeira pincelada. Em contextos culturais orientais, o branco é a cor do luto e da transição; no ocidente, da pureza e renovação. Nos sonhos, branco indica limpeza emocional, clareza espiritual, momentos de graça ou a necessidade de recomeço.",
+      "neurociencia": "Experiências de quase morte e estados meditativos profundos frequentemente relatam campos de luz branca — fenômenos associados à atividade intensa do córtex occipital e à liberação de DMT endógena pela glândula pineal. No sono REM, sonhos dominados por luz branca estão associados a ondas cerebrais de alta amplitude, indicando integração de múltiplas regiões cerebrais — um estado de alta coerência neural.",
+      "psicologia": "Para Jung, o branco aparece em sonhos de individuação avançada, representando o encontro com o Self em sua forma mais luminosa. É a cor do arquétipo do Espírito — aquele que transcende os opostos. No processo alquímico, o albedo (branqueamento) representa a purificação após a nigredo (escuridão) — uma fase de clareza após o caos. Lüscher identificava o branco como a cor do absoluto, o ponto zero a partir do qual tudo pode ser criado.",
+      "chakra": "coroa",
+      "elemento": "eter",
+      "mensagem": "O branco do seu sonho é um presente raro — a experiência de totalidade, mesmo que por um instante. Algo dentro de você foi limpo, renovado ou abençoado. Permita-se sentir esse frescor. Um novo ciclo está começando, e você está mais pronto do que imagina para ele."
+    },
+    "preto": {
+      "id": "preto",
+      "titulo": "Preto / Escuridão",
+      "significado": "O preto nos sonhos é a cor do inconsciente, da Sombra junguiana e dos territórios desconhecidos da psique. Não é necessariamente negativo — representa o útero da criação, o solo fértil, o mistério que antecede toda manifestação. A escuridão onírica é o espaço onde o ego perde o controle e o inconsciente fala sem filtros. Quando ameaçadora, indica material reprimido que exige atenção. Quando serena, representa descanso profundo e retorno à fonte.",
+      "neurociencia": "A percepção de escuridão nos sonhos está associada ao NREM profundo (sono delta), onde a atividade do córtex visual é mínima. No entanto, escuridão no REM — quando o cérebro está mais ativo — indica supressão ativa de imagens: o inconsciente criando espaço antes de revelar conteúdo. Estudos de privação sensorial (John Lilly, anos 1950) demonstram que ambientes completamente escuros induzem alucinações hipnagógicas e sonhos de alta intensidade arquetípica.",
+      "psicologia": "Para Jung, o preto é a cor da Sombra — o repositório de tudo que o ego recusou integrar. Mas a Sombra não é má; é incompleta. A nigredo alquímica — fase de escurecimento — é o primeiro passo necessário da Grande Obra (opus magnum). Em sonhos, figuras pretas ou ambientes escuros frequentemente representam aspectos do próprio sonhador que precisam ser reconhecidos e integrados. Ignorar a escuridão onírica é ignorar metade de si mesmo.",
+      "chakra": "raiz",
+      "elemento": "terra",
+      "mensagem": "A escuridão que você encontrou no sonho não é ausência de luz — é a luz que ainda não nasceu. O inconsciente está te chamando para olhar o que você tem evitado. Não com medo, mas com curiosidade corajosa: o que vive nessa sombra pode ser exatamente o que falta para sua completude."
+    },
+    "dourado": {
+      "id": "dourado",
+      "titulo": "Dourado / Ouro",
+      "significado": "O dourado nos sonhos é a cor do Self, da sabedoria realizada e da conquista espiritual mais elevada. É a cor do sol em sua máxima potência — não apenas luz, mas glória. Em alquimia, o ouro é o objetivo final da Grande Obra: a transformação do chumbo (matéria bruta, inconsciência) em ouro (consciência plena, individuação). Sonhos com ouro indicam momentos de síntese, realização, ou que uma transformação psíquica importante está se completando.",
+      "neurociencia": "A cor dourada, por sua alta luminosidade e saturação, ativa de forma intensa os fotorreceptores cônicos do tipo L (comprimento de onda longo), criando uma resposta visual de grande impacto. Durante o REM, estímulos de alta luminância são associados à ativação do nucleus accumbens — centro de recompensa do cérebro — o que explica a sensação de profunda satisfação que muitas pessoas relatam após sonhos com luz ou objetos dourados.",
+      "psicologia": "Jung via o ouro nos sonhos como o símbolo mais claro da individuação — o processo de tornar-se inteiramente si mesmo. Em sonhos, objetos dourados, luz dourada ou figuras banhadas em ouro frequentemente representam o Self ou revelações do inconsciente coletivo. A aurum philosophorum (ouro dos filósofos) não era um metal, mas a consciência integrada. Quando ouro aparece como ganância ou objeto perdido, pode indicar que o sonhador está buscando fora o que só pode ser encontrado dentro.",
+      "chakra": "plexo_solar",
+      "elemento": "fogo",
+      "mensagem": "O dourado que brilhou no seu sonho é o sinal de que algo precioso está nascendo em você. Não um tesouro externo, mas uma qualidade interna que estava adormecida e agora se revela. Você está mais próximo de si mesmo do que imagina. Confie nessa luz — ela veio de dentro."
+    },
+    "colorido_vivido": {
+      "id": "colorido_vivido",
+      "titulo": "Colorido e vívido (múltiplas cores intensas)",
+      "significado": "Sonhos com cores extremamente vívidas e múltiplas indicam intensa atividade do inconsciente criativo — um estado de alta abertura perceptiva. O cérebro está processando material emocional complexo e rico, muitas vezes de natureza transformadora. Essas experiências são frequentemente associadas a sonhos lúcidos, estados de hipnagogia criativa ou períodos de grande desenvolvimento pessoal. A riqueza cromática espelha a riqueza dos processos internos em curso.",
+      "neurociencia": "Sonhos vívidos e coloridos são característicos do REM tardio — especialmente nos ciclos de sono entre 6 e 8 horas, quando o REM se torna mais longo e intenso. Estudos com PET scan (Hobson et al., 2000) demonstram que o córtex visual associativo está altamente ativo durante o REM vívido, enquanto o córtex pré-frontal (responsável pelo julgamento racional) está suprimido — permitindo combinações visuais impossíveis na vigília. A acetilcolina é o neurotransmissor dominante nesse estado.",
+      "psicologia": "Para Jung, sonhos extraordinariamente vívidos e coloridos são frequentemente 'grandes sonhos' (Grosse Träume) — aqueles que carregam mensagens do inconsciente coletivo e não apenas do inconsciente pessoal. São sonhos que a pessoa carrega por anos, que mudam perspectivas de vida. A policromia indica que múltiplos complexos e arquétipos estão ativos simultaneamente, criando uma experiência sintética de rara densidade simbólica.",
+      "chakra": null,
+      "elemento": null,
+      "mensagem": "Você teve um sonho extraordinário — um daqueles que ficam na memória por dias. Sua psique está em plena efervescência criativa, processando camadas profundas de experiência simultaneamente. Anote cada detalhe, cada cor, cada símbolo. Este sonho tem muito mais a te dizer do que parece à primeira vista."
+    }
+  }
+}
