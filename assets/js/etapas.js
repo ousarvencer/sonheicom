@@ -24,9 +24,8 @@ const ETAPAS_DATA = {
         "Leão", "Rato", "Sapo", "Crocodilo", "Borboleta",
         "Lobo", "Águia", "Coruja", "Tubarão", "Elefante",
         "Dragão", "Unicórnio", "Fênix", "Sereia",
-        "Lobisomem", "Criatura das trevas", "Animal gigante",
-        "Cobra grande", "Barata", "Enxame de insetos",
-        "Pomba", "Gato preto"
+        "Lobisomem", "Criatura das trevas", "Animal gigante", 
+        "Barata", "Pomba", "Gato preto"
     ],
     lugares: [
         "Mar", "Casa", "Igreja", "Hospital", "Escola",
