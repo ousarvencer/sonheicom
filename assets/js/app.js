@@ -82,7 +82,10 @@ function setupEtapa1() {
 
     btnEntrar.onclick = () => {
         currentUserData.nome = inputNome.value.trim();
-        currentUserData.nascimento = document.getElementById('input-nascimento')?.value || '';
+        const dia = document.getElementById('nasc-dia')?.value || '';
+        const mes = document.getElementById('nasc-mes')?.value || '';
+        const ano = document.getElementById('nasc-ano')?.value || '';
+        currentUserData.nascimento = (dia && mes && ano) ? `${dia}/${mes}/${ano}` : '';
         showEtapa(2);
         startSubEtapas();
     };
