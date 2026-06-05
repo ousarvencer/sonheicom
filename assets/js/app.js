@@ -136,6 +136,7 @@ function renderResultados() {
     // Símbolo principal: primeiro selecionado encontrado nos JSONs
     const allSelected = [].concat(...Object.values(currentUserData.selecoes));
     const mainSymbolData = SIMBOLOS.find(s => allSelected.includes(s.simbolo)) || SIMBOLOS[0];
+    const bicho = getBichoData(mainSymbolData);
 
     // Barras de status calculadas pelo leitura.js
     const status = calcularStatus(currentUserData, mainSymbolData);
