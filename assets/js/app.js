@@ -77,10 +77,12 @@ function setupEtapa1() {
     inputNome.addEventListener('input', updateButtons);
 
     trilhaCards.forEach(card => {
-        card.addEventListener('click', () => {
+        card.addEventListener('click', (e) => {
+            const target = e.target.closest('.trilha-card');
+            if (!target) return;
             trilhaCards.forEach(c => c.classList.remove('selected'));
-            card.classList.add('selected');
-            currentUserData.trilha = card.dataset.trilha;
+            target.classList.add('selected');
+            currentUserData.trilha = target.dataset.trilha;
             updateButtons();
         });
     });
