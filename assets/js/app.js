@@ -72,7 +72,7 @@ function salvarLeitura() {
 function setupEtapa1() {
     const btnEntrar = document.getElementById('btn-entrar');
     const inputNome = document.getElementById('input-nome');
-    const trilhaCards = document.querySelectorAll('#trilha-selector .card');
+    const trilhaCards = document.querySelectorAll('#trilha-selector .trilha-card');
 
     inputNome.addEventListener('input', updateButtons);
 
