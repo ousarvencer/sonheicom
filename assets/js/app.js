@@ -154,10 +154,10 @@ function renderResultados() {
         {
             id: 2,
             title: "SEU ANIMAL DA SORTE",
-            content: `Animal: ${mainSymbolData.jogo_bicho.animal}<br>
-                      Grupo: ${mainSymbolData.jogo_bicho.grupo}<br>
-                      Dezenas: ${mainSymbolData.jogo_bicho.dezenas.join(', ')}<br>
-                      Milhar: ${mainSymbolData.jogo_bicho.milhar_sugerido}`
+            content: `Animal: ${bicho.animal}<br>
+                      Grupo: ${bicho.grupo}<br>
+                      Dezenas: ${bicho.dezenas.join(', ')}<br>
+                      Milhar: ${bicho.milhar_sugerido}`
         },
         {
             id: 3,
