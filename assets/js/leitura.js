@@ -175,7 +175,7 @@ function generateInterpretation(userData, symbols) {
     const blocos = [];
 
     // 1. ABERTURA — mensagem_direta ou mensagem do símbolo
-    const abertura = simbolo.mensagem_direta || simbolo.mensagem
+    const abertura = simbolo.mensagem_direta || simbolo.mensagem_directa || simbolo.mensagem
         || `${nome}, seu sonho com ${simbolo.simbolo || 'este símbolo'} carrega uma mensagem importante do seu inconsciente.`;
     blocos.push(abertura);
 
