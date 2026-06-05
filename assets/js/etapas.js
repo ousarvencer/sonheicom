@@ -14,7 +14,9 @@ const ETAPAS_DATA = {
         "Criança desconhecida", "Figura desconhecida",
         "Anjo / Entidade", "Demônio / Presença sombria",
         "Versão de mim mesmo", "Pessoa famosa",
-        "Figura religiosa", "Velho(a) sábio(a)"
+        "Figura religiosa", "Velho(a) sábio(a)",
+        "Bebê", "Desafeto / inimigo", "Gêmeo / sósia",
+        "Médico", "Policial"
     ],
     animais: [
         "Cobra", "Cachorro", "Gato", "Cavalo", "Peixe",
@@ -22,7 +24,8 @@ const ETAPAS_DATA = {
         "Leão", "Rato", "Sapo", "Crocodilo", "Borboleta",
         "Lobo", "Águia", "Coruja", "Tubarão", "Elefante",
         "Dragão", "Unicórnio", "Fênix", "Sereia",
-        "Lobisomem", "Criatura das trevas", "Animal gigante"
+        "Lobisomem", "Criatura das trevas", "Animal gigante", 
+        "Barata", "Pomba", "Gato preto"
     ],
     lugares: [
         "Mar", "Casa", "Igreja", "Hospital", "Escola",
@@ -30,7 +33,9 @@ const ETAPAS_DATA = {
         "Lugar desconhecido", "Casa da infância",
         "Praia", "Trabalho", "Quarto", "Prisão", "Ponte", "Aeroporto",
         "Céu / Paraíso", "Inferno", "Caverna",
-        "Ruínas antigas", "Castelo", "Labirinto", "Lugar que não existe"
+        "Ruínas antigas", "Castelo", "Labirinto", "Lugar que não existe",
+        "Prédio alto", "Túnel", "Subterrâneo", "Deserto",
+        "Espaço sideral", "Favela", "Shopping", "Banco / agência"
     ],
     situacoes: [
         "Queda", "Voar", "Perseguição", "Briga", "Traição",
@@ -40,14 +45,23 @@ const ETAPAS_DATA = {
         "Encontrar dinheiro", "Ser traído", "Chegar atrasado",
         "Ressurreição", "Viagem no tempo", "Mundo paralelo",
         "Fim do mundo", "Ser observado", "Transformação do corpo",
-        "Falar com mortos"
+        "Falar com mortos",
+        "Ser roubado", "Ser assaltado", "Dentes caindo",
+        "Carro descontrolado", "Avião caindo", "Naufrágio",
+        "Paralisia", "Sufocamento", "Ser preso injustamente",
+        "Trair alguém", "Reprovar em prova", "Passar em prova",
+        "Perder emprego", "Conseguir emprego", "Perder dinheiro",
+        "Ganhar dinheiro", "Discussão violenta", "Reconciliação",
+        "Separação", "Velório / funeral", "Renascer"
     ],
     objetos: [
         "Dinheiro", "Chave", "Espelho", "Celular", "Faca",
         "Sangue", "Porta", "Vela", "Anel", "Arma", "Carro", "Dente",
         "Relógio", "Escada", "Livro", "Água", "Fogo", "Cruz", "Ponte",
         "Cristal", "Poção", "Portal", "Caveira",
-        "Altar", "Pergaminho", "Talismã"
+        "Altar", "Pergaminho", "Talismã",
+        "Chuva", "Tempestade", "Luz intensa", "Escuridão total",
+        "Número", "Documento / contrato"
     ]
 };
 
