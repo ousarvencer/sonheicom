@@ -3348,7 +3348,6 @@
       "estado_despertar": "leveza",
       "sonho_pb": false
     },
-{
   "barata": {
     "simbolo": "Barata",
     "slug": "barata",
@@ -3719,7 +3718,7 @@
       "olhar profundo"
     ],
     "estado_despertar": "leveza",
-    "sonho_pb": false
-  }
+   "sonho_pb": false
+    }
   }
 }
