@@ -20,15 +20,22 @@ let currentUserData = {
 // Carrega os cinco JSONs de símbolos separados e une em memória
 
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('./data/index.json')
-    .then(r => r.json())
-    .then(data => {
-        SIMBOLOS = data.simbolos;
-        initApp();
-    })
-    .catch(err => {
-        console.error('Erro ao carregar símbolos:', err);
-    });
+    const arquivos = [
+        './data/simbolos/animais.json',
+        './data/simbolos/pessoas.json',
+        './data/simbolos/lugares.json',
+        './data/simbolos/situacoes.json',
+        './data/simbolos/objetos.json'
+    ];
+
+    Promise.all(arquivos.map(url => fetch(url).then(r => r.json())))
+        .then(resultados => {
+            SIMBOLOS = resultados.flatMap(json => Object.values(json));
+            initApp();
+        })
+        .catch(err => {
+            console.error('Erro ao carregar simbolos:', err);
+        });
 });
 
 function initApp() {
