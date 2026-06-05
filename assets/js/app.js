@@ -172,7 +172,7 @@ function renderResultados() {
         {
             id: 4,
             title: `TRILHA: ${currentUserData.trilha.toUpperCase()}`,
-            content: mainSymbolData.leituras[`trilha_${currentUserData.trilha.toLowerCase()}`] || ''
+            content: (mainSymbolData.leituras || mainSymbolData.leitures || {})[`trilha_${currentUserData.trilha.toLowerCase()}`] || ''
         },
         {
             id: 5,
