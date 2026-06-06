@@ -240,9 +240,15 @@ function generateInterpretation(userData, symbols) {
     const emocaoCtx    = ctx(`com_${emocaoKey}`) || '';
     const msgEmocao    = getMensagem(LEITURA_DATA.emocoes?.[emocaoKey]) || '';
 
+    // Mensagens adicionais dos outros símbolos
+    const mensagensAdicionais = todosSimbolos.slice(1)
+        .map(s => s.mensagem_direta || '')
+        .filter(Boolean)
+        .join('\n\n');
+
     const secao1 = {
         titulo: 'A MENSAGEM DA CIGANA',
-        texto: junta(abertura, textoTrilha, msgTrilhaApoio, emocaoCtx, msgEmocao)
+        texto: junta(abertura, mensagensAdicionais, textoTrilha, msgTrilhaApoio, emocaoCtx, msgEmocao)
     };
 
     // ── SEÇÃO 2 — PSICOLOGIA E MITOLOGIA ─────────────────────
@@ -261,9 +267,17 @@ function generateInterpretation(userData, symbols) {
         ? `Chakra ${simbolo.chakra.nome} (${simbolo.chakra.sanskrito}) — ${simbolo.chakra.significado}`
         : '';
 
+    // Psicologia e mitologia de todos os símbolos
+    const psicologiaExtra = todosSimbolos.slice(1).map(s => {
+        const partes = [];
+        if (s.psicologia?.jung)  partes.push(`${s.simbolo.toUpperCase()} — ${s.psicologia.jung}`);
+        if (s.mitologia?.indigena_brasileira) partes.push(`Tradição brasileira: ${s.mitologia.indigena_brasileira}`);
+        return partes.join('\n');
+    }).filter(Boolean).join('\n\n───\n\n');
+
     const secao2 = {
         titulo: 'O QUE A PSICOLOGIA DIZ',
-        texto: junta(jung, freud, moderna, mitPartes.join('\n'), chakra)
+        texto: junta(jung, freud, moderna, mitPartes.join('\n'), chakra, psicologiaExtra)
     };
 
     // ── SEÇÃO 3 — CONTEXTO DO SONHO ──────────────────────────
@@ -358,11 +372,16 @@ function generateInterpretation(userData, symbols) {
     // ── SEÇÃO 6 — RECOMENDAÇÃO FINAL ─────────────────────────
     // Foco: alerta + ação. Sempre presente.
 
+    const recomendacoesExtra = todosSimbolos.slice(1).map(s =>
+        junta(s.alerta || '', s.acao_recomendada || '')
+    ).filter(Boolean).join('\n\n───\n\n');
+
     const secao6 = {
         titulo: 'A RECOMENDAÇÃO',
         texto: junta(
             simbolo.alerta || '',
-            simbolo.acao_recomendada || ''
+            simbolo.acao_recomendada || '',
+            recomendacoesExtra
         )
     };
 
