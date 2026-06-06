@@ -40,7 +40,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     Promise.all(arquivos.map(url => fetch(url).then(r => r.json())))
         .then(resultados => {
-            SIMBOLOS = resultados.flatMap(json => Object.values(json));
+            SIMBOLOS = resultados.flatMap(json => {
+                const valores = Object.values(json);
+                if (valores.length === 1 && typeof valores[0] === 'object' && !valores[0].simbolo) {
+                    return Object.values(valores[0]);
+                }
+                return valores;
+            });
             initApp();
         })
         .catch(err => {
