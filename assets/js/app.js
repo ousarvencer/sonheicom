@@ -145,7 +145,11 @@ function renderResultados() {
 
     // ── SÍMBOLO PRINCIPAL ─────────────────────────────────────
     // Corrige o bug: busca por slug E por simbolo, case-insensitive
-    const allSelected = [].concat(...Object.values(currentUserData.selecoes));
+    const allSelected = Object.values(currentUserData.selecoes).flat().filter(Boolean);
+    if (allSelected.length === 0) {
+        resultsContainer.innerHTML = '<p style="text-align:center;opacity:.6">Nenhum símbolo selecionado. Volte e escolha ao menos um elemento do seu sonho.</p>';
+        return;
+    }
 
     // Busca TODOS os símbolos selecionados, não só o primeiro
     const simbolosEncontrados = SIMBOLOS.filter(s =>
