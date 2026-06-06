@@ -267,10 +267,10 @@ function nextPergunta() {
     const p = PERGUNTAS[currentPergunta];
 
     if (p.tipo === 'hora') {
-        currentUserData.detalhes['hora'] = horasOpcoes[horaIdx];
+        window.currentUserData.detalhes['hora'] = horasOpcoes[horaIdx];
     } else {
         const selected = Array.from(document.querySelectorAll('#etapa3-grid .selected')).map(c => c.textContent.trim());
-        currentUserData.detalhes[p.key] = p.multiplo ? selected : (selected[0] || '');
+        window.currentUserData.detalhes[p.key] = p.multiplo ? selected : (selected[0] || '');
     }
 
     currentPergunta++;
