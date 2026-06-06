@@ -181,7 +181,6 @@ function renderResultados() {
         : [SIMBOLOS.find(s => s.jogo_bicho) || SIMBOLOS[0]];
 
     const mainSymbolData = simbolosUsados[0];
-    const status = calcularStatus(currentUserData, mainSymbolData);
     const secoes = generateInterpretation(currentUserData, simbolosUsados);
     const trilha = (currentUserData.trilha || 'significado').toLowerCase();
 
