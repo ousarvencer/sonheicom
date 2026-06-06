@@ -219,7 +219,9 @@ function generateInterpretation(userData, symbols) {
 
     // ── COLETA DE DADOS ───────────────────────────────────────
 
-    const emocaoKey     = normalizar(detalhes.emocao?.[0] || '');
+    const emocaoKey = normalizar(
+        Array.isArray(detalhes.emocao) ? detalhes.emocao[0] : detalhes.emocao || ''
+    );
     const cenarioKey    = normalizar(detalhes.cenario?.[0] || '');
     const periodoKey    = normalizar(detalhes.periodo?.[0] || '');
     const corKey        = normalizar(detalhes.cor_sonho?.[0] || '');
@@ -248,7 +250,7 @@ function generateInterpretation(userData, symbols) {
     const textoTrilha  = leit(`trilha_${trilha}`) || '';
     const msgTrilhaApoio = getMensagem(LEITURA_DATA.trilhas?.[trilha]) || '';
     const emocaoCtx    = ctx(`com_${emocaoKey}`) || '';
-    const msgEmocao    = getMensagem(LEITURA_DATA.emocoes?.[emocaoKey]) || '';
+    const msgEmocao = getMensagem(LEITURA_DATA.emocoes?.[emocaoKey], simbolo.simbolo) || '';
 
     // Mensagens adicionais dos outros símbolos
     const mensagensAdicionais = todosSimbolos.slice(1)
