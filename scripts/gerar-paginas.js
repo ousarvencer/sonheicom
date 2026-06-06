@@ -514,12 +514,24 @@ function main() {
       continue;
     }
 
-    // Suporte a estrutura aninhada { "cobra": { ... } } ou array [{ ... }]
+    // Suporte a estruturas:
+    // 1. Array: [ { simbolo: "Cobra", ... } ]
+    // 2. Objeto direto: { "cobra": { simbolo: "Cobra", ... } }
+    // 3. Objeto aninhado: { "animais": { "cobra": { simbolo: "Cobra", ... } } }
     let simbolos = [];
     if (Array.isArray(data)) {
       simbolos = data;
     } else {
-      simbolos = Object.values(data);
+      const values = Object.values(data);
+      if (values.length > 0 && values[0] && typeof values[0] === 'object' && values[0].simbolo) {
+        simbolos = values;
+      } else {
+        simbolos = values.flatMap(v => {
+          if (Array.isArray(v)) return v;
+          if (v && typeof v === 'object') return Object.values(v);
+          return [];
+        });
+      }
     }
 
     console.log(`\n✦ Processando ${arquivo} — ${simbolos.length} símbolos`);
