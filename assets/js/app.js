@@ -16,6 +16,16 @@ window.currentUserData = {
     detalhes: {}
 };
 
+// ─── HELPERS GLOBAIS ──────────────────────────────────────────
+function normalizar(str) {
+    if (!str) return '';
+    return str.toLowerCase()
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-z0-9_]/g, '_')
+        .replace(/_+/g, '_')
+        .trim();
+}
+
 // ─── INICIALIZAÇÃO ────────────────────────────────────────────
 // Carrega os cinco JSONs de símbolos separados e une em memória
 
