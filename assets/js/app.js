@@ -190,25 +190,37 @@ function renderResultados() {
 
     // ── CARTÃO DE SORTE ───────────────────────────────────────
     const numeros = generateLuckyNumbers(currentUserData.nome);
-    const htmlSorte = `
-        <div class="sorte-bloco">
-            <div class="sorte-linha">
-                <span class="sorte-label">ANIMAL</span>
-                <span class="sorte-valor">${bicho.animal} — Grupo ${bicho.grupo}</span>
+
+    // Rank de todos os símbolos com jogo do bicho
+    const bichoLinhas = simbolosUsados
+        .filter(s => s.jogo_bicho && s.jogo_bicho.animal !== 'Sorte')
+        .map(s => `
+            <div class="sorte-simbolo">
+                <div class="sorte-simbolo-nome">◆ ${s.simbolo.toUpperCase()}</div>
+                <div class="sorte-linha">
+                    <span class="sorte-label">ANIMAL</span>
+                    <span class="sorte-valor">${s.jogo_bicho.animal} — Grupo ${s.jogo_bicho.grupo}</span>
+                </div>
+                <div class="sorte-linha">
+                    <span class="sorte-label">DEZENAS</span>
+                    <span class="sorte-valor">${s.jogo_bicho.dezenas.join(' · ')}</span>
+                </div>
+                <div class="sorte-linha">
+                    <span class="sorte-label">MILHAR</span>
+                    <span class="sorte-valor">${s.jogo_bicho.milhar_sugerido}</span>
+                </div>
             </div>
-            <div class="sorte-linha">
-                <span class="sorte-label">DEZENAS</span>
-                <span class="sorte-valor">${bicho.dezenas.join(' · ')}</span>
-            </div>
-            <div class="sorte-linha">
-                <span class="sorte-label">MILHAR</span>
-                <span class="sorte-valor">${bicho.milhar_sugerido}</span>
-            </div>
-            <div class="sorte-linha">
-                <span class="sorte-label">NÚMEROS</span>
-                <span class="sorte-valor sorte-numeros">${numeros.join(' — ')}</span>
-            </div>
-        </div>`;
+            <div class="sorte-separador">───</div>
+        `).join('');
+
+const htmlSorte = `
+    <div class="sorte-bloco">
+        ${bichoLinhas || '<div class="sorte-linha"><span class="sorte-valor">Consulte os astros novamente.</span></div>'}
+        <div class="sorte-linha sorte-numeros-linha">
+            <span class="sorte-label">SEUS NÚMEROS</span>
+            <span class="sorte-valor sorte-numeros">${numeros.join(' — ')}</span>
+        </div>
+    </div>`;
 
     // ── MONTA CARTÕES NA ORDEM DA TRILHA ─────────────────────
     // secoes = array de { titulo, texto } retornado pelo leitura.js
