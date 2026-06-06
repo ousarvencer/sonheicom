@@ -73,6 +73,8 @@ function getLeitura(simbolo, campo) {
 function val(campo) {
     return Array.isArray(campo) ? campo[0] : campo || '';
 }
+
+function normalizar(str) {
     if (!str) return '';
     return str.toLowerCase()
         .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
