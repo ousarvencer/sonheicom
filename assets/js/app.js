@@ -185,27 +185,6 @@ function renderResultados() {
     const secoes = generateInterpretation(currentUserData, simbolosUsados);
     const trilha = (currentUserData.trilha || 'significado').toLowerCase();
 
-    // ── CARTÃO DE BARRAS RPG ──────────────────────────────────
-    // Destaca a barra relevante conforme a trilha
-    const barraDestaque = { mente: 'mente', amor: 'amor', sorte: 'financas', significado: null };
-    const barraFoco = barraDestaque[trilha] || null;
-
-    function renderBarra(label, valor, cor, chave) {
-        const destaque = barraFoco === chave ? 'rpg-bar-destaque' : '';
-        return `
-            <div class="rpg-bar-container ${destaque}">
-                <div class="rpg-label">${label}</div>
-                <div class="rpg-bar-bg">
-                    <div class="rpg-bar-fill ${cor}" style="width:${valor}%"></div>
-                </div>
-                <div class="rpg-bar-valor">${valor}</div>
-            </div>`;
-    }
-
-    const htmlBarras = renderBarra('MENTE',    status.mente,    'green',  'mente')
-                     + renderBarra('AMOR',     status.amor,     'yellow', 'amor')
-                     + renderBarra('FINANÇAS', status.financas, 'red',    'financas');
-
     // ── CARTÃO DE SORTE ───────────────────────────────────────
     const numeros = generateLuckyNumbers(currentUserData.nome);
 
