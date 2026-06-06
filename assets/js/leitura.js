@@ -351,7 +351,14 @@ function generateInterpretation(userData, symbols) {
 
     const luaCtxSimbolo = simbolo.fase_lua?.[luaKey] || '';
     const msgLua        = getMensagem(LEITURA_DATA.fasesLua?.[luaKey]) || '';
-    const msgSigno      = (signoNome && LEITURA_DATA.signos?.[signoNome]?.sonho) || '';
+    const mapaSignos = {
+        'Gêmeos':     'Gémeos',
+        'Câncer':     'Caranguejo',
+        'Escorpião':  'Escorpião',
+        'Capricórnio':'Capricórnio'
+    };
+    const signoChave = mapaSignos[signoNome] || signoNome;
+    const msgSigno = (signoChave && LEITURA_DATA.signos?.[signoChave]?.sonho) || '';
     const msgNumCaminho = (numCaminho && LEITURA_DATA.numerologiaCaminho?.[String(numCaminho)]?.sonho) || '';
     const numSimbolo    = simbolo.numerologia
         ? `Número do símbolo: ${simbolo.numerologia.numero_simbolo} — ${simbolo.numerologia.significado_numero}`
@@ -362,7 +369,7 @@ function generateInterpretation(userData, symbols) {
         texto: junta(
             `Lua ${lua.name}: ${lua.description}`,
             luaCtxSimbolo, msgLua,
-            signoNome ? `${signoNome}: ${msgSigno}` : '',
+            signoNome && msgSigno ? `${signoNome}: ${msgSigno}` : '',
             msgNumCaminho,
             numSimbolo
         )
