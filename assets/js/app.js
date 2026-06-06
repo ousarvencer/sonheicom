@@ -151,7 +151,7 @@ function renderResultados() {
             normalizar(sel) === normalizar(s.simbolo) ||
             normalizar(sel) === normalizar(s.slug)
         )
-    ) || SIMBOLOS[0];
+    ) || SIMBOLOS.find(s => s.jogo_bicho) || SIMBOLOS[0];
 
     const bicho  = getBichoData(mainSymbolData);
     const status = calcularStatus(currentUserData, mainSymbolData);
