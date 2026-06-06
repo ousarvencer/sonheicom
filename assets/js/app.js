@@ -147,11 +147,13 @@ function renderResultados() {
     // Corrige o bug: busca por slug E por simbolo, case-insensitive
     const allSelected = [].concat(...Object.values(currentUserData.selecoes));
     const mainSymbolData = SIMBOLOS.find(s =>
-        allSelected.some(sel =>
-            normalizar(sel) === normalizar(s.simbolo) ||
-            normalizar(sel) === normalizar(s.slug)
-        )
-    ) || SIMBOLOS.find(s => s.jogo_bicho) || SIMBOLOS[0];
+        allSelected.some(sel => {
+            const selNorm = normalizar(sel);
+            return selNorm === normalizar(s.simbolo) ||
+                   selNorm === normalizar(s.slug) ||
+                   (s.sinonimos || []).some(sin => normalizar(sin) === selNorm);
+        })
+    ) || SIMBOLOS.find(s => s.jogo_bicho) || SIMBOLOS[0];MBOLOS[0];
 
     const bicho  = getBichoData(mainSymbolData);
     const status = calcularStatus(currentUserData, mainSymbolData);
