@@ -142,6 +142,10 @@ function revelarOraculo() {
 function renderResultados() {
     const resultsContainer = document.getElementById('resultados');
     resultsContainer.innerHTML = '';
+    if (!SIMBOLOS || SIMBOLOS.length === 0) {
+        resultsContainer.innerHTML = '<p style="text-align:center;opacity:.6">Erro ao carregar os dados. Recarregue a página.</p>';
+        return;
+    }
 
     // ── SÍMBOLO PRINCIPAL ─────────────────────────────────────
     // Corrige o bug: busca por slug E por simbolo, case-insensitive
