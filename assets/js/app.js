@@ -8,7 +8,7 @@
 
 let SIMBOLOS = [];
 
-let currentUserData = {
+window.currentUserData = {
     nome: "",
     nascimento: "",
     trilha: "",
