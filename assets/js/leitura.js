@@ -206,171 +206,175 @@ function generateInterpretation(userData, symbols) {
     const detalhes = userData.detalhes || {};
     const trilha = (userData.trilha || 'significado').toLowerCase();
 
-    const blocos = [];
+    // ── COLETA DE DADOS ───────────────────────────────────────
 
-    // 1. ABERTURA — mensagem_direta ou mensagem do símbolo
-    const abertura = simbolo.mensagem_direta || simbolo.mensagem_directa || simbolo.mensagem
-        || `${nome}, seu sonho com ${simbolo.simbolo || 'este símbolo'} carrega uma mensagem importante do seu inconsciente.`;
-    blocos.push(abertura);
+    const emocaoKey     = normalizar(detalhes.emocao?.[0] || '');
+    const cenarioKey    = normalizar(detalhes.cenario?.[0] || '');
+    const periodoKey    = normalizar(detalhes.periodo?.[0] || '');
+    const corKey        = normalizar(detalhes.cor_sonho?.[0] || '');
+    const memoriaKey    = normalizar(detalhes.memoria?.[0] || '');
+    const recorrenteKey = normalizar(detalhes.recorrente?.[0] || '');
+    const despertar     = detalhes.despertar || [];
+    const situAmorKey   = normalizar(detalhes.amor?.[0] || '');
+    const situFinKey    = normalizar(detalhes.financas?.[0] || '');
 
-    // 2. TRILHA — leitura específica do símbolo
-    const textoTrilha = getLeitura(simbolo, `trilha_${trilha}`);
-    if (textoTrilha) blocos.push(textoTrilha);
+    const lua        = getMoonPhase(new Date());
+    const luaKey     = normalizar(lua.name);
+    const signoNome  = calcularSigno(userData.nascimento);
+    const numCaminho = calcularCaminhoDeVida(userData.nascimento);
 
-    // Mensagem da trilha no JSON de apoio
-    const dadosTrilha = LEITURA_DATA.trilhas?.[trilha];
-    if (dadosTrilha) {
-        const msgTrilha = getMensagem(dadosTrilha);
-        if (msgTrilha) blocos.push(msgTrilha);
-    }
+    // helpers locais
+    const ctx  = (campo) => getContexto(simbolo, campo);
+    const leit = (campo) => getLeitura(simbolo, campo);
+    const junta = (...partes) => partes.filter(p => p && p.trim()).join('\n\n');
 
-    // 3. EMOÇÃO
-    const emocaoKey = normalizar(detalhes.emocao?.[0] || '');
-    const emocaoContexto = getContexto(simbolo, `com_${emocaoKey}`);
-    if (emocaoContexto) blocos.push(emocaoContexto);
+    // ── SEÇÃO 1 — MENSAGEM CENTRAL ────────────────────────────
+    // Foco: símbolo + trilha + emoção. Varia por trilha.
 
-    const dadosEmocao = LEITURA_DATA.emocoes?.[emocaoKey];
-    if (dadosEmocao) {
-        const msgEmocao = getMensagem(dadosEmocao);
-        if (msgEmocao) blocos.push(msgEmocao);
-    }
+    const abertura = simbolo.mensagem_direta
+        || `${nome}, seu sonho com ${simbolo.simbolo || 'este símbolo'} carrega uma mensagem do seu inconsciente.`;
 
-    // 4. CENÁRIO
-    const cenarioKey = normalizar(detalhes.cenario?.[0] || '');
-    const cenarioContexto = getContexto(simbolo, `cenario_${cenarioKey}`);
-    if (cenarioContexto) blocos.push(cenarioContexto);
+    const textoTrilha  = leit(`trilha_${trilha}`) || '';
+    const msgTrilhaApoio = getMensagem(LEITURA_DATA.trilhas?.[trilha]) || '';
+    const emocaoCtx    = ctx(`com_${emocaoKey}`) || '';
+    const msgEmocao    = getMensagem(LEITURA_DATA.emocoes?.[emocaoKey]) || '';
 
-    const dadosCenario = LEITURA_DATA.cenarios?.[cenarioKey];
-    if (dadosCenario) {
-        const msgCenario = getMensagem(dadosCenario);
-        if (msgCenario) blocos.push(msgCenario);
-    }
+    const secao1 = {
+        titulo: 'A MENSAGEM DA CIGANA',
+        texto: junta(abertura, textoTrilha, msgTrilhaApoio, emocaoCtx, msgEmocao)
+    };
 
-    // 5. PERÍODO (dia/noite)
-    const periodoKey = normalizar(detalhes.periodo?.[0] || '');
-    const periodoContexto = getContexto(simbolo, `de_${periodoKey}`);
-    if (periodoContexto) blocos.push(periodoContexto);
+    // ── SEÇÃO 2 — PSICOLOGIA E MITOLOGIA ─────────────────────
+    // Foco: profundidade interpretativa. Sempre presente.
 
-    // 6. COR DO SONHO
-    const corKey = normalizar(detalhes.cor_sonho?.[0] || '');
-    if (corKey === 'colorido') {
-        const txt = getContexto(simbolo, 'sonho_colorido');
-        if (txt) blocos.push(txt);
-    } else if (corKey.includes('branco')) {
-        const txt = getContexto(simbolo, 'sonho_pb');
-        if (txt) blocos.push(txt);
-    }
+    const jung   = simbolo.psicologia?.jung || '';
+    const freud  = simbolo.psicologia?.freud || '';
+    const moderna = simbolo.psicologia?.interpretacao_moderna || '';
 
-    // 7. ESTADO DO DESPERTAR
-    const despertar = detalhes.despertar || [];
-    despertar.forEach(d => {
-        const dKey = normalizar(d);
-        const mapa = {
-            'suor_frio':           'acordou_suor_frio',
-            'coracao_acelerado':   'acordou_coracao_acelerado',
-            'chorando':            'acordou_chorando',
-            'sensacao_de_paz':     'acordou_aliviado',
-            'peso_no_peito':       'acordou_confuso',
-            'leveza':              'acordou_leveza'
-        };
-        const campo = mapa[dKey];
-        if (campo) {
-            const txt = getContexto(simbolo, campo);
-            if (txt) blocos.push(txt);
-        }
-    });
+    const mitPartes = [];
+    if (simbolo.mitologia?.grega)            mitPartes.push(`Grécia: ${simbolo.mitologia.grega}`);
+    if (simbolo.mitologia?.indigena_brasileira) mitPartes.push(`Tradição brasileira: ${simbolo.mitologia.indigena_brasileira}`);
+    if (simbolo.mitologia?.egipcia)          mitPartes.push(`Egito: ${simbolo.mitologia.egipcia}`);
 
-    const estadoKey = normalizar(despertar[0] || '');
-    const dadosDespertar = LEITURA_DATA.estadoDespertar?.[estadoKey];
-    if (dadosDespertar) {
-        const msgDespertar = getMensagem(dadosDespertar);
-        if (msgDespertar) blocos.push(msgDespertar);
-    }
+    const chakra = simbolo.chakra
+        ? `Chakra ${simbolo.chakra.nome} (${simbolo.chakra.sanskrito}) — ${simbolo.chakra.significado}`
+        : '';
 
-    // 8. MEMÓRIA
-    const memoriaKey = normalizar(detalhes.memoria?.[0] || '');
+    const secao2 = {
+        titulo: 'O QUE A PSICOLOGIA DIZ',
+        texto: junta(jung, freud, moderna, mitPartes.join('\n'), chakra)
+    };
+
+    // ── SEÇÃO 3 — CONTEXTO DO SONHO ──────────────────────────
+    // Foco: como o sonho aconteceu. Período, cor, cenário, despertar, memória, recorrência.
+
+    const periodoCtx  = ctx(`de_${periodoKey}`) || '';
+    const cenarioCtx  = ctx(`cenario_${cenarioKey}`) || '';
+    const msgCenario  = getMensagem(LEITURA_DATA.cenarios?.[cenarioKey]) || '';
+
+    let corCtx = '';
+    if (corKey === 'colorido')           corCtx = ctx('sonho_colorido') || '';
+    else if (corKey.includes('branco'))  corCtx = ctx('sonho_pb') || '';
+
+    const mapaDespertar = {
+        'suor_frio':        'acordou_suor_frio',
+        'coracao_acelerado':'acordou_coracao_acelerado',
+        'chorando':         'acordou_chorando',
+        'sensacao_de_paz':  'acordou_aliviado',
+        'peso_no_peito':    'acordou_confuso',
+        'leveza':           'acordou_leveza'
+    };
+    const despertarTextos = despertar
+        .map(d => ctx(mapaDespertar[normalizar(d)]))
+        .filter(Boolean);
+    const msgDespertar = getMensagem(LEITURA_DATA.estadoDespertar?.[normalizar(despertar[0] || '')]) || '';
+
     const mapaMemoria = {
         'lembrei_tudo': 'lembrou_tudo',
         'fragmentos':   'lembrou_fragmentos',
         'quase_nada':   'nao_lembrava'
     };
-    const memoriaContexto = getContexto(simbolo, mapaMemoria[memoriaKey]);
-    if (memoriaContexto) blocos.push(memoriaContexto);
+    const memoriaCtx  = ctx(mapaMemoria[memoriaKey]) || '';
+    const msgMemoria  = getMensagem(LEITURA_DATA.memoria?.[memoriaKey]) || '';
 
-    const dadosMemoria = LEITURA_DATA.memoria?.[memoriaKey];
-    if (dadosMemoria) {
-        const msgMemoria = getMensagem(dadosMemoria);
-        if (msgMemoria) blocos.push(msgMemoria);
-    }
+    let recorrenteCtx = '';
+    if (recorrenteKey === 'sim') recorrenteCtx = ctx('frequente') || ctx('ja_sonhei') || '';
+    if (recorrenteKey === 'nao') recorrenteCtx = ctx('primeira_vez') || '';
+    const msgRecorrencia = getMensagem(LEITURA_DATA.recorrencia?.[recorrenteKey]) || '';
 
-    // 9. RECORRÊNCIA
-    const recorrenteKey = normalizar(detalhes.recorrente?.[0] || '');
-    let recorrenteContexto = null;
-    if (recorrenteKey === 'sim') {
-        recorrenteContexto = getContexto(simbolo, 'frequente') || getContexto(simbolo, 'ja_sonhei');
-    } else if (recorrenteKey === 'nao') {
-        recorrenteContexto = getContexto(simbolo, 'primeira_vez');
-    }
-    if (recorrenteContexto) blocos.push(recorrenteContexto);
+    const sonoTexto = simbolo.sono
+        ? `${simbolo.sono.fase_tipica} — ${simbolo.sono.significado_sono}`
+        : '';
 
-    const dadosRecorrencia = LEITURA_DATA.recorrencia?.[recorrenteKey];
-    if (dadosRecorrencia) {
-        const msgRec = getMensagem(dadosRecorrencia);
-        if (msgRec) blocos.push(msgRec);
-    }
+    const secao3 = {
+        titulo: 'O CONTEXTO DO SEU SONHO',
+        texto: junta(
+            periodoCtx, cenarioCtx, msgCenario, corCtx,
+            ...despertarTextos, msgDespertar,
+            memoriaCtx, msgMemoria,
+            recorrenteCtx, msgRecorrencia,
+            sonoTexto
+        )
+    };
 
-    // 10. FASE DA LUA
-    const lua = getMoonPhase(new Date());
-    const luaKey = normalizar(lua.name);
-    const luaContexto = simbolo.fase_lua?.[luaKey];
-    if (luaContexto) blocos.push(luaContexto);
+    // ── SEÇÃO 4 — ASTROS E NUMEROLOGIA ────────────────────────
+    // Foco: lua, signo, caminho de vida, numerologia do símbolo.
 
-    const dadosLua = LEITURA_DATA.fasesLua?.[luaKey];
-    if (dadosLua) {
-        const msgLua = getMensagem(dadosLua);
-        if (msgLua) blocos.push(msgLua);
-    }
+    const luaCtxSimbolo = simbolo.fase_lua?.[luaKey] || '';
+    const msgLua        = getMensagem(LEITURA_DATA.fasesLua?.[luaKey]) || '';
+    const msgSigno      = (signoNome && LEITURA_DATA.signos?.[signoNome]?.sonho) || '';
+    const msgNumCaminho = (numCaminho && LEITURA_DATA.numerologiaCaminho?.[String(numCaminho)]?.sonho) || '';
+    const numSimbolo    = simbolo.numerologia
+        ? `Número do símbolo: ${simbolo.numerologia.numero_simbolo} — ${simbolo.numerologia.significado_numero}`
+        : '';
 
-    // 11. SIGNO
-    const signoNome = calcularSigno(userData.nascimento);
-    if (signoNome && LEITURA_DATA.signos) {
-        const dadosSigno = LEITURA_DATA.signos[signoNome];
-        if (dadosSigno?.sonho) blocos.push(dadosSigno.sonho);
-    }
+    const secao4 = {
+        titulo: 'OS ASTROS DESTA NOITE',
+        texto: junta(
+            `Lua ${lua.name}: ${lua.description}`,
+            luaCtxSimbolo, msgLua,
+            signoNome ? `${signoNome}: ${msgSigno}` : '',
+            msgNumCaminho,
+            numSimbolo
+        )
+    };
 
-    // 12. NUMEROLOGIA — caminho de vida
-    const numCaminho = calcularCaminhoDeVida(userData.nascimento);
-    if (numCaminho && LEITURA_DATA.numerologiaCaminho) {
-        const dadosNum = LEITURA_DATA.numerologiaCaminho[String(numCaminho)];
-        if (dadosNum?.sonho) blocos.push(dadosNum.sonho);
-    }
+    // ── SEÇÃO 5 — AMOR E FINANÇAS (contexto de vida) ──────────
+    // Foco: situação declarada cruzada com o símbolo.
 
-    // 13. SITUAÇÃO AMOR
-    const situAmorKey = normalizar(detalhes.amor?.[0] || '');
-    const dadosSituAmor = LEITURA_DATA.situacaoAmor?.[situAmorKey];
-    if (dadosSituAmor) {
-        const msgAmor = dadosSituAmor.combinacao_sonho || getMensagem(dadosSituAmor);
-        if (msgAmor) blocos.push(msgAmor);
-    }
+    const msgSituAmor = LEITURA_DATA.situacaoAmor?.[situAmorKey]
+        ? (LEITURA_DATA.situacaoAmor[situAmorKey].combinacao_sonho || getMensagem(LEITURA_DATA.situacaoAmor[situAmorKey]))
+        : '';
+    const msgSituFin  = LEITURA_DATA.situacaoFinancas?.[situFinKey]
+        ? (LEITURA_DATA.situacaoFinancas[situFinKey].combinacao_sonho || getMensagem(LEITURA_DATA.situacaoFinancas[situFinKey]))
+        : '';
 
-    // 14. SITUAÇÃO FINANÇAS
-    const situFinKey = normalizar(detalhes.financas?.[0] || '');
-    const dadosSituFin = LEITURA_DATA.situacaoFinancas?.[situFinKey];
-    if (dadosSituFin) {
-        const msgFin = dadosSituFin.combinacao_sonho || getMensagem(dadosSituFin);
-        if (msgFin) blocos.push(msgFin);
-    }
+    const secao5 = {
+        titulo: 'COMO VOCÊ ESTÁ',
+        texto: junta(msgSituAmor, msgSituFin)
+    };
 
-    // 15. ALERTA E AÇÃO RECOMENDADA do símbolo
-    if (simbolo.alerta) blocos.push(`⚠ ${simbolo.alerta}`);
-    if (simbolo.acao_recomendada) blocos.push(`→ ${simbolo.acao_recomendada}`);
+    // ── SEÇÃO 6 — RECOMENDAÇÃO FINAL ─────────────────────────
+    // Foco: alerta + ação. Sempre presente.
 
-    // Une os blocos em parágrafos, ignorando nulos/vazios
-    const texto = blocos
-        .filter(b => b && b.trim().length > 0)
-        .join('\n\n');
+    const secao6 = {
+        titulo: 'A RECOMENDAÇÃO',
+        texto: junta(
+            simbolo.alerta || '',
+            simbolo.acao_recomendada || ''
+        )
+    };
 
-    return { titulo: 'O QUE SEU SONHO DIZ', texto };
+    // ── ORDEM POR TRILHA ──────────────────────────────────────
+
+    const ordens = {
+        significado: [secao1, secao2, secao3, secao4, secao5, secao6],
+        amor:        [secao1, secao5, secao3, secao4, secao2, secao6],
+        mente:       [secao1, secao3, secao2, secao4, secao5, secao6],
+        sorte:       [secao1, secao4, secao5, secao3, secao2, secao6]
+    };
+
+    return ordens[trilha] || ordens.significado;
 }
 
 // ─── JOGO DO BICHO ────────────────────────────────────────────
