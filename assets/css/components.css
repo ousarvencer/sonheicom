@@ -497,3 +497,52 @@
     color: var(--gold-color);
     box-shadow: 3px 3px 0px var(--gold-dim);
 }
+
+/* ── RESULTADO ── */
+.result-block {
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #2a0050;
+}
+
+.result-block h3 {
+    font-size: 9px;
+    letter-spacing: 3px;
+    color: var(--gold-color);
+    margin-bottom: 20px;
+}
+
+.result-block p {
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    line-height: 2.2;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: var(--text-color);
+}
+
+.sorte-simbolo-nome {
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: var(--gold-color);
+    margin-bottom: 10px;
+}
+
+.sorte-label,
+.sorte-valor,
+.sorte-numeros {
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.sorte-linha {
+    margin-bottom: 8px;
+}
+
+.sorte-separador {
+    margin: 16px 0;
+    color: var(--text-dim);
+    font-size: 9px;
+}
+
