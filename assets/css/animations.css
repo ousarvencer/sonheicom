@@ -3,7 +3,7 @@
    ============================================= */
 
 /* ------------------------------------------
-   KEYFRAMES EXISTENTES
+   KEYFRAMES
    ------------------------------------------ */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
@@ -15,38 +15,15 @@
     to   { opacity: 0; }
 }
 
+/* Bola de cristal do loading — glow no SVG, sem quadrado */
 @keyframes pulseBall {
-    0%   { background-color: #2a0040; transform: scale(1); }
-    50%  { background-color: #9b30ff; transform: scale(1.1); }
-    100% { background-color: #e8d5ff; transform: scale(1); }
+    0%   { filter: drop-shadow(0 0 6px #7c3aed88);  transform: scale(1); }
+    50%  { filter: drop-shadow(0 0 20px #a855f7cc) drop-shadow(0 0 40px #c084fc66); transform: scale(1.08); }
+    100% { filter: drop-shadow(0 0 6px #7c3aed88);  transform: scale(1); }
 }
 
 /* ------------------------------------------
-   NOVOS KEYFRAMES — favicon oráculo
-   ------------------------------------------ */
-
-/* Levitação suave */
-@keyframes oraclFloat {
-    0%   { transform: translateY(0px); }
-    50%  { transform: translateY(-7px); }
-    100% { transform: translateY(0px); }
-}
-
-/* Glow roxo pulsante via drop-shadow */
-@keyframes oracleGlow {
-    0%   { filter: drop-shadow(0 0 4px #7c3aed88) drop-shadow(0 0 8px #a855f744); }
-    50%  { filter: drop-shadow(0 0 12px #a855f7cc) drop-shadow(0 0 24px #c084fc88); }
-    100% { filter: drop-shadow(0 0 4px #7c3aed88) drop-shadow(0 0 8px #a855f744); }
-}
-
-/* Entrada do favicon com fade + descida */
-@keyframes oracleReveal {
-    from { opacity: 0; transform: translateY(-12px) scale(0.85); }
-    to   { opacity: 1; transform: translateY(0px)  scale(1); }
-}
-
-/* ------------------------------------------
-   CLASSES EXISTENTES
+   CLASSES
    ------------------------------------------ */
 .pulse {
     animation: pulseBall 1.5s infinite;
@@ -90,25 +67,4 @@
 .result-block--hero p {
     font-size: 10px;
     line-height: 2;
-}
-
-/* ------------------------------------------
-   FAVICON ORÁCULO — elemento decorativo
-   Adicione <img class="oracle-icon" src="assets/sonheicom-favicon.svg" alt="">
-   no topo do .result-block--hero no HTML
-   ------------------------------------------ */
-.oracle-icon {
-    display: block;
-    width: 56px;
-    height: 56px;
-    margin: 0 auto 16px auto;
-
-    /* Entrada suave ao aparecer junto com o fade-in-block */
-    animation:
-        oracleReveal 0.9s ease forwards,
-        oraclFloat   3.6s ease-in-out 0.9s infinite,
-        oracleGlow   3.6s ease-in-out 0.9s infinite;
-
-    /* Garante que não aparece antes da animação de entrada terminar */
-    opacity: 0;
 }
