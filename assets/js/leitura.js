@@ -70,7 +70,9 @@ function getLeitura(simbolo, campo) {
 }
 
 // Normaliza string para chave de JSON (minúsculo, sem acento, sem espaço)
-function normalizar(str) {
+function val(campo) {
+    return Array.isArray(campo) ? campo[0] : campo || '';
+}
     if (!str) return '';
     return str.toLowerCase()
         .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
