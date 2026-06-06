@@ -232,9 +232,7 @@ const htmlSorte = `
         if (secao.titulo === 'COMO VOCÊ ESTÁ') {
             cartoes.push({
                 titulo: secao.titulo,
-                html: secao.texto
-                    ? `<p>${secao.texto.replace(/\n\n/g, '</p><p>')}</p>` + htmlBarras
-                    : htmlBarras
+                html: `<p>${secao.texto.replace(/\n\n/g, '</p><p>')}</p>`
             });
             return;
         }
