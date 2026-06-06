@@ -202,6 +202,7 @@ function calcularStatus(userData, simbolo) {
 
 function generateInterpretation(userData, symbols) {
     const simbolo = symbols[0] || {};
+    const todosSimbolos = symbols.filter(s => s && s.simbolo);
     const nome = userData.nome || 'Você';
     const detalhes = userData.detalhes || {};
     const trilha = (userData.trilha || 'significado').toLowerCase();
