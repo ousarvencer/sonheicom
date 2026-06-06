@@ -269,8 +269,8 @@ function nextPergunta() {
     if (p.tipo === 'hora') {
         currentUserData.detalhes['hora'] = horasOpcoes[horaIdx];
     } else {
-        const selected = Array.from(document.querySelectorAll('#etapa3-grid .selected')).map(c => c.textContent);
-        currentUserData.detalhes[p.key] = selected;
+        const selected = Array.from(document.querySelectorAll('#etapa3-grid .selected')).map(c => c.textContent.trim());
+        currentUserData.detalhes[p.key] = p.multiplo ? selected : (selected[0] || '');
     }
 
     currentPergunta++;
