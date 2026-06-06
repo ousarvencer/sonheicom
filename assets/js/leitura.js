@@ -371,11 +371,20 @@ function generateInterpretation(userData, symbols) {
     // ── SEÇÃO 5 — AMOR E FINANÇAS (contexto de vida) ──────────
     // Foco: situação declarada cruzada com o símbolo.
 
-    const msgSituAmor = LEITURA_DATA.situacaoAmor?.[situAmorKey]
-        ? (LEITURA_DATA.situacaoAmor[situAmorKey].combinacao_sonho || getMensagem(LEITURA_DATA.situacaoAmor[situAmorKey]))
+    const dadosAmor = LEITURA_DATA.situacaoAmor?.[situAmorKey];
+    const msgSituAmor = dadosAmor
+        ? [
+            dadosAmor.impacto_leitura,
+            dadosAmor.mensagem_adicional
+          ].filter(Boolean).join('\n\n')
         : '';
-    const msgSituFin  = LEITURA_DATA.situacaoFinancas?.[situFinKey]
-        ? (LEITURA_DATA.situacaoFinancas[situFinKey].combinacao_sonho || getMensagem(LEITURA_DATA.situacaoFinancas[situFinKey]))
+
+    const dadosFin = LEITURA_DATA.situacaoFinancas?.[situFinKey];
+    const msgSituFin = dadosFin
+        ? [
+            dadosFin.impacto_leitura,
+            dadosFin.mensagem_adicional
+          ].filter(Boolean).join('\n\n')
         : '';
 
     const secao5 = {
