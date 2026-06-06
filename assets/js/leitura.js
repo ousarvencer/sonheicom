@@ -126,37 +126,71 @@ function calcularCaminhoDeVida(nascimento) {
 function calcularStatus(userData, simbolo) {
     let mente = 50, amor = 50, financas = 50;
 
-    // Emoção
-    const emocao = (userData.detalhes?.emocao?.[0] || '').toLowerCase();
-    if (['paz', 'alegria'].includes(emocao)) mente += 20;
-    if (['medo', 'angústia', 'angustia', 'raiva'].includes(emocao)) mente -= 15;
-    if (emocao === 'alegria') amor += 15;
-    if (['raiva', 'angústia', 'angustia'].includes(emocao)) amor -= 10;
+    // ── ELEMENTO DO SÍMBOLO (peso alto) ──────────────────────
+    const elemento = (simbolo.elemento || '').toLowerCase();
+    if (elemento === 'água')   { amor += 15; mente += 10; }
+    if (elemento === 'fogo')   { financas += 15; mente -= 5; }
+    if (elemento === 'terra')  { financas += 10; amor += 5; }
+    if (elemento === 'ar')     { mente += 15; }
 
-    // Situação amor
-    const situAmor = (userData.detalhes?.amor?.[0] || '').toLowerCase();
-    if (situAmor === 'bem') amor += 25;
-    if (situAmor === 'mais ou menos') amor += 5;
-    if (situAmor === 'mal') amor -= 20;
+    // ── NUMEROLOGIA DO SÍMBOLO (peso médio) ──────────────────
+    const numSimbolo = simbolo.numerologia?.numero_simbolo || 0;
+    if ([2, 6, 9].includes(numSimbolo)) amor += 10;
+    if ([1, 8].includes(numSimbolo))    financas += 10;
+    if ([7, 11].includes(numSimbolo))   mente += 10;
 
-    // Situação finanças
-    const situFin = (userData.detalhes?.financas?.[0] || '').toLowerCase();
-    if (situFin === 'tranquilo') financas += 30;
-    if (situFin === 'apertado') financas -= 10;
-    if (situFin === 'crítico' || situFin === 'critico') financas -= 25;
+    // ── FASE DA LUA (peso médio) ──────────────────────────────
+    const lua = getMoonPhase(new Date());
+    const luaKey = normalizar(lua.name);
+    if (luaKey === 'cheia')     { amor += 12; mente += 8; }
+    if (luaKey === 'crescente') { financas += 12; mente += 5; }
+    if (luaKey === 'nova')      { mente += 10; financas += 5; }
+    if (luaKey === 'minguante') { mente += 8; amor -= 5; financas -= 5; }
 
-    // Trilha amplifica o campo correspondente
-    const trilha = (userData.trilha || '').toLowerCase();
-    if (trilha === 'mente') mente += 15;
-    if (trilha === 'amor') amor += 15;
-    if (trilha === 'sorte') financas += 15;
+    // ── EMOÇÃO DO SONHO (peso alto) ───────────────────────────
+    const emocao = normalizar(userData.detalhes?.emocao?.[0] || '');
+    if (['paz', 'alegria'].includes(emocao))                    { mente += 18; amor += 10; }
+    if (['medo', 'angustia', 'raiva'].includes(emocao))         { mente -= 12; amor -= 8; }
+    if (emocao === 'alegria')                                     amor += 8;
+    if (['raiva', 'angustia'].includes(emocao))                   financas -= 8;
 
-    // Despertar
+    // ── DESPERTAR (peso médio) ────────────────────────────────
     const despertar = userData.detalhes?.despertar || [];
-    if (despertar.some(d => ['LEVEZA', 'SENSAÇÃO DE PAZ'].includes(d))) mente += 10;
-    if (despertar.some(d => ['SUOR FRIO', 'CORAÇÃO ACELERADO', 'PESO NO PEITO'].includes(d))) mente -= 10;
+    const dNorm = despertar.map(d => normalizar(d));
+    if (dNorm.some(d => ['leveza', 'sensacao_de_paz'].includes(d)))           { mente += 12; amor += 8; }
+    if (dNorm.some(d => ['suor_frio', 'coracao_acelerado', 'peso_no_peito'].includes(d))) { mente -= 10; }
+    if (dNorm.includes('chorando'))   { amor -= 8; mente -= 5; }
+    if (dNorm.includes('aliviado'))   { mente += 8; amor += 5; }
 
-    // Clamp 0-100
+    // ── RECORRÊNCIA (peso médio) ──────────────────────────────
+    const recorrente = normalizar(userData.detalhes?.recorrente?.[0] || '');
+    if (recorrente === 'sim') mente -= 10;
+    if (recorrente === 'nao') mente += 5;
+
+    // ── PERÍODO DO SONHO (peso leve) ─────────────────────────
+    const periodo = normalizar(userData.detalhes?.periodo?.[0] || '');
+    if (periodo === 'noite' || periodo === 'madrugada') mente += 5;
+    if (periodo === 'dia') financas += 5;
+
+    // ── SITUAÇÃO DECLARADA (peso secundário — 30%) ────────────
+    const situAmor = normalizar(userData.detalhes?.amor?.[0] || '');
+    if (situAmor === 'bem')           amor += 10;
+    if (situAmor === 'mais_ou_menos') amor += 3;
+    if (situAmor === 'mal')           amor -= 8;
+
+    const situFin = normalizar(userData.detalhes?.financas?.[0] || '');
+    if (situFin === 'tranquilo')             financas += 12;
+    if (situFin === 'apertado')              financas -= 5;
+    if (situFin === 'critico')               financas -= 10;
+
+    // ── TRILHA AMPLIFICA (peso médio) ────────────────────────
+    const trilha = (userData.trilha || '').toLowerCase();
+    if (trilha === 'mente')      mente    += 15;
+    if (trilha === 'amor')       amor     += 15;
+    if (trilha === 'sorte')      financas += 15;
+    if (trilha === 'significado') { mente += 5; amor += 5; financas += 5; }
+
+    // ── CLAMP 0-100 ───────────────────────────────────────────
     return {
         mente:    Math.min(100, Math.max(5, mente)),
         amor:     Math.min(100, Math.max(5, amor)),
