@@ -146,18 +146,25 @@ function renderResultados() {
     // ── SÍMBOLO PRINCIPAL ─────────────────────────────────────
     // Corrige o bug: busca por slug E por simbolo, case-insensitive
     const allSelected = [].concat(...Object.values(currentUserData.selecoes));
-    const mainSymbolData = SIMBOLOS.find(s =>
+
+    // Busca TODOS os símbolos selecionados, não só o primeiro
+    const simbolosEncontrados = SIMBOLOS.filter(s =>
         allSelected.some(sel => {
             const selNorm = normalizar(sel);
             return selNorm === normalizar(s.simbolo) ||
                    selNorm === normalizar(s.slug) ||
                    (s.sinonimos || []).some(sin => normalizar(sin) === selNorm);
         })
-    ) || SIMBOLOS.find(s => s.jogo_bicho) || SIMBOLOS[0];
+    );
 
-    const bicho  = getBichoData(mainSymbolData);
+    // Fallback se nenhum símbolo for encontrado
+        const simbolosUsados = simbolosEncontrados.length > 0
+        ? simbolosEncontrados
+        : [SIMBOLOS.find(s => s.jogo_bicho) || SIMBOLOS[0]];
+
+    const mainSymbolData = simbolosUsados[0];
     const status = calcularStatus(currentUserData, mainSymbolData);
-    const secoes = generateInterpretation(currentUserData, [mainSymbolData]);
+    const secoes = generateInterpretation(currentUserData, simbolosUsados);
     const trilha = (currentUserData.trilha || 'significado').toLowerCase();
 
     // ── CARTÃO DE BARRAS RPG ──────────────────────────────────
