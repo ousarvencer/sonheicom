@@ -98,7 +98,9 @@ function setupEtapa1() {
     });
 
     btnEntrar.onclick = () => {
-        currentUserData.nome = inputNome.value.trim();
+        window.currentUserData.nome = inputNome.value.trim();
+        window.currentUserData.nascimento = (dia && mes && ano) ? `${dia}/${mes}/${ano}` : '';
+        window.currentUserData.trilha = target.dataset.trilha;
         const dia = document.getElementById('nasc-dia')?.value || '';
         const mes = document.getElementById('nasc-mes')?.value || '';
         const ano = document.getElementById('nasc-ano')?.value || '';
