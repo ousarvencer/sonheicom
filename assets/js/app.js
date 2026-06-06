@@ -143,80 +143,105 @@ function renderResultados() {
     const resultsContainer = document.getElementById('resultados');
     resultsContainer.innerHTML = '';
 
-    // Símbolo principal: primeiro selecionado encontrado nos JSONs
+    // ── SÍMBOLO PRINCIPAL ─────────────────────────────────────
+    // Corrige o bug: busca por slug E por simbolo, case-insensitive
     const allSelected = [].concat(...Object.values(currentUserData.selecoes));
-    const mainSymbolData = SIMBOLOS.find(s => allSelected.includes(s.simbolo)) || SIMBOLOS[0];
-    const bicho = getBichoData(mainSymbolData);
+    const mainSymbolData = SIMBOLOS.find(s =>
+        allSelected.some(sel =>
+            normalizar(sel) === normalizar(s.simbolo) ||
+            normalizar(sel) === normalizar(s.slug)
+        )
+    ) || SIMBOLOS[0];
 
-    // Barras de status calculadas pelo leitura.js
+    const bicho  = getBichoData(mainSymbolData);
     const status = calcularStatus(currentUserData, mainSymbolData);
+    const secoes = generateInterpretation(currentUserData, [mainSymbolData]);
+    const trilha = (currentUserData.trilha || 'significado').toLowerCase();
 
-    // Fase da lua via lua.js
-    const lua = getMoonPhase(new Date());
+    // ── CARTÃO DE BARRAS RPG ──────────────────────────────────
+    // Destaca a barra relevante conforme a trilha
+    const barraDestaque = { mente: 'mente', amor: 'amor', sorte: 'financas', significado: null };
+    const barraFoco = barraDestaque[trilha] || null;
 
-    const blocks = [
-        {
-            id: 1,
-            title: "O QUE SEU SONHO DIZ",
-            content: generateInterpretation(currentUserData, [mainSymbolData]).texto,
-            hero: true
-        },
-        {
-            id: 2,
-            title: "SEU ANIMAL DA SORTE",
-            content: `Animal: ${bicho.animal}<br>
-                      Grupo: ${bicho.grupo}<br>
-                      Dezenas: ${bicho.dezenas.join(', ')}<br>
-                      Milhar: ${bicho.milhar_sugerido}`
-        },
-        {
-            id: 3,
-            title: "SEUS NÚMEROS DE HOJE",
-            content: `<span style="color:var(--gold-color); font-size:14px;">
-                        ${generateLuckyNumbers(currentUserData.nome).join(' - ')}
-                      </span>`
-        },
-        {
-            id: 4,
-            title: `TRILHA: ${currentUserData.trilha.toUpperCase()}`,
-            content: (mainSymbolData.leituras || mainSymbolData.leitures || {})[`trilha_${currentUserData.trilha.toLowerCase()}`] || ''
-        },
-        {
-            id: 5,
-            title: "COMO VOCÊ ESTÁ",
-            content: `
-                <div class="rpg-bar-container">
-                    <div class="rpg-label">MENTE</div>
-                    <div class="rpg-bar-bg">
-                        <div class="rpg-bar-fill green" style="width:${status.mente}%"></div>
-                    </div>
+    function renderBarra(label, valor, cor, chave) {
+        const destaque = barraFoco === chave ? 'rpg-bar-destaque' : '';
+        return `
+            <div class="rpg-bar-container ${destaque}">
+                <div class="rpg-label">${label}</div>
+                <div class="rpg-bar-bg">
+                    <div class="rpg-bar-fill ${cor}" style="width:${valor}%"></div>
                 </div>
-                <div class="rpg-bar-container">
-                    <div class="rpg-label">AMOR</div>
-                    <div class="rpg-bar-bg">
-                        <div class="rpg-bar-fill yellow" style="width:${status.amor}%"></div>
-                    </div>
-                </div>
-                <div class="rpg-bar-container">
-                    <div class="rpg-label">FINANÇAS</div>
-                    <div class="rpg-bar-bg">
-                        <div class="rpg-bar-fill red" style="width:${status.financas}%"></div>
-                    </div>
-                </div>
-            `
-        },
-        {
-            id: 6,
-            title: "A LUA ESTA NOITE",
-            content: `Fase: ${lua.name} — ${lua.description}`
+                <div class="rpg-bar-valor">${valor}</div>
+            </div>`;
+    }
+
+    const htmlBarras = renderBarra('MENTE',    status.mente,    'green',  'mente')
+                     + renderBarra('AMOR',     status.amor,     'yellow', 'amor')
+                     + renderBarra('FINANÇAS', status.financas, 'red',    'financas');
+
+    // ── CARTÃO DE SORTE ───────────────────────────────────────
+    const numeros = generateLuckyNumbers(currentUserData.nome);
+    const htmlSorte = `
+        <div class="sorte-bloco">
+            <div class="sorte-linha">
+                <span class="sorte-label">ANIMAL</span>
+                <span class="sorte-valor">${bicho.animal} — Grupo ${bicho.grupo}</span>
+            </div>
+            <div class="sorte-linha">
+                <span class="sorte-label">DEZENAS</span>
+                <span class="sorte-valor">${bicho.dezenas.join(' · ')}</span>
+            </div>
+            <div class="sorte-linha">
+                <span class="sorte-label">MILHAR</span>
+                <span class="sorte-valor">${bicho.milhar_sugerido}</span>
+            </div>
+            <div class="sorte-linha">
+                <span class="sorte-label">NÚMEROS</span>
+                <span class="sorte-valor sorte-numeros">${numeros.join(' — ')}</span>
+            </div>
+        </div>`;
+
+    // ── MONTA CARTÕES NA ORDEM DA TRILHA ─────────────────────
+    // secoes = array de { titulo, texto } retornado pelo leitura.js
+    // Injeta cartão de sorte após seção 1, barras RPG na seção COMO VOCÊ ESTÁ
+
+    const cartoes = [];
+
+    secoes.forEach((secao, index) => {
+        if (!secao.texto || !secao.texto.trim()) return;
+
+        // Seção COMO VOCÊ ESTÁ recebe as barras RPG
+        if (secao.titulo === 'COMO VOCÊ ESTÁ') {
+            cartoes.push({
+                titulo: secao.titulo,
+                html: secao.texto
+                    ? `<p>${secao.texto.replace(/\n\n/g, '</p><p>')}</p>` + htmlBarras
+                    : htmlBarras
+            });
+            return;
         }
-    ];
 
-    blocks.forEach((block, index) => {
+        cartoes.push({
+            titulo: secao.titulo,
+            html: `<p>${secao.texto.replace(/\n\n/g, '</p><p>')}</p>`
+        });
+
+        // Injeta cartão de sorte após o primeiro cartão (mensagem central)
+        if (index === 0) {
+            cartoes.push({
+                titulo: trilha === 'sorte' ? 'SUA SORTE EM DESTAQUE' : 'ANIMAL E NÚMEROS DA SORTE',
+                html: htmlSorte,
+                sorte: true
+            });
+        }
+    });
+
+    // ── RENDERIZA ─────────────────────────────────────────────
+    cartoes.forEach((cartao, index) => {
         const div = document.createElement('div');
-        div.className = `result-block ${block.hero ? 'result-block--hero' : ''} fade-in-block`;
-        div.style.animationDelay = `${index * 1.5}s`;
-        div.innerHTML = `<h3>${block.title}</h3><p>${block.content}</p>`;
+        div.className = `result-block fade-in-block${cartao.sorte ? ' result-block--sorte' : ''}`;
+        div.style.animationDelay = `${index * 1.2}s`;
+        div.innerHTML = `<h3>◆ ${cartao.titulo}</h3>${cartao.html}`;
         resultsContainer.appendChild(div);
     });
 
