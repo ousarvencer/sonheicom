@@ -221,17 +221,15 @@ function generateInterpretation(userData, symbols) {
 
     // ── COLETA DE DADOS ───────────────────────────────────────
 
-    const emocaoKey = normalizar(
-        Array.isArray(detalhes.emocao) ? detalhes.emocao[0] : detalhes.emocao || ''
-    );
-    const cenarioKey    = normalizar(detalhes.cenario?.[0] || '');
-    const periodoKey    = normalizar(detalhes.periodo?.[0] || '');
-    const corKey        = normalizar(detalhes.cor_sonho?.[0] || '');
-    const memoriaKey    = normalizar(detalhes.memoria?.[0] || '');
-    const recorrenteKey = normalizar(detalhes.recorrente?.[0] || '');
+    const emocaoKey     = normalizar(val(detalhes.emocao));
+    const cenarioKey    = normalizar(val(detalhes.cenario));
+    const periodoKey    = normalizar(val(detalhes.periodo));
+    const corKey        = normalizar(val(detalhes.cor_sonho));
+    const memoriaKey    = normalizar(val(detalhes.memoria));
+    const recorrenteKey = normalizar(val(detalhes.recorrente));
     const despertar     = detalhes.despertar || [];
-    const situAmorKey   = normalizar(detalhes.amor?.[0] || '');
-    const situFinKey    = normalizar(detalhes.financas?.[0] || '');
+    const situAmorKey   = normalizar(val(detalhes.amor));
+    const situFinKey    = normalizar(val(detalhes.financas));
 
     const lua        = getMoonPhase(new Date());
     const luaKey     = normalizar(lua.name);
