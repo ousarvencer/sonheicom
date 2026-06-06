@@ -196,7 +196,7 @@ function renderSubEtapa() {
 }
 
 function nextSubEtapa() {
-    const selected = Array.from(document.querySelectorAll('#grid-sub-etapa .selected')).map(c => c.textContent);
+    const selected = Array.from(document.querySelectorAll('#grid-sub-etapa .selected')).map(c => c.textContent.trim());
     currentUserData.selecoes[subEtapas[currentSubEtapa]] = selected;
     currentSubEtapa++;
     if (currentSubEtapa < subEtapas.length) {
