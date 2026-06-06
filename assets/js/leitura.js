@@ -43,9 +43,19 @@ let LEITURA_DATA = {};
 // ─── HELPERS ─────────────────────────────────────────────────
 
 // Busca mensagem_direta ou mensagem em um objeto de apoio
-function getMensagem(obj) {
+function getMensagem(obj, contextoSimbolo) {
     if (!obj) return null;
-    return obj.mensagem_direta || obj.mensagem || null;
+    const partes = [
+        obj.mensagem_direta,
+        obj.combinacao_simbolo && contextoSimbolo
+            ? `${obj.combinacao_simbolo} (${contextoSimbolo})`
+            : obj.combinacao_simbolo,
+        obj.descricao_sonho,
+        obj.significado_psicologico,
+        obj.impacto_leitura,
+        obj.mensagem
+    ].filter(Boolean);
+    return partes.length ? partes.join('\n\n') : null;
 }
 
 // Busca campo dentro de simbolo.contextos com fallback silencioso
