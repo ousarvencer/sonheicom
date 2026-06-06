@@ -153,7 +153,7 @@ function renderResultados() {
                    selNorm === normalizar(s.slug) ||
                    (s.sinonimos || []).some(sin => normalizar(sin) === selNorm);
         })
-    ) || SIMBOLOS.find(s => s.jogo_bicho) || SIMBOLOS[0];MBOLOS[0];
+    ) || SIMBOLOS.find(s => s.jogo_bicho) || SIMBOLOS[0];SIMBOLOS[0];
 
     const bicho  = getBichoData(mainSymbolData);
     const status = calcularStatus(currentUserData, mainSymbolData);
