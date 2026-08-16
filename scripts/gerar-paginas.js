@@ -14,6 +14,23 @@ const SIMBOLOS_DIR = path.resolve(__dirname, '../data/simbolos');
 
 const AMAZON_LINK = 'https://amzn.to/4vrU5Ge';
 
+// Tabela central do jogo do bicho — símbolos referenciam via jogo_bicho_ref
+// em vez de carregar o bloco embutido (isso elimina o bug de duplicação/erro).
+const JOGO_BICHO_PATH = path.resolve(__dirname, '../data/jogo-bicho.json');
+const JOGO_BICHO = fs.existsSync(JOGO_BICHO_PATH)
+  ? JSON.parse(fs.readFileSync(JOGO_BICHO_PATH, 'utf8'))
+  : {};
+
+// Resolve os dados de jogo do bicho de um símbolo: prioriza jogo_bicho_ref
+// (novo padrão, aponta pra tabela central); cai pro jogo_bicho embutido
+// (padrão antigo) só se o símbolo ainda não foi migrado.
+function resolverJogoBicho(s) {
+  if (s.jogo_bicho_ref && JOGO_BICHO[s.jogo_bicho_ref]) {
+    return JOGO_BICHO[s.jogo_bicho_ref];
+  }
+  return s.jogo_bicho || null;
+}
+
 // Arquivos de símbolos a processar
 const ARQUIVOS_SIMBOLOS = [
   'animais.json',
@@ -302,7 +319,7 @@ function conteudoBase(s) {
     blocoPsicologia(s.psicologia),
     blocoMitologia(s.mitologia),
     blocoFasesLua(s.fase_lua),
-    blocoBicho(s.jogo_bicho, s.simbolo),
+    blocoBicho(resolverJogoBicho(s), s.simbolo),
   ].filter(Boolean).join('');
 }
 
@@ -316,7 +333,7 @@ function conteudoEmocao(s, emocao) {
     blocoTexto('⚠ Atenção', s.alerta),
     blocoPsicologia(s.psicologia),
     blocoFasesLua(s.fase_lua),
-    blocoBicho(s.jogo_bicho, s.simbolo),
+    blocoBicho(resolverJogoBicho(s), s.simbolo),
   ].filter(Boolean).join('');
 }
 
@@ -328,7 +345,7 @@ function conteudoFaseLua(s, fase) {
     blocoTexto('◆ Interpretação Geral', s.leitures?.geral),
     blocoFasesLua(s.fase_lua),
     blocoPsicologia(s.psicologia),
-    blocoBicho(s.jogo_bicho, s.simbolo),
+    blocoBicho(resolverJogoBicho(s), s.simbolo),
   ].filter(Boolean).join('');
 }
 
@@ -342,7 +359,7 @@ function conteudoPeriodo(s, periodo) {
     blocoTexto('⚠ Atenção', s.alerta),
     blocoPsicologia(s.psicologia),
     blocoFasesLua(s.fase_lua),
-    blocoBicho(s.jogo_bicho, s.simbolo),
+    blocoBicho(resolverJogoBicho(s), s.simbolo),
   ].filter(Boolean).join('');
 }
 
@@ -356,7 +373,7 @@ function conteudoCenario(s, cenario) {
     blocoTexto('⚠ Atenção', s.alerta),
     blocoPsicologia(s.psicologia),
     blocoFasesLua(s.fase_lua),
-    blocoBicho(s.jogo_bicho, s.simbolo),
+    blocoBicho(resolverJogoBicho(s), s.simbolo),
   ].filter(Boolean).join('');
 }
 
@@ -369,10 +386,10 @@ function conteudoTrilha(s, trilha) {
     blocoTexto(`${icon} ${s.simbolo} — Trilha ${trilhaLabel(trilha)}`, textoTrilha),
     blocoTexto('✦ Mensagem Principal', s.mensagem_direta),
     blocoTexto('◆ Interpretação Geral', s.leitures?.geral),
-    trilha === 'sorte' ? blocoBicho(s.jogo_bicho, s.simbolo) : '',
+    trilha === 'sorte' ? blocoBicho(resolverJogoBicho(s), s.simbolo) : '',
     trilha === 'mente' ? blocoPsicologia(s.psicologia) : '',
     blocoFasesLua(s.fase_lua),
-    trilha !== 'sorte' ? blocoBicho(s.jogo_bicho, s.simbolo) : '',
+    trilha !== 'sorte' ? blocoBicho(resolverJogoBicho(s), s.simbolo) : '',
   ].filter(Boolean).join('');
 }
 
@@ -499,42 +516,60 @@ function main() {
   const slugsGerados = [];
 
   for (const arquivo of ARQUIVOS_SIMBOLOS) {
+    const categoria = arquivo.replace(/\.json$/, '');
+    const pastaFracionada = path.join(SIMBOLOS_DIR, categoria);
     const filePath = path.join(SIMBOLOS_DIR, arquivo);
-    if (!fs.existsSync(filePath)) {
-      console.warn(`⚠ Arquivo não encontrado: ${arquivo}`);
-      continue;
-    }
 
-    const raw = fs.readFileSync(filePath, 'utf8');
-    let data;
-    try {
-      data = JSON.parse(raw);
-    } catch (e) {
-      console.error(`✗ Erro ao parsear ${arquivo}:`, e.message);
-      continue;
-    }
-
-    // Suporte a estruturas:
-    // 1. Array: [ { simbolo: "Cobra", ... } ]
-    // 2. Objeto direto: { "cobra": { simbolo: "Cobra", ... } }
-    // 3. Objeto aninhado: { "animais": { "cobra": { simbolo: "Cobra", ... } } }
     let simbolos = [];
-    if (Array.isArray(data)) {
-      simbolos = data;
-    } else {
-      const values = Object.values(data);
-      if (values.length > 0 && values[0] && typeof values[0] === 'object' && values[0].simbolo) {
-        simbolos = values;
-      } else {
-        simbolos = values.flatMap(v => {
-          if (Array.isArray(v)) return v;
-          if (v && typeof v === 'object') return Object.values(v);
-          return [];
-        });
-      }
-    }
 
-    console.log(`\n✦ Processando ${arquivo} — ${simbolos.length} símbolos`);
+    // Preferência: pasta fracionada (data/simbolos/<categoria>/*.json), um
+    // arquivo por símbolo. Se não existir, cai pro arquivo flat original
+    // (data/simbolos/<categoria>.json) — assim categorias ainda não
+    // fracionadas continuam funcionando sem quebrar nada.
+    if (fs.existsSync(pastaFracionada) && fs.statSync(pastaFracionada).isDirectory()) {
+      const arquivosSimbolo = fs.readdirSync(pastaFracionada).filter(f => f.endsWith('.json'));
+      for (const f of arquivosSimbolo) {
+        try {
+          const s = JSON.parse(fs.readFileSync(path.join(pastaFracionada, f), 'utf8'));
+          simbolos.push(s);
+        } catch (e) {
+          console.error(`✗ Erro ao parsear ${categoria}/${f}:`, e.message);
+        }
+      }
+      console.log(`\n✦ Processando ${categoria}/ (pasta fracionada) — ${simbolos.length} símbolos`);
+    } else if (fs.existsSync(filePath)) {
+      const raw = fs.readFileSync(filePath, 'utf8');
+      let data;
+      try {
+        data = JSON.parse(raw);
+      } catch (e) {
+        console.error(`✗ Erro ao parsear ${arquivo}:`, e.message);
+        continue;
+      }
+
+      // Suporte a estruturas:
+      // 1. Array: [ { simbolo: "Cobra", ... } ]
+      // 2. Objeto direto: { "cobra": { simbolo: "Cobra", ... } }
+      // 3. Objeto aninhado: { "animais": { "cobra": { simbolo: "Cobra", ... } } }
+      if (Array.isArray(data)) {
+        simbolos = data;
+      } else {
+        const values = Object.values(data);
+        if (values.length > 0 && values[0] && typeof values[0] === 'object' && values[0].simbolo) {
+          simbolos = values;
+        } else {
+          simbolos = values.flatMap(v => {
+            if (Array.isArray(v)) return v;
+            if (v && typeof v === 'object') return Object.values(v);
+            return [];
+          });
+        }
+      }
+      console.log(`\n✦ Processando ${arquivo} (arquivo flat) — ${simbolos.length} símbolos`);
+    } else {
+      console.warn(`⚠ Nem pasta ${categoria}/ nem arquivo ${arquivo} encontrados — pulando.`);
+      continue;
+    }
 
     for (const s of simbolos) {
       if (!s.simbolo) continue;
