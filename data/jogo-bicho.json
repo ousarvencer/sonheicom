@@ -1,0 +1,279 @@
+{
+  "jogo_bicho": {
+    "avestruz": {
+      "grupo": "01",
+      "animal": "Avestruz",
+      "dezenas": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 01, 02, 03 ou 04 (ex.: 001, 101, 201... até 901)"
+    },
+    "aguia": {
+      "grupo": "02",
+      "animal": "Águia",
+      "dezenas": [
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 05, 06, 07 ou 08 (ex.: 005, 105, 205... até 905)"
+    },
+    "burro": {
+      "grupo": "03",
+      "animal": "Burro",
+      "dezenas": [
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 09, 10, 11 ou 12 (ex.: 009, 109, 209... até 909)"
+    },
+    "borboleta": {
+      "grupo": "04",
+      "animal": "Borboleta",
+      "dezenas": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 13, 14, 15 ou 16 (ex.: 013, 113, 213... até 913)"
+    },
+    "cachorro": {
+      "grupo": "05",
+      "animal": "Cachorro",
+      "dezenas": [
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 17, 18, 19 ou 20 (ex.: 017, 117, 217... até 917)"
+    },
+    "cabra": {
+      "grupo": "06",
+      "animal": "Cabra",
+      "dezenas": [
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 21, 22, 23 ou 24 (ex.: 021, 121, 221... até 921)"
+    },
+    "carneiro": {
+      "grupo": "07",
+      "animal": "Carneiro",
+      "dezenas": [
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 25, 26, 27 ou 28 (ex.: 025, 125, 225... até 925)"
+    },
+    "camelo": {
+      "grupo": "08",
+      "animal": "Camelo",
+      "dezenas": [
+        "29",
+        "30",
+        "31",
+        "32"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 29, 30, 31 ou 32 (ex.: 029, 129, 229... até 929)"
+    },
+    "cobra": {
+      "grupo": "09",
+      "animal": "Cobra",
+      "dezenas": [
+        "33",
+        "34",
+        "35",
+        "36"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 33, 34, 35 ou 36 (ex.: 033, 133, 233... até 933)"
+    },
+    "coelho": {
+      "grupo": "10",
+      "animal": "Coelho",
+      "dezenas": [
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 37, 38, 39 ou 40 (ex.: 037, 137, 237... até 937)"
+    },
+    "cavalo": {
+      "grupo": "11",
+      "animal": "Cavalo",
+      "dezenas": [
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 41, 42, 43 ou 44 (ex.: 041, 141, 241... até 941)"
+    },
+    "elefante": {
+      "grupo": "12",
+      "animal": "Elefante",
+      "dezenas": [
+        "45",
+        "46",
+        "47",
+        "48"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 45, 46, 47 ou 48 (ex.: 045, 145, 245... até 945)"
+    },
+    "galo": {
+      "grupo": "13",
+      "animal": "Galo",
+      "dezenas": [
+        "49",
+        "50",
+        "51",
+        "52"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 49, 50, 51 ou 52 (ex.: 049, 149, 249... até 949)"
+    },
+    "gato": {
+      "grupo": "14",
+      "animal": "Gato",
+      "dezenas": [
+        "53",
+        "54",
+        "55",
+        "56"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 53, 54, 55 ou 56 (ex.: 053, 153, 253... até 953)"
+    },
+    "jacare": {
+      "grupo": "15",
+      "animal": "Jacaré",
+      "dezenas": [
+        "57",
+        "58",
+        "59",
+        "60"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 57, 58, 59 ou 60 (ex.: 057, 157, 257... até 957)"
+    },
+    "leao": {
+      "grupo": "16",
+      "animal": "Leão",
+      "dezenas": [
+        "61",
+        "62",
+        "63",
+        "64"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 61, 62, 63 ou 64 (ex.: 061, 161, 261... até 961)"
+    },
+    "macaco": {
+      "grupo": "17",
+      "animal": "Macaco",
+      "dezenas": [
+        "65",
+        "66",
+        "67",
+        "68"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 65, 66, 67 ou 68 (ex.: 065, 165, 265... até 965)"
+    },
+    "porco": {
+      "grupo": "18",
+      "animal": "Porco",
+      "dezenas": [
+        "69",
+        "70",
+        "71",
+        "72"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 69, 70, 71 ou 72 (ex.: 069, 169, 269... até 969)"
+    },
+    "pavao": {
+      "grupo": "19",
+      "animal": "Pavão",
+      "dezenas": [
+        "73",
+        "74",
+        "75",
+        "76"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 73, 74, 75 ou 76 (ex.: 073, 173, 273... até 973)"
+    },
+    "peru": {
+      "grupo": "20",
+      "animal": "Peru",
+      "dezenas": [
+        "77",
+        "78",
+        "79",
+        "80"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 77, 78, 79 ou 80 (ex.: 077, 177, 277... até 977)"
+    },
+    "touro": {
+      "grupo": "21",
+      "animal": "Touro",
+      "dezenas": [
+        "81",
+        "82",
+        "83",
+        "84"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 81, 82, 83 ou 84 (ex.: 081, 181, 281... até 981)"
+    },
+    "tigre": {
+      "grupo": "22",
+      "animal": "Tigre",
+      "dezenas": [
+        "85",
+        "86",
+        "87",
+        "88"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 85, 86, 87 ou 88 (ex.: 085, 185, 285... até 985)"
+    },
+    "urso": {
+      "grupo": "23",
+      "animal": "Urso",
+      "dezenas": [
+        "89",
+        "90",
+        "91",
+        "92"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 89, 90, 91 ou 92 (ex.: 089, 189, 289... até 989)"
+    },
+    "veado": {
+      "grupo": "24",
+      "animal": "Veado",
+      "dezenas": [
+        "93",
+        "94",
+        "95",
+        "96"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 93, 94, 95 ou 96 (ex.: 093, 193, 293... até 993)"
+    },
+    "vaca": {
+      "grupo": "25",
+      "animal": "Vaca",
+      "dezenas": [
+        "97",
+        "98",
+        "99",
+        "00"
+      ],
+      "faixa_milhar": "Qualquer milhar terminada em 97, 98, 99 ou 00 (ex.: 097, 197, 297... até 997)"
+    }
+  }
+}
